@@ -162,7 +162,7 @@ If you use this code or reference the theory, please cite:
 
 ```bibtex
 @article{plhak2025qct,
-  title={Quantum Condensate Theory: Emergent Gravity from Neutrino Condensate Dynamics},
+  title={Quantum Compression Theory: Emergent Gravity from Neutrino Condensate Dynamics},
   author={Plh{\'a}k, Boleslav and Nov{\'a}k, Marek},
   journal={Progress of Theoretical and Experimental Physics},
   year={2025},
@@ -176,10 +176,10 @@ If you use this code or reference the theory, please cite:
 
 **For reviewers:** Questions about code reproducibility or technical issues:
 - Open an issue on GitHub: https://github.com/Ibgboolys/QCT_13/issues
-- Email: [to be added]
+- Email: kelob.31415@gmail.com
 
 **For collaboration inquiries:**
-- Primary contact: Boleslav Plhák
+- Primary contact: Boleslav Plhák (ORCID: 0009-0003-7469-5212)
 
 ---
 
