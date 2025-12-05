@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repository contains the computational implementation and validation code for the **Quantum Condensate Theory (QCT)** framework, submitted to **Progress of Theoretical and Experimental Physics (PTEP)**.
+This repository contains the computational implementation and validation code for the **Quantum Compression Theory (QCT)** framework, submitted to **Progress of Theoretical and Experimental Physics (PTEP)**.
 
 **Authors:** Boleslav Plhák, Marek Novák
 **Affiliation:** Independent Researchers, Czech Republic
