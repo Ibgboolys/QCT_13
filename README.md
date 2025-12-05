@@ -1,4 +1,4 @@
-# Quantum Condensate Theory (QCT): Computational Framework
+# Quantum Compression Theory (QCT): Computational Framework
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
