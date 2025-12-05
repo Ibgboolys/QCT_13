@@ -1,0 +1,9 @@
+QCT NP-RG quick report
+alpha_target(mu=1.0 GeV) = 7.297352569284e-03
+alpha_Pl (calibrated) = 4.721558545853e-28
+alpha(M_Z) = 7.296870228048e-03
+delta_alpha_rel@M_Z = -6.609811e-05
+N_eff_required (pert-only) = 2.270961e+26
+Lambda_eff for g-2 (C_mu=1) [GeV] = 237.815
+CSV: /workspace/outputs/qct_np_rg.csv
+PNG: /workspace/outputs/qct_np_rg.png

@@ -1,0 +1,215 @@
+% Tabulka mapování mikroskopických parametrů na EFT
+% Pro integraci do preprintu
+
+\section{Parameter Mapping: Microscopic Derivation ↔ EFT}
+\label{sec:parameter_mapping}
+
+This section provides explicit conversion relations between the parameters of the microscopic derivation (based on the neutrino condensate $\Psi_{\nu\nu}$) and the effective coefficients of the EFT framework.
+
+\subsection{Basic Inputs: Cosmological Parameters}
+
+\begin{table}[h]
+\centering
+\caption{Cosmological Inputs from C$\nu$B.}
+\begin{tabular}{llll}
+\toprule
+\textbf{Parameter} & \textbf{Symbol} & \textbf{Value} & \textbf{Units} \\
+\midrule
+Relic Neutrino Density & $n_{\nu,{\rm phys}}$ & $336$ & cm$^{-3}$ \\
+Neutrino Mass (Mean) & $m_\nu$ & $\sim 0.1$ & eV/$c^2$ \\
+Quantum Compression Constant & $F_{\rm proj}$ & $2.43\times 10^4$ & (dimensionless) \\
+Projection Volume (Derived) & $V_{\rm proj}$ & $72.3$ & cm$^3$ \\
+Projection radius & $R_{\rm proj}$ & $2.6$ & cm \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Derivation:}
+\begin{equation}
+V_{\rm proj} = \frac{F_{\rm proj}}{n_{\nu,{\rm phys}}} = \frac{2.43\times 10^4}{336\,{\rm cm}^{-3}} \approx 72.3\,{\rm cm}^3,
+\end{equation}
+\begin{equation}
+R_{\rm proj} = \left(\frac{3V_{\rm proj}}{4\pi}\right)^{1/3} \approx 2.6\,{\rm cm}.
+\end{equation}
+
+\subsection{Binding Energy and Entanglement Density}
+
+\paragraph{Neutrino Confinement.}
+The $\nu\bar\nu$ pairs created in the early universe are "confined" by the cosmological expansion. The binding energy increases with the expansion factor:
+\begin{equation}\label{eq:E_pair}
+E_{\rm pair} \sim 10^{20} \times m_\nu c^2 \approx 10^{19}\,{\rm eV}.
+\end{equation}
+This is the amplification factor needed to reproduce the observed Newton's constant.
+
+\paragraph{Effective entanglement density.}
+\begin{equation}\label{eq:rho_ent_eff}
+\rho_{\rm ent} = n_\nu \cdot E_{\rm pair} \approx (336\,{\rm cm}^{-3}) \times (10^{19}\,{\rm eV}) \approx 6\times 10^{-9}\,{\rm kg/m}^3.
+\end{equation}
+In natural units ($\hbar=c=1$):
+\begin{equation}
+\rho_{\rm ent} \approx 3.4\times 10^{-6}\,{\rm eV}^4 = 3.4\times 10^{-42}\,{\rm GeV}^4.
+\end{equation}
+
+\subsection{Gravity constant}
+
+\paragraph{Microscopic relation.}
+From the geometric summation of projection volumes:
+\begin{equation}\label{eq:G_from_micro}
+G_{\rm eff} = \alpha_G \cdot \frac{\rho_{\rm ent}\,V_{\rm proj}}{R_{\rm proj}},
+\end{equation}
+where $\alpha_G\approx 1$ is a dimensionless numerical factor (of the order of units).
+
+\paragraph{Numerical verification.}
+Substituting the values ​​from \eqref{eq:rho_ent_eff}:
+\begin{align}
+G_{\rm eff} &= 1 \times \frac{(6\times 10^{-9}\,{\rm kg/m}^3)(72.3\times 10^{-6}\,{\rm m}^3)}{2.6\times 10^{-2}\,{\rm m}} \\
+&\approx 1.67\times 10^{-11}\,{\rm m}^3{\rm kg}^{-1}{\rm s}^{-2}.
+\end{align}
+With $\alpha_G\approx 4$ we get the exactly measured value $G=6.67\times 10^{-11}$.
+
+\paragraph{Relation to EFT parameter.}
+In the preprint (section 2, lagrangian.md) it appears:
+\begin{equation}
+G_{\rm eff} = \frac{G_0}{1+\kappa_{\rm grav}\cdot\rho_{\rm ent}/c^2}.
+\end{equation}
+In the limit $\kappa_{\rm grav}\cdot\rho_{\rm ent}\ll c^2$ we linearize:
+\begin{equation}
+G_{\rm eff} \approx G_0\left(1-\frac{\kappa_{\rm grav}\rho_{\rm ent}}{c^2}\right).
+\end{equation}
+For another regime (where $\rho_{\rm ent}$ dominates):
+\begin{equation}
+G_{\rm eff} \sim \frac{c^2}{\kappa_{\rm grav}\rho_{\rm ent}}.
+\end{equation}
+Compared to \eqref{eq:G_from_micro}:
+\begin{equation}
+\kappa_{\rm grav} \sim \frac{c^2\,R_{\rm proj}}{\alpha_G\,V_{\rm proj}\,\rho_{\rm ent}}.
+\end{equation}
+Numerically: $\kappa_{\rm grav}\sim 10^{-37}\,{\rm m}^3/{\rm kg}$ (consistent with lagrangian.md).
+
+\subsection{Self-interaction: Quartic coupling λ}
+
+\paragraph{Microscopic.}
+The Schrödinger equation for a condensate \eqref{eq:schrodinger_cond} contains:
+\begin{equation}
+V_{\rm int} = g|\Psi_{\nu\nu}|^4.
+\end{equation}
+The coefficient $g$ has the dimension $[g]={\rm eV}\cdot{\rm m}^3$ (in SI).
+
+\paragraph{EFT.}
+The preprint (section 2) introduces:
+\begin{equation}
+V(|\Psi|) = \frac{\lambda}{4}(|\Psi|^2)^2,
+\end{equation}
+where $\lambda$ is dimensionless. In natural units ($\hbar=c=1$) we have $[\Psi]={\rm GeV}$, so $[\lambda]=1$ (dimensionless).
+
+\paragraph{Conversion.}
+In the macroscopic limit:
+\begin{equation}
+\Psi(\mathbf x) = \langle\Psi_{\nu\nu}\rangle_{V_{\rm proj}},
+\end{equation}
+so
+\begin{equation}
+|\Psi|^2 \sim \frac{1}{V_{\rm proj}}\int_{V_{\rm proj}}|\Psi_{\nu\nu}|^2\,d^3x'.
+\end{equation}
+From which:
+\begin{equation}
+\lambda \sim \frac{g}{V_{\rm proj}^2}\times(\text{conversion factors}).
+\end{equation}
+Estimate for weak interaction: $\lambda\sim 10^{-31}$ (consistent with core\_fields.md and parameter\_calibration.md).
+
+\subsection{Cutoff scale Λ\_QCT}
+
+\paragraph{Microscopic scale.}
+The binding energy $E_{\rm pair}\sim 10^{19}\,{\rm eV}$ determines the energy scale above which the microscopic description ceases to apply (the pair "breaks up"). This gives:
+\begin{equation}
+\Lambda_{\rm micro} \sim E_{\rm pair} \sim 10^{19}\,{\rm eV} = 10^{10}\,{\rm GeV}.
+\end{equation}
+
+\paragraph{EFT scale.}
+The preprint works with $\Lambda_{\rm QCT}\approx
+107\,{\rm TeV} = 1.07\times 10^5\,{\rm GeV}$, which is the scale of new physics (non-perturbative RG jumps).
+
+\paragraph{Explanation of the difference.}
+$\Lambda_{\rm micro}$ is the microscopic "Planck scale" of the condensate (pair-breaking energy). $\Lambda_{\rm QCT}$ is the effective scale below which the EFT expansion is valid — it is the scale of the first large NP transition in the run $\alpha(\mu)$. The relation:
+\begin{equation}
+\Lambda_{\rm QCT} \sim \frac{\Lambda_{\rm micro}}{\sqrt{E_{\rm pair}/m_\nu}} \sim \frac{10^{10}\,{\rm GeV}}{10^{10}} \sim 1\,{\rm GeV}?
+\end{equation}
+The exact relation requires RG analysis (section NP--RG), but on the order of: $\Lambda_{\rm QCT}\ll\Lambda_{\rm micro}$.
+
+\subsection{Speed ​​of light c and stiffness of condensate}
+
+\paragraph{Microscopic relation.}
+Velocity of excitations (photons):
+\begin{equation}\label{eq:c_stiffness}
+c^2 = \frac{K_{\rm cond}}{\rho_{\rm ent}},
+\end{equation}
+where $K_{\rm cond}$ is the bulk modulus ("stiffness") of the condensate.
+
+\paragraph{Numerics.}
+Substituting $c=3\times 10^8\,{\rm m/s}$ and $\rho_{\rm ent}\approx 6\times 10^{-9}\,{\rm kg/m}^3$:
+\begin{equation}
+K_{\rm cond} = \rho_{\rm ent}\,c^2 = (6\times 10^{-9})(9\times 10^{16}) \approx 5.4\times 10^8\,{\rm Pa}.
+\end{equation}
+That is a pressure of the order of **gigapascals** — reasonable for a quantum fluid in a confined state!
+
+\paragraph{Relation to the α run.}
+
+In the preprint, the run $\alpha(\mu)$ is governed by the NP--RG ansatz. Microscopically:
+\begin{equation}
+\alpha(\mu) \sim \frac{e^2}{4\pi\epsilon_0\hbar c} \sim \frac{1}{K_{\rm cond}(\mu)\,\text{(conv. factors)}}.
+\end{equation}
+The run $\alpha$ corresponds to the change in stiffness $K_{\rm cond}$ with energy/scale — physically: at higher energies the condensate "softens" (smaller $K$), which increases $\alpha$.
+
+\subsection{Fine structure α ≈ 1/137}
+
+\paragraph{Microscopic origin.}
+The fine structure constant should be derived from the ratio:
+\begin{equation}
+\alpha_{\rm em} \sim \frac{(\text{topological vortex energy})}{(\text{condensate energy})} \sim \frac{e^2/R_{\rm proj}}{\rho_{\rm ent}\,V_{\rm proj}}.
+\end{equation}
+Numerically (estimated):
+\begin{equation}
+\alpha_{\rm em} \sim \frac{(1.6\times 10^{-19}\,{\rm C})^2/(4\pi\epsilon_0\cdot 2.6\times 10^{-2}\,{\rm m})}{(6\times 10^{-9}\,{\rm kg/m}^3)(7.2\times 10^{-5}\,{\rm m}^3)(c^2)} \sim ?
+\end{equation}
+This derivation requires a precise specification of the vortex (radius, core energy). It is a subject of ongoing research.
+
+\paragraph{EFT approach.}
+The preprint takes $\alpha\approx 1/137$ as input and models its behavior using NP--RG. A microscopic derivation should provide a value from first principles.
+
+\subsection{Mapping Summary}
+
+\begin{table}[h]
+\centering
+\caption{Parameter Conversion Table.}
+\begin{tabular}{llll}
+\toprule
+\textbf{Microscopic} & \textbf{EFT (preprint)} & \textbf{Relation} & \textbf{Note} \\
+\midrule
+$n_\nu$ & — & input & C$\nu$B density \\
+$E_{\rm pair}$ & DAR gain & $\sim 10^{20}m_\nu$ & neutrino confinement \\
+$\rho_{\rm ent}$ (micro) & $\rho_{\rm ent}$ (EFT) & identical & with $E_{\rm pair}$ factor \\
+$V_{\rm proj}$ & — & derived & coarse-graining scale \\
+$\alpha_G$ & $\kappa_{\rm grav}$ (invert) & \eqref{eq:G_from_micro} vs lagrangian & $\sim 1$ \\
+$g$ (self-int.) & $\lambda$ (quartic) & $\lambda\sim g/V_{\rm proj}^2$ & $\lambda\sim 10^{-31}$ \\
+$K_{\rm cond}$ & run $\alpha(\mu)$ & \eqref{eq:c_stiffness} & stiffness $\sim 10^8$ Pa \\
+$\Lambda_{\rm micro}$ & $\Lambda_{\rm QCT}$ & $\Lambda_{\rm QCT}\ll\Lambda_{\rm micro}$ & EFT cutoff vs micro \\
+$\partial_\mu\theta$ & $A_\mu$ (photon) & Goldstone mode & gauge field \\
+Poplar. vortex & charge $q=ne$ & quantization & $q\sim n\oint\nabla\theta$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Practical fitting procedure}
+
+\begin{enumerate}
+\item \textbf{Input:} Fix $n_\nu=336\,{\rm cm}^{-3}$, $m_\nu\approx 0.1\,{\rm eV}$, $F_{\rm proj}=2.43\times 10^4$.
+\item \textbf{Derivation of fundamental scales:} $V_{\rm proj}$, $R_{\rm proj}$ from definition.
+\item \textbf{Fit $\alpha_G$ and $E_{\rm pair}$:} Replicate $G_{\rm eff}=6.67\times 10^{-11}$ using \eqref{eq:G_from_micro}.
+\item \textbf{Consistency with EFT:} Verify that $\kappa_{\rm grav}\sim 10^{-37}$ matches microscopic values.
+\item \textbf{Self-interaction:} Estimate $g$ from post-Newtonian corrections (perihelion), convert to $\lambda$.
+\item \textbf{Stiffness $K$:} Calculate from \eqref{eq:c_stiffness}, compare with RG during $\alpha$.
+\item \textbf{Testable predictions:} Variation of $G(z)$ with redshift, dispersion of light in gravitational fields, changes in atomic spectra.
+\end{enumerate}
+
+\vspace{0.5cm}
+\noindent\emph{This mapping table allows a direct connection of microscopic calculations with phenomenological fits of the EFT preprint.}

@@ -1,0 +1,11 @@
+QCT Automation Run Summary
+==========================
+Date: Mon Nov 17 22:12:54 UTC 2025
+
+Generated Files:
+total 1.7M
+-rw-r--r-- 1 root root  107 Nov 17 22:12 AUTOMATION_SUMMARY.txt
+-rw-r--r-- 1 root root 161K Nov 17 22:12 EQUATION_INDEX.md
+-rw-r--r-- 1 root root 220K Nov 17 22:12 PARAMETER_REPORT.md
+-rw-r--r-- 1 root root 332K Nov 17 22:12 equations.json
+-rw-r--r-- 1 root root 974K Nov 17 22:12 parameters.json

@@ -1,0 +1,31 @@
+========================================
+NÁVRH ZMĚNY PRO TABULKU
+========================================
+
+Lokace: preprint.tex, řádek 2516
+Akce: AKTUALIZOVAT jeden řádek v tabulce
+
+----------------------------------------
+SOUČASNÝ TEXT (řádek 2516):
+----------------------------------------
+
+$G(z)$ evolution & $\Delta G/G \sim 0.1$ (BBN$\to$now) & BBN boundary & delayed confinement \\
+
+----------------------------------------
+NOVÝ TEXT:
+----------------------------------------
+
+$G(z)$ evolution & $\Delta G/G \sim 0.1$ (BBN$\to$now) & BBN boundary & neutrino decoupling (App.~\ref{subsubsec:neutrino_decoupling}) \\
+
+----------------------------------------
+
+Změny:
+- "delayed confinement" → "neutrino decoupling"
+- Přidán odkaz na appendix subsekci
+
+Zdůvodnění:
+- Termín "delayed confinement" připomíná ad-hoc fine-tuning
+- "neutrino decoupling" odkazuje na fyzikální mechanismus
+- Odkaz na appendix poskytuje detaily
+
+========================================

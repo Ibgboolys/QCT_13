@@ -1,0 +1,51 @@
+ % Appendix: 1-loop formalism and renormalization structure
+\section{1-loop formalism and renormalization structure in QCT EFT}
+\label{app:oneloop}
+
+In this appendix, we use $\Lambda$ in general as the cutoff scale of EFT. In the main text, it is shown that the particular value $\Lambda_{\rm QCT}=107$ TeV is \emph{derived} from first principles (factor $3/2$ of three flavor neutrinos, coupling with baryonic environment), not fitted. The symbol $\rho_{\rm ent}$ here generally denotes the entanglement density; three different definitions should be distinguished depending on the context (vacuum self-energy, effective pair density, cosmological—see main text).
+
+\subsection{Scheme and Conventions}
+We work in natural units ($\hbar=c=1$), dimensional regularization and MS/\=MS scheme. EFT is defined by the local Lagrangian
+\begin{equation}
+\mathcal L = \mathcal L_{\rm SM} + \partial\Psi\partial\Psi^* - V(|\Psi|) - \tfrac14 f(\varphi) F^2 + \sum_i \frac{c_i}{\Lambda^{\Delta_i-4}}\,\mathcal O_i + \mathcal L_{\varphi}\,.
+\end{equation}
+We introduce a 1-loop renormalization structure for selected coefficients; the exact numerical constants depend on the vertex normalization and the choice of basis (Warsaw), so we present them here symbolically (to scale and schematically). The goal is to show consistency and flow.
+
+\subsection{Gauge–kinetic functions and $Z_{A}$}
+We define $Z_A(\mu)$ via $\mathcal L\supset -\tfrac14 Z_A F^{2}$. In QED 1-loop
+\begin{equation}
+\mu \frac{d\ln Z_A}{d\mu} = \eta_A^{\rm QED}(\alpha) + \eta_A^{\rm NP}(\mu)\,,\qquad \eta_A^{\rm QED}\sim \frac{\alpha}{3\pi}N_f + \cdots
+\end{equation}
+The NP part is implemented effectively \S\,NP--RG; in the purely perturbative sector the run corresponds to the standard. For $f(\varphi)=Z_A^{-1}$ we have $\beta_{\alpha} = -\alpha\,\mu\,d\ln Z_A/d\mu$.
+
+\subsection{Quartic self–interaction $\lambda$}
+For $V=(\lambda/4)(\Psi^*\Psi)^{2}$ (complex scalar) schematically
+\begin{equation}
+\beta_{\lambda} = A\,\lambda^2 + B\,\lambda\,\tilde c + \cdots,\qquad A=\mathcal O\!\left(\frac{1}{16\pi^2}\right),
+\end{equation}
+which is a standard non-negative run; $\tilde c$ represents a mixture with other EFT couplings.
+
+\subsection{Entanglement coupling $c_\rho$}
+For the operator $\mathcal O_{\rho\Psi}=\rho_{\rm ent}|\Psi|^{2}$ with coefficient $c_\rho/\Lambda^{2}$ we expect (schematically)
+\begin{equation}
+\beta_{c_\rho} = c_\rho\,(b_1\,\lambda + b_2\,\alpha + \cdots) + \sum_j b_{\rho j}\,c_j\,\alpha + \cdots,\qquad b_k=\mathcal O\!\left(\frac{1}{16\pi^2}\right).
+\end{equation}
+The mixture with the EM sector (via $f(\varphi)F^{2}$) enters the 1-loop only multiplicatively; the run is logarithmic and small coefficients remain small.
+
+\subsection{Lepton dipole $C_{e\gamma}$}
+In Warsaw basis $Q_{e\gamma}=c_W Q_{eB}-s_W Q_{eW}$. 1-loop run (symbolically)
+\begin{equation}
+\mu\frac{d}{d\mu} C_{e\gamma} = \frac{1}{16\pi^2}\left(\gamma_{\gamma\gamma} C_{e\gamma} + \gamma_{\gamma H} C_H + \sum_X \gamma_{\gamma X} C_X\right).
+\end{equation}
+Mixing with $Q_H=(H^\dagger H)F^{2}$ and other dipole/four-fermion operators is standard; the key is that the run is logarithmic and does not change the conclusions about $\Delta a_\mu$ by an order of magnitude.
+
+\subsection{Counterterms and renormalized action}
+Divergences are absorbed into $Z_A, Z_\Psi, Z_{\varphi}, \lambda(\mu), c_i(\mu)$ as usual. Since we work in EFT with cut–off $\Lambda$, UV finiteness is not required; we only require renormalizability in the EFT sense and checking the size of operators according to their dimension and symmetries.
+
+\subsection{Invariance and conservation}
+- Gauge invariance: $F\tilde F$, $f(\varphi)F^{2}$ are gauge–invariant; DAR uses Pontryagin $Q(x)$, which is gauge–invariant.
+- Bianchi: ensured by explicit $\varphi$ sector (main text).
+- Lorentz and CPT: preserved (except for CP–phases in coefficients, which we restrict by EDMs).
+
+\subsection{Conclusion}
+The 1-loop structure is consistent with the EFT expectation: the runs are logarithmic and small coefficients remain small; the NP–RG transition is implemented as effective contributions $S_i$ localized around the EW threshold and is not inconsistent with the perturbative renormalization of the low-energy EFT.

@@ -1,0 +1,32 @@
+*   1065b4f Merge pull request #13 from Ibgboolys/claude/analyze-repo-manuscript-01NAzmWkpjP7rEtSeJRMgXiT
+|\  
+| * 5dc518d VERIFY manuscript consistency and complete bibliography
+| * 3ae00bf RESOLVE Priority 1 Critical Problems: Circular Reasoning + Weinberg-Witten
+| * f2238b6 Add simulation outputs and critical problems review
+| * d89736b Add final comprehensive repository analysis report
+| * 5d0ef50 Complete repository analysis with breakthrough findings and next steps
+* |   3dc1618 Merge pull request #12 from Ibgboolys/claude/automate-data-mining-01XU9LicJnDRdPzfQ6XGykbv
+|\ \  
+| * | 235bafe docs: Add data mining validation summary and analysis
+| * | a979113 chore: Update generated data after automation testing
+| * | cfd7f3e fix: Correct YAML syntax in latex-validation workflow
+| * | 9414804 ci: Add GitHub issue and pull request templates
+| * | c76c734 docs: Add comprehensive repository documentation
+| * | 42890ed feat: Complete repository automation system implementation
+| |/  
+* |   bcede9b Merge pull request #14 from Ibgboolys/claude/codata-qct-correlation-analysis-01XUwT7cTPy1YUAUU7seKPPY
+|\ \  
+| * | 3193650 Add advanced CODATA-QCT analysis script (intermediate version)
+| * | 007d9a2 CRITICAL RE-EVALUATION: CODATA-QCT correlations are numerical coincidences
+| |/  
+* |   6a47622 Merge pull request #11 from Ibgboolys/claude/write-spacetime-article-osel-01Xp8UAB8s4VMNWy2qWF7jhP
+|\ \  
+| |/  
+|/|   
+| * 83e4f10 V4 - OSEL.CZ STYLE: Article rewritten in authentic osel.cz style with punch
+* | a4f71e5 Merge pull request #10 from Ibgboolys/claude/write-spacetime-article-osel-01Xp8UAB8s4VMNWy2qWF7jhP
+|\| 
+| *   cf0da52 Merge branch 'QCT' into claude/write-spacetime-article-osel-01Xp8UAB8s4VMNWy2qWF7jhP
+| |\  
+| |/  
+|/|   

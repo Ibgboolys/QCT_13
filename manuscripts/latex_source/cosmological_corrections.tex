@@ -1,0 +1,241 @@
+% Kosmologické korekce k mikroskopickému odvození
+% Časová evoluce E_pair, horizont, slabá/silná interakce
+% Datum: 2025-10-15
+
+\section{Kosmologické korekce a časová evoluce}
+\label{sec:cosmo_corrections}
+
+V této sekci adresujeme kritickou mezeru v mikroskopickém odvození: \emph{časovou evoluci} parametrů kondenzátu od Velkého třesku a příspěvky od slabé a silné interakce. Ukazujeme, že numerické nesrovnalosti (faktor $\alpha\sim 10^{-10}$, příliš vysoká $\rho_{\rm eff}$) jsou důsledkem ignorování kosmologické historie.
+
+\subsection{Časová evoluce vazbové energie E\_pair(t)}
+
+\paragraph{Neutrinový confinement s kosmologickou expanzí.}
+Původní odhad $E_{\rm pair}\sim 10^{20}\times m_\nu$ předpokládal \emph{statický} vesmír. Ve skutečnosti páry $\nu\bar\nu$ vznikly v raném vesmíru (při $T\sim 1\,{\rm MeV}$, $t\sim 1\,{\rm s}$) a od té doby jsou „natahované" expanzí.
+
+\paragraph{Lineární confinement s Hubble parametrem.}
+Analogicky k QCD string tension, navrhujeme:
+\begin{equation}\label{eq:E_pair_evolution}
+E_{\rm pair}(t) = E_0 + \kappa_{\rm conf}\,\int_0^t H(t')\,dt' = E_0 + \kappa_{\rm conf}\,\ln\!\left(\frac{a(t)}{a_0}\right),
+\end{equation}
+kde:
+\begin{itemize}
+  \item $H(t)$ je Hubbleův parametr,
+  \item $a(t)$ je škálový faktor,
+  \item $\kappa_{\rm conf}$ je konfinační konstanta (dimenze: energie).
+\end{itemize}
+
+\paragraph{Dnešní hodnota (t = 13.8 Gyr).}
+Od nukleosyntézy ($t_{\rm BBN}\sim 3\,{\rm min}$, $a_{\rm BBN}/a_0\sim 10^{-9}$) do dnes:
+\begin{equation}
+E_{\rm pair}(t_0) = E_0 + \kappa_{\rm conf}\,\ln(10^9) \approx E_0 + 20\,\kappa_{\rm conf}.
+\end{equation}
+
+Pokud $E_0\sim m_\nu c^2$ a požadujeme $E_{\rm pair}(t_0)\sim 10^{20}\times m_\nu$:
+\begin{equation}
+\kappa_{\rm conf} \approx \frac{10^{20}\,m_\nu}{20} = 5\times 10^{18}\,m_\nu \sim 5\times 10^{17}\,{\rm eV}.
+\end{equation}
+
+\paragraph{Korekce k Λ\_QCT vztahu.}
+Vztah $E_{\rm pair}=\Lambda_{\rm QCT}^2/m_\nu$ platí \emph{dnes}, ale historicky:
+\begin{equation}
+E_{\rm pair}(z) = E_0 + \kappa_{\rm conf}\,\ln(1+z).
+\end{equation}
+Pro $z\to\infty$ (raný vesmír): $E_{\rm pair}\to\infty$ logaritmicky, ne kvadraticky.
+
+\textbf{Důsledek:} Skutečný vztah je:
+\begin{equation}\label{eq:Lambda_time}
+\boxed{\Lambda_{\rm QCT}(t) = \sqrt{E_{\rm pair}(t)\cdot m_\nu}}
+\end{equation}
+kde $\Lambda_{\rm QCT}$ \emph{běží} (mírně) s časem! Dnešní hodnota $\Lambda_{\rm QCT}(t_0)\approx 107\,{\rm TeV}$ je efektivní.
+
+\subsection{Efektivní objem vesmíru a cutoff}
+
+\paragraph{Kosmologický horizont.}
+Projekční objemy $V_{\rm proj}$ nejsou izolované, ale vnořené do kosmologického objemu s horizontem:
+\begin{equation}
+R_{\rm horizon}(t) = c\,\int_0^t \frac{dt'}{a(t')} \approx \frac{c}{H_0} \sim 4.4\,{\rm Gpc}.
+\end{equation}
+
+Efektivní počet projekčních objemů v pozorovatelném vesmíru:
+\begin{equation}
+N_{\rm proj}^{\rm univ} = \frac{V_{\rm horizon}}{V_{\rm proj}} = \frac{4\pi R_{\rm horizon}^3/3}{V_{\rm proj}}.
+\end{equation}
+
+Numericky:
+\begin{align}
+V_{\rm horizon} &\approx \frac{4\pi}{3}(1.4\times 10^{26}\,{\rm m})^3 \approx 1.1\times 10^{79}\,{\rm m}^3,\\
+N_{\rm proj}^{\rm univ} &= \frac{1.1\times 10^{79}}{7.2\times 10^{-5}} \approx 1.5\times 10^{83}.
+\end{align}
+
+\paragraph{Kolektivní redukce G\_eff.}
+Gravitace je \emph{kolektivní jev} sumovaný přes všechny překryvy projekčních objemů. Pokud je frakce překrývání $f_{\rm overlap}\ll 1$, pak:
+\begin{equation}
+\alpha_{\rm eff} = \frac{N_{\rm overlap}}{N_{\rm proj}^{\rm univ}} = f_{\rm overlap}.
+\end{equation}
+
+Pro geometrii, kde každý $V_{\rm proj}$ se překrývá jen s nejbližšími sousedy (např. 6 v kubické mříži):
+\begin{equation}
+f_{\rm overlap} \sim \frac{6}{N_{\rm proj}^{\rm univ}} \sim \frac{6}{10^{83}} \sim 10^{-83}.
+\end{equation}
+
+❌ \textbf{To je příliš malé!} Musí existovat dlouhodosahový mechanismus.
+
+\paragraph{Alternativa: Screening exponenciální.}
+Projekční překryvy klesají exponenciálně s vzdáleností:
+\begin{equation}
+\alpha(r) = \alpha_0\,e^{-r/\lambda_{\rm screen}},
+\end{equation}
+kde $\lambda_{\rm screen}$ je screeningový radius. Pro $\lambda_{\rm screen}\sim 10\,R_{\rm proj}\approx 26\,{\rm cm}$:
+\begin{equation}
+\alpha_{\rm eff} = \alpha_0\int_0^\infty 4\pi r^2\,e^{-r/\lambda}\,dr = \alpha_0\cdot 8\pi\lambda^3 \sim \alpha_0\times 10^3.
+\end{equation}
+
+Pokud $\alpha_0\sim 1$ a požadujeme $\alpha_{\rm eff}\sim 10^{-10}$:
+\begin{equation}
+\lambda_{\rm screen} \sim R_{\rm proj}\times(10^{-13})^{1/3} \sim 0.05\,{\rm mm}.
+\end{equation}
+
+\textbf{Fyzikální interpretace:} Screening je \emph{velmi silný} na škále submilimetrů!
+
+\subsection{Příspěvky slabé interakce}
+
+\paragraph{W, Z bosony jako excitace kondenzátu.}
+Kromě fotonu (Goldstone mód U(1)), mohou existovat těžší excitace odpovídající zlomení SU(2)$_L\times$U(1)$_Y\to$U(1)$_{\rm em}$. Navrhujeme:
+\begin{align}
+W^\pm &\sim \text{nabité excitace kondenzátu s } m_W\sim 80\,{\rm GeV},\\
+Z^0 &\sim \text{neutrální excitace } m_Z\sim 91\,{\rm GeV}.
+\end{align}
+
+\paragraph{Příspěvek k ρ\_eff.}
+Efektivní hustota zahrnuje všechny kanály:
+\begin{equation}
+\rho_{\rm eff}^{\rm total} = \rho_{\rm eff}^{(\gamma)} + \rho_{\rm eff}^{(W)} + \rho_{\rm eff}^{(Z)} + \rho_{\rm eff}^{(g)} + \cdots
+\end{equation}
+
+Pro slabé bosony (hmotné excitace):
+\begin{equation}
+\rho_{\rm eff}^{(W,Z)} = n_{\rm pairs}^{(W,Z)}\cdot m_{W,Z}\,c^2,
+\end{equation}
+kde $n_{\rm pairs}^{(W,Z)}$ je hustota virtuálních párů. V elektroslabeém vakuu ($T\ll m_W$):
+\begin{equation}
+n_{\rm pairs}^{(W,Z)} \sim n_\nu\times\exp\!\left(-\frac{m_W}{T_{\rm eff}}\right) \approx 0\quad(\text{Boltzmann potlačeno}).
+\end{equation}
+
+\textbf{Dnes:} Příspěvek je zanedbatelný ($T_{\rm CMB}\approx 2.7\,{\rm K}\ll m_W$).
+
+\textbf{V raném vesmíru} ($T>m_W$): Slabé bosony byly v termální rovnováze a přispívaly významně k $\rho_{\rm eff}$. To ovlivnilo \emph{časovou evoluci} $G_{\rm eff}(t)$.
+
+\subsection{Příspěvky silné interakce}
+
+\paragraph{Gluony jako další excitace.}
+Podobně jako fotony (U(1)) a W/Z (SU(2)), gluony mohou být octonická excitace odpovídající SU(3)$_c$. V kondenzátovém jazyce:
+\begin{equation}
+g_a^\mu \sim \text{SU(3) barevné excitace kondenzátu},\quad a=1,\ldots,8.
+\end{equation}
+
+\paragraph{Konfinement a dekonfinement.}
+V konfinované fázi ($T<T_c\approx 170\,{\rm MeV}$) jsou gluony „uzavřené" v hadronech → jejich příspěvek k $\rho_{\rm eff}$ je absorbován do hadronické hustoty.
+
+V dekonfinované fázi (quark-gluon plasma, raný vesmír $T>T_c$):
+\begin{equation}
+\rho_{\rm eff}^{(g)} = n_g\cdot\langle E_g\rangle \sim \frac{\pi^2}{30}g_g\,T^4,
+\end{equation}
+kde $g_g=16$ (8 gluonů × 2 helicity).
+
+\paragraph{Vliv na G\_eff v raném vesmíru.}
+Při $T\sim 1\,{\rm GeV}$ (před hadronizací):
+\begin{equation}
+\rho_{\rm eff}^{\rm total}(T=1\,{\rm GeV}) \sim n_\nu\,E_{\rm pair} + \rho_{\rm QGP},
+\end{equation}
+kde $\rho_{\rm QGP}\sim (1\,{\rm GeV})^4\sim 10^{36}\,{\rm eV}^4$.
+
+Poměr:
+\begin{equation}
+\frac{\rho_{\rm QGP}}{\rho_{\rm eff}^{(\nu)}} \sim \frac{10^{36}}{n_\nu\,E_{\rm pair}} \sim \frac{10^{36}}{3\times 10^8\times 10^{29}} \sim 10^{-1}.
+\end{equation}
+
+✅ \textbf{Gluony přispívají ~10\% k efektivní hustotě při vysokých teplotách!}
+
+\subsection{Rekalkulace G\_eff s korekcemi}
+
+\paragraph{Upravený vzorec.}
+Zahrneme všechny korekce:
+\begin{equation}\label{eq:G_eff_corrected}
+\boxed{G_{\rm eff}(t) = \alpha_{\rm geom}(t)\cdot f_{\rm screen}\cdot\frac{\rho_{\rm eff}^{\rm total}(t)\,V_{\rm proj}}{R_{\rm proj}\,M_{\rm Pl}^2}}
+\end{equation}
+
+kde:
+\begin{itemize}
+  \item $\alpha_{\rm geom}(t)$ zahrnuje časovou evoluci překryvů,
+  \item $f_{\rm screen} = e^{-R_{\rm proj}/\lambda_{\rm screen}}$ je screening faktor,
+  \item $\rho_{\rm eff}^{\rm total}(t) = \rho_{\rm eff}^{(\nu)}(t) + \rho_{\rm eff}^{(W,Z)}(t) + \rho_{\rm eff}^{(g)}(t)$.
+\end{itemize}
+
+\paragraph{Časová evoluce (schematicky).}
+\begin{align}
+t<10^{-12}\,{\rm s} &: \rho_{\rm eff}\sim T^4\gg\rho_\nu,\quad G_{\rm eff}\sim G_0\times(T/\Lambda_{\rm QCT})^4,\\
+10^{-12}<t<10^{-6}\,{\rm s} &: \text{EW fázový přechod, }W/Z\text{ zmizí},\\
+10^{-6}<t<1\,{\rm s} &: \text{QCD fázový přechod, gluony konfinují},\\
+t>1\,{\rm s} &: \text{Pouze }\rho_{\rm eff}^{(\nu)},\quad G_{\rm eff}\to G_0.
+\end{align}
+
+\paragraph{Dnešní hodnota (t\_0 = 13.8 Gyr).}
+Po všech fázových přechodech:
+\begin{equation}
+\rho_{\rm eff}^{\rm total}(t_0) \approx n_\nu(t_0)\cdot E_{\rm pair}(t_0),
+\end{equation}
+kde $E_{\rm pair}(t_0)\sim 10^{20}\times m_\nu$ (z logaritmického confinementu).
+
+Ale: \textbf{screening faktor} $f_{\rm screen}\sim 10^{-10}$ redukuje efektivní coupling!
+
+\subsection{Vyřešení numerické výzvy α ~ 10⁻¹⁰}
+
+\paragraph{Klíčový insight.}
+Faktor $\alpha\sim 10^{-10}$ není artefakt jednotek, ale \emph{fyzikální screening} na submilimetrových škálách. Mechanismus:
+
+\begin{enumerate}[label=(\arabic*)]
+  \item Projekční objemy $V_{\rm proj}\sim 72\,{\rm cm}^3$ jsou efektivní na škále $R_{\rm proj}\sim 2.6\,{\rm cm}$.
+  \item Gravitační síla je kolektivní jev sumovaný přes překryvy.
+  \item V hustém (baryonickém) prostředí dochází k \emph{dekoherenci} kondenzátu na kratších škálách.
+  \item Efektivní screeningový radius: $\lambda_{\rm screen}\sim 0.05\,{\rm mm}$ (submilimetr!).
+  \item Exponenciální potlačení: $f_{\rm screen}=e^{-26\,{\rm cm}/0.05\,{\rm mm}}\sim e^{-5200}\sim 10^{-2260}$.
+\end{enumerate}
+
+❌ \textbf{To je absurdně malé!} Musíme revidovat mechanismus.
+
+\paragraph{Alternativní vysvětlení: Efektivní teorie s cutoffem.}
+Místo exponenciálního screeningu, použijeme \emph{momentový cutoff}:
+\begin{equation}
+\alpha_{\rm eff} = \int_0^{\Lambda_{\rm IR}} \frac{d^3k}{(2\pi)^3}\,\alpha(k)\,e^{-k^2/\Lambda_{\rm QCT}^2},
+\end{equation}
+kde $\Lambda_{\rm IR}\sim 1/R_{\rm proj}$ je IR cutoff. Po integraci:
+\begin{equation}
+\alpha_{\rm eff} \sim \alpha_0\times\left(\frac{\Lambda_{\rm IR}}{\Lambda_{\rm QCT}}\right)^3 = \alpha_0\times\left(\frac{1/(2.6\,{\rm cm})}{107\,{\rm TeV}}\right)^3.
+\end{equation}
+
+Převod:
+\begin{equation}
+\frac{1}{2.6\,{\rm cm}} = \frac{\hbar c}{2.6\,{\rm cm}} \approx 7.6\times 10^{-6}\,{\rm eV}.
+\end{equation}
+
+\begin{equation}
+\alpha_{\rm eff} \sim \left(\frac{7.6\times 10^{-6}}{1.45\times 10^{14}}\right)^3 \sim (5.2\times 10^{-20})^3 \sim 1.4\times 10^{-58}.
+\end{equation}
+
+❌ \textbf{Stále příliš malé!}
+
+\subsection{Otevřená otázka: Správný screening mechanismus}
+
+\paragraph{Závěr sekce.}
+Časová evoluce ($E_{\rm pair}(t)$, slabá/silná interakce) \emph{zlepšuje} fyzikální interpretaci, ale numerický problém $\alpha\sim 10^{-10}$ přetrvává. Možné směry:
+
+\begin{itemize}
+  \item[\ding{51}] \textbf{Správné:} Kosmologická historie, příspěvky W/Z/gluonů.
+  \item[\ding{55}] \textbf{Nedořešené:} Screening mechanismus (exponenciální? power-law? něco jiného?).
+  \item[\ding{43}] \textbf{Hypotéza:} Gravitace není kolektivní suma, ale \emph{rezonanční jev} — překryvy musí být v koherentní fázi. Pokud je fázová koherence~$\sim 10^{-10}$, pak $\alpha_{\rm eff}\sim 10^{-10}$ je přirozený.
+\end{itemize}
+
+\vspace{0.5cm}
+\noindent\hrulefill
+
+\noindent\emph{Tato sekce identifikuje klíčové kosmologické korekce a otevírá program výzkumu screeningu a časové evoluce QCT parametrů. Numerické hodnoty vyžadují další zpřesnění.}

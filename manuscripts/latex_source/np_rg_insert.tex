@@ -1,0 +1,36 @@
+% NP-RG insert for QCT preprint
+\section{NP–RG calibration \texorpdfstring{$\alpha(\mu)$}{alpha(mu)} and numerical verification}
+In this section we summarize the minimal ansatz for the non-perturbative run $\alpha(\mu)$ and its numerical calibration.
+
+\paragraph{Ansatz.}
+We use an effective action with modulated gauge–kinetics $Z_A(k)$ and flow (projection on $F^2$)
+\begin{equation}
+\partial_t\ln Z_A(k)=\eta_A^{\rm pert}(\alpha,k)+\eta_A^{\rm NP}(k),\qquad \alpha(k)=\frac{\alpha_{\rm Pl}}{Z_A(k)},\quad t\equiv\ln k.
+\end{equation}
+We approximate the non-perturbative part as a sum of smooth windows, which, by integration over $t$, give four contributions $S_i$ totaling $S_{\rm tot}\approx 58$. Remarkably, this value satisfies the exact relation $S_{\rm tot} = n_\nu/6 + 2 = 336/6 + 2$, where $n_\nu = 336~\mathrm{cm}^{-3}$ is the cosmic neutrino background density (see Appendix~\ref{app:mathematical_constants} for detailed analysis of this and other emergent mathematical constants in QCT).
+
+\paragraph{Calibration.}
+We solve numerically $\alpha(\mu_{\rm ref}=\SI{1}{GeV})=1/137.035999084$ with robust bisection for $\alpha_{\rm Pl}$. Running on $M_Z$ we get:
+\begin{align}
+\alpha_{\rm Pl}^{\rm cal}&=4.72\times 10^{-28},\\
+\alpha(M_Z)&=7.29687\times 10^{-3},\\
+\delta\alpha/\alpha\big|_{M_Z}&= -6.61\times 10^{-5}.
+\end{align}
+The required purely perturbative effective number of degrees of freedom to reproduce the same jump (between $M_{\rm Pl}$ and $\SI{1}{GeV}$) would be
+\begin{equation}
+N_{\rm eff}^{\rm req}\approx 2.27\times 10^{26},
+\end{equation}
+which quantitatively demonstrates the failure of purely perturbative RG for this problem.
+
+\paragraph{Data and graph.}
+See CSV and report:
+\begin{itemize}
+\item \texttt{qct\_np\_rg.csv},
+\item \texttt{qct\_np\_rg\_report.txt}.
+\end{itemize}
+If an image is available, it can be inserted as
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.65\textwidth]{qct_np_rg.png}
+\caption{Run $\alpha(\mu)$ with NP transition over $M_Z$; calibration at $\mu=\SI{1}{GeV}$.}
+\end{figure}

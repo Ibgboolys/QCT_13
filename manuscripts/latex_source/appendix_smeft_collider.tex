@@ -1,0 +1,38 @@
+\section{SMEFT mapping and collider limits}
+\label{app:smeft}
+\paragraph{Note on revision 4.2.} In the main text it is now shown that the cutoff scale  is \emph{not} a free parameter, but is derived from first principles:  TeV (perfect agreement with muon  measurement). This appendix uses  generically; specific numerical values are now understood as \emph{predictions}, not fits. Furthermore, it is necessary to distinguish three definitions of  (see main text): here we use  for macroscopic calculations.
+\subsection{Mapping of QCT → SMEFT operators}
+In this section we map the leading QCT operators into the standard SMEFT basis (Warsaw basis). We focus on operators relevant for g−2 and for dilepton/dijet probes at the LHC.
+\paragraph{Lepton dipole operator.}
+QCT:
+(\displaystyle \mathcal O_{\mu\text{-dip}} = \bar L_\mu H,\sigma^{\mu\nu} e_R F_{\mu\nu}).
+In the Warsaw basis it corresponds to a combination of  and  after projection onto the photon:
+\begin{align}
+Q_{eB}^{pr} &= (\bar l_p \sigma^{\mu\nu} e_r) H B_{\mu\nu}, Q_{eW}^{pr} &= (\bar l_p \sigma^{\mu\nu} e_r) \tau^I H W^I_{\mu\nu},
+\end{align}
+with coefficients , . The photon dipole is a linear combination: , where , .
+\paragraph{QCT→SMEFT identification.} For the muon ():
+\begin{equation}
+\frac{C_{\rm QCT}}{\Lambda_{\rm QCT}^{2}}\left(\frac{\rho_{\rm ent}}{\rho_{\rm crit}}\right) \mathcal O_{\mu\text{-dip}}\ \Rightarrow\ \frac{C_{e\gamma}^{22}}{\Lambda^2} Q_{e\gamma}^{22},\qquad C_{e\gamma}^{22} \simeq C_{\rm QCT}\left(\frac{\rho_{\rm ent}}{\rho_{\rm crit}}\right).
+\end{equation}
+After EWSB, the contribution to  (at tree level) is:
+\begin{equation}
+\Delta a_\mu \simeq \frac{2\sqrt{2} v m_\mu}{e,\Lambda^{2}},\mathrm{Re},C_{e\gamma}^{22}.
+\end{equation}
+Conventions differ in the normalization of ; in the main text we used the compact form (\Delta a_\mu = (m_\mu v/\Lambda^2)(C/\sqrt{2})). These relations can be unified by fixing  and absorbed factors into .
+\subsection{Dileptons and 4-fermion operators}
+QCT can also induce 4-fermion structures (in the topological sector or via heavy mediators). The standard probe at the LHC are dileptons  and dijets. In the Warsaw basis:
+\begin{align}
+Q_{lq}^{(1)} &= (\bar l \gamma_\mu l)(\bar q \gamma^\mu q), & Q_{lq}^{(3)} &= (\bar l \gamma_\mu \tau^I l)(\bar q \gamma^\mu \tau^I q),Q_{ee} &= (\bar e \gamma_\mu e)(\bar e \gamma^\mu e), & Q_{eu} &= (\bar e \gamma_\mu e)(\bar u \gamma^\mu u),Q_{ed} &= (\bar e \gamma_\mu e)(\bar d \gamma^\mu d), & Q_{lu} &= (\bar l \gamma_\mu l)(\bar u \gamma^\mu u),Q_{ld} &= (\bar l \gamma_\mu l)(\bar d \gamma^\mu d), & Q_{le} &= (\bar l \gamma_\mu l)(\bar e \gamma^\mu e).
+\end{align}
+The general LHC/HL-LHC limit for coefficients  in these channels is of order $|C|/\Lambda^{2} \lesssim (5{-}30,\mathrm{TeV})^{-2}$ depending on the channel and assumptions (e.g. \cite{ATLAS2023} for high-mass dileptons; \cite{CMS2023} for contact interactions). This means that for  it is necessary to keep $|C|\lesssim \mathcal O(0.1)$ to , depending on mixings and flavor.
+\subsection{Dijet and four-quark operators}
+Analogously, one can map to . Limits from dijet spectra often imply effective scales $\gtrsim 20{-}30,\mathrm{TeV}$ for . The QCT benchmark with  therefore prefers scenarios with minimal 4q couplings or flavor-suppressed structure.
+\subsection{Simplified scan}
+For orientation purposes we attach a simple scan \texttt{scripts/smeft_scan.py}, which writes a reachability table for a selection of grid . The CSV output is available as \texttt{outputs/smeft_scan.csv}. Precise limits must be obtained from official global SMEFT analyses (SMEFiT/HEPfit) and experimental combinations.
+\subsection{Recommended procedure for comparison with data}
+\begin{enumerate}
+\item Rewrite specific QCT operators into the Warsaw basis ($Q_{eB},Q_{eW},Q_{lq}^{(1,3)},\dots$) and specify the map of coefficients.
+\item Use a global fit (SMEFiT/HEPfit) or published ATLAS/CMS frameworks to extract limits on (C/\Lambda^{2}) with your assumptions about flavors.
+\item Account for correlations between channels (dileptons vs. LEP EWPO vs. low-energy data).
+\end{enumerate}

@@ -1,0 +1,4 @@
+=== FILE COUNTS ===
+Python files: 51
+LaTeX files: 34
+Markdown files: 75

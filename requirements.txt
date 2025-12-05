@@ -1,0 +1,35 @@
+# QCT Repository Python Dependencies
+
+# Core scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Data handling
+pandas>=2.0.0
+
+# Symbolic mathematics (optional, for some analyses)
+sympy>=1.12
+
+# Astronomy/cosmology (optional, for some simulations)
+astropy>=5.2
+
+# Code quality tools (for development)
+flake8>=6.0.0
+black>=23.0.0
+pylint>=2.17.0
+
+# Testing (if implementing tests)
+pytest>=7.3.0
+pytest-cov>=4.1.0
+
+# Jupyter (optional, for interactive analysis)
+jupyter>=1.0.0
+ipython>=8.12.0
+
+# Note: LaTeX is required separately
+# Install via: sudo apt-get install texlive-latex-extra texlive-science
+
+# Note: For GitHub Actions, minimal requirements are:
+# numpy, scipy, matplotlib, pandas
+# (as specified in .github/workflows/*.yml)

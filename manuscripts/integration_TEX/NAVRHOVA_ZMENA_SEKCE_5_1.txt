@@ -1,0 +1,52 @@
+========================================
+NÁVRH ZMĚNY PRO SEKCI 5.1
+========================================
+
+Lokace: preprint.tex, po řádku 1502 (za definicí κ_conf)
+Akce: PŘIDAT poznámku
+
+----------------------------------------
+SOUČASNÝ TEXT (řádky 1498-1512):
+----------------------------------------
+
+\begin{equation}\label{eq:E_pair_evolution}
+\boxed{E_{\rm pair}(t) = E_0 + \kappa_{\rm conf}\,\ln\!\left(\frac{a(t)}{a_0}\right) = E_0 + \kappa_{\rm conf}\,\ln(1+z)}
+\end{equation}
+
+where $\kappa_{\rm conf}$ is the confinement constant (dimension: energy).
+
+\paragraph{Calibration from today's value.}
+We require $E_{\rm pair}(t_0)\sim 10^{20}\times m_\nu$ (to reproduce $G_{\rm eff}$). From BBN ($z\sim 10^{9}$) to today:
+\begin{equation}
+\ln(1+10^{9})\approx 20.7,
+\end{equation}
+thus
+\begin{equation}
+\kappa_{\rm conf} \approx \frac{10^{20}\,m_\nu}{20.7}\approx 4.83\times 10^{17}\,{\rm eV}\approx 0.48\,{\rm EeV}.
+\end{equation}
+
+[pokračuje text...]
+
+----------------------------------------
+NOVÝ TEXT - PŘIDAT PO ŘÁDKU 1512:
+----------------------------------------
+
+\textbf{Note on condensate formation:} Equation~\eqref{eq:E_pair_evolution} represents the simplified form valid after condensate formation. The complete evolution includes a turn-on function accounting for gradual condensate build-up after neutrino decoupling:
+\begin{equation}
+E_{\rm pair}(z) = E_0 + \kappa_{\rm conf} \cdot f_{\rm turn-on}(z, z_{\rm start}) \cdot \ln(1+z)
+\end{equation}
+where $z_{\rm start} \sim 10^{7}$--$10^8$ is physically derived from the neutrino decoupling epoch ($z_{\rm dec} \sim 4 \times 10^9$). For the full derivation, turn-on function, and BBN consistency, see Appendix~\ref{subsec:cosmological_evolution}, particularly \S\ref{subsubsec:neutrino_decoupling}.
+
+----------------------------------------
+KONEC PŘÍDAVKU
+----------------------------------------
+
+Umístění: Po řádku 1512 (za výpočet κ_conf), před "Physical interpretation"
+
+Shrnutí:
+- Délka: +6 řádků
+- Přidává: Vysvětlení že eq:E_pair_evolution je zjednodušená forma
+- Přidává: Zmínku o turn-on funkci a z_start
+- Přidává: Odkazy na appendix A.2
+
+========================================

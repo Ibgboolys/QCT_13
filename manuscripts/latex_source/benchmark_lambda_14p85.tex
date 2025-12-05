@@ -1,0 +1,29 @@
+% Benchmark insert: Λ = 14.85 TeV
+\section*{Benchmark: \(\Lambda=14.85\,\mathrm{TeV}\) (nižší cutoff, přirozený \(C_{\rm QCT}\))}
+\noindent
+Tento benchmark ukazuje, že snížení $\Lambda$ umožňuje vysvětlit $\Delta a_\mu$ s malým Wilsonovým koeficientem a zároveň explicitně uvádí průvodní podmínky (LFUV, Oklo, EDM, kolidery).
+
+\paragraph{Vstupy.} \(m_\mu=0.1056583745\,\mathrm{GeV}\), \(v=246\,\mathrm{GeV}\) (derived in App.~\ref{app:higgs_vev}), \(\Delta a_\mu^{\rm obs}=2.5\times10^{-9}\) (konzervativně), \(|\Delta a_e^{\rm NP}|\lesssim 2\times10^{-13}\).
+
+\paragraph{Wilsonův koeficient.}
+\begin{equation}
+\Delta a_\mu = \frac{m_\mu v}{\Lambda^2}\,\frac{C_{\rm QCT}}{\sqrt{2}}\ \Rightarrow\ C_{\rm QCT}^{\rm fit}(\Lambda=14.85\,\mathrm{TeV})\approx 0.0300.
+\end{equation}
+Při nejistotě $\pm 6\times10^{-10}$: \(C_{\rm QCT}\in[0.0228,\,0.0372]\) (tj. $0.03\pm0.006$).
+
+\paragraph{LFUV požadavek (z $a_e$).}
+\begin{equation}
+\Delta a_e \approx \Delta a_\mu\,\frac{m_e}{m_\mu}\,\frac{T_e}{T_\mu},\quad \frac{m_e}{m_\mu}\approx 0.004836\ \Rightarrow\ \frac{T_e}{T_\mu}\lesssim 0.0165\ (\sim 1/60).
+\end{equation}
+Doporučení: cílit bezpečněji na $T_e/T_\mu\lesssim 10^{-3}$.
+
+\paragraph{Oklo a variace \(\alpha\).}
+Modelová relace: $\Delta\alpha/\alpha\simeq \kappa_{\rm gauge}\,\delta\rho_{\rm ent}/\rho_{\rm crit}$. S $|\Delta\alpha/\alpha|\lesssim10^{-7}$:
+\begin{itemize}
+  \item pokud $\kappa_{\rm gauge}\sim 1$: vyžaduje $\delta\rho/\rho\lesssim10^{-7}$,
+  \item pokud $\delta\rho/\rho\sim10^{-5}$: je nutno $\kappa_{\rm gauge}\lesssim10^{-2}$.
+\end{itemize}
+
+\paragraph{EDM (CP fáze).} Orientačně: $\mathrm{Im}C/\mathrm{Re}C\lesssim 10^{-2}$ až $10^{-3}$ (záleží na loop mapování do EDM); doporučeno dopočítat v EFT.
+
+\paragraph{Kolidery.} \(\Lambda\approx15\,\mathrm{TeV}\) dává $1/\Lambda^2$ operátory v potenciálním dosahu HL-LHC v dileptonech/dijetech (modelově závislé). Doporučeno převést operátory do SMEFT báze a porovnat s ATLAS/CMS limity.

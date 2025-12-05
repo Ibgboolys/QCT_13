@@ -1,0 +1,53 @@
+% Appendix: 1-loop normalization and EDM mapping
+\section{1-loop normalization and EDM mapping}
+\label{app:edm}
+
+\paragraph{Revision Note 4.2.} The cutoff scale $\Lambda_{\rm QCT}=107$ TeV is now derived from first principles (see main text), not fitted. The factor $(\rho_{\rm ent}/\rho_{\rm crit})$ here uses the definition $\rho_{\rm eff}^{(\rm pairs)}=n_\nu\times E_{\rm pair}$ for macroscopic coupling (see the distinction between the three definitions in the main text).
+
+\subsection{Normalization of the dipole operator}
+We will use the Warsaw basis convention for dipole operators:
+\begin{align}
+Q_{eB}^{pr} &= (\bar l_p \sigma^{\mu\nu} e_r) H B_{\mu\nu}, &
+Q_{eW}^{pr} &= (\bar l_p \sigma^{\mu\nu} e_r) \tau^I H W^I_{\mu\nu}.
+\end{align}
+The linear combination corresponding to a photon is $Q_{e\gamma}= c_W Q_{eB} - s_W Q_{eW}$ and the coefficient $C_{e\gamma}= c_W C_{eB} - s_W C_{eW}$.
+
+After EWSB, the real part $C_{e\gamma}^{\ell\ell}$ contributes to the anomalous magnetic moment $a_\ell$, while the imaginary part contributes to the EDM:
+\begin{align}
+\Delta a_\ell &\simeq \frac{2\sqrt{2} v m_\ell}{e\,\Lambda^2}\,\mathrm{Re}\,C_{e\gamma}^{\ell\ell},\\
+\frac{d_\ell}{e} &\simeq \frac{\sqrt{2} v}{\Lambda^2}\,\mathrm{Im}\,C_{e\gamma}^{\ell\ell}.
+\end{align}
+These relations are valid at the tree level after EWSB; higher-order corrections (QED/QCD) can be included by multiplicative factors ${\cal O}(1)$.
+
+\subsection{Constraints from EDM}
+Current constraints (indicative): for electron $|d_e| < 4.1\times 10^{-30}\,e\cdot\mathrm{cm}$ \cite{ACME2023}, for muon $|d_\mu| \lesssim 10^{-24}\,e\cdot\mathrm{cm}$.
+
+From the above relations, for muon we get:
+\begin{equation}
+\left|\frac{\mathrm{Im}\,C_{e\gamma}^{22}}{\mathrm{Re}\,C_{e\gamma}^{22}}\right|
+\lesssim \frac{d_\mu/e}{\Delta a_\mu}\,\frac{e}{2 m_\mu}
+\sim 10^{-2}\text{--}10^{-3},
+\end{equation}
+which is in agreement with the main text. A more precise number requires a uniform choice of normalization $e$ and inclusion of loop-correction factors.
+
+\subsection{1-loop inserts and run}
+The dipole coefficients $C_{eB}, C_{eW}$ run with energy according to
+\begin{equation}
+\mu\frac{d}{d\mu}
+\begin{pmatrix}
+C_{eB}\\ C_{eW}
+\end{pmatrix}
+= \frac{1}{16\pi^2}
+\begin{pmatrix}
+\gamma_{BB} & \gamma_{BW}\\
+\gamma_{WB} & \gamma_{WW}
+\end{pmatrix}
+\begin{pmatrix}
+C_{eB}\\ C_{eW}
+\end{pmatrix}
++ \cdots,
+\end{equation}
+where $\gamma_{ij}$ are known in the Warsaw basis (see standard SMEFT literature). For the purposes of this preprint, it is sufficient to state that the run is logarithmic and does not introduce new large factors; the NDA estimate holds.
+
+\subsection{Note on the QCT → SMEFT mapping}
+The QCT factor $(\rho_{\rm ent}/\rho_{\rm crit})$ can be understood as a slow spurion (almost constant under laboratory conditions), therefore it directly multiplies the Wilson coefficients for low-energy processes. For cosmological applications, it is necessary to include the space-time dependence and the conservation of energy-momentum between sectors.

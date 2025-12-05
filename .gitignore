@@ -1,0 +1,38 @@
+# Development tools
+claude.exe
+*.exe
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Large media files (if not for publication)
+*.wav
+*.mp3
+
+# Build artifacts
+*.egg-info/
+dist/
+build/

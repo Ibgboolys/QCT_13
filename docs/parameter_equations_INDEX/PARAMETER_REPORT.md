@@ -1,0 +1,7290 @@
+# QCT Parameter Extraction Report
+
+**Generated:** 2025-11-16
+**Source:** /home/user/QCT_9/QCT_7-QCT/latex_source
+**Total occurrences:** 1812
+
+## CALIBRATED Parameters (57)
+
+### E_0
+
+- **Location:** `appendix_microscopic_derivation_rev.tex:279`
+  - Value: 4.2\times 10^{18}
+  - Symbol: `E_0`
+
+### E_pair
+
+- **Location:** `appendix_units_numerical_audit.tex:126`
+  - Value: 5.38\times10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:108`
+  - Value: 5.38 \times 10^{18} ± 2.4
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1472`
+  - Value: 5.38\times10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1505`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1537`
+  - Value: 2 ± 2.4
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2561`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `wilson_coefficients_table.tex:65`
+  - Value: 5.38\times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:184`
+  - Value: 5.38\times 10^{18}
+  - Symbol: `E_rm pair`
+
+### G_N
+
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:113`
+  - Value: 9 \times 10^{11}
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:1354`
+  - Value: 9 \times 10^{11}
+  - Symbol: `G_N`
+- **Location:** `appendix_microscopic_derivation_rev.tex:184`
+  - Value: 5.38\times 10^{18}
+  - Symbol: `G_N`
+
+### G_eff
+
+- **Location:** `preprint.tex:108`
+  - Value: 5.38 \times 10^{18} ± 2.4
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:930`
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:1505`
+  - Value: 0
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:1537`
+  - Value: 2 ± 2.4
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:558`
+  - Value: .
+  - Symbol: `G_rm eff`
+
+### Lambda_QCT
+
+- **Location:** `preprint.tex:108`
+  - Value: 5.38 \times 10^{18} ± 2.4
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:143`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1537`
+  - Value: 2 ± 2.4
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2523`
+  - Value: 12
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2559`
+  - Value: 8.
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2561`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+
+### Lambda_micro
+
+- **Location:** `preprint.tex:108`
+  - Value: 5.38 \times 10^{18} ± 2.4
+  - Symbol: `Lambda_rm micro`
+
+### R_proj
+
+- **Location:** `preprint.tex:2523`
+  - Value: 12
+  - Symbol: `R_rm proj`
+
+### S_tot
+
+- **Location:** `preprint.tex:1475`
+  - Value: 58
+  - Symbol: `S_rm tot`
+- **Location:** `preprint.tex:2523`
+  - Value: 12
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:39`
+  - Value: 58
+  - Symbol: `S_rm tot`
+- **Location:** `np_rg_insert.tex:10`
+  - Value: 58
+  - Symbol: `S_rm tot`
+
+### f_screen
+
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:113`
+  - Value: 9 \times 10^{11}
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:108`
+  - Value: 5.38 \times 10^{18} ± 2.4
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:143`
+  - Value: .
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:1354`
+  - Value: 9 \times 10^{11}
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:2523`
+  - Value: 12
+  - Symbol: `f_rm screen`
+
+### kappa_conf
+
+- **Location:** `appendix_units_numerical_audit.tex:126`
+  - Value: 5.38\times10^{18}
+  - Symbol: `kappa_rm conf`
+- **Location:** `appendix_units_numerical_audit.tex:128`
+  - Value: 0.48
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:185`
+  - Value: 0.48
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:196`
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:143`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:932`
+  - Value: 0.48
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:962`
+  - Value: 0.2
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1146`
+  - Value: 0.48
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1157`
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1502`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+- **Location:** `wilson_coefficients_table.tex:67`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+
+### m_nu
+
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:113`
+  - Value: 9 \times 10^{11}
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:108`
+  - Value: 5.38 \times 10^{18} ± 2.4
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:143`
+  - Value: .
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:1354`
+  - Value: 9 \times 10^{11}
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:1472`
+  - Value: 5.38\times10^{18}
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:1505`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2523`
+  - Value: 12
+  - Symbol: `m_nu`
+
+### n_nu
+
+- **Location:** `preprint.tex:143`
+  - Value: .
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2523`
+  - Value: 12
+  - Symbol: `n_nu`
+- **Location:** `np_rg_insert.tex:10`
+  - Value: 58
+  - Symbol: `n_nu`
+
+### phi
+
+- **Location:** `preprint.tex:108`
+  - Value: 5.38 \times 10^{18} ± 2.4
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:2523`
+  - Value: 12
+  - Symbol: `varphi`
+
+## DERIVED Parameters (97)
+
+### E_pair
+
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:133`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:218`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1094`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1179`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2512`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `parameter_mapping.tex:189`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `parameter_mapping.tex:190`
+  - Symbol: `E_rm pair`
+
+### G_N
+
+- **Location:** `preprint.tex:243`
+  - Value: 0.9
+  - Symbol: `G_N`
+
+### G_eff
+
+- **Location:** `preprint.tex:243`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+
+### Lambda_QCT
+
+- **Location:** `appendix_units_numerical_audit.tex:133`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_units_numerical_audit.tex:134`
+  - Value: 1.0654\times10^5
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:263`
+  - Value: 4
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2473`
+  - Value: 107
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2510`
+  - Value: 107
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_mathematical_constants.tex:251`
+  - Value: 0.733 GeV
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_microscopic_derivation_rev.tex:554`
+  - Value: 1.
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:816`
+  - Value: 0.14
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:818`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+
+### Lambda_micro
+
+- **Location:** `AppJ.tex:196`
+  - Value: 246
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:6`
+  - Value: 246.22 ± 0.06
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:15`
+  - Value: 2024
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:16`
+  - Value: 2025
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:208`
+  - Value: 0.733
+  - Symbol: `Lambda_rm micro`
+
+### R_proj
+
+- **Location:** `appendix_units_numerical_audit.tex:16`
+  - Value: 7.23\times10^{-5}
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_units_numerical_audit.tex:18`
+  - Value: 1.66\times10^4
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_units_numerical_audit.tex:223`
+  - Value: 13
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_units_numerical_audit.tex:224`
+  - Value: 11.8 ± 0.02
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:110`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:263`
+  - Value: 4
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:429`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:431`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:521`
+  - Value: 2.28
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:2218`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:2220`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:2548`
+  - Value: 40
+  - Symbol: `R_rm proj`
+- **Location:** `parameter_mapping.tex:22`
+  - Value: 2.6
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:77`
+  - Value: 1.66\times 10^{4}
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:323`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:458`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:487`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:554`
+  - Value: 1.
+  - Symbol: `R_rm proj`
+
+### S_tot
+
+- **Location:** `preprint.tex:263`
+  - Value: 4
+  - Symbol: `S_rm tot`
+
+### f_screen
+
+- **Location:** `preprint.tex:263`
+  - Value: 4
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:554`
+  - Value: .
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:554`
+  - Value: 1.
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:10`
+  - Value: .
+  - Symbol: `f_rm screen`
+
+### kappa_conf
+
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:10`
+  - Value: 2020
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:133`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:176`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:218`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:967`
+  - Value: 2020
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1094`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1137`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1179`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+
+### lambda_micro
+
+- **Location:** `appendix_mathematical_constants.tex:239`
+  - Symbol: `lambda_rm micro`
+- **Location:** `appendix_mathematical_constants.tex:249`
+  - Value: .
+  - Symbol: `lambda_rm micro`
+
+### lambda_screen
+
+- **Location:** `preprint.tex:414`
+  - Value: .
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2508`
+  - Value: 1.0
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2548`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+- **Location:** `manuscript_additions.tex:151`
+  - Value: .
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:485`
+  - Value: 2020
+  - Symbol: `lambda_rm screen`
+
+### m_nu
+
+- **Location:** `appendix_units_numerical_audit.tex:18`
+  - Value: 1.66\times10^4
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:223`
+  - Value: 13
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:224`
+  - Value: 11.8 ± 0.02
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:110`
+  - Value: .
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:236`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:263`
+  - Value: 4
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:429`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:521`
+  - Value: 2.28
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:554`
+  - Value: .
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2218`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2220`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2221`
+  - Value: 0.1
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2548`
+  - Value: 40
+  - Symbol: `m_nu`
+- **Location:** `parameter_mapping.tex:19`
+  - Value: 0.1
+  - Symbol: `m_nu`
+- **Location:** `parameter_mapping.tex:189`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:77`
+  - Value: 1.66\times 10^{4}
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:323`
+  - Value: .
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:487`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `appendix_bh.tex:25`
+  - Value: .
+  - Symbol: `m_nu`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:10`
+  - Value: .
+  - Symbol: `m_nu`
+
+### n_nu
+
+- **Location:** `appendix_units_numerical_audit.tex:16`
+  - Value: 7.23\times10^{-5}
+  - Symbol: `n_nu`
+- **Location:** `appendix_units_numerical_audit.tex:18`
+  - Value: 1.66\times10^4
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:133`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:216`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:263`
+  - Value: 4
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1094`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1177`
+  - Value: 2
+  - Symbol: `n_nu`
+
+### phi
+
+- **Location:** `preprint.tex:263`
+  - Value: 4
+  - Symbol: `varphi`
+- **Location:** `manuscript_additions.tex:21`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `appendix_kernel_eft_mapping.tex:74`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `appendix_kernel_eft_mapping.tex:78`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `wilson_coefficients_table.tex:145`
+  - Value: 107 TeV
+  - Symbol: `phi`
+- **Location:** `AppJ.tex:196`
+  - Value: 246
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:6`
+  - Value: 246.22 ± 0.06
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:16`
+  - Value: 2025
+  - Symbol: `varphi`
+
+### rho_ent
+
+- **Location:** `parameter_mapping.tex:190`
+  - Symbol: `rho_rm ent`
+
+## FITTED Parameters (98)
+
+### E_pair
+
+- **Location:** `preprint.tex:2525`
+  - Value: 5.38 \times 10^{18} ± 2.4
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2526`
+  - Value: 6 \times 10^{-2}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2563`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2565`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_mathematical_constants.tex:273`
+  - Value: 4
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_mathematical_constants.tex:277`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_edm_oneloop.tex:5`
+  - Value: 4.2.
+  - Symbol: `E_rm pair`
+- **Location:** `wilson_coefficients_table.tex:123`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `parameter_mapping.tex:207`
+  - Value: 6.67\times 10^{-11}
+  - Symbol: `E_rm pair`
+
+### G_N
+
+- **Location:** `preprint.tex:112`
+  - Value: 40
+  - Symbol: `G_N`
+- **Location:** `appendix_golden_ratio.tex:309`
+  - Value: 2
+  - Symbol: `G_N`
+
+### G_eff
+
+- **Location:** `preprint.tex:112`
+  - Value: 40
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:2525`
+  - Value: 5.38 \times 10^{18} ± 2.4
+  - Symbol: `G_rm eff`
+- **Location:** `parameter_mapping.tex:207`
+  - Value: 6.67\times 10^{-11}
+  - Symbol: `G_rm eff`
+
+### Lambda_QCT
+
+- **Location:** `preprint.tex:113`
+  - Value: 6\times 10^{-2}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1518`
+  - Value: 2025
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2443`
+  - Value: 2.5 \times 10^{-9}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2525`
+  - Value: 5.38 \times 10^{18} ± 2.4
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2531`
+  - Value: 6\times 10^{-2}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2611`
+  - Value: 0
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_oneloop_formalism.tex:5`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_edm_oneloop.tex:5`
+  - Value: 4.2.
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `wilson_coefficients_table.tex:125`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `wilson_coefficients_table.tex:150`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_microscopic_derivation_rev.tex:381`
+  - Value: 6
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_microscopic_derivation_rev.tex:383`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:647`
+  - Value: 107
+  - Symbol: `Lambda_rm QCT`
+
+### Lambda_micro
+
+- **Location:** `preprint.tex:2609`
+  - Value: 9.7 \times 10^{4}
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lambda_micro_derivation.tex:164`
+  - Value: .
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_golden_ratio.tex:317`
+  - Symbol: `Lambda_rm micro`
+
+### R_proj
+
+- **Location:** `appendix_units_numerical_audit.tex:233`
+  - Value: 11
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:113`
+  - Value: 6\times 10^{-2}
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:546`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:2611`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:68`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:125`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `wilson_coefficients_table.tex:125`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `wilson_coefficients_table.tex:150`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `parameter_mapping.tex:206`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:75`
+  - Value: 2.43\times 10^{4}
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:288`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:336`
+  - Value: 2.28
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:337`
+  - Value: 2.58
+  - Symbol: `R_rm proj`
+
+### S_tot
+
+- **Location:** `preprint.tex:113`
+  - Value: 6\times 10^{-2}
+  - Symbol: `S_rm tot`
+- **Location:** `preprint.tex:2524`
+  - Value: 246.18
+  - Symbol: `S_rm tot`
+- **Location:** `preprint.tex:2616`
+  - Value: 58
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:161`
+  - Value: 58
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:165`
+  - Value: .
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:191`
+  - Value: 21
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:273`
+  - Value: 4
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:276`
+  - Value: 6
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:317`
+  - Value: 10
+  - Symbol: `S_rm tot`
+- **Location:** `wilson_coefficients_table.tex:121`
+  - Value: 58
+  - Symbol: `S_rm tot`
+
+### f_screen
+
+- **Location:** `preprint.tex:113`
+  - Value: 6\times 10^{-2}
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:2546`
+  - Value: 10
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:2609`
+  - Value: 9.7 \times 10^{4}
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:2611`
+  - Value: 0
+  - Symbol: `f_rm screen`
+- **Location:** `wilson_coefficients_table.tex:125`
+  - Value: .
+  - Symbol: `f_rm screen`
+- **Location:** `wilson_coefficients_table.tex:150`
+  - Value: .
+  - Symbol: `f_rm screen`
+
+### kappa_conf
+
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:214`
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1175`
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:2563`
+  - Value: 2
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:2565`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `kappa_rm conf`
+- **Location:** `appendix_mathematical_constants.tex:273`
+  - Value: 4
+  - Symbol: `kappa_rm conf`
+- **Location:** `wilson_coefficients_table.tex:123`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+
+### lambda_micro
+
+- **Location:** `appendix_mathematical_constants.tex:278`
+  - Value: 2
+  - Symbol: `lambda_rm micro`
+
+### lambda_screen
+
+- **Location:** `preprint.tex:112`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:547`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2527`
+  - Value: .
+  - Symbol: `lambda_rm screen`
+
+### m_nu
+
+- **Location:** `appendix_units_numerical_audit.tex:201`
+  - Value: 2025
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:546`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2526`
+  - Value: 6 \times 10^{-2}
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2546`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2609`
+  - Value: 9.7 \times 10^{4}
+  - Symbol: `m_nu`
+- **Location:** `parameter_mapping.tex:205`
+  - Value: 2.43\times 10^4
+  - Symbol: `m_nu`
+
+### n_nu
+
+- **Location:** `appendix_units_numerical_audit.tex:201`
+  - Value: 2025
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:113`
+  - Value: 6\times 10^{-2}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2524`
+  - Value: 246.18
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2526`
+  - Value: 6 \times 10^{-2}
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:7`
+  - Value: .
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:165`
+  - Value: .
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:193`
+  - Value: 21
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:276`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:317`
+  - Value: 10
+  - Symbol: `n_nu`
+- **Location:** `appendix_edm_oneloop.tex:5`
+  - Value: 4.2.
+  - Symbol: `n_nu`
+- **Location:** `wilson_coefficients_table.tex:121`
+  - Value: 58
+  - Symbol: `n_nu`
+- **Location:** `parameter_mapping.tex:205`
+  - Value: 2.43\times 10^4
+  - Symbol: `n_nu`
+
+### phi
+
+- **Location:** `preprint.tex:2524`
+  - Value: 246.18
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:2544`
+  - Value: .
+  - Symbol: `phi`
+- **Location:** `appendix_golden_ratio.tex:234`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:235`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:244`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:318`
+  - Symbol: `varphi`
+
+### rho_eff
+
+- **Location:** `appendix_edm_oneloop.tex:5`
+  - Value: 4.2.
+  - Symbol: `rho_rm eff`
+- **Location:** `technical_spec_integration.tex:131`
+  - Value: 10
+  - Symbol: `rho_rm eff`
+
+### rho_ent
+
+- **Location:** `appendix_oneloop_formalism.tex:5`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_edm_oneloop.tex:5`
+  - Value: 4.2.
+  - Symbol: `rho_rm ent`
+- **Location:** `wilson_coefficients_table.tex:74`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+
+## MEASURED Parameters (17)
+
+### E_pair
+
+- **Location:** `appendix_mathematical_constants.tex:214`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `parameter_mapping.tex:40`
+  - Value: 10
+  - Symbol: `E_rm pair`
+
+### Lambda_QCT
+
+- **Location:** `appendix_units_numerical_audit.tex:143`
+  - Value: 2.50\times10^{-9}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:360`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_weinberg_witten.tex:147`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+
+### Lambda_micro
+
+- **Location:** `appendix_heavy_flavor_baryons.tex:6`
+  - Value: 6.4
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_heavy_flavor_baryons.tex:19`
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_heavy_flavor_baryons.tex:21`
+  - Value: 0.733
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:2607`
+  - Value: 246.22
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lambda_micro_derivation.tex:132`
+  - Value: 0.789 ± 15
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:5`
+  - Value: 0.73
+  - Symbol: `Lambda_rm micro`
+
+### f_screen
+
+- **Location:** `AppJ.tex:571`
+  - Value: 10
+  - Symbol: `f_rm screen`
+
+### lambda_screen
+
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:86`
+  - Value: 41
+  - Symbol: `lambda_screen`
+
+### m_nu
+
+- **Location:** `parameter_mapping.tex:40`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `AppJ.tex:571`
+  - Value: 10
+  - Symbol: `m_nu`
+
+### phi
+
+- **Location:** `preprint.tex:2607`
+  - Value: 246.22
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:271`
+  - Value: 38 ± 1
+  - Symbol: `varphi`
+
+## PREDICTED Parameters (59)
+
+### E_0
+
+- **Location:** `preprint.tex:2550`
+  - Value: 0
+  - Symbol: `E_0`
+
+### E_pair
+
+- **Location:** `preprint.tex:370`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:925`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2550`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `manuscript_additions.tex:107`
+  - Value: .
+  - Symbol: `E_rm pair`
+
+### G_N
+
+- **Location:** `preprint.tex:2291`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:173`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `appendix_bh.tex:117`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_section_2_2_6_overdetermination.tex:135`
+  - Value: 0.9
+  - Symbol: `G_N`
+
+### G_eff
+
+- **Location:** `preprint.tex:2291`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:2552`
+  - Value: 10
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:173`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_bh.tex:117`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+- **Location:** `QCT_hossenfelder_section_2_2_6_overdetermination.tex:134`
+  - Value: 2
+  - Symbol: `G_eff`
+- **Location:** `QCT_hossenfelder_section_2_2_6_overdetermination.tex:135`
+  - Value: 0.9
+  - Symbol: `G_eff`
+
+### Lambda_QCT
+
+- **Location:** `preprint.tex:2506`
+  - Value: 107
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lambda_micro_derivation.tex:99`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:507`
+  - Value: 0.789
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:508`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+
+### Lambda_micro
+
+- **Location:** `appendix_heavy_flavor_baryons.tex:186`
+  - Value: 0.202
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lattice_qcd.tex:132`
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_golden_ratio.tex:375`
+  - Value: .
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:210`
+  - Value: 0.7327 ± 0.0005
+  - Symbol: `Lambda_rm micro`
+
+### R_proj
+
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:188`
+  - Value: 2014
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:239`
+  - Value: 2014
+  - Symbol: `R_proj`
+- **Location:** `preprint.tex:1429`
+  - Value: 2014
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_bh.tex:116`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_section_2_2_6_overdetermination.tex:134`
+  - Value: 2
+  - Symbol: `R_proj`
+
+### alpha_EM
+
+- **Location:** `appendix_higgs_vev.tex:319`
+  - Value: 1
+  - Symbol: `alpha_rm EM`
+
+### kappa_conf
+
+- **Location:** `preprint.tex:927`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:2550`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+
+### lambda_micro
+
+- **Location:** `appendix_mathematical_constants.tex:247`
+  - Symbol: `lambda_rm micro`
+
+### lambda_screen
+
+- **Location:** `appendix_units_numerical_audit.tex:83`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:180`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:181`
+  - Value: 41
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:182`
+  - Value: 0
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:300`
+  - Value: 8.5
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2229`
+  - Value: 9 \times 10^{11}
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2250`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2255`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2256`
+  - Value: 0
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2624`
+  - Value: 5.2
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:489`
+  - Value: .
+  - Symbol: `lambda_rm screen`
+- **Location:** `QCT_hossenfelder_section_2_2_6_overdetermination.tex:151`
+  - Value: .
+  - Symbol: `lambda_screen`
+
+### m_nu
+
+- **Location:** `preprint.tex:370`
+  - Value: .
+  - Symbol: `m_nu`
+- **Location:** `manuscript_additions.tex:107`
+  - Value: .
+  - Symbol: `m_nu`
+
+### n_nu
+
+- **Location:** `preprint.tex:370`
+  - Value: .
+  - Symbol: `n_nu`
+- **Location:** `manuscript_additions.tex:107`
+  - Value: .
+  - Symbol: `n_nu`
+
+### phi
+
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:203`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:204`
+  - Value: 0.2
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1444`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1445`
+  - Value: 0.2
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:203`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:217`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:375`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:22`
+  - Value: 12
+  - Symbol: `varphi`
+
+### rho_eff
+
+- **Location:** `preprint.tex:300`
+  - Value: 8.5
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2620`
+  - Value: 1
+  - Symbol: `rho_rm eff`
+
+### rho_ent
+
+- **Location:** `preprint.tex:2620`
+  - Value: 1
+  - Symbol: `rho_rm ent`
+
+## UNKNOWN Parameters (1484)
+
+### E_0
+
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:121`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:123`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:129`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1082`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1084`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1090`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1499`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1612`
+  - Value: 3
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1699`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1702`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1805`
+  - Value: 1.8 \times 10^{19}
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1816`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1952`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1958`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1974`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `preprint.tex:1977`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:87`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:90`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:173`
+  - Value: 1.8 \times 10^{19}
+  - Symbol: `E_0`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:184`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `cosmological_corrections.tex:18`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `cosmological_corrections.tex:30`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `cosmological_corrections.tex:33`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `cosmological_corrections.tex:41`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `Časová_evoluce_G_eff.tex:17`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `Časová_evoluce_G_eff.tex:25`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `Časová_evoluce_G_eff.tex:43`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `Časová_evoluce_G_eff.tex:46`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `appendix_microscopic_derivation_rev.tex:255`
+  - Value: 0
+  - Symbol: `E_0`
+- **Location:** `appendix_microscopic_derivation_rev.tex:273`
+  - Value: 0
+  - Symbol: `E_0`
+
+### E_pair
+
+- **Location:** `appendix_units_numerical_audit.tex:21`
+  - Value: 5.38\times10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_units_numerical_audit.tex:23`
+  - Value: 5.38\times10^9
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_units_numerical_audit.tex:25`
+  - Value: 5.38\times10^9
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_units_numerical_audit.tex:124`
+  - Value: 5.38\times10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_units_numerical_audit.tex:155`
+  - Value: 2.58\times10^{-39}
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_units_numerical_audit.tex:239`
+  - Value: 1
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_units_numerical_audit.tex:243`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_units_numerical_audit.tex:250`
+  - Value: 5.38\times10^9
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_units_numerical_audit.tex:258`
+  - Value: 0.73
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_units_numerical_audit.tex:259`
+  - Value: 71.0
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_units_numerical_audit.tex:277`
+  - Value: 1.39\times 10^{-29}
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:99`
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:101`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:106`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:111`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:116`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:121`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:123`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:129`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:143`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:180`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:229`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:268`
+  - Value: 5
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:290`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:358`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:823`
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:902`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:922`
+  - Value: 1
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:949`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1060`
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1062`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1067`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1072`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1077`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1082`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1084`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1090`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1104`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1141`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1190`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1499`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1522`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1527`
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1532`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1544`
+  - Value: 0.73
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1545`
+  - Value: 71
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1694`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1697`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1699`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1702`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1704`
+  - Value: 1
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1709`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1720`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1722`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1727`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1752`
+  - Value: 1
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1796`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1798`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1800`
+  - Value: 1.9 \times 10^{25}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1805`
+  - Value: 1.8 \times 10^{19}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1812`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1816`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1830`
+  - Value: 1
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1898`
+  - Value: 1.03 ± 0.03
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1906`
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1952`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1958`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1964`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:1972`
+  - Value: 1
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2013`
+  - Value: 1.39\times 10^{-29}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2015`
+  - Value: 3.36\times 10^{8}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2022`
+  - Value: 5.4\times 10^{-19}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2071`
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2092`
+  - Symbol: `E_pair`
+- **Location:** `preprint.tex:2108`
+  - Symbol: `E_pair`
+- **Location:** `preprint.tex:2109`
+  - Symbol: `E_pair`
+- **Location:** `preprint.tex:2116`
+  - Value: 3
+  - Symbol: `E_pair`
+- **Location:** `preprint.tex:2117`
+  - Value: 2
+  - Symbol: `E_pair`
+- **Location:** `preprint.tex:2137`
+  - Symbol: `E_pair`
+- **Location:** `preprint.tex:2166`
+  - Symbol: `E_pair`
+- **Location:** `preprint.tex:2590`
+  - Value: 1.39 \times 10^{-29}
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2597`
+  - Value: 0.73
+  - Symbol: `E_rm pair`
+- **Location:** `preprint.tex:2598`
+  - Value: 71.0
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_mathematical_constants.tex:26`
+  - Value: 2.32
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_mathematical_constants.tex:209`
+  - Value: 5.38
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_mathematical_constants.tex:241`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_mathematical_constants.tex:245`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_mathematical_constants.tex:253`
+  - Value: 5.30 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:82`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:85`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:87`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:90`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:92`
+  - Value: 1
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:97`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:108`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:110`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:115`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:140`
+  - Value: 1
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:164`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:166`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:168`
+  - Value: 1.9 \times 10^{25}
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:173`
+  - Value: 1.8 \times 10^{19}
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:180`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:184`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:198`
+  - Value: 1
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:266`
+  - Value: 1.03 ± 0.03
+  - Symbol: `E_rm pair`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:274`
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:13`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:18`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:30`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:33`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:39`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:41`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:43`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:47`
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:148`
+  - Value: 1
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:154`
+  - Value: 3\times 10^8
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:185`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:187`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `cosmological_corrections.tex:230`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `Časová_evoluce_G_eff.tex:17`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `Časová_evoluce_G_eff.tex:25`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `Časová_evoluce_G_eff.tex:39`
+  - Value: 1
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_lattice_qcd.tex:65`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_lattice_qcd.tex:138`
+  - Value: 0.733
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_lattice_qcd.tex:150`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_lattice_qcd.tex:152`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_lattice_qcd.tex:231`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_kernel_eft_mapping.tex:6`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_kernel_eft_mapping.tex:7`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_kernel_eft_mapping.tex:157`
+  - Symbol: `E_rm pair`
+- **Location:** `wilson_coefficients_table.tex:48`
+  - Value: 0.73
+  - Symbol: `E_rm pair`
+- **Location:** `wilson_coefficients_table.tex:49`
+  - Value: 71.0
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_lambda_micro_derivation.tex:177`
+  - Symbol: `E_rm pair`
+- **Location:** `parameter_mapping.tex:46`
+  - Value: 6\times 10^{-9}
+  - Symbol: `E_rm pair`
+- **Location:** `parameter_mapping.tex:123`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `parameter_mapping.tex:125`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `parameter_mapping.tex:135`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:45`
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:51`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:52`
+  - Value: 9\times 10^{16}
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:159`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:253`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:255`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:265`
+  - Value: 0
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:389`
+  - Symbol: `E_pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:395`
+  - Symbol: `E_pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:527`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:528`
+  - Value: 10
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_microscopic_derivation_rev.tex:543`
+  - Symbol: `E_rm pair`
+- **Location:** `appendix_bh.tex:35`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `technical_spec_integration.tex:76`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `technical_spec_integration.tex:87`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `technical_spec_integration.tex:89`
+  - Value: 2
+  - Symbol: `E_rm pair`
+- **Location:** `technical_spec_integration.tex:94`
+  - Value: 107
+  - Symbol: `E_rm pair`
+- **Location:** `technical_spec_integration.tex:110`
+  - Symbol: `E_rm pair`
+- **Location:** `technical_spec_integration.tex:168`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `technical_spec_integration.tex:169`
+  - Value: .
+  - Symbol: `E_rm pair`
+- **Location:** `AppJ.tex:79`
+  - Value: 3
+  - Symbol: `E_rm pair`
+- **Location:** `AppJ.tex:100`
+  - Value: 0.733
+  - Symbol: `E_rm pair`
+- **Location:** `AppJ.tex:101`
+  - Value: 71.0
+  - Symbol: `E_rm pair`
+- **Location:** `AppJ.tex:289`
+  - Symbol: `E_rm pair`
+- **Location:** `AppJ.tex:562`
+  - Value: 0.733
+  - Symbol: `E_rm pair`
+- **Location:** `AppJ.tex:563`
+  - Value: 71.0
+  - Symbol: `E_rm pair`
+- **Location:** `AppJ.tex:741`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `E_rm pair`
+- **Location:** `AppJ.tex:801`
+  - Symbol: `E_rm pair`
+
+### G_N
+
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:110`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:177`
+  - Value: 10
+  - Symbol: `G_N`
+- **Location:** `appendix_units_numerical_audit.tex:174`
+  - Value: 0
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:73`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:112`
+  - Value: 1
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:184`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:191`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:196`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:452`
+  - Value: 8
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:529`
+  - Value: 1
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:582`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:587`
+  - Value: 1
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:1032`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:1351`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:1418`
+  - Value: 10
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:1641`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:1651`
+  - Value: 0
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:1656`
+  - Value: 0
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:1747`
+  - Value: 10
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:2286`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:2299`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:2306`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `preprint.tex:2330`
+  - Value: 8
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:86`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:94`
+  - Value: 40
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:96`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:168`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:181`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:188`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:212`
+  - Value: 8
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:252`
+  - Value: 1
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:257`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:266`
+  - Value: 3
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:287`
+  - Value: 3
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:290`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `manuscript_additions.tex:301`
+  - Value: 6
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:32`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:42`
+  - Value: 0
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:47`
+  - Value: 0
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:135`
+  - Value: 10
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:200`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `appendix_kernel_eft_mapping.tex:143`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `appendix_kernel_eft_mapping.tex:151`
+  - Value: 40
+  - Symbol: `G_N`
+- **Location:** `appendix_kernel_eft_mapping.tex:153`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `appendix_kernel_eft_mapping.tex:366`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `wilson_coefficients_table.tex:20`
+  - Value: 6.674 \times 10^{-11}
+  - Symbol: `G_N`
+- **Location:** `appendix_microscopic_derivation_rev.tex:565`
+  - Value: .
+  - Symbol: `G_N`
+- **Location:** `appendix_bh.tex:48`
+  - Value: 1
+  - Symbol: `G_N`
+- **Location:** `appendix_bh.tex:53`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `appendix_bh.tex:62`
+  - Value: 3
+  - Symbol: `G_N`
+- **Location:** `appendix_bh.tex:83`
+  - Value: 3
+  - Symbol: `G_N`
+- **Location:** `appendix_bh.tex:86`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `appendix_bh.tex:97`
+  - Value: 6
+  - Symbol: `G_N`
+- **Location:** `appendix_bh.tex:178`
+  - Value: 1
+  - Symbol: `G_N`
+- **Location:** `appendix_bh.tex:231`
+  - Value: 0.9
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:38`
+  - Value: 2
+  - Symbol: `G_N`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:43`
+  - Value: 1
+  - Symbol: `G_N`
+- **Location:** `appendix_weinberg_witten.tex:300`
+  - Value: 1
+  - Symbol: `G_N`
+- **Location:** `appendix_weinberg_witten.tex:304`
+  - Value: 1
+  - Symbol: `G_N`
+- **Location:** `appendix_weinberg_witten.tex:310`
+  - Value: 0
+  - Symbol: `G_N`
+
+### G_eff
+
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:110`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_units_numerical_audit.tex:174`
+  - Value: 0
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_units_numerical_audit.tex:277`
+  - Value: 1.39\times 10^{-29}
+  - Symbol: `G_rm eff`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:112`
+  - Value: 1
+  - Symbol: `G_eff`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:117`
+  - Value: 1
+  - Symbol: `G_eff`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:173`
+  - Value: .
+  - Symbol: `G_eff`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:181`
+  - Value: 0
+  - Symbol: `G_eff`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:184`
+  - Value: 0.9
+  - Symbol: `G_eff`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:211`
+  - Value: 0
+  - Symbol: `G_eff`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:224`
+  - Value: 1
+  - Symbol: `G_eff`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:229`
+  - Value: 1
+  - Symbol: `G_eff`
+- **Location:** `preprint.tex:469`
+  - Value: 00
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:480`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:529`
+  - Value: 1
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:582`
+  - Value: 2
+  - Symbol: `G_eff`
+- **Location:** `preprint.tex:587`
+  - Value: 1
+  - Symbol: `G_eff`
+- **Location:** `preprint.tex:1351`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:1942`
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:1972`
+  - Value: 1
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:2016`
+  - Value: .
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:2026`
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:2166`
+  - Symbol: `G_eff`
+- **Location:** `preprint.tex:2193`
+  - Value: .
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:2286`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:2306`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:2320`
+  - Value: 3
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:2330`
+  - Value: 8
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:2554`
+  - Value: .
+  - Symbol: `G_rm eff`
+- **Location:** `preprint.tex:2590`
+  - Value: 1.39 \times 10^{-29}
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:86`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:91`
+  - Value: .
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:94`
+  - Value: 40
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:96`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:168`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:188`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:202`
+  - Value: 3
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:212`
+  - Value: 8
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:245`
+  - Value: 1
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:247`
+  - Value: .
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:252`
+  - Value: 1
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:257`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:266`
+  - Value: 3
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:271`
+  - Value: 27
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:287`
+  - Value: 3
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:290`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+- **Location:** `manuscript_additions.tex:301`
+  - Value: 6
+  - Symbol: `G_rm eff`
+- **Location:** `cosmological_corrections.tex:126`
+  - Value: .
+  - Symbol: `G_rm eff`
+- **Location:** `cosmological_corrections.tex:164`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `cosmological_corrections.tex:176`
+  - Value: 10
+  - Symbol: `G_rm eff`
+- **Location:** `cosmological_corrections.tex:179`
+  - Value: 1
+  - Symbol: `G_rm eff`
+- **Location:** `Časová_evoluce_G_eff.tex:1`
+  - Symbol: `G_rm eff`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:198`
+  - Value: 0
+  - Symbol: `G_rm eff`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:200`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:9`
+  - Value: 10
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:71`
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:143`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:148`
+  - Value: .
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:151`
+  - Value: 40
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:153`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:364`
+  - Value: 0
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:366`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `wilson_coefficients_table.tex:104`
+  - Value: 6.67\times 10^{-11}
+  - Symbol: `G_rm eff`
+- **Location:** `parameter_mapping.tex:58`
+  - Symbol: `G_rm eff`
+- **Location:** `parameter_mapping.tex:65`
+  - Value: 6\times 10^{-9}
+  - Symbol: `G_rm eff`
+- **Location:** `parameter_mapping.tex:73`
+  - Value: 0
+  - Symbol: `G_rm eff`
+- **Location:** `parameter_mapping.tex:77`
+  - Value: 0
+  - Symbol: `G_rm eff`
+- **Location:** `parameter_mapping.tex:81`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:138`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:159`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:165`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:171`
+  - Value: 3\times 10^{-5}
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:178`
+  - Value: 6\times 10^{-25}
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:263`
+  - Value: .
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:265`
+  - Value: 0
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:528`
+  - Value: 10
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:542`
+  - Value: 10
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_bh.tex:41`
+  - Value: 1
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_bh.tex:43`
+  - Value: .
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_bh.tex:48`
+  - Value: 1
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_bh.tex:53`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_bh.tex:62`
+  - Value: 3
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_bh.tex:67`
+  - Value: 27
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_bh.tex:83`
+  - Value: 3
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_bh.tex:86`
+  - Value: 0.9
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_bh.tex:97`
+  - Value: 6
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_bh.tex:178`
+  - Value: 1
+  - Symbol: `G_eff`
+- **Location:** `appendix_bh.tex:183`
+  - Value: 1
+  - Symbol: `G_eff`
+- **Location:** `appendix_bh.tex:219`
+  - Value: .
+  - Symbol: `G_eff`
+- **Location:** `appendix_bh.tex:228`
+  - Value: 0
+  - Symbol: `G_eff`
+- **Location:** `appendix_bh.tex:231`
+  - Value: 0.9
+  - Symbol: `G_eff`
+- **Location:** `appendix_bh.tex:246`
+  - Value: 0
+  - Symbol: `G_eff`
+- **Location:** `technical_spec_integration.tex:31`
+  - Value: 00
+  - Symbol: `G_rm eff`
+- **Location:** `technical_spec_integration.tex:36`
+  - Value: 2
+  - Symbol: `G_rm eff`
+- **Location:** `technical_spec_integration.tex:110`
+  - Symbol: `G_rm eff`
+- **Location:** `AppJ.tex:289`
+  - Symbol: `G_rm eff`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:38`
+  - Value: 2
+  - Symbol: `G_eff`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:43`
+  - Value: 1
+  - Symbol: `G_eff`
+- **Location:** `appendix_weinberg_witten.tex:300`
+  - Value: 1
+  - Symbol: `G_rm eff`
+- **Location:** `appendix_weinberg_witten.tex:310`
+  - Value: 0
+  - Symbol: `G_rm eff`
+
+### H_0
+
+- **Location:** `appendix_units_numerical_audit.tex:131`
+  - Value: 2.27\times10^{-18}
+  - Symbol: `H_0`
+- **Location:** `preprint.tex:1651`
+  - Value: 0
+  - Symbol: `H_0`
+- **Location:** `preprint.tex:1656`
+  - Value: 0
+  - Symbol: `H_0`
+- **Location:** `preprint.tex:1747`
+  - Value: 10
+  - Symbol: `H_0`
+- **Location:** `preprint.tex:1885`
+  - Value: 0
+  - Symbol: `H_0`
+- **Location:** `preprint.tex:1889`
+  - Value: 2
+  - Symbol: `H_0`
+- **Location:** `preprint.tex:1908`
+  - Value: 0
+  - Symbol: `H_0`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:42`
+  - Value: 0
+  - Symbol: `H_0`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:47`
+  - Value: 0
+  - Symbol: `H_0`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:135`
+  - Value: 10
+  - Symbol: `H_0`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:253`
+  - Value: 0
+  - Symbol: `H_0`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:257`
+  - Value: 2
+  - Symbol: `H_0`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:276`
+  - Value: 0
+  - Symbol: `H_0`
+- **Location:** `cosmological_corrections.tex:56`
+  - Value: 0
+  - Symbol: `H_0`
+- **Location:** `appendix_microscopic_derivation_rev.tex:86`
+  - Value: 2.27\times 10^{-18}
+  - Symbol: `H_0`
+- **Location:** `appendix_microscopic_derivation_rev.tex:108`
+  - Value: 0
+  - Symbol: `H_0`
+
+### Lambda_QCT
+
+- **Location:** `appendix_units_numerical_audit.tex:27`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_units_numerical_audit.tex:136`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_units_numerical_audit.tex:235`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_units_numerical_audit.tex:237`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_units_numerical_audit.tex:239`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_units_numerical_audit.tex:243`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_units_numerical_audit.tex:260`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:56`
+  - Value: 107
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:146`
+  - Value: 1.07 \times 10^5
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:147`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:188`
+  - Value: 0.2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:480`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1013`
+  - Value: 107
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1107`
+  - Value: 1.07 \times 10^5
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1210`
+  - Value: 4
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1215`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1218`
+  - Value: 6
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1224`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1455`
+  - Value: 4
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1457`
+  - Value: 4
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1469`
+  - Value: 4
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1520`
+  - Value: 10
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1522`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1534`
+  - Value: 9.38\times 10^{8}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1546`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1612`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1619`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1690`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1694`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1725`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1727`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1732`
+  - Value: 0
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1736`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1752`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1783`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1793`
+  - Value: 1.78 \times 10^{11}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1798`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1868`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1870`
+  - Value: 4
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1875`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1887`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1898`
+  - Value: 1.03 ± 0.03
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1904`
+  - Value: 0
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1909`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:1913`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2429`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2435`
+  - Value: 107
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2469`
+  - Value: 14.85
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2477`
+  - Value: 6.6\times 10^{-5}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2534`
+  - Value: 2003
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `preprint.tex:2599`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_smeft_collider.tex:16`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:10`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:78`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:82`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:113`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:115`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:120`
+  - Value: 0
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:124`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:140`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:161`
+  - Value: 1.78 \times 10^{11}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:166`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:236`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:238`
+  - Value: 4
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:243`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:255`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:266`
+  - Value: 1.03 ± 0.03
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:272`
+  - Value: 0
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:277`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:281`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `cosmological_corrections.tex:39`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `cosmological_corrections.tex:47`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `cosmological_corrections.tex:49`
+  - Value: 0
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `cosmological_corrections.tex:176`
+  - Value: 10
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `cosmological_corrections.tex:209`
+  - Value: 0
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `cosmological_corrections.tex:213`
+  - Value: 0
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:58`
+  - Value: 6
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:60`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:67`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:109`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:128`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:158`
+  - Value: 1.39 \times 10^{-29}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:228`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:235`
+  - Value: 1.14 \times 10^{10}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:288`
+  - Value: 0
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:311`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_lattice_qcd.tex:332`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_kernel_eft_mapping.tex:6`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_kernel_eft_mapping.tex:56`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_kernel_eft_mapping.tex:70`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_kernel_eft_mapping.tex:158`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `wilson_coefficients_table.tex:50`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `parameter_mapping.tex:129`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `parameter_mapping.tex:133`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `parameter_mapping.tex:135`
+  - Value: 10
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `parameter_mapping.tex:137`
+  - Value: .
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `parameter_mapping.tex:195`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_microscopic_derivation_rev.tex:159`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_microscopic_derivation_rev.tex:415`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_microscopic_derivation_rev.tex:512`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_microscopic_derivation_rev.tex:515`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `technical_spec_integration.tex:36`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `technical_spec_integration.tex:61`
+  - Value: 107
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `technical_spec_integration.tex:62`
+  - Value: 6\times 10^{-2}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `technical_spec_integration.tex:76`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `technical_spec_integration.tex:89`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `technical_spec_integration.tex:94`
+  - Value: 107
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `technical_spec_integration.tex:103`
+  - Value: 0
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `technical_spec_integration.tex:153`
+  - Value: 10
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:77`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:79`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:102`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:344`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:347`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:383`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:404`
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:406`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:420`
+  - Value: 1.07\times 10^{5}
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:476`
+  - Value: 2
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:546`
+  - Value: 7.5
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:564`
+  - Value: 3
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:812`
+  - Value: 1
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `AppJ.tex:827`
+  - Value: 107
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_weinberg_witten.tex:140`
+  - Value: 100
+  - Symbol: `Lambda_rm QCT`
+- **Location:** `appendix_weinberg_witten.tex:144`
+  - Value: 6
+  - Symbol: `Lambda_rm QCT`
+
+### Lambda_micro
+
+- **Location:** `appendix_heavy_flavor_baryons.tex:1`
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_heavy_flavor_baryons.tex:110`
+  - Value: 0.733
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_heavy_flavor_baryons.tex:113`
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_heavy_flavor_baryons.tex:241`
+  - Value: 0.733 GeV
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_units_numerical_audit.tex:23`
+  - Value: 5.38\times10^9
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_units_numerical_audit.tex:33`
+  - Value: .
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_units_numerical_audit.tex:36`
+  - Value: 9.7\times10^4
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_units_numerical_audit.tex:258`
+  - Value: 0.73
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_units_numerical_audit.tex:263`
+  - Value: 9.7\times10^4
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:1544`
+  - Value: 0.73
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:1549`
+  - Value: 0.73
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:1555`
+  - Value: 0.789.
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:1562`
+  - Value: 3
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:1568`
+  - Value: 0
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:1586`
+  - Value: 1.000
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:1590`
+  - Value: 1
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:1596`
+  - Value: 15
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:1603`
+  - Value: 10
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:1917`
+  - Value: 3
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:2597`
+  - Value: 0.73
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:2601`
+  - Value: 1
+  - Symbol: `Lambda_rm micro`
+- **Location:** `preprint.tex:2603`
+  - Value: 12
+  - Symbol: `Lambda_rm micro`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:285`
+  - Value: 3
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lattice_qcd.tex:10`
+  - Value: 2
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lattice_qcd.tex:65`
+  - Value: 2
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lattice_qcd.tex:67`
+  - Value: 2
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lattice_qcd.tex:136`
+  - Value: 2
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lattice_qcd.tex:138`
+  - Value: 0.733
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lattice_qcd.tex:344`
+  - Value: 2
+  - Symbol: `Lambda_rm micro`
+- **Location:** `wilson_coefficients_table.tex:48`
+  - Value: 0.73
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lambda_micro_derivation.tex:1`
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lambda_micro_derivation.tex:8`
+  - Value: 0.789
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lambda_micro_derivation.tex:46`
+  - Value: 0.789.
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lambda_micro_derivation.tex:104`
+  - Value: 3
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lambda_micro_derivation.tex:146`
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lambda_micro_derivation.tex:195`
+  - Value: 0
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_lambda_micro_derivation.tex:202`
+  - Value: 3
+  - Symbol: `Lambda_rm micro`
+- **Location:** `parameter_mapping.tex:125`
+  - Value: 10
+  - Symbol: `Lambda_rm micro`
+- **Location:** `parameter_mapping.tex:133`
+  - Value: .
+  - Symbol: `Lambda_rm micro`
+- **Location:** `parameter_mapping.tex:135`
+  - Value: 10
+  - Symbol: `Lambda_rm micro`
+- **Location:** `parameter_mapping.tex:137`
+  - Value: .
+  - Symbol: `Lambda_rm micro`
+- **Location:** `parameter_mapping.tex:195`
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_microscopic_derivation_rev.tex:83`
+  - Value: 1
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_microscopic_derivation_rev.tex:389`
+  - Symbol: `Lambda_micro`
+- **Location:** `appendix_microscopic_derivation_rev.tex:401`
+  - Symbol: `Lambda_micro`
+- **Location:** `appendix_golden_ratio.tex:9`
+  - Value: 1
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_golden_ratio.tex:20`
+  - Value: 1
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_golden_ratio.tex:327`
+  - Value: 1
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_golden_ratio.tex:334`
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_golden_ratio.tex:348`
+  - Value: 12
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:100`
+  - Value: 0.733
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:104`
+  - Value: 9.7\times 10^{4}
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:121`
+  - Value: 1
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:127`
+  - Value: 1.39\times 10^{-29}
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:159`
+  - Value: 0.733
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:182`
+  - Value: 10
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:190`
+  - Value: .
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:257`
+  - Value: 2
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:432`
+  - Value: 4
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:534`
+  - Value: 1
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:556`
+  - Value: 3
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:562`
+  - Value: 0.733
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:563`
+  - Value: 71.0
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:569`
+  - Value: 9.7\times 10^{4}
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:809`
+  - Value: 0.733
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:814`
+  - Value: 10
+  - Symbol: `Lambda_rm micro`
+- **Location:** `AppJ.tex:825`
+  - Value: 0.733
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:24`
+  - Value: 12
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:42`
+  - Value: 246.22
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:56`
+  - Value: 12
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:78`
+  - Value: 12
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:98`
+  - Value: 144
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:136`
+  - Value: 15.691
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:141`
+  - Value: 8
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:150`
+  - Value: 12
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:151`
+  - Value: 12
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:156`
+  - Value: 8
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:175`
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:177`
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:179`
+  - Value: 0.733
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:180`
+  - Value: 0.748
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:201`
+  - Value: 1
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:205`
+  - Value: 12.088
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:216`
+  - Value: 1
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:225`
+  - Value: 12
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:228`
+  - Value: 7.3
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:255`
+  - Value: 12
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:269`
+  - Value: 12
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:274`
+  - Value: 12
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:279`
+  - Value: 144
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:284`
+  - Value: 8
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:305`
+  - Value: 1
+  - Symbol: `Lambda_rm micro`
+- **Location:** `appendix_higgs_vev.tex:317`
+  - Value: 8
+  - Symbol: `Lambda_rm micro`
+
+### Omega_m
+
+- **Location:** `preprint.tex:1889`
+  - Value: 2
+  - Symbol: `Omega_m`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:257`
+  - Value: 2
+  - Symbol: `Omega_m`
+
+### R_proj
+
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:119`
+  - Value: 1
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_units_numerical_audit.tex:56`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_units_numerical_audit.tex:61`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_units_numerical_audit.tex:90`
+  - Value: 2.426\times10^{-12}
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_units_numerical_audit.tex:117`
+  - Value: 2\times10^{-4}
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_units_numerical_audit.tex:213`
+  - Value: 9.40\times10^{-11}
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_units_numerical_audit.tex:214`
+  - Value: 2.28
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:139`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:296`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:337`
+  - Value: 72.3
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:437`
+  - Value: 0.9
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:480`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:516`
+  - Value: 9.40 \times 10^{-11}
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:529`
+  - Value: 1
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:534`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:587`
+  - Value: 1
+  - Symbol: `R_proj`
+- **Location:** `preprint.tex:592`
+  - Value: 0
+  - Symbol: `R_proj`
+- **Location:** `preprint.tex:602`
+  - Value: 0
+  - Symbol: `R_proj`
+- **Location:** `preprint.tex:1360`
+  - Value: 1
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:2077`
+  - Value: 2.6
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:2227`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:2282`
+  - Value: 2.3
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:2572`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `preprint.tex:2581`
+  - Value: 3
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:47`
+  - Value: 1
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:52`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:58`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:63`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:64`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:65`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:83`
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:95`
+  - Value: 2.3
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:96`
+  - Value: 0.9
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:164`
+  - Value: 2.3
+  - Symbol: `R_rm proj`
+- **Location:** `manuscript_additions.tex:255`
+  - Value: 2.3
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_mathematical_constants.tex:25`
+  - Value: 2.30
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_mathematical_constants.tex:101`
+  - Value: 2.3
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_mathematical_constants.tex:208`
+  - Value: 2.3
+  - Symbol: `R_rm proj`
+- **Location:** `cosmological_corrections.tex:88`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `cosmological_corrections.tex:95`
+  - Value: 10
+  - Symbol: `R_rm proj`
+- **Location:** `cosmological_corrections.tex:164`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `cosmological_corrections.tex:170`
+  - Symbol: `R_rm proj`
+- **Location:** `cosmological_corrections.tex:197`
+  - Value: 72
+  - Symbol: `R_rm proj`
+- **Location:** `cosmological_corrections.tex:211`
+  - Value: 1
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:73`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:75`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:85`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:90`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:91`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:92`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:160`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:173`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:226`
+  - Value: 15
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:13`
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:17`
+  - Value: 1
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:71`
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:104`
+  - Value: 1
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:109`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:115`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:120`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:121`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:122`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:140`
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:152`
+  - Value: 2.3
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:153`
+  - Value: 0.9
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:239`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:241`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:251`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:256`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:257`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:258`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:326`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:339`
+  - Value: .
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_kernel_eft_mapping.tex:392`
+  - Value: 15
+  - Symbol: `R_rm proj`
+- **Location:** `wilson_coefficients_table.tex:45`
+  - Value: 2.28
+  - Symbol: `R_rm proj`
+- **Location:** `wilson_coefficients_table.tex:46`
+  - Value: 4
+  - Symbol: `R_rm proj`
+- **Location:** `wilson_coefficients_table.tex:51`
+  - Value: 1
+  - Symbol: `R_rm proj`
+- **Location:** `parameter_mapping.tex:32`
+  - Value: 3
+  - Symbol: `R_rm proj`
+- **Location:** `parameter_mapping.tex:58`
+  - Symbol: `R_rm proj`
+- **Location:** `parameter_mapping.tex:85`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `parameter_mapping.tex:168`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:85`
+  - Value: 3\times 10^8
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:143`
+  - Value: 4.35\times 10^{17}
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:308`
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:317`
+  - Value: 3
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:321`
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:328`
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:344`
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:346`
+  - Value: 4
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:455`
+  - Value: 0
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:463`
+  - Value: 1
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_microscopic_derivation_rev.tex:472`
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_bh.tex:22`
+  - Value: 1
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_bh.tex:51`
+  - Value: 2.3
+  - Symbol: `R_rm proj`
+- **Location:** `technical_spec_integration.tex:36`
+  - Value: 2
+  - Symbol: `R_rm proj`
+- **Location:** `technical_spec_integration.tex:39`
+  - Value: 3
+  - Symbol: `R_rm proj`
+- **Location:** `technical_spec_integration.tex:119`
+  - Value: 3
+  - Symbol: `R_rm proj`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:43`
+  - Value: 1
+  - Symbol: `R_proj`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:48`
+  - Value: 0
+  - Symbol: `R_proj`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:58`
+  - Value: 0
+  - Symbol: `R_proj`
+- **Location:** `appendix_weinberg_witten.tex:113`
+  - Value: 4
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_weinberg_witten.tex:126`
+  - Value: 2.6
+  - Symbol: `R_rm proj`
+- **Location:** `appendix_weinberg_witten.tex:189`
+  - Value: .
+  - Symbol: `R_rm proj`
+
+### S_tot
+
+- **Location:** `preprint.tex:115`
+  - Value: 1.03643 \times 10^{-5}
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:21`
+  - Value: 58
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:22`
+  - Value: 21
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:41`
+  - Value: 6
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:83`
+  - Value: 0
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:87`
+  - Value: 6
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:95`
+  - Value: 6
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:120`
+  - Value: 6
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:128`
+  - Value: 0.069
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:141`
+  - Value: 1
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:158`
+  - Value: 6
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:184`
+  - Value: 6
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:186`
+  - Value: 21
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:306`
+  - Value: 58
+  - Symbol: `S_rm tot`
+- **Location:** `appendix_mathematical_constants.tex:312`
+  - Value: 6
+  - Symbol: `S_rm tot`
+- **Location:** `wilson_coefficients_table.tex:87`
+  - Value: 6
+  - Symbol: `S_rm tot`
+
+### alpha_EM
+
+- **Location:** `preprint.tex:2603`
+  - Value: 12
+  - Symbol: `alpha_rm EM`
+- **Location:** `appendix_golden_ratio.tex:353`
+  - Value: 12
+  - Symbol: `alpha_rm EM`
+- **Location:** `appendix_higgs_vev.tex:24`
+  - Value: 12
+  - Symbol: `alpha_rm EM`
+- **Location:** `appendix_higgs_vev.tex:30`
+  - Value: 1100
+  - Symbol: `alpha_rm EM`
+- **Location:** `appendix_higgs_vev.tex:70`
+  - Value: 1
+  - Symbol: `alpha_rm EM`
+- **Location:** `appendix_higgs_vev.tex:78`
+  - Value: 12
+  - Symbol: `alpha_rm EM`
+- **Location:** `appendix_higgs_vev.tex:255`
+  - Value: 12
+  - Symbol: `alpha_rm EM`
+- **Location:** `appendix_higgs_vev.tex:274`
+  - Value: 12
+  - Symbol: `alpha_rm EM`
+
+### alpha_cosmo
+
+- **Location:** `preprint.tex:1656`
+  - Value: 0
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `preprint.tex:1659`
+  - Value: 9 \times 10^{11}
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `preprint.tex:1663`
+  - Value: 1
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `preprint.tex:1667`
+  - Value: 1
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `preprint.tex:1669`
+  - Value: 1
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `preprint.tex:1676`
+  - Value: 1
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `preprint.tex:1744`
+  - Value: 10
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `preprint.tex:1747`
+  - Value: 10
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `preprint.tex:1774`
+  - Value: 1
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:47`
+  - Value: 0
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:51`
+  - Value: 1
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:55`
+  - Value: 1
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:57`
+  - Value: 1
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:64`
+  - Value: 1
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:132`
+  - Value: 10
+  - Symbol: `alpha_rm cosmo`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:135`
+  - Value: 10
+  - Symbol: `alpha_rm cosmo`
+
+### f_c
+
+- **Location:** `appendix_units_numerical_audit.tex:117`
+  - Value: 2\times10^{-4}
+  - Symbol: `f_c`
+- **Location:** `preprint.tex:2043`
+  - Value: 1
+  - Symbol: `f_c`
+- **Location:** `preprint.tex:2121`
+  - Value: .
+  - Symbol: `f_c`
+- **Location:** `preprint.tex:2125`
+  - Value: 10
+  - Symbol: `f_c`
+- **Location:** `preprint.tex:2130`
+  - Value: 10
+  - Symbol: `f_c`
+- **Location:** `cosmological_corrections.tex:163`
+  - Symbol: `f_c`
+- **Location:** `appendix_microscopic_derivation_rev.tex:62`
+  - Value: 1
+  - Symbol: `f_c`
+
+### f_screen
+
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:119`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:140`
+  - Value: .
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:142`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:172`
+  - Value: 10
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:36`
+  - Value: 9.7\times10^4
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:42`
+  - Value: 1.07\times10^{-10}
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:56`
+  - Value: 0
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:61`
+  - Value: 0
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:90`
+  - Value: 2.426\times10^{-12}
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:119`
+  - Value: 10
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:212`
+  - Value: 1.07\times10^{-10}
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:213`
+  - Value: 9.40\times10^{-11}
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:263`
+  - Value: 9.7\times10^4
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:65`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:139`
+  - Value: 1
+  - Symbol: `f_screen`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:144`
+  - Value: 1
+  - Symbol: `f_screen`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:162`
+  - Value: 2
+  - Symbol: `f_screen`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:254`
+  - Symbol: `f_screen`
+- **Location:** `preprint.tex:503`
+  - Value: 1.07 \times 10^{-10}
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:511`
+  - Value: 1.07 \times 10^{-10}
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:516`
+  - Value: 9.40 \times 10^{-11}
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:529`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:534`
+  - Value: 0
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:573`
+  - Value: 1
+  - Symbol: `f_screen`
+- **Location:** `preprint.tex:582`
+  - Value: 2
+  - Symbol: `f_screen`
+- **Location:** `preprint.tex:587`
+  - Value: 1
+  - Symbol: `f_screen`
+- **Location:** `preprint.tex:592`
+  - Value: 0
+  - Symbol: `f_screen`
+- **Location:** `preprint.tex:602`
+  - Value: 0
+  - Symbol: `f_screen`
+- **Location:** `preprint.tex:624`
+  - Symbol: `f_screen`
+- **Location:** `preprint.tex:1024`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:1360`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:1381`
+  - Value: .
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:1383`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:1413`
+  - Value: 10
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:1603`
+  - Value: 10
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:1627`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:1676`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:1744`
+  - Value: 10
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:2121`
+  - Value: .
+  - Symbol: `f_screen`
+- **Location:** `preprint.tex:2125`
+  - Value: 10
+  - Symbol: `f_screen`
+- **Location:** `preprint.tex:2216`
+  - Value: 1.07\times 10^{-10}
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:2227`
+  - Value: 0
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:2513`
+  - Value: 10
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:2567`
+  - Value: 10.
+  - Symbol: `f_rm screen`
+- **Location:** `preprint.tex:2572`
+  - Value: 2
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_mathematical_constants.tex:23`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_mathematical_constants.tex:197`
+  - Value: 10
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_mathematical_constants.tex:199`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:18`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:64`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:132`
+  - Value: 10
+  - Symbol: `f_rm screen`
+- **Location:** `cosmological_corrections.tex:164`
+  - Value: 2
+  - Symbol: `f_rm screen`
+- **Location:** `cosmological_corrections.tex:170`
+  - Symbol: `f_rm screen`
+- **Location:** `cosmological_corrections.tex:189`
+  - Value: 10
+  - Symbol: `f_rm screen`
+- **Location:** `cosmological_corrections.tex:201`
+  - Value: 26
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:103`
+  - Value: .
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:105`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_kernel_eft_mapping.tex:269`
+  - Value: .
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_kernel_eft_mapping.tex:271`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `wilson_coefficients_table.tex:44`
+  - Value: 1.07\times 10^{-10}
+  - Symbol: `f_rm screen`
+- **Location:** `wilson_coefficients_table.tex:51`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:138`
+  - Value: 2
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:153`
+  - Value: 1.07\times 10^{-10}
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:294`
+  - Value: .
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:299`
+  - Value: 938.27\times 10^{6}
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:308`
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:402`
+  - Value: 9.7\times 10^{4}
+  - Symbol: `f_screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:463`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_bh.tex:22`
+  - Value: 1
+  - Symbol: `f_rm screen`
+- **Location:** `appendix_bh.tex:205`
+  - Value: 1
+  - Symbol: `f_screen`
+- **Location:** `appendix_bh.tex:257`
+  - Symbol: `f_screen`
+- **Location:** `AppJ.tex:104`
+  - Value: 9.7\times 10^{4}
+  - Symbol: `f_rm screen`
+- **Location:** `AppJ.tex:109`
+  - Value: 10
+  - Symbol: `f_rm screen`
+- **Location:** `AppJ.tex:556`
+  - Value: 3
+  - Symbol: `f_rm screen`
+- **Location:** `AppJ.tex:569`
+  - Value: 9.7\times 10^{4}
+  - Symbol: `f_rm screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:29`
+  - Value: 1
+  - Symbol: `f_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:38`
+  - Value: 2
+  - Symbol: `f_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:43`
+  - Value: 1
+  - Symbol: `f_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:48`
+  - Value: 0
+  - Symbol: `f_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:58`
+  - Value: 0
+  - Symbol: `f_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:116`
+  - Symbol: `f_screen`
+- **Location:** `appendix_weinberg_witten.tex:284`
+  - Value: 40
+  - Symbol: `f_rm screen`
+
+### kappa_conf
+
+- **Location:** `appendix_units_numerical_audit.tex:123`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:129`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:180`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:221`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:229`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:231`
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:922`
+  - Value: 1
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:948`
+  - Value: 0.15
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1090`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1141`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1182`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1190`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1192`
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1499`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1511`
+  - Value: 4.83\times 10^{17}
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1612`
+  - Value: 3
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1699`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1704`
+  - Value: 1
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1709`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1783`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1805`
+  - Value: 1.8 \times 10^{19}
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1816`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1818`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1820`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1825`
+  - Value: 2
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1830`
+  - Value: 1
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1832`
+  - Value: 0.5
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1954`
+  - Value: 1
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1958`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `preprint.tex:1964`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:87`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:92`
+  - Value: 1
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:97`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:173`
+  - Value: 1.8 \times 10^{19}
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:184`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:186`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:188`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:193`
+  - Value: 2
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:198`
+  - Value: 1
+  - Symbol: `kappa_rm conf`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:200`
+  - Value: 0.5
+  - Symbol: `kappa_rm conf`
+- **Location:** `cosmological_corrections.tex:18`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `cosmological_corrections.tex:24`
+  - Value: .
+  - Symbol: `kappa_rm conf`
+- **Location:** `cosmological_corrections.tex:30`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `cosmological_corrections.tex:35`
+  - Value: 5\times 10^{18}
+  - Symbol: `kappa_rm conf`
+- **Location:** `cosmological_corrections.tex:41`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `Časová_evoluce_G_eff.tex:19`
+  - Value: 1
+  - Symbol: `kappa_rm conf`
+- **Location:** `Časová_evoluce_G_eff.tex:25`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `appendix_microscopic_derivation_rev.tex:255`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+- **Location:** `appendix_microscopic_derivation_rev.tex:273`
+  - Value: 0
+  - Symbol: `kappa_rm conf`
+
+### lambda_micro
+
+- **Location:** `appendix_mathematical_constants.tex:27`
+  - Value: 0.856
+  - Symbol: `lambda_rm micro`
+- **Location:** `appendix_mathematical_constants.tex:219`
+  - Value: 0.733
+  - Symbol: `lambda_rm micro`
+- **Location:** `appendix_mathematical_constants.tex:221`
+  - Value: 0.856
+  - Symbol: `lambda_rm micro`
+- **Location:** `appendix_mathematical_constants.tex:225`
+  - Value: 2
+  - Symbol: `lambda_rm micro`
+- **Location:** `appendix_mathematical_constants.tex:241`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `lambda_rm micro`
+- **Location:** `appendix_mathematical_constants.tex:253`
+  - Value: 5.30 \times 10^{18}
+  - Symbol: `lambda_rm micro`
+- **Location:** `appendix_mathematical_constants.tex:255`
+  - Value: .
+  - Symbol: `lambda_rm micro`
+
+### lambda_screen
+
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:117`
+  - Value: .
+  - Symbol: `lambda_rm screen`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:119`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:122`
+  - Value: .
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:56`
+  - Value: 0
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:61`
+  - Value: 0
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:70`
+  - Value: 2
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:174`
+  - Value: 0
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_units_numerical_audit.tex:188`
+  - Value: 2.5
+  - Symbol: `lambda_rm screen`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:112`
+  - Value: 1
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:191`
+  - Value: 2
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:194`
+  - Value: 2
+  - Symbol: `lambda_screen`
+- **Location:** `preprint.tex:297`
+  - Value: .
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:529`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:532`
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:534`
+  - Value: 0
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:538`
+  - Value: 0
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:539`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:540`
+  - Value: 41
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:548`
+  - Value: .
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:587`
+  - Value: 1
+  - Symbol: `lambda_screen`
+- **Location:** `preprint.tex:592`
+  - Value: 0
+  - Symbol: `lambda_screen`
+- **Location:** `preprint.tex:1358`
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:1360`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:1363`
+  - Value: .
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2078`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2227`
+  - Value: 0
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2237`
+  - Value: 2
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2262`
+  - Value: 41
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2274`
+  - Value: 2016
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2275`
+  - Value: .
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2276`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2284`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `preprint.tex:2618`
+  - Value: 5.2
+  - Symbol: `lambda_rm screen`
+- **Location:** `manuscript_additions.tex:94`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+- **Location:** `manuscript_additions.tex:95`
+  - Value: 2.3
+  - Symbol: `lambda_rm screen`
+- **Location:** `manuscript_additions.tex:166`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `manuscript_additions.tex:252`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_mathematical_constants.tex:25`
+  - Value: 2.30
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_mathematical_constants.tex:100`
+  - Value: 1.0
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_mathematical_constants.tex:208`
+  - Value: 2.3
+  - Symbol: `lambda_rm screen`
+- **Location:** `cosmological_corrections.tex:86`
+  - Value: 0
+  - Symbol: `lambda_rm screen`
+- **Location:** `cosmological_corrections.tex:88`
+  - Value: .
+  - Symbol: `lambda_rm screen`
+- **Location:** `cosmological_corrections.tex:95`
+  - Value: 10
+  - Symbol: `lambda_rm screen`
+- **Location:** `cosmological_corrections.tex:170`
+  - Symbol: `lambda_rm screen`
+- **Location:** `cosmological_corrections.tex:200`
+  - Value: 0.05
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_lattice_qcd.tex:107`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_kernel_eft_mapping.tex:151`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_kernel_eft_mapping.tex:152`
+  - Value: 2.3
+  - Symbol: `lambda_rm screen`
+- **Location:** `wilson_coefficients_table.tex:51`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:463`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_microscopic_derivation_rev.tex:472`
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_bh.tex:22`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_bh.tex:48`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_bh.tex:178`
+  - Value: 1
+  - Symbol: `lambda_screen`
+- **Location:** `AppJ.tex:837`
+  - Symbol: `lambda_rm screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:43`
+  - Value: 1
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:48`
+  - Value: 0
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:68`
+  - Value: 0
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:71`
+  - Value: 0
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:75`
+  - Value: 625
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:76`
+  - Value: 400 km
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:83`
+  - Value: 625
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:107`
+  - Value: 0
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:108`
+  - Value: 6.25 \times 10^7
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:109`
+  - Value: 10
+  - Symbol: `lambda_screen`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:112`
+  - Value: .
+  - Symbol: `lambda_screen`
+- **Location:** `appendix_weinberg_witten.tex:128`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_weinberg_witten.tex:282`
+  - Value: 1
+  - Symbol: `lambda_rm screen`
+- **Location:** `appendix_weinberg_witten.tex:284`
+  - Value: 40
+  - Symbol: `lambda_rm screen`
+
+### m_nu
+
+- **Location:** `appendix_units_numerical_audit.tex:23`
+  - Value: 5.38\times10^9
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:36`
+  - Value: 9.7\times10^4
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:42`
+  - Value: 1.07\times10^{-10}
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:162`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:212`
+  - Value: 1.07\times10^{-10}
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:227`
+  - Value: 1
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:239`
+  - Value: 1
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:248`
+  - Value: .
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:258`
+  - Value: 0.73
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:263`
+  - Value: 9.7\times10^4
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:276`
+  - Value: 24
+  - Symbol: `m_nu`
+- **Location:** `appendix_units_numerical_audit.tex:279`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:139`
+  - Value: 1
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:211`
+  - Value: 1 \times 10^{-10}
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:247`
+  - Value: 0.73
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:351`
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:352`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:358`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:378`
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:384`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:389`
+  - Value: 1
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:420`
+  - Value: 2 m
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:480`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:503`
+  - Value: 1.07 \times 10^{-10}
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:511`
+  - Value: 1.07 \times 10^{-10}
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:525`
+  - Value: 0.1
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:573`
+  - Value: 1
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:624`
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:665`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:1511`
+  - Value: 4.83\times 10^{17}
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:1544`
+  - Value: 0.73
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:1603`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:1605`
+  - Value: .
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2008`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2015`
+  - Value: 3.36\times 10^{8}
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2125`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2158`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2216`
+  - Value: 1.07\times 10^{-10}
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2513`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2567`
+  - Value: 10.
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2585`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `preprint.tex:2597`
+  - Value: 0.73
+  - Symbol: `m_nu`
+- **Location:** `manuscript_additions.tex:115`
+  - Symbol: `m_nu`
+- **Location:** `manuscript_additions.tex:121`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `manuscript_additions.tex:126`
+  - Value: 1
+  - Symbol: `m_nu`
+- **Location:** `appendix_mathematical_constants.tex:197`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `appendix_mathematical_constants.tex:234`
+  - Value: 2 m
+  - Symbol: `m_nu`
+- **Location:** `appendix_mathematical_constants.tex:241`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `m_nu`
+- **Location:** `cosmological_corrections.tex:13`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `cosmological_corrections.tex:33`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `cosmological_corrections.tex:35`
+  - Value: 5\times 10^{18}
+  - Symbol: `m_nu`
+- **Location:** `cosmological_corrections.tex:39`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `cosmological_corrections.tex:47`
+  - Symbol: `m_nu`
+- **Location:** `cosmological_corrections.tex:187`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `appendix_lattice_qcd.tex:65`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `appendix_lattice_qcd.tex:138`
+  - Value: 0.733
+  - Symbol: `m_nu`
+- **Location:** `appendix_lattice_qcd.tex:150`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `m_nu`
+- **Location:** `appendix_kernel_eft_mapping.tex:22`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `appendix_kernel_eft_mapping.tex:81`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `wilson_coefficients_table.tex:24`
+  - Value: 0.1
+  - Symbol: `m_nu`
+- **Location:** `wilson_coefficients_table.tex:44`
+  - Value: 1.07\times 10^{-10}
+  - Symbol: `m_nu`
+- **Location:** `wilson_coefficients_table.tex:45`
+  - Value: 2.28
+  - Symbol: `m_nu`
+- **Location:** `wilson_coefficients_table.tex:48`
+  - Value: 0.73
+  - Symbol: `m_nu`
+- **Location:** `parameter_mapping.tex:135`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:23`
+  - Value: 2 m
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:39`
+  - Value: 24
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:62`
+  - Value: 1
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:153`
+  - Value: 1.07\times 10^{-10}
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:159`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:294`
+  - Value: .
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:297`
+  - Value: 0.1
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:302`
+  - Value: .
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:321`
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:328`
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:340`
+  - Value: 0.02 ± 0.02
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:376`
+  - Value: 1
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:389`
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:402`
+  - Value: 9.7\times 10^{4}
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:444`
+  - Value: 2 m
+  - Symbol: `m_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:528`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `appendix_bh.tex:205`
+  - Value: 1
+  - Symbol: `m_nu`
+- **Location:** `technical_spec_integration.tex:21`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `technical_spec_integration.tex:36`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `technical_spec_integration.tex:61`
+  - Value: 107
+  - Symbol: `m_nu`
+- **Location:** `technical_spec_integration.tex:76`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `technical_spec_integration.tex:89`
+  - Value: 2
+  - Symbol: `m_nu`
+- **Location:** `technical_spec_integration.tex:94`
+  - Value: 107
+  - Symbol: `m_nu`
+- **Location:** `technical_spec_integration.tex:103`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `AppJ.tex:85`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `AppJ.tex:100`
+  - Value: 0.733
+  - Symbol: `m_nu`
+- **Location:** `AppJ.tex:109`
+  - Value: 10
+  - Symbol: `m_nu`
+- **Location:** `AppJ.tex:551`
+  - Value: 1
+  - Symbol: `m_nu`
+- **Location:** `AppJ.tex:562`
+  - Value: 0.733
+  - Symbol: `m_nu`
+- **Location:** `AppJ.tex:563`
+  - Value: 71.0
+  - Symbol: `m_nu`
+- **Location:** `AppJ.tex:569`
+  - Value: 9.7\times 10^{4}
+  - Symbol: `m_nu`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:29`
+  - Value: 1
+  - Symbol: `m_nu`
+- **Location:** `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:116`
+  - Symbol: `m_nu`
+- **Location:** `QCT_hossenfelder_section_2_2_6_overdetermination.tex:55`
+  - Value: 0
+  - Symbol: `m_nu`
+- **Location:** `appendix_weinberg_witten.tex:65`
+  - Value: 2 m
+  - Symbol: `m_nu`
+
+### m_t
+
+- **Location:** `AppJ.tex:350`
+  - Value: 173
+  - Symbol: `m_t`
+
+### n_nu
+
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:36`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:38`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:42`
+  - Value: 1
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:55`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:85`
+  - Value: 1
+  - Symbol: `n_nu`
+- **Location:** `appendix_units_numerical_audit.tex:15`
+  - Value: 2.43\times10^4
+  - Symbol: `n_nu`
+- **Location:** `appendix_units_numerical_audit.tex:51`
+  - Value: 1
+  - Symbol: `n_nu`
+- **Location:** `appendix_units_numerical_audit.tex:155`
+  - Value: 2.58\times10^{-39}
+  - Symbol: `n_nu`
+- **Location:** `appendix_units_numerical_audit.tex:162`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `appendix_units_numerical_audit.tex:229`
+  - Value: .
+  - Symbol: `n_nu`
+- **Location:** `appendix_units_numerical_audit.tex:276`
+  - Value: 24
+  - Symbol: `n_nu`
+- **Location:** `appendix_units_numerical_audit.tex:277`
+  - Value: 1.39\times 10^{-29}
+  - Symbol: `n_nu`
+- **Location:** `appendix_units_numerical_audit.tex:279`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:39`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:41`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:46`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:58`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:101`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:144`
+  - Value: 2.58 \times 10^{-39}
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:151`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:227`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:125`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:173`
+  - Value: .
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:115`
+  - Value: 1.03643 \times 10^{-5}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:174`
+  - Value: 3.36\times 10^{8}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:175`
+  - Value: 3.36\times 10^{8}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:216`
+  - Value: 2.58 \times 10^{-39}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:258`
+  - Value: 58
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:272`
+  - Value: 8.47 \times 10^{4} eV
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:333`
+  - Value: 2.43\times 10^{4}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:335`
+  - Value: 336
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:343`
+  - Value: 1
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:351`
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:358`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:378`
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:420`
+  - Value: 2 m
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:480`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:665`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:763`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:765`
+  - Value: 2.4\times 10^{4}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:840`
+  - Value: 3
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:841`
+  - Value: 10
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:996`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:998`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1003`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1015`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1018`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1062`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1105`
+  - Value: 2.58 \times 10^{-39}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1112`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1188`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1277`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1279`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1283`
+  - Value: 1
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1296`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1326`
+  - Value: 1
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:1720`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2008`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2013`
+  - Value: 1.39\times 10^{-29}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2015`
+  - Value: 3.36\times 10^{8}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2022`
+  - Value: 5.4\times 10^{-19}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2050`
+  - Value: 8.47 \times 10^{4}
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2092`
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2108`
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2109`
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2116`
+  - Value: 3
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2117`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2130`
+  - Value: 10
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2158`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2368`
+  - Value: 1
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2585`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `preprint.tex:2590`
+  - Value: 1.39 \times 10^{-29}
+  - Symbol: `n_nu`
+- **Location:** `manuscript_additions.tex:115`
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:21`
+  - Value: 58
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:41`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:45`
+  - Value: 336
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:52`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:60`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:87`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:95`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:120`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:128`
+  - Value: 0.069
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:135`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:139`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:158`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:184`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:234`
+  - Value: 2 m
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:310`
+  - Value: 1
+  - Symbol: `n_nu`
+- **Location:** `appendix_mathematical_constants.tex:312`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_7_3_geometric_lambda.tex:108`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `cosmological_corrections.tex:121`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `cosmological_corrections.tex:148`
+  - Value: 1
+  - Symbol: `n_nu`
+- **Location:** `cosmological_corrections.tex:154`
+  - Value: 3\times 10^8
+  - Symbol: `n_nu`
+- **Location:** `cosmological_corrections.tex:185`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `appendix_lattice_qcd.tex:152`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `n_nu`
+- **Location:** `appendix_kernel_eft_mapping.tex:7`
+  - Value: .
+  - Symbol: `n_nu`
+- **Location:** `appendix_kernel_eft_mapping.tex:157`
+  - Symbol: `n_nu`
+- **Location:** `wilson_coefficients_table.tex:25`
+  - Value: 336
+  - Symbol: `n_nu`
+- **Location:** `wilson_coefficients_table.tex:47`
+  - Value: 1.66\times 10^{4}
+  - Symbol: `n_nu`
+- **Location:** `wilson_coefficients_table.tex:87`
+  - Value: 6
+  - Symbol: `n_nu`
+- **Location:** `parameter_mapping.tex:46`
+  - Value: 6\times 10^{-9}
+  - Symbol: `n_nu`
+- **Location:** `parameter_mapping.tex:188`
+  - Symbol: `n_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:39`
+  - Value: 24
+  - Symbol: `n_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:45`
+  - Symbol: `n_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:50`
+  - Value: 3.36\times 10^8
+  - Symbol: `n_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:53`
+  - Value: 3.36\times 10^8
+  - Symbol: `n_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:62`
+  - Value: 1
+  - Symbol: `n_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:159`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:362`
+  - Symbol: `n_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:378`
+  - Value: .
+  - Symbol: `n_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:434`
+  - Value: 1
+  - Symbol: `n_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:444`
+  - Value: 2 m
+  - Symbol: `n_nu`
+- **Location:** `appendix_microscopic_derivation_rev.tex:491`
+  - Value: 10
+  - Symbol: `n_nu`
+- **Location:** `appendix_bh.tex:191`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `appendix_bh.tex:219`
+  - Value: .
+  - Symbol: `n_nu`
+- **Location:** `technical_spec_integration.tex:36`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `technical_spec_integration.tex:39`
+  - Value: 3
+  - Symbol: `n_nu`
+- **Location:** `technical_spec_integration.tex:51`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `technical_spec_integration.tex:61`
+  - Value: 107
+  - Symbol: `n_nu`
+- **Location:** `technical_spec_integration.tex:89`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `technical_spec_integration.tex:103`
+  - Value: 0
+  - Symbol: `n_nu`
+- **Location:** `technical_spec_integration.tex:110`
+  - Symbol: `n_nu`
+- **Location:** `technical_spec_integration.tex:118`
+  - Value: 2.43\times 10^4}
+  - Symbol: `n_nu`
+- **Location:** `technical_spec_integration.tex:168`
+  - Value: 3
+  - Symbol: `n_nu`
+- **Location:** `technical_spec_integration.tex:173`
+  - Value: 2.4\times 10^4
+  - Symbol: `n_nu`
+- **Location:** `technical_spec_integration.tex:176`
+  - Value: 2
+  - Symbol: `n_nu`
+- **Location:** `QCT_hossenfelder_section_2_2_6_overdetermination.tex:55`
+  - Value: 0
+  - Symbol: `n_nu`
+
+### phi
+
+- **Location:** `appendix_heavy_flavor_baryons.tex:38`
+  - Value: 0
+  - Symbol: `varphi`
+- **Location:** `appendix_heavy_flavor_baryons.tex:45`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_heavy_flavor_baryons.tex:49`
+  - Symbol: `varphi`
+- **Location:** `appendix_heavy_flavor_baryons.tex:50`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_heavy_flavor_baryons.tex:121`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_heavy_flavor_baryons.tex:131`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_heavy_flavor_baryons.tex:133`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `appendix_heavy_flavor_baryons.tex:151`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_heavy_flavor_baryons.tex:228`
+  - Symbol: `varphi`
+- **Location:** `appendix_heavy_flavor_baryons.tex:243`
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:126`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:128`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:130`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:133`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:135`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:145`
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:147`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:150`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:156`
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:158`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:160`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:162`
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:164`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:170`
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_section_4_3_acoustic_metric.tex:172`
+  - Value: 10
+  - Symbol: `varphi`
+- **Location:** `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:58`
+  - Value: 0
+  - Symbol: `phi`
+- **Location:** `preprint.tex:192`
+  - Value: 10
+  - Symbol: `phi`
+- **Location:** `preprint.tex:249`
+  - Value: 246.18
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1228`
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1229`
+  - Value: 0
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1231`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1233`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1235`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1238`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1240`
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1241`
+  - Value: 14
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1244`
+  - Value: 0
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1246`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1367`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1369`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1371`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1374`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1376`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1386`
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1388`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1391`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1397`
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1399`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1401`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1403`
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1405`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1411`
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1413`
+  - Value: 10
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1590`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:1592`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:2601`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `preprint.tex:2603`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `manuscript_additions.tex:52`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `manuscript_additions.tex:80`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `appendix_oneloop_formalism.tex:10`
+  - Value: 14
+  - Symbol: `varphi`
+- **Location:** `appendix_oneloop_formalism.tex:19`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_oneloop_formalism.tex:33`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `appendix_oneloop_formalism.tex:43`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_oneloop_formalism.tex:46`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `appendix_oneloop_formalism.tex:47`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_lattice_qcd.tex:107`
+  - Value: 1
+  - Symbol: `phi`
+- **Location:** `appendix_lattice_qcd.tex:108`
+  - Value: 0.05
+  - Symbol: `phi`
+- **Location:** `appendix_lattice_qcd.tex:109`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `appendix_lattice_qcd.tex:110`
+  - Value: 0
+  - Symbol: `phi`
+- **Location:** `appendix_kernel_eft_mapping.tex:71`
+  - Symbol: `phi`
+- **Location:** `appendix_kernel_eft_mapping.tex:109`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `appendix_kernel_eft_mapping.tex:137`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `appendix_kernel_eft_mapping.tex:164`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `appendix_phi_constraints.tex:2`
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:5`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:8`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:10`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:12`
+  - Value: 12 m
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:17`
+  - Value: 10
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:18`
+  - Value: 10
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:20`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:25`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:27`
+  - Value: 0
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:28`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:34`
+  - Value: 10
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:36`
+  - Value: 0
+  - Symbol: `varphi`
+- **Location:** `appendix_phi_constraints.tex:38`
+  - Value: 0
+  - Symbol: `varphi`
+- **Location:** `wilson_coefficients_table.tex:71`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `wilson_coefficients_table.tex:117`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `appendix_bh.tex:167`
+  - Value: 0
+  - Symbol: `phi`
+- **Location:** `appendix_golden_ratio.tex:9`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:12`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:20`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:27`
+  - Value: 3
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:30`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:34`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:42`
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:44`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:45`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:52`
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:54`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:57`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:63`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:78`
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:80`
+  - Value: 1.6180339887
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:87`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:94`
+  - Value: 1.6180
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:99`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:126`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:136`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:138`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:143`
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:162`
+  - Value: 2
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:168`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:177`
+  - Value: 0
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:207`
+  - Value: 1385 ± 1.0
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:208`
+  - Value: 1660 ± 30
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:211`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:213`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:221`
+  - Value: 0.299
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:222`
+  - Value: 0.299
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:223`
+  - Value: 0
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:226`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:236`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:238`
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:300`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:315`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:327`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:335`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:340`
+  - Value: 1 ± 2
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:341`
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:348`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:360`
+  - Symbol: `varphi`
+- **Location:** `appendix_golden_ratio.tex:363`
+  - Value: 2024
+  - Symbol: `varphi`
+- **Location:** `AppJ.tex:717`
+  - Value: 2
+  - Symbol: `phi`
+- **Location:** `AppJ.tex:719`
+  - Value: .
+  - Symbol: `phi`
+- **Location:** `appendix_higgs_vev.tex:24`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:34`
+  - Value: 246.18
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:36`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:45`
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:47`
+  - Value: 335.91
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:56`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:78`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:88`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:93`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:98`
+  - Value: 144
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:150`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:151`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:169`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:173`
+  - Value: 8
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:192`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:194`
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:203`
+  - Value: 12.088
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:205`
+  - Value: 12.088
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:216`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:219`
+  - Value: .
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:225`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:255`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:269`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:274`
+  - Value: 12
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:279`
+  - Value: 144
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:305`
+  - Value: 1
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:313`
+  - Value: 3
+  - Symbol: `varphi`
+- **Location:** `appendix_higgs_vev.tex:317`
+  - Value: 8
+  - Symbol: `varphi`
+
+### rho_eff
+
+- **Location:** `appendix_units_numerical_audit.tex:155`
+  - Value: 2.58\times10^{-39}
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_units_numerical_audit.tex:277`
+  - Value: 1.39\times 10^{-29}
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_units_numerical_audit.tex:286`
+  - Value: 3\times 10^{35}
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_units_numerical_audit.tex:287`
+  - Value: 5\times 10^{22}
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:268`
+  - Value: 5
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:270`
+  - Value: 1.81 \times 10^{27}
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:274`
+  - Value: 2.14 \times 10^{22}
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:281`
+  - Value: 1.31 \times 10^{23} eV
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:672`
+  - Value: 0
+  - Symbol: `rho_eff`
+- **Location:** `preprint.tex:676`
+  - Value: 0
+  - Symbol: `rho_eff`
+- **Location:** `preprint.tex:1924`
+  - Value: 2
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:1940`
+  - Value: 10
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2011`
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2013`
+  - Value: 1.39\times 10^{-29}
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2020`
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2022`
+  - Value: 5.4\times 10^{-19}
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2041`
+  - Value: 3\times 10^{45}
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2043`
+  - Value: 1
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2048`
+  - Value: 1.81 \times 10^{27}
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2054`
+  - Value: 2.14 \times 10^{22}
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2062`
+  - Value: 1.31 \times 10^{23}
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2081`
+  - Value: 8.5
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2108`
+  - Symbol: `rho_eff`
+- **Location:** `preprint.tex:2134`
+  - Value: 10
+  - Symbol: `rho_eff`
+- **Location:** `preprint.tex:2554`
+  - Value: .
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2578`
+  - Value: 11.
+  - Symbol: `rho_rm eff`
+- **Location:** `preprint.tex:2590`
+  - Value: 1.39 \times 10^{-29}
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:8`
+  - Value: .
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:112`
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:117`
+  - Value: 2
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:126`
+  - Value: .
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:137`
+  - Value: 170
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:141`
+  - Value: 2
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:148`
+  - Value: 1
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:154`
+  - Value: 3\times 10^8
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:164`
+  - Value: 2
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:171`
+  - Value: .
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:176`
+  - Value: 10
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:179`
+  - Value: 1
+  - Symbol: `rho_rm eff`
+- **Location:** `cosmological_corrections.tex:185`
+  - Value: 0
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_lattice_qcd.tex:152`
+  - Value: 5.38 \times 10^{18}
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_lattice_qcd.tex:158`
+  - Value: 1.39 \times 10^{-29}
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_lattice_qcd.tex:239`
+  - Value: 10
+  - Symbol: `rho_rm eff`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:20`
+  - Value: 0
+  - Symbol: `rho_rm eff`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:26`
+  - Value: 0
+  - Symbol: `rho_rm eff`
+- **Location:** `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:33`
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:7`
+  - Value: .
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:157`
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:186`
+  - Value: 0
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:192`
+  - Value: 0
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_kernel_eft_mapping.tex:199`
+  - Symbol: `rho_rm eff`
+- **Location:** `wilson_coefficients_table.tex:101`
+  - Value: 1.39\times 10^{-29}
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:45`
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:53`
+  - Value: 3.36\times 10^8
+  - Symbol: `rho_rm eff`
+- **Location:** `appendix_microscopic_derivation_rev.tex:59`
+  - Value: 2.58\times 10^{-39}
+  - Symbol: `rho_rm eff`
+- **Location:** `technical_spec_integration.tex:110`
+  - Symbol: `rho_rm eff`
+- **Location:** `technical_spec_integration.tex:123`
+  - Value: 2
+  - Symbol: `rho_rm eff`
+- **Location:** `technical_spec_integration.tex:125`
+  - Value: 2.
+  - Symbol: `rho_rm eff`
+- **Location:** `technical_spec_integration.tex:167`
+  - Value: .
+  - Symbol: `rho_rm eff`
+- **Location:** `QCT_hossenfelder_section_2_2_6_overdetermination.tex:62`
+  - Value: 0
+  - Symbol: `rho_eff`
+- **Location:** `QCT_hossenfelder_section_2_2_6_overdetermination.tex:68`
+  - Value: 0
+  - Symbol: `rho_eff`
+
+### rho_ent
+
+- **Location:** `appendix_units_numerical_audit.tex:235`
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_units_numerical_audit.tex:265`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_units_numerical_audit.tex:270`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_units_numerical_audit.tex:276`
+  - Value: 24
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_units_numerical_audit.tex:278`
+  - Value: 10
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_units_numerical_audit.tex:286`
+  - Value: 3\times 10^{35}
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_units_numerical_audit.tex:290`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:147`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:183`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:189`
+  - Value: 10
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:449`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:735`
+  - Value: 2
+  - Symbol: `rho_ent`
+- **Location:** `preprint.tex:801`
+  - Value: 10
+  - Symbol: `rho_ent`
+- **Location:** `preprint.tex:1215`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:1218`
+  - Value: 6
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:1223`
+  - Value: 1
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:1224`
+  - Value: 1
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:1229`
+  - Value: 0
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:1455`
+  - Value: 4
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:1464`
+  - Value: 4
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:1469`
+  - Value: 4
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:1998`
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2004`
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2006`
+  - Value: 1.67\times 10^{-64}
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2030`
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2032`
+  - Value: 10
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2041`
+  - Value: 3\times 10^{45}
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2090`
+  - Value: 10
+  - Symbol: `rho_ent`
+- **Location:** `preprint.tex:2092`
+  - Symbol: `rho_ent`
+- **Location:** `preprint.tex:2094`
+  - Value: 10
+  - Symbol: `rho_ent`
+- **Location:** `preprint.tex:2099`
+  - Value: 10
+  - Symbol: `rho_ent`
+- **Location:** `preprint.tex:2179`
+  - Symbol: `rho_ent`
+- **Location:** `preprint.tex:2187`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2193`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2198`
+  - Value: 0.2
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2429`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2441`
+  - Value: 1
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2470`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2481`
+  - Value: 10
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2487`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2587`
+  - Value: 12.
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2589`
+  - Value: 10
+  - Symbol: `rho_rm ent`
+- **Location:** `preprint.tex:2591`
+  - Value: 10
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_smeft_collider.tex:16`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_oneloop_formalism.tex:29`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `benchmark_lambda_14p85.tex:21`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_kernel_eft_mapping.tex:9`
+  - Value: 10
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_kernel_eft_mapping.tex:27`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_kernel_eft_mapping.tex:29`
+  - Value: 4
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_kernel_eft_mapping.tex:33`
+  - Value: 4
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_kernel_eft_mapping.tex:43`
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_edm_oneloop.tex:53`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `wilson_coefficients_table.tex:100`
+  - Value: 10
+  - Symbol: `rho_rm ent`
+- **Location:** `wilson_coefficients_table.tex:102`
+  - Value: 10
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:46`
+  - Value: 6\times 10^{-9}
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:50`
+  - Value: 3.4\times 10^{-6}
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:58`
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:73`
+  - Value: 0
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:75`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:77`
+  - Value: 0
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:79`
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:81`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:85`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:144`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:149`
+  - Value: 3\times 10^8
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:151`
+  - Value: 6\times 10^{-9}
+  - Symbol: `rho_rm ent`
+- **Location:** `parameter_mapping.tex:168`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_microscopic_derivation_rev.tex:31`
+  - Value: .
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_microscopic_derivation_rev.tex:39`
+  - Value: 24
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_microscopic_derivation_rev.tex:66`
+  - Value: 10
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_microscopic_derivation_rev.tex:96`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_microscopic_derivation_rev.tex:115`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_microscopic_derivation_rev.tex:138`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_microscopic_derivation_rev.tex:247`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_microscopic_derivation_rev.tex:514`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_microscopic_derivation_rev.tex:515`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_microscopic_derivation_rev.tex:528`
+  - Value: 10
+  - Symbol: `rho_rm ent`
+- **Location:** `technical_spec_integration.tex:16`
+  - Symbol: `rho_rm ent`
+- **Location:** `technical_spec_integration.tex:87`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `technical_spec_integration.tex:89`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `technical_spec_integration.tex:103`
+  - Value: 0
+  - Symbol: `rho_rm ent`
+- **Location:** `AppJ.tex:347`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+- **Location:** `AppJ.tex:355`
+  - Value: 1.67\times 10^{-64}
+  - Symbol: `rho_rm ent`
+- **Location:** `appendix_weinberg_witten.tex:84`
+  - Value: 2
+  - Symbol: `rho_rm ent`
+
+## Consistency Check
+
+⚠️ **INCONSISTENCIES FOUND:**
+
+### Lambda_micro
+
+- `appendix_heavy_flavor_baryons.tex:6`: 6.4
+- `appendix_heavy_flavor_baryons.tex:21`: 0.733
+- `appendix_heavy_flavor_baryons.tex:110`: 0.733
+- `appendix_heavy_flavor_baryons.tex:186`: 0.202
+- `appendix_heavy_flavor_baryons.tex:241`: 0.733
+- `appendix_units_numerical_audit.tex:23`: 5.38\times10^9
+- `appendix_units_numerical_audit.tex:33`: .
+- `appendix_units_numerical_audit.tex:36`: 9.7\times10^4
+- `appendix_units_numerical_audit.tex:258`: 0.73
+- `appendix_units_numerical_audit.tex:263`: 9.7\times10^4
+- `preprint.tex:108`: 5.38 \times 10^{18}
+- `preprint.tex:1544`: 0.73
+- `preprint.tex:1549`: 0.73
+- `preprint.tex:1555`: 0.789.
+- `preprint.tex:1562`: 3
+- `preprint.tex:1568`: 0
+- `preprint.tex:1586`: 1.000
+- `preprint.tex:1590`: 1
+- `preprint.tex:1596`: 15
+- `preprint.tex:1603`: 10
+- `preprint.tex:1917`: 3
+- `preprint.tex:2597`: 0.73
+- `preprint.tex:2601`: 1
+- `preprint.tex:2603`: 12
+- `preprint.tex:2607`: 246.22
+- `preprint.tex:2609`: 9.7 \times 10^{4}
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:285`: 3
+- `appendix_lattice_qcd.tex:10`: 2
+- `appendix_lattice_qcd.tex:65`: 2
+- `appendix_lattice_qcd.tex:67`: 2
+- `appendix_lattice_qcd.tex:136`: 2
+- `appendix_lattice_qcd.tex:138`: 0.733
+- `appendix_lattice_qcd.tex:344`: 2
+- `wilson_coefficients_table.tex:48`: 0.73
+- `appendix_lambda_micro_derivation.tex:8`: 0.789
+- `appendix_lambda_micro_derivation.tex:46`: 0.789.
+- `appendix_lambda_micro_derivation.tex:104`: 3
+- `appendix_lambda_micro_derivation.tex:132`: 0.789
+- `appendix_lambda_micro_derivation.tex:164`: .
+- `appendix_lambda_micro_derivation.tex:195`: 0
+- `appendix_lambda_micro_derivation.tex:202`: 3
+- `parameter_mapping.tex:125`: 10
+- `parameter_mapping.tex:133`: .
+- `parameter_mapping.tex:135`: 10
+- `parameter_mapping.tex:137`: .
+- `appendix_microscopic_derivation_rev.tex:83`: 1
+- `appendix_golden_ratio.tex:9`: 1
+- `appendix_golden_ratio.tex:20`: 1
+- `appendix_golden_ratio.tex:327`: 1
+- `appendix_golden_ratio.tex:348`: 12
+- `appendix_golden_ratio.tex:375`: .
+- `AppJ.tex:5`: 0.73
+- `AppJ.tex:100`: 0.733
+- `AppJ.tex:104`: 9.7\times 10^{4}
+- `AppJ.tex:121`: 1
+- `AppJ.tex:127`: 1.39\times 10^{-29}
+- `AppJ.tex:159`: 0.733
+- `AppJ.tex:182`: 10
+- `AppJ.tex:190`: .
+- `AppJ.tex:196`: 246
+- `AppJ.tex:257`: 2
+- `AppJ.tex:432`: 4
+- `AppJ.tex:534`: 1
+- `AppJ.tex:556`: 3
+- `AppJ.tex:562`: 0.733
+- `AppJ.tex:563`: 71.0
+- `AppJ.tex:569`: 9.7\times 10^{4}
+- `AppJ.tex:809`: 0.733
+- `AppJ.tex:814`: 10
+- `AppJ.tex:825`: 0.733
+- `appendix_higgs_vev.tex:6`: 246.22
+- `appendix_higgs_vev.tex:15`: 2024
+- `appendix_higgs_vev.tex:16`: 2025
+- `appendix_higgs_vev.tex:24`: 12
+- `appendix_higgs_vev.tex:42`: 246.22
+- `appendix_higgs_vev.tex:56`: 12
+- `appendix_higgs_vev.tex:78`: 12
+- `appendix_higgs_vev.tex:98`: 144
+- `appendix_higgs_vev.tex:136`: 15.691
+- `appendix_higgs_vev.tex:141`: 8
+- `appendix_higgs_vev.tex:150`: 12
+- `appendix_higgs_vev.tex:151`: 12
+- `appendix_higgs_vev.tex:156`: 8
+- `appendix_higgs_vev.tex:179`: 0.733
+- `appendix_higgs_vev.tex:180`: 0.748
+- `appendix_higgs_vev.tex:201`: 1
+- `appendix_higgs_vev.tex:205`: 12.088
+- `appendix_higgs_vev.tex:208`: 0.733
+- `appendix_higgs_vev.tex:210`: 0.7327
+- `appendix_higgs_vev.tex:216`: 1
+- `appendix_higgs_vev.tex:225`: 12
+- `appendix_higgs_vev.tex:228`: 7.3
+- `appendix_higgs_vev.tex:255`: 12
+- `appendix_higgs_vev.tex:269`: 12
+- `appendix_higgs_vev.tex:274`: 12
+- `appendix_higgs_vev.tex:279`: 144
+- `appendix_higgs_vev.tex:284`: 8
+- `appendix_higgs_vev.tex:305`: 1
+- `appendix_higgs_vev.tex:317`: 8
+
+### phi
+
+- `appendix_heavy_flavor_baryons.tex:38`: 0
+- `appendix_heavy_flavor_baryons.tex:45`: 1
+- `appendix_heavy_flavor_baryons.tex:50`: 1
+- `appendix_heavy_flavor_baryons.tex:121`: 1
+- `appendix_heavy_flavor_baryons.tex:131`: 1
+- `appendix_heavy_flavor_baryons.tex:133`: 2
+- `appendix_heavy_flavor_baryons.tex:151`: .
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:126`: .
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:128`: .
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:130`: 1
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:133`: 1
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:135`: 1
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:147`: 2
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:150`: .
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:158`: 2
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:160`: .
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:164`: 1
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:172`: 10
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:203`: 2
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:204`: 0.2
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:58`: 0
+- `preprint.tex:108`: 5.38 \times 10^{18}
+- `preprint.tex:192`: 10
+- `preprint.tex:249`: 246.18
+- `preprint.tex:263`: 4
+- `preprint.tex:1229`: 0
+- `preprint.tex:1231`: 12
+- `preprint.tex:1233`: 1
+- `preprint.tex:1235`: .
+- `preprint.tex:1238`: .
+- `preprint.tex:1241`: 14
+- `preprint.tex:1244`: 0
+- `preprint.tex:1246`: .
+- `preprint.tex:1367`: .
+- `preprint.tex:1369`: .
+- `preprint.tex:1371`: 1
+- `preprint.tex:1374`: 1
+- `preprint.tex:1376`: 1
+- `preprint.tex:1388`: 2
+- `preprint.tex:1391`: .
+- `preprint.tex:1399`: 2
+- `preprint.tex:1401`: .
+- `preprint.tex:1405`: 1
+- `preprint.tex:1413`: 10
+- `preprint.tex:1444`: 2
+- `preprint.tex:1445`: 0.2
+- `preprint.tex:1590`: 1
+- `preprint.tex:1592`: 1
+- `preprint.tex:2523`: 12
+- `preprint.tex:2524`: 246.18
+- `preprint.tex:2544`: .
+- `preprint.tex:2601`: 1
+- `preprint.tex:2603`: 12
+- `preprint.tex:2607`: 246.22
+- `manuscript_additions.tex:21`: 2
+- `manuscript_additions.tex:52`: 2
+- `manuscript_additions.tex:80`: 2
+- `appendix_oneloop_formalism.tex:10`: 14
+- `appendix_oneloop_formalism.tex:19`: .
+- `appendix_oneloop_formalism.tex:33`: 2
+- `appendix_oneloop_formalism.tex:43`: .
+- `appendix_oneloop_formalism.tex:46`: 2
+- `appendix_oneloop_formalism.tex:47`: .
+- `appendix_lattice_qcd.tex:107`: 1
+- `appendix_lattice_qcd.tex:108`: 0.05
+- `appendix_lattice_qcd.tex:109`: 2
+- `appendix_lattice_qcd.tex:110`: 0
+- `appendix_kernel_eft_mapping.tex:74`: 2
+- `appendix_kernel_eft_mapping.tex:78`: 2
+- `appendix_kernel_eft_mapping.tex:109`: 2
+- `appendix_kernel_eft_mapping.tex:137`: 2
+- `appendix_kernel_eft_mapping.tex:164`: 2
+- `appendix_phi_constraints.tex:5`: 2
+- `appendix_phi_constraints.tex:8`: 1
+- `appendix_phi_constraints.tex:10`: 1
+- `appendix_phi_constraints.tex:12`: 12
+- `appendix_phi_constraints.tex:17`: 10
+- `appendix_phi_constraints.tex:18`: 10
+- `appendix_phi_constraints.tex:20`: .
+- `appendix_phi_constraints.tex:25`: 1
+- `appendix_phi_constraints.tex:27`: 0
+- `appendix_phi_constraints.tex:28`: 1
+- `appendix_phi_constraints.tex:34`: 10
+- `appendix_phi_constraints.tex:36`: 0
+- `appendix_phi_constraints.tex:38`: 0
+- `wilson_coefficients_table.tex:71`: 2
+- `wilson_coefficients_table.tex:117`: 2
+- `wilson_coefficients_table.tex:145`: 107
+- `appendix_bh.tex:167`: 0
+- `appendix_golden_ratio.tex:9`: 1
+- `appendix_golden_ratio.tex:12`: 1
+- `appendix_golden_ratio.tex:20`: 1
+- `appendix_golden_ratio.tex:27`: 3
+- `appendix_golden_ratio.tex:30`: .
+- `appendix_golden_ratio.tex:34`: 1
+- `appendix_golden_ratio.tex:44`: 2
+- `appendix_golden_ratio.tex:45`: 1
+- `appendix_golden_ratio.tex:54`: 1
+- `appendix_golden_ratio.tex:57`: .
+- `appendix_golden_ratio.tex:63`: 1
+- `appendix_golden_ratio.tex:80`: 1.6180339887
+- `appendix_golden_ratio.tex:87`: .
+- `appendix_golden_ratio.tex:94`: 1.6180
+- `appendix_golden_ratio.tex:99`: 1
+- `appendix_golden_ratio.tex:126`: 1
+- `appendix_golden_ratio.tex:136`: 2
+- `appendix_golden_ratio.tex:138`: 1
+- `appendix_golden_ratio.tex:162`: 2
+- `appendix_golden_ratio.tex:168`: 1
+- `appendix_golden_ratio.tex:177`: 0
+- `appendix_golden_ratio.tex:203`: 1
+- `appendix_golden_ratio.tex:207`: 1385
+- `appendix_golden_ratio.tex:208`: 1660
+- `appendix_golden_ratio.tex:211`: 1
+- `appendix_golden_ratio.tex:213`: .
+- `appendix_golden_ratio.tex:217`: 1
+- `appendix_golden_ratio.tex:221`: 0.299
+- `appendix_golden_ratio.tex:222`: 0.299
+- `appendix_golden_ratio.tex:223`: 0
+- `appendix_golden_ratio.tex:226`: 1
+- `appendix_golden_ratio.tex:234`: 1
+- `appendix_golden_ratio.tex:235`: 1
+- `appendix_golden_ratio.tex:236`: 1
+- `appendix_golden_ratio.tex:244`: .
+- `appendix_golden_ratio.tex:271`: 38
+- `appendix_golden_ratio.tex:300`: 12
+- `appendix_golden_ratio.tex:315`: 1
+- `appendix_golden_ratio.tex:327`: 1
+- `appendix_golden_ratio.tex:335`: 1
+- `appendix_golden_ratio.tex:340`: 1
+- `appendix_golden_ratio.tex:348`: 12
+- `appendix_golden_ratio.tex:363`: 2024
+- `appendix_golden_ratio.tex:375`: .
+- `AppJ.tex:196`: 246
+- `AppJ.tex:717`: 2
+- `AppJ.tex:719`: .
+- `appendix_higgs_vev.tex:6`: 246.22
+- `appendix_higgs_vev.tex:16`: 2025
+- `appendix_higgs_vev.tex:22`: 12
+- `appendix_higgs_vev.tex:24`: 12
+- `appendix_higgs_vev.tex:34`: 246.18
+- `appendix_higgs_vev.tex:36`: 12
+- `appendix_higgs_vev.tex:47`: 335.91
+- `appendix_higgs_vev.tex:56`: 12
+- `appendix_higgs_vev.tex:78`: 12
+- `appendix_higgs_vev.tex:88`: 1
+- `appendix_higgs_vev.tex:93`: 12
+- `appendix_higgs_vev.tex:98`: 144
+- `appendix_higgs_vev.tex:150`: 12
+- `appendix_higgs_vev.tex:151`: 12
+- `appendix_higgs_vev.tex:169`: 12
+- `appendix_higgs_vev.tex:173`: 8
+- `appendix_higgs_vev.tex:192`: 12
+- `appendix_higgs_vev.tex:203`: 12.088
+- `appendix_higgs_vev.tex:205`: 12.088
+- `appendix_higgs_vev.tex:216`: 1
+- `appendix_higgs_vev.tex:219`: .
+- `appendix_higgs_vev.tex:225`: 12
+- `appendix_higgs_vev.tex:255`: 12
+- `appendix_higgs_vev.tex:269`: 12
+- `appendix_higgs_vev.tex:274`: 12
+- `appendix_higgs_vev.tex:279`: 144
+- `appendix_higgs_vev.tex:305`: 1
+- `appendix_higgs_vev.tex:313`: 3
+- `appendix_higgs_vev.tex:317`: 8
+
+### n_nu
+
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:36`: 2
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:38`: 0
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:42`: 1
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:55`: 0
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:85`: 1
+- `appendix_units_numerical_audit.tex:15`: 2.43\times10^4
+- `appendix_units_numerical_audit.tex:16`: 7.23\times10^{-5}
+- `appendix_units_numerical_audit.tex:18`: 1.66\times10^4
+- `appendix_units_numerical_audit.tex:51`: 1
+- `appendix_units_numerical_audit.tex:155`: 2.58\times10^{-39}
+- `appendix_units_numerical_audit.tex:162`: 2
+- `appendix_units_numerical_audit.tex:201`: 2025
+- `appendix_units_numerical_audit.tex:229`: .
+- `appendix_units_numerical_audit.tex:276`: 24
+- `appendix_units_numerical_audit.tex:277`: 1.39\times 10^{-29}
+- `appendix_units_numerical_audit.tex:279`: 2
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:39`: 2
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:41`: 2
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:46`: 2
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:58`: 2
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:101`: 2
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:133`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:144`: 2.58 \times 10^{-39}
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:151`: 2
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:216`: 2
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:227`: 2
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:125`: 0
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:173`: .
+- `preprint.tex:113`: 6\times 10^{-2}
+- `preprint.tex:115`: 1.03643 \times 10^{-5}
+- `preprint.tex:143`: .
+- `preprint.tex:174`: 3.36\times 10^{8}
+- `preprint.tex:175`: 3.36\times 10^{8}
+- `preprint.tex:216`: 2.58 \times 10^{-39}
+- `preprint.tex:258`: 58
+- `preprint.tex:263`: 4
+- `preprint.tex:272`: 8.47 \times 10^{4}
+- `preprint.tex:333`: 2.43\times 10^{4}
+- `preprint.tex:335`: 336
+- `preprint.tex:343`: 1
+- `preprint.tex:358`: 2
+- `preprint.tex:370`: .
+- `preprint.tex:420`: 2
+- `preprint.tex:480`: 2
+- `preprint.tex:665`: 0
+- `preprint.tex:763`: 2
+- `preprint.tex:765`: 2.4\times 10^{4}
+- `preprint.tex:840`: 3
+- `preprint.tex:841`: 10
+- `preprint.tex:996`: 2
+- `preprint.tex:998`: 2
+- `preprint.tex:1003`: 2
+- `preprint.tex:1015`: 2
+- `preprint.tex:1018`: 0
+- `preprint.tex:1062`: 2
+- `preprint.tex:1094`: 0
+- `preprint.tex:1105`: 2.58 \times 10^{-39}
+- `preprint.tex:1112`: 2
+- `preprint.tex:1177`: 2
+- `preprint.tex:1188`: 2
+- `preprint.tex:1277`: 2
+- `preprint.tex:1279`: 0
+- `preprint.tex:1283`: 1
+- `preprint.tex:1296`: 0
+- `preprint.tex:1326`: 1
+- `preprint.tex:1720`: 2
+- `preprint.tex:2008`: 0
+- `preprint.tex:2013`: 1.39\times 10^{-29}
+- `preprint.tex:2015`: 3.36\times 10^{8}
+- `preprint.tex:2022`: 5.4\times 10^{-19}
+- `preprint.tex:2050`: 8.47 \times 10^{4}
+- `preprint.tex:2116`: 3
+- `preprint.tex:2117`: 2
+- `preprint.tex:2130`: 10
+- `preprint.tex:2158`: 2
+- `preprint.tex:2368`: 1
+- `preprint.tex:2523`: 12
+- `preprint.tex:2524`: 246.18
+- `preprint.tex:2526`: 6 \times 10^{-2}
+- `preprint.tex:2585`: 2
+- `preprint.tex:2590`: 1.39 \times 10^{-29}
+- `manuscript_additions.tex:107`: .
+- `appendix_mathematical_constants.tex:7`: .
+- `appendix_mathematical_constants.tex:21`: 58
+- `appendix_mathematical_constants.tex:41`: 6
+- `appendix_mathematical_constants.tex:45`: 336
+- `appendix_mathematical_constants.tex:52`: 6
+- `appendix_mathematical_constants.tex:60`: 6
+- `appendix_mathematical_constants.tex:87`: 6
+- `appendix_mathematical_constants.tex:95`: 6
+- `appendix_mathematical_constants.tex:120`: 6
+- `appendix_mathematical_constants.tex:128`: 0.069
+- `appendix_mathematical_constants.tex:135`: 6
+- `appendix_mathematical_constants.tex:139`: 6
+- `appendix_mathematical_constants.tex:158`: 6
+- `appendix_mathematical_constants.tex:165`: .
+- `appendix_mathematical_constants.tex:184`: 6
+- `appendix_mathematical_constants.tex:193`: 21
+- `appendix_mathematical_constants.tex:234`: 2
+- `appendix_mathematical_constants.tex:276`: 6
+- `appendix_mathematical_constants.tex:310`: 1
+- `appendix_mathematical_constants.tex:312`: 6
+- `appendix_mathematical_constants.tex:317`: 10
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:108`: 2
+- `cosmological_corrections.tex:121`: 0
+- `cosmological_corrections.tex:148`: 1
+- `cosmological_corrections.tex:154`: 3\times 10^8
+- `cosmological_corrections.tex:185`: 0
+- `appendix_lattice_qcd.tex:152`: 5.38 \times 10^{18}
+- `appendix_kernel_eft_mapping.tex:7`: .
+- `appendix_edm_oneloop.tex:5`: 4.2.
+- `wilson_coefficients_table.tex:25`: 336
+- `wilson_coefficients_table.tex:47`: 1.66\times 10^{4}
+- `wilson_coefficients_table.tex:87`: 6
+- `wilson_coefficients_table.tex:121`: 58
+- `parameter_mapping.tex:46`: 6\times 10^{-9}
+- `parameter_mapping.tex:205`: 2.43\times 10^4
+- `appendix_microscopic_derivation_rev.tex:39`: 24
+- `appendix_microscopic_derivation_rev.tex:50`: 3.36\times 10^8
+- `appendix_microscopic_derivation_rev.tex:53`: 3.36\times 10^8
+- `appendix_microscopic_derivation_rev.tex:62`: 1
+- `appendix_microscopic_derivation_rev.tex:159`: 2
+- `appendix_microscopic_derivation_rev.tex:378`: .
+- `appendix_microscopic_derivation_rev.tex:434`: 1
+- `appendix_microscopic_derivation_rev.tex:444`: 2
+- `appendix_microscopic_derivation_rev.tex:491`: 10
+- `appendix_bh.tex:191`: 0
+- `appendix_bh.tex:219`: .
+- `technical_spec_integration.tex:36`: 2
+- `technical_spec_integration.tex:39`: 3
+- `technical_spec_integration.tex:51`: 2
+- `technical_spec_integration.tex:61`: 107
+- `technical_spec_integration.tex:89`: 2
+- `technical_spec_integration.tex:103`: 0
+- `technical_spec_integration.tex:118`: 2.43\times 10^4}
+- `technical_spec_integration.tex:168`: 3
+- `technical_spec_integration.tex:173`: 2.4\times 10^4
+- `technical_spec_integration.tex:176`: 2
+- `np_rg_insert.tex:10`: 58
+- `QCT_hossenfelder_section_2_2_6_overdetermination.tex:55`: 0
+
+### G_eff
+
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:110`: 2
+- `appendix_units_numerical_audit.tex:174`: 0
+- `appendix_units_numerical_audit.tex:277`: 1.39\times 10^{-29}
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:112`: 1
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:117`: 1
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:173`: .
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:181`: 0
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:184`: 0.9
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:211`: 0
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:224`: 1
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:229`: 1
+- `preprint.tex:108`: 5.38 \times 10^{18}
+- `preprint.tex:112`: 40
+- `preprint.tex:243`: 0.9
+- `preprint.tex:469`: 00
+- `preprint.tex:480`: 2
+- `preprint.tex:529`: 1
+- `preprint.tex:582`: 2
+- `preprint.tex:587`: 1
+- `preprint.tex:1351`: 2
+- `preprint.tex:1505`: 0
+- `preprint.tex:1537`: 2
+- `preprint.tex:1972`: 1
+- `preprint.tex:2016`: .
+- `preprint.tex:2193`: .
+- `preprint.tex:2286`: 0.9
+- `preprint.tex:2291`: 0.9
+- `preprint.tex:2306`: 0.9
+- `preprint.tex:2320`: 3
+- `preprint.tex:2330`: 8
+- `preprint.tex:2525`: 5.38 \times 10^{18}
+- `preprint.tex:2552`: 10
+- `preprint.tex:2554`: .
+- `preprint.tex:2590`: 1.39 \times 10^{-29}
+- `manuscript_additions.tex:86`: 2
+- `manuscript_additions.tex:91`: .
+- `manuscript_additions.tex:94`: 40
+- `manuscript_additions.tex:96`: 0.9
+- `manuscript_additions.tex:168`: 0.9
+- `manuscript_additions.tex:173`: 0.9
+- `manuscript_additions.tex:188`: 0.9
+- `manuscript_additions.tex:202`: 3
+- `manuscript_additions.tex:212`: 8
+- `manuscript_additions.tex:245`: 1
+- `manuscript_additions.tex:247`: .
+- `manuscript_additions.tex:252`: 1
+- `manuscript_additions.tex:257`: 2
+- `manuscript_additions.tex:266`: 3
+- `manuscript_additions.tex:271`: 27
+- `manuscript_additions.tex:287`: 3
+- `manuscript_additions.tex:290`: 0.9
+- `manuscript_additions.tex:301`: 6
+- `cosmological_corrections.tex:126`: .
+- `cosmological_corrections.tex:164`: 2
+- `cosmological_corrections.tex:176`: 10
+- `cosmological_corrections.tex:179`: 1
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:198`: 0
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:200`: 2
+- `appendix_kernel_eft_mapping.tex:9`: 10
+- `appendix_kernel_eft_mapping.tex:143`: 2
+- `appendix_kernel_eft_mapping.tex:148`: .
+- `appendix_kernel_eft_mapping.tex:151`: 40
+- `appendix_kernel_eft_mapping.tex:153`: 0.9
+- `appendix_kernel_eft_mapping.tex:364`: 0
+- `appendix_kernel_eft_mapping.tex:366`: 2
+- `wilson_coefficients_table.tex:104`: 6.67\times 10^{-11}
+- `parameter_mapping.tex:65`: 6\times 10^{-9}
+- `parameter_mapping.tex:73`: 0
+- `parameter_mapping.tex:77`: 0
+- `parameter_mapping.tex:81`: 2
+- `parameter_mapping.tex:207`: 6.67\times 10^{-11}
+- `appendix_microscopic_derivation_rev.tex:138`: 2
+- `appendix_microscopic_derivation_rev.tex:159`: 2
+- `appendix_microscopic_derivation_rev.tex:165`: 2
+- `appendix_microscopic_derivation_rev.tex:171`: 3\times 10^{-5}
+- `appendix_microscopic_derivation_rev.tex:178`: 6\times 10^{-25}
+- `appendix_microscopic_derivation_rev.tex:263`: .
+- `appendix_microscopic_derivation_rev.tex:265`: 0
+- `appendix_microscopic_derivation_rev.tex:528`: 10
+- `appendix_microscopic_derivation_rev.tex:542`: 10
+- `appendix_microscopic_derivation_rev.tex:558`: .
+- `appendix_bh.tex:41`: 1
+- `appendix_bh.tex:43`: .
+- `appendix_bh.tex:48`: 1
+- `appendix_bh.tex:53`: 2
+- `appendix_bh.tex:62`: 3
+- `appendix_bh.tex:67`: 27
+- `appendix_bh.tex:83`: 3
+- `appendix_bh.tex:86`: 0.9
+- `appendix_bh.tex:97`: 6
+- `appendix_bh.tex:117`: 0.9
+- `appendix_bh.tex:178`: 1
+- `appendix_bh.tex:183`: 1
+- `appendix_bh.tex:219`: .
+- `appendix_bh.tex:228`: 0
+- `appendix_bh.tex:231`: 0.9
+- `appendix_bh.tex:246`: 0
+- `technical_spec_integration.tex:31`: 00
+- `technical_spec_integration.tex:36`: 2
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:38`: 2
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:43`: 1
+- `QCT_hossenfelder_section_2_2_6_overdetermination.tex:134`: 2
+- `QCT_hossenfelder_section_2_2_6_overdetermination.tex:135`: 0.9
+- `appendix_weinberg_witten.tex:300`: 1
+- `appendix_weinberg_witten.tex:310`: 0
+
+### G_N
+
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:110`: 2
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:113`: 9 \times 10^{11}
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:177`: 10
+- `appendix_units_numerical_audit.tex:174`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:73`: 2
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:112`: 1
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:184`: 0.9
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:191`: 2
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:196`: 2
+- `preprint.tex:112`: 40
+- `preprint.tex:243`: 0.9
+- `preprint.tex:452`: 8
+- `preprint.tex:529`: 1
+- `preprint.tex:582`: 2
+- `preprint.tex:587`: 1
+- `preprint.tex:1032`: 2
+- `preprint.tex:1351`: 2
+- `preprint.tex:1354`: 9 \times 10^{11}
+- `preprint.tex:1418`: 10
+- `preprint.tex:1641`: 2
+- `preprint.tex:1651`: 0
+- `preprint.tex:1656`: 0
+- `preprint.tex:1747`: 10
+- `preprint.tex:2286`: 0.9
+- `preprint.tex:2291`: 0.9
+- `preprint.tex:2299`: 0.9
+- `preprint.tex:2306`: 0.9
+- `preprint.tex:2330`: 8
+- `manuscript_additions.tex:86`: 2
+- `manuscript_additions.tex:94`: 40
+- `manuscript_additions.tex:96`: 0.9
+- `manuscript_additions.tex:168`: 0.9
+- `manuscript_additions.tex:173`: 0.9
+- `manuscript_additions.tex:181`: 0.9
+- `manuscript_additions.tex:188`: 0.9
+- `manuscript_additions.tex:212`: 8
+- `manuscript_additions.tex:252`: 1
+- `manuscript_additions.tex:257`: 2
+- `manuscript_additions.tex:266`: 3
+- `manuscript_additions.tex:287`: 3
+- `manuscript_additions.tex:290`: 0.9
+- `manuscript_additions.tex:301`: 6
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:32`: 2
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:42`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:47`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:135`: 10
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:200`: 2
+- `appendix_kernel_eft_mapping.tex:143`: 2
+- `appendix_kernel_eft_mapping.tex:151`: 40
+- `appendix_kernel_eft_mapping.tex:153`: 0.9
+- `appendix_kernel_eft_mapping.tex:366`: 2
+- `wilson_coefficients_table.tex:20`: 6.674 \times 10^{-11}
+- `appendix_microscopic_derivation_rev.tex:184`: 5.38\times 10^{18}
+- `appendix_microscopic_derivation_rev.tex:565`: .
+- `appendix_bh.tex:48`: 1
+- `appendix_bh.tex:53`: 2
+- `appendix_bh.tex:62`: 3
+- `appendix_bh.tex:83`: 3
+- `appendix_bh.tex:86`: 0.9
+- `appendix_bh.tex:97`: 6
+- `appendix_bh.tex:117`: 0.9
+- `appendix_bh.tex:178`: 1
+- `appendix_bh.tex:231`: 0.9
+- `appendix_golden_ratio.tex:309`: 2
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:38`: 2
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:43`: 1
+- `QCT_hossenfelder_section_2_2_6_overdetermination.tex:135`: 0.9
+- `appendix_weinberg_witten.tex:300`: 1
+- `appendix_weinberg_witten.tex:304`: 1
+- `appendix_weinberg_witten.tex:310`: 0
+
+### m_nu
+
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:113`: 9 \times 10^{11}
+- `appendix_units_numerical_audit.tex:18`: 1.66\times10^4
+- `appendix_units_numerical_audit.tex:23`: 5.38\times10^9
+- `appendix_units_numerical_audit.tex:36`: 9.7\times10^4
+- `appendix_units_numerical_audit.tex:42`: 1.07\times10^{-10}
+- `appendix_units_numerical_audit.tex:162`: 2
+- `appendix_units_numerical_audit.tex:201`: 2025
+- `appendix_units_numerical_audit.tex:212`: 1.07\times10^{-10}
+- `appendix_units_numerical_audit.tex:223`: 13
+- `appendix_units_numerical_audit.tex:224`: 11.8
+- `appendix_units_numerical_audit.tex:227`: 1
+- `appendix_units_numerical_audit.tex:239`: 1
+- `appendix_units_numerical_audit.tex:248`: .
+- `appendix_units_numerical_audit.tex:258`: 0.73
+- `appendix_units_numerical_audit.tex:263`: 9.7\times10^4
+- `appendix_units_numerical_audit.tex:276`: 24
+- `appendix_units_numerical_audit.tex:279`: 2
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:139`: 1
+- `preprint.tex:108`: 5.38 \times 10^{18}
+- `preprint.tex:110`: .
+- `preprint.tex:143`: .
+- `preprint.tex:211`: 1 \times 10^{-10}
+- `preprint.tex:236`: 10
+- `preprint.tex:247`: 0.73
+- `preprint.tex:263`: 4
+- `preprint.tex:352`: 0
+- `preprint.tex:358`: 2
+- `preprint.tex:370`: .
+- `preprint.tex:384`: 2
+- `preprint.tex:389`: 1
+- `preprint.tex:420`: 2
+- `preprint.tex:429`: 0
+- `preprint.tex:480`: 2
+- `preprint.tex:503`: 1.07 \times 10^{-10}
+- `preprint.tex:511`: 1.07 \times 10^{-10}
+- `preprint.tex:521`: 2.28
+- `preprint.tex:525`: 0.1
+- `preprint.tex:546`: 0
+- `preprint.tex:554`: .
+- `preprint.tex:573`: 1
+- `preprint.tex:665`: 0
+- `preprint.tex:1354`: 9 \times 10^{11}
+- `preprint.tex:1472`: 5.38\times10^{18}
+- `preprint.tex:1505`: 0
+- `preprint.tex:1511`: 4.83\times 10^{17}
+- `preprint.tex:1544`: 0.73
+- `preprint.tex:1603`: 10
+- `preprint.tex:1605`: .
+- `preprint.tex:2008`: 0
+- `preprint.tex:2015`: 3.36\times 10^{8}
+- `preprint.tex:2125`: 10
+- `preprint.tex:2158`: 2
+- `preprint.tex:2216`: 1.07\times 10^{-10}
+- `preprint.tex:2218`: 0
+- `preprint.tex:2220`: 0
+- `preprint.tex:2221`: 0.1
+- `preprint.tex:2513`: 10
+- `preprint.tex:2523`: 12
+- `preprint.tex:2526`: 6 \times 10^{-2}
+- `preprint.tex:2546`: 10
+- `preprint.tex:2548`: 40
+- `preprint.tex:2567`: 10.
+- `preprint.tex:2585`: 2
+- `preprint.tex:2597`: 0.73
+- `preprint.tex:2609`: 9.7 \times 10^{4}
+- `manuscript_additions.tex:107`: .
+- `manuscript_additions.tex:121`: 2
+- `manuscript_additions.tex:126`: 1
+- `appendix_mathematical_constants.tex:197`: 10
+- `appendix_mathematical_constants.tex:234`: 2
+- `appendix_mathematical_constants.tex:241`: 5.38 \times 10^{18}
+- `cosmological_corrections.tex:13`: 10
+- `cosmological_corrections.tex:33`: 0
+- `cosmological_corrections.tex:35`: 5\times 10^{18}
+- `cosmological_corrections.tex:39`: 2
+- `cosmological_corrections.tex:187`: 0
+- `appendix_lattice_qcd.tex:65`: 2
+- `appendix_lattice_qcd.tex:138`: 0.733
+- `appendix_lattice_qcd.tex:150`: 5.38 \times 10^{18}
+- `appendix_kernel_eft_mapping.tex:22`: 2
+- `appendix_kernel_eft_mapping.tex:81`: 2
+- `wilson_coefficients_table.tex:24`: 0.1
+- `wilson_coefficients_table.tex:44`: 1.07\times 10^{-10}
+- `wilson_coefficients_table.tex:45`: 2.28
+- `wilson_coefficients_table.tex:48`: 0.73
+- `parameter_mapping.tex:19`: 0.1
+- `parameter_mapping.tex:40`: 10
+- `parameter_mapping.tex:135`: 10
+- `parameter_mapping.tex:189`: 10
+- `parameter_mapping.tex:205`: 2.43\times 10^4
+- `appendix_microscopic_derivation_rev.tex:23`: 2
+- `appendix_microscopic_derivation_rev.tex:39`: 24
+- `appendix_microscopic_derivation_rev.tex:62`: 1
+- `appendix_microscopic_derivation_rev.tex:77`: 1.66\times 10^{4}
+- `appendix_microscopic_derivation_rev.tex:153`: 1.07\times 10^{-10}
+- `appendix_microscopic_derivation_rev.tex:159`: 2
+- `appendix_microscopic_derivation_rev.tex:294`: .
+- `appendix_microscopic_derivation_rev.tex:297`: 0.1
+- `appendix_microscopic_derivation_rev.tex:302`: .
+- `appendix_microscopic_derivation_rev.tex:323`: .
+- `appendix_microscopic_derivation_rev.tex:340`: 0.02
+- `appendix_microscopic_derivation_rev.tex:376`: 1
+- `appendix_microscopic_derivation_rev.tex:402`: 9.7\times 10^{4}
+- `appendix_microscopic_derivation_rev.tex:444`: 2
+- `appendix_microscopic_derivation_rev.tex:487`: 0
+- `appendix_microscopic_derivation_rev.tex:528`: 10
+- `appendix_bh.tex:25`: .
+- `appendix_bh.tex:205`: 1
+- `technical_spec_integration.tex:21`: 2
+- `technical_spec_integration.tex:36`: 2
+- `technical_spec_integration.tex:61`: 107
+- `technical_spec_integration.tex:76`: 2
+- `technical_spec_integration.tex:89`: 2
+- `technical_spec_integration.tex:94`: 107
+- `technical_spec_integration.tex:103`: 0
+- `AppJ.tex:85`: 10
+- `AppJ.tex:100`: 0.733
+- `AppJ.tex:109`: 10
+- `AppJ.tex:551`: 1
+- `AppJ.tex:562`: 0.733
+- `AppJ.tex:563`: 71.0
+- `AppJ.tex:569`: 9.7\times 10^{4}
+- `AppJ.tex:571`: 10
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:10`: .
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:29`: 1
+- `QCT_hossenfelder_section_2_2_6_overdetermination.tex:55`: 0
+- `appendix_weinberg_witten.tex:65`: 2
+
+### f_screen
+
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:113`: 9 \times 10^{11}
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:119`: 1
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:140`: .
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:142`: 1
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:172`: 10
+- `appendix_units_numerical_audit.tex:36`: 9.7\times10^4
+- `appendix_units_numerical_audit.tex:42`: 1.07\times10^{-10}
+- `appendix_units_numerical_audit.tex:56`: 0
+- `appendix_units_numerical_audit.tex:61`: 0
+- `appendix_units_numerical_audit.tex:90`: 2.426\times10^{-12}
+- `appendix_units_numerical_audit.tex:119`: 10
+- `appendix_units_numerical_audit.tex:212`: 1.07\times10^{-10}
+- `appendix_units_numerical_audit.tex:213`: 9.40\times10^{-11}
+- `appendix_units_numerical_audit.tex:263`: 9.7\times10^4
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:65`: 1
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:139`: 1
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:144`: 1
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:162`: 2
+- `preprint.tex:108`: 5.38 \times 10^{18}
+- `preprint.tex:113`: 6\times 10^{-2}
+- `preprint.tex:143`: .
+- `preprint.tex:263`: 4
+- `preprint.tex:503`: 1.07 \times 10^{-10}
+- `preprint.tex:511`: 1.07 \times 10^{-10}
+- `preprint.tex:516`: 9.40 \times 10^{-11}
+- `preprint.tex:529`: 1
+- `preprint.tex:534`: 0
+- `preprint.tex:554`: .
+- `preprint.tex:573`: 1
+- `preprint.tex:582`: 2
+- `preprint.tex:587`: 1
+- `preprint.tex:592`: 0
+- `preprint.tex:602`: 0
+- `preprint.tex:1024`: 1
+- `preprint.tex:1354`: 9 \times 10^{11}
+- `preprint.tex:1360`: 1
+- `preprint.tex:1381`: .
+- `preprint.tex:1383`: 1
+- `preprint.tex:1413`: 10
+- `preprint.tex:1603`: 10
+- `preprint.tex:1627`: 1
+- `preprint.tex:1676`: 1
+- `preprint.tex:1744`: 10
+- `preprint.tex:2121`: .
+- `preprint.tex:2125`: 10
+- `preprint.tex:2216`: 1.07\times 10^{-10}
+- `preprint.tex:2227`: 0
+- `preprint.tex:2513`: 10
+- `preprint.tex:2523`: 12
+- `preprint.tex:2546`: 10
+- `preprint.tex:2567`: 10.
+- `preprint.tex:2572`: 2
+- `preprint.tex:2609`: 9.7 \times 10^{4}
+- `preprint.tex:2611`: 0
+- `appendix_mathematical_constants.tex:23`: 1
+- `appendix_mathematical_constants.tex:197`: 10
+- `appendix_mathematical_constants.tex:199`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:18`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:64`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:132`: 10
+- `cosmological_corrections.tex:164`: 2
+- `cosmological_corrections.tex:189`: 10
+- `cosmological_corrections.tex:201`: 26
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:103`: .
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:105`: 1
+- `appendix_kernel_eft_mapping.tex:269`: .
+- `appendix_kernel_eft_mapping.tex:271`: 1
+- `wilson_coefficients_table.tex:44`: 1.07\times 10^{-10}
+- `wilson_coefficients_table.tex:51`: 1
+- `wilson_coefficients_table.tex:125`: .
+- `wilson_coefficients_table.tex:150`: .
+- `appendix_microscopic_derivation_rev.tex:138`: 2
+- `appendix_microscopic_derivation_rev.tex:153`: 1.07\times 10^{-10}
+- `appendix_microscopic_derivation_rev.tex:294`: .
+- `appendix_microscopic_derivation_rev.tex:299`: 938.27\times 10^{6}
+- `appendix_microscopic_derivation_rev.tex:402`: 9.7\times 10^{4}
+- `appendix_microscopic_derivation_rev.tex:463`: 1
+- `appendix_microscopic_derivation_rev.tex:554`: 1.
+- `appendix_bh.tex:22`: 1
+- `appendix_bh.tex:205`: 1
+- `AppJ.tex:104`: 9.7\times 10^{4}
+- `AppJ.tex:109`: 10
+- `AppJ.tex:556`: 3
+- `AppJ.tex:569`: 9.7\times 10^{4}
+- `AppJ.tex:571`: 10
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:10`: .
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:29`: 1
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:38`: 2
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:43`: 1
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:48`: 0
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:58`: 0
+- `appendix_weinberg_witten.tex:284`: 40
+
+### lambda_screen
+
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:117`: .
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:119`: 1
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:122`: .
+- `appendix_units_numerical_audit.tex:56`: 0
+- `appendix_units_numerical_audit.tex:61`: 0
+- `appendix_units_numerical_audit.tex:70`: 2
+- `appendix_units_numerical_audit.tex:83`: 40
+- `appendix_units_numerical_audit.tex:174`: 0
+- `appendix_units_numerical_audit.tex:180`: 40
+- `appendix_units_numerical_audit.tex:181`: 41
+- `appendix_units_numerical_audit.tex:182`: 0
+- `appendix_units_numerical_audit.tex:188`: 2.5
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:112`: 1
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:191`: 2
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:194`: 2
+- `preprint.tex:112`: 40
+- `preprint.tex:297`: .
+- `preprint.tex:300`: 8.5
+- `preprint.tex:414`: .
+- `preprint.tex:529`: 1
+- `preprint.tex:534`: 0
+- `preprint.tex:538`: 0
+- `preprint.tex:539`: 40
+- `preprint.tex:540`: 41
+- `preprint.tex:547`: 40
+- `preprint.tex:548`: .
+- `preprint.tex:587`: 1
+- `preprint.tex:592`: 0
+- `preprint.tex:1360`: 1
+- `preprint.tex:1363`: .
+- `preprint.tex:2078`: 1
+- `preprint.tex:2227`: 0
+- `preprint.tex:2229`: 9 \times 10^{11}
+- `preprint.tex:2237`: 2
+- `preprint.tex:2250`: 40
+- `preprint.tex:2255`: 40
+- `preprint.tex:2256`: 0
+- `preprint.tex:2262`: 41
+- `preprint.tex:2274`: 2016
+- `preprint.tex:2275`: .
+- `preprint.tex:2276`: 1
+- `preprint.tex:2284`: 1
+- `preprint.tex:2508`: 1.0
+- `preprint.tex:2527`: .
+- `preprint.tex:2548`: 40
+- `preprint.tex:2618`: 5.2
+- `preprint.tex:2624`: 5.2
+- `manuscript_additions.tex:94`: 40
+- `manuscript_additions.tex:95`: 2.3
+- `manuscript_additions.tex:151`: .
+- `manuscript_additions.tex:166`: 1
+- `manuscript_additions.tex:252`: 1
+- `appendix_mathematical_constants.tex:25`: 2.30
+- `appendix_mathematical_constants.tex:100`: 1.0
+- `appendix_mathematical_constants.tex:208`: 2.3
+- `cosmological_corrections.tex:86`: 0
+- `cosmological_corrections.tex:88`: .
+- `cosmological_corrections.tex:95`: 10
+- `cosmological_corrections.tex:200`: 0.05
+- `appendix_lattice_qcd.tex:107`: 1
+- `appendix_kernel_eft_mapping.tex:151`: 40
+- `appendix_kernel_eft_mapping.tex:152`: 2.3
+- `wilson_coefficients_table.tex:51`: 1
+- `appendix_microscopic_derivation_rev.tex:463`: 1
+- `appendix_microscopic_derivation_rev.tex:485`: 2020
+- `appendix_microscopic_derivation_rev.tex:489`: .
+- `appendix_bh.tex:22`: 1
+- `appendix_bh.tex:48`: 1
+- `appendix_bh.tex:178`: 1
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:43`: 1
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:48`: 0
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:68`: 0
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:71`: 0
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:75`: 625
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:76`: 400
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:83`: 625
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:86`: 41
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:107`: 0
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:108`: 6.25 \times 10^7
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:109`: 10
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:112`: .
+- `QCT_hossenfelder_section_2_2_6_overdetermination.tex:151`: .
+- `appendix_weinberg_witten.tex:128`: 40
+- `appendix_weinberg_witten.tex:282`: 1
+- `appendix_weinberg_witten.tex:284`: 40
+
+### R_proj
+
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:119`: 1
+- `QCT_hossenfelder_section_4_3_acoustic_metric.tex:188`: 2014
+- `appendix_units_numerical_audit.tex:16`: 7.23\times10^{-5}
+- `appendix_units_numerical_audit.tex:18`: 1.66\times10^4
+- `appendix_units_numerical_audit.tex:56`: 0
+- `appendix_units_numerical_audit.tex:61`: 0
+- `appendix_units_numerical_audit.tex:90`: 2.426\times10^{-12}
+- `appendix_units_numerical_audit.tex:117`: 2\times10^{-4}
+- `appendix_units_numerical_audit.tex:213`: 9.40\times10^{-11}
+- `appendix_units_numerical_audit.tex:214`: 2.28
+- `appendix_units_numerical_audit.tex:223`: 13
+- `appendix_units_numerical_audit.tex:224`: 11.8
+- `appendix_units_numerical_audit.tex:233`: 11
+- `QCT_hossenfelder_appendix_N_6_black_hole_PG.tex:239`: 2014
+- `preprint.tex:110`: .
+- `preprint.tex:113`: 6\times 10^{-2}
+- `preprint.tex:139`: .
+- `preprint.tex:263`: 4
+- `preprint.tex:296`: 0
+- `preprint.tex:337`: 72.3
+- `preprint.tex:429`: 0
+- `preprint.tex:431`: 0
+- `preprint.tex:437`: 0.9
+- `preprint.tex:480`: 2
+- `preprint.tex:516`: 9.40 \times 10^{-11}
+- `preprint.tex:521`: 2.28
+- `preprint.tex:529`: 1
+- `preprint.tex:534`: 0
+- `preprint.tex:546`: 0
+- `preprint.tex:587`: 1
+- `preprint.tex:592`: 0
+- `preprint.tex:602`: 0
+- `preprint.tex:1360`: 1
+- `preprint.tex:1429`: 2014
+- `preprint.tex:2077`: 2.6
+- `preprint.tex:2218`: 0
+- `preprint.tex:2220`: 0
+- `preprint.tex:2227`: 0
+- `preprint.tex:2282`: 2.3
+- `preprint.tex:2523`: 12
+- `preprint.tex:2548`: 40
+- `preprint.tex:2572`: 2
+- `preprint.tex:2581`: 3
+- `preprint.tex:2611`: 0
+- `manuscript_additions.tex:47`: 1
+- `manuscript_additions.tex:52`: 2
+- `manuscript_additions.tex:58`: 2
+- `manuscript_additions.tex:63`: 2
+- `manuscript_additions.tex:64`: 2
+- `manuscript_additions.tex:65`: 2
+- `manuscript_additions.tex:68`: .
+- `manuscript_additions.tex:95`: 2.3
+- `manuscript_additions.tex:96`: 0.9
+- `manuscript_additions.tex:164`: 2.3
+- `manuscript_additions.tex:255`: 2.3
+- `appendix_mathematical_constants.tex:25`: 2.30
+- `appendix_mathematical_constants.tex:101`: 2.3
+- `appendix_mathematical_constants.tex:208`: 2.3
+- `cosmological_corrections.tex:88`: .
+- `cosmological_corrections.tex:95`: 10
+- `cosmological_corrections.tex:164`: 2
+- `cosmological_corrections.tex:197`: 72
+- `cosmological_corrections.tex:211`: 1
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:73`: 2
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:75`: 2
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:85`: 0
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:90`: 2
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:91`: 2
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:92`: 2
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:160`: 2
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:173`: .
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:226`: 15
+- `appendix_kernel_eft_mapping.tex:17`: 1
+- `appendix_kernel_eft_mapping.tex:104`: 1
+- `appendix_kernel_eft_mapping.tex:109`: 2
+- `appendix_kernel_eft_mapping.tex:115`: 2
+- `appendix_kernel_eft_mapping.tex:120`: 2
+- `appendix_kernel_eft_mapping.tex:121`: 2
+- `appendix_kernel_eft_mapping.tex:122`: 2
+- `appendix_kernel_eft_mapping.tex:125`: .
+- `appendix_kernel_eft_mapping.tex:152`: 2.3
+- `appendix_kernel_eft_mapping.tex:153`: 0.9
+- `appendix_kernel_eft_mapping.tex:239`: 2
+- `appendix_kernel_eft_mapping.tex:241`: 2
+- `appendix_kernel_eft_mapping.tex:251`: 0
+- `appendix_kernel_eft_mapping.tex:256`: 2
+- `appendix_kernel_eft_mapping.tex:257`: 2
+- `appendix_kernel_eft_mapping.tex:258`: 2
+- `appendix_kernel_eft_mapping.tex:326`: 2
+- `appendix_kernel_eft_mapping.tex:339`: .
+- `appendix_kernel_eft_mapping.tex:392`: 15
+- `wilson_coefficients_table.tex:45`: 2.28
+- `wilson_coefficients_table.tex:46`: 4
+- `wilson_coefficients_table.tex:51`: 1
+- `wilson_coefficients_table.tex:125`: .
+- `wilson_coefficients_table.tex:150`: .
+- `parameter_mapping.tex:22`: 2.6
+- `parameter_mapping.tex:32`: 3
+- `parameter_mapping.tex:85`: 2
+- `parameter_mapping.tex:168`: 2
+- `parameter_mapping.tex:206`: .
+- `appendix_microscopic_derivation_rev.tex:75`: 2.43\times 10^{4}
+- `appendix_microscopic_derivation_rev.tex:77`: 1.66\times 10^{4}
+- `appendix_microscopic_derivation_rev.tex:85`: 3\times 10^8
+- `appendix_microscopic_derivation_rev.tex:143`: 4.35\times 10^{17}
+- `appendix_microscopic_derivation_rev.tex:288`: .
+- `appendix_microscopic_derivation_rev.tex:317`: 3
+- `appendix_microscopic_derivation_rev.tex:323`: .
+- `appendix_microscopic_derivation_rev.tex:336`: 2.28
+- `appendix_microscopic_derivation_rev.tex:337`: 2.58
+- `appendix_microscopic_derivation_rev.tex:346`: 4
+- `appendix_microscopic_derivation_rev.tex:455`: 0
+- `appendix_microscopic_derivation_rev.tex:458`: 0
+- `appendix_microscopic_derivation_rev.tex:463`: 1
+- `appendix_microscopic_derivation_rev.tex:487`: 0
+- `appendix_microscopic_derivation_rev.tex:554`: 1.
+- `appendix_bh.tex:22`: 1
+- `appendix_bh.tex:51`: 2.3
+- `appendix_bh.tex:116`: 2
+- `technical_spec_integration.tex:36`: 2
+- `technical_spec_integration.tex:39`: 3
+- `technical_spec_integration.tex:119`: 3
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:43`: 1
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:48`: 0
+- `QCT_hossenfelder_section_2_2_5_screening_conformal.tex:58`: 0
+- `QCT_hossenfelder_section_2_2_6_overdetermination.tex:134`: 2
+- `appendix_weinberg_witten.tex:113`: 4
+- `appendix_weinberg_witten.tex:126`: 2.6
+- `appendix_weinberg_witten.tex:189`: .
+
+### E_pair
+
+- `appendix_units_numerical_audit.tex:21`: 5.38\times10^{18}
+- `appendix_units_numerical_audit.tex:23`: 5.38\times10^9
+- `appendix_units_numerical_audit.tex:25`: 5.38\times10^9
+- `appendix_units_numerical_audit.tex:124`: 5.38\times10^{18}
+- `appendix_units_numerical_audit.tex:126`: 5.38\times10^{18}
+- `appendix_units_numerical_audit.tex:155`: 2.58\times10^{-39}
+- `appendix_units_numerical_audit.tex:239`: 1
+- `appendix_units_numerical_audit.tex:243`: 3
+- `appendix_units_numerical_audit.tex:250`: 5.38\times10^9
+- `appendix_units_numerical_audit.tex:258`: 0.73
+- `appendix_units_numerical_audit.tex:259`: 71.0
+- `appendix_units_numerical_audit.tex:277`: 1.39\times 10^{-29}
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:101`: 2
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:106`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:111`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:116`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:121`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:123`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:129`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:133`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:143`: 5.38 \times 10^{18}
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:180`: 5.38 \times 10^{18}
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:218`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:229`: 0
+- `preprint.tex:108`: 5.38 \times 10^{18}
+- `preprint.tex:268`: 5
+- `preprint.tex:290`: .
+- `preprint.tex:358`: 2
+- `preprint.tex:370`: .
+- `preprint.tex:902`: 0
+- `preprint.tex:922`: 1
+- `preprint.tex:925`: 5.38 \times 10^{18}
+- `preprint.tex:949`: 5.38 \times 10^{18}
+- `preprint.tex:1062`: 2
+- `preprint.tex:1067`: 0
+- `preprint.tex:1072`: 0
+- `preprint.tex:1077`: 0
+- `preprint.tex:1082`: 0
+- `preprint.tex:1084`: 0
+- `preprint.tex:1090`: 0
+- `preprint.tex:1094`: 0
+- `preprint.tex:1104`: 5.38 \times 10^{18}
+- `preprint.tex:1141`: 5.38 \times 10^{18}
+- `preprint.tex:1179`: 0
+- `preprint.tex:1190`: 0
+- `preprint.tex:1472`: 5.38\times10^{18}
+- `preprint.tex:1499`: 0
+- `preprint.tex:1505`: 0
+- `preprint.tex:1522`: 3
+- `preprint.tex:1532`: 0
+- `preprint.tex:1537`: 2
+- `preprint.tex:1544`: 0.73
+- `preprint.tex:1545`: 71
+- `preprint.tex:1694`: 3
+- `preprint.tex:1697`: .
+- `preprint.tex:1699`: 0
+- `preprint.tex:1702`: 0
+- `preprint.tex:1704`: 1
+- `preprint.tex:1709`: 0
+- `preprint.tex:1720`: 2
+- `preprint.tex:1722`: 2
+- `preprint.tex:1727`: 3
+- `preprint.tex:1752`: 1
+- `preprint.tex:1796`: .
+- `preprint.tex:1798`: 3
+- `preprint.tex:1800`: 1.9 \times 10^{25}
+- `preprint.tex:1805`: 1.8 \times 10^{19}
+- `preprint.tex:1812`: 10
+- `preprint.tex:1816`: 0
+- `preprint.tex:1830`: 1
+- `preprint.tex:1898`: 1.03
+- `preprint.tex:1952`: 0
+- `preprint.tex:1958`: 0
+- `preprint.tex:1964`: 5.38 \times 10^{18}
+- `preprint.tex:1972`: 1
+- `preprint.tex:2013`: 1.39\times 10^{-29}
+- `preprint.tex:2015`: 3.36\times 10^{8}
+- `preprint.tex:2022`: 5.4\times 10^{-19}
+- `preprint.tex:2116`: 3
+- `preprint.tex:2117`: 2
+- `preprint.tex:2512`: 5.38 \times 10^{18}
+- `preprint.tex:2525`: 5.38 \times 10^{18}
+- `preprint.tex:2526`: 6 \times 10^{-2}
+- `preprint.tex:2550`: 0
+- `preprint.tex:2561`: 3
+- `preprint.tex:2563`: 2
+- `preprint.tex:2565`: 5.38 \times 10^{18}
+- `preprint.tex:2590`: 1.39 \times 10^{-29}
+- `preprint.tex:2597`: 0.73
+- `preprint.tex:2598`: 71.0
+- `manuscript_additions.tex:107`: .
+- `appendix_mathematical_constants.tex:26`: 2.32
+- `appendix_mathematical_constants.tex:209`: 5.38
+- `appendix_mathematical_constants.tex:214`: 10
+- `appendix_mathematical_constants.tex:241`: 5.38 \times 10^{18}
+- `appendix_mathematical_constants.tex:245`: 10
+- `appendix_mathematical_constants.tex:253`: 5.30 \times 10^{18}
+- `appendix_mathematical_constants.tex:273`: 4
+- `appendix_mathematical_constants.tex:277`: 10
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:82`: 3
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:85`: .
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:87`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:90`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:92`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:97`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:108`: 2
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:110`: 2
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:115`: 3
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:140`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:164`: .
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:166`: 3
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:168`: 1.9 \times 10^{25}
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:173`: 1.8 \times 10^{19}
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:180`: 10
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:184`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:198`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:266`: 1.03
+- `cosmological_corrections.tex:13`: 10
+- `cosmological_corrections.tex:18`: 0
+- `cosmological_corrections.tex:30`: 0
+- `cosmological_corrections.tex:33`: 0
+- `cosmological_corrections.tex:39`: 2
+- `cosmological_corrections.tex:41`: 0
+- `cosmological_corrections.tex:43`: .
+- `cosmological_corrections.tex:148`: 1
+- `cosmological_corrections.tex:154`: 3\times 10^8
+- `cosmological_corrections.tex:185`: 0
+- `cosmological_corrections.tex:187`: 0
+- `cosmological_corrections.tex:230`: 10
+- `Časová_evoluce_G_eff.tex:17`: 0
+- `Časová_evoluce_G_eff.tex:25`: 0
+- `Časová_evoluce_G_eff.tex:39`: 1
+- `appendix_lattice_qcd.tex:65`: 2
+- `appendix_lattice_qcd.tex:138`: 0.733
+- `appendix_lattice_qcd.tex:150`: 5.38 \times 10^{18}
+- `appendix_lattice_qcd.tex:152`: 5.38 \times 10^{18}
+- `appendix_lattice_qcd.tex:231`: .
+- `appendix_kernel_eft_mapping.tex:6`: 3
+- `appendix_kernel_eft_mapping.tex:7`: .
+- `appendix_edm_oneloop.tex:5`: 4.2.
+- `wilson_coefficients_table.tex:48`: 0.73
+- `wilson_coefficients_table.tex:49`: 71.0
+- `wilson_coefficients_table.tex:65`: 5.38\times 10^{18}
+- `wilson_coefficients_table.tex:123`: 0
+- `parameter_mapping.tex:40`: 10
+- `parameter_mapping.tex:46`: 6\times 10^{-9}
+- `parameter_mapping.tex:123`: 10
+- `parameter_mapping.tex:125`: 10
+- `parameter_mapping.tex:135`: 10
+- `parameter_mapping.tex:189`: 10
+- `parameter_mapping.tex:207`: 6.67\times 10^{-11}
+- `appendix_microscopic_derivation_rev.tex:51`: 5.38 \times 10^{18}
+- `appendix_microscopic_derivation_rev.tex:52`: 9\times 10^{16}
+- `appendix_microscopic_derivation_rev.tex:159`: 2
+- `appendix_microscopic_derivation_rev.tex:184`: 5.38\times 10^{18}
+- `appendix_microscopic_derivation_rev.tex:253`: .
+- `appendix_microscopic_derivation_rev.tex:255`: 0
+- `appendix_microscopic_derivation_rev.tex:265`: 0
+- `appendix_microscopic_derivation_rev.tex:527`: .
+- `appendix_microscopic_derivation_rev.tex:528`: 10
+- `appendix_bh.tex:35`: 5.38 \times 10^{18}
+- `technical_spec_integration.tex:76`: 2
+- `technical_spec_integration.tex:87`: 2
+- `technical_spec_integration.tex:89`: 2
+- `technical_spec_integration.tex:94`: 107
+- `technical_spec_integration.tex:168`: 3
+- `technical_spec_integration.tex:169`: .
+- `AppJ.tex:79`: 3
+- `AppJ.tex:100`: 0.733
+- `AppJ.tex:101`: 71.0
+- `AppJ.tex:562`: 0.733
+- `AppJ.tex:563`: 71.0
+- `AppJ.tex:741`: 5.38 \times 10^{18}
+
+### Lambda_QCT
+
+- `appendix_units_numerical_audit.tex:27`: 3
+- `appendix_units_numerical_audit.tex:133`: 2
+- `appendix_units_numerical_audit.tex:134`: 1.0654\times10^5
+- `appendix_units_numerical_audit.tex:136`: 2
+- `appendix_units_numerical_audit.tex:143`: 2.50\times10^{-9}
+- `appendix_units_numerical_audit.tex:237`: .
+- `appendix_units_numerical_audit.tex:239`: 1
+- `appendix_units_numerical_audit.tex:243`: 3
+- `appendix_units_numerical_audit.tex:260`: 3
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:56`: 107
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:146`: 1.07 \times 10^5
+- `preprint.tex:108`: 5.38 \times 10^{18}
+- `preprint.tex:113`: 6\times 10^{-2}
+- `preprint.tex:143`: .
+- `preprint.tex:147`: .
+- `preprint.tex:188`: 0.2
+- `preprint.tex:263`: 4
+- `preprint.tex:480`: 2
+- `preprint.tex:1013`: 107
+- `preprint.tex:1107`: 1.07 \times 10^5
+- `preprint.tex:1210`: 4
+- `preprint.tex:1215`: 2
+- `preprint.tex:1218`: 6
+- `preprint.tex:1224`: 1
+- `preprint.tex:1455`: 4
+- `preprint.tex:1457`: 4
+- `preprint.tex:1469`: 4
+- `preprint.tex:1518`: 2025
+- `preprint.tex:1520`: 10
+- `preprint.tex:1522`: 3
+- `preprint.tex:1534`: 9.38\times 10^{8}
+- `preprint.tex:1537`: 2
+- `preprint.tex:1546`: 3
+- `preprint.tex:1612`: 3
+- `preprint.tex:1619`: .
+- `preprint.tex:1690`: .
+- `preprint.tex:1694`: 3
+- `preprint.tex:1727`: 3
+- `preprint.tex:1732`: 0
+- `preprint.tex:1736`: .
+- `preprint.tex:1752`: 1
+- `preprint.tex:1783`: .
+- `preprint.tex:1793`: 1.78 \times 10^{11}
+- `preprint.tex:1798`: 3
+- `preprint.tex:1870`: 4
+- `preprint.tex:1875`: 2
+- `preprint.tex:1887`: 1
+- `preprint.tex:1898`: 1.03
+- `preprint.tex:1904`: 0
+- `preprint.tex:1913`: .
+- `preprint.tex:2429`: 2
+- `preprint.tex:2435`: 107
+- `preprint.tex:2443`: 2.5 \times 10^{-9}
+- `preprint.tex:2469`: 14.85
+- `preprint.tex:2473`: 107
+- `preprint.tex:2477`: 6.6\times 10^{-5}
+- `preprint.tex:2506`: 107
+- `preprint.tex:2510`: 107
+- `preprint.tex:2523`: 12
+- `preprint.tex:2525`: 5.38 \times 10^{18}
+- `preprint.tex:2531`: 6\times 10^{-2}
+- `preprint.tex:2534`: 2003
+- `preprint.tex:2559`: 8.
+- `preprint.tex:2561`: 3
+- `preprint.tex:2599`: 3
+- `preprint.tex:2611`: 0
+- `appendix_smeft_collider.tex:16`: 2
+- `appendix_mathematical_constants.tex:251`: 0.733
+- `appendix_oneloop_formalism.tex:5`: .
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:10`: .
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:78`: .
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:82`: 3
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:115`: 3
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:120`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:124`: .
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:140`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:161`: 1.78 \times 10^{11}
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:166`: 3
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:238`: 4
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:243`: 2
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:255`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:266`: 1.03
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:272`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:281`: .
+- `cosmological_corrections.tex:39`: 2
+- `cosmological_corrections.tex:49`: 0
+- `cosmological_corrections.tex:176`: 10
+- `cosmological_corrections.tex:209`: 0
+- `cosmological_corrections.tex:213`: 0
+- `appendix_lattice_qcd.tex:58`: 6
+- `appendix_lattice_qcd.tex:60`: 2
+- `appendix_lattice_qcd.tex:67`: 2
+- `appendix_lattice_qcd.tex:109`: 2
+- `appendix_lattice_qcd.tex:128`: 2
+- `appendix_lattice_qcd.tex:158`: 1.39 \times 10^{-29}
+- `appendix_lattice_qcd.tex:228`: 1
+- `appendix_lattice_qcd.tex:235`: 1.14 \times 10^{10}
+- `appendix_lattice_qcd.tex:288`: 0
+- `appendix_lattice_qcd.tex:311`: 2
+- `appendix_lattice_qcd.tex:332`: 2
+- `appendix_lattice_qcd.tex:360`: 2
+- `appendix_kernel_eft_mapping.tex:6`: 3
+- `appendix_kernel_eft_mapping.tex:56`: 1
+- `appendix_kernel_eft_mapping.tex:70`: 1
+- `appendix_edm_oneloop.tex:5`: 4.2.
+- `wilson_coefficients_table.tex:50`: 3
+- `wilson_coefficients_table.tex:125`: .
+- `wilson_coefficients_table.tex:150`: .
+- `appendix_lambda_micro_derivation.tex:99`: 3
+- `parameter_mapping.tex:133`: .
+- `parameter_mapping.tex:135`: 10
+- `parameter_mapping.tex:137`: .
+- `appendix_microscopic_derivation_rev.tex:159`: 2
+- `appendix_microscopic_derivation_rev.tex:381`: 6
+- `appendix_microscopic_derivation_rev.tex:383`: .
+- `appendix_microscopic_derivation_rev.tex:415`: 3
+- `appendix_microscopic_derivation_rev.tex:515`: 2
+- `appendix_microscopic_derivation_rev.tex:554`: 1.
+- `technical_spec_integration.tex:36`: 2
+- `technical_spec_integration.tex:61`: 107
+- `technical_spec_integration.tex:62`: 6\times 10^{-2}
+- `technical_spec_integration.tex:76`: 2
+- `technical_spec_integration.tex:89`: 2
+- `technical_spec_integration.tex:94`: 107
+- `technical_spec_integration.tex:103`: 0
+- `technical_spec_integration.tex:153`: 10
+- `AppJ.tex:77`: 3
+- `AppJ.tex:79`: 3
+- `AppJ.tex:102`: 3
+- `AppJ.tex:347`: 2
+- `AppJ.tex:383`: 1
+- `AppJ.tex:406`: 3
+- `AppJ.tex:420`: 1.07\times 10^{5}
+- `AppJ.tex:476`: 2
+- `AppJ.tex:507`: 0.789
+- `AppJ.tex:508`: 3
+- `AppJ.tex:546`: 7.5
+- `AppJ.tex:564`: 3
+- `AppJ.tex:647`: 107
+- `AppJ.tex:812`: 1
+- `AppJ.tex:816`: 0.14
+- `AppJ.tex:818`: 1
+- `AppJ.tex:827`: 107
+- `appendix_weinberg_witten.tex:140`: 100
+- `appendix_weinberg_witten.tex:144`: 6
+- `appendix_weinberg_witten.tex:147`: 2
+
+### f_c
+
+- `appendix_units_numerical_audit.tex:117`: 2\times10^{-4}
+- `preprint.tex:2043`: 1
+- `preprint.tex:2121`: .
+- `preprint.tex:2125`: 10
+- `preprint.tex:2130`: 10
+- `appendix_microscopic_derivation_rev.tex:62`: 1
+
+### kappa_conf
+
+- `appendix_units_numerical_audit.tex:123`: .
+- `appendix_units_numerical_audit.tex:126`: 5.38\times10^{18}
+- `appendix_units_numerical_audit.tex:128`: 0.48
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:10`: 2020
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:129`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:133`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:176`: .
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:180`: 5.38 \times 10^{18}
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:185`: 0.48
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:218`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:221`: .
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:229`: 0
+- `preprint.tex:143`: .
+- `preprint.tex:922`: 1
+- `preprint.tex:927`: 5.38 \times 10^{18}
+- `preprint.tex:932`: 0.48
+- `preprint.tex:948`: 0.15
+- `preprint.tex:962`: 0.2
+- `preprint.tex:967`: 2020
+- `preprint.tex:1090`: 0
+- `preprint.tex:1094`: 0
+- `preprint.tex:1137`: .
+- `preprint.tex:1141`: 5.38 \times 10^{18}
+- `preprint.tex:1146`: 0.48
+- `preprint.tex:1179`: 0
+- `preprint.tex:1182`: .
+- `preprint.tex:1190`: 0
+- `preprint.tex:1499`: 0
+- `preprint.tex:1502`: .
+- `preprint.tex:1511`: 4.83\times 10^{17}
+- `preprint.tex:1612`: 3
+- `preprint.tex:1699`: 0
+- `preprint.tex:1704`: 1
+- `preprint.tex:1709`: 0
+- `preprint.tex:1783`: .
+- `preprint.tex:1805`: 1.8 \times 10^{19}
+- `preprint.tex:1816`: 0
+- `preprint.tex:1818`: .
+- `preprint.tex:1820`: 0
+- `preprint.tex:1825`: 2
+- `preprint.tex:1830`: 1
+- `preprint.tex:1832`: 0.5
+- `preprint.tex:1954`: 1
+- `preprint.tex:1958`: 0
+- `preprint.tex:1964`: 5.38 \times 10^{18}
+- `preprint.tex:2550`: 0
+- `preprint.tex:2563`: 2
+- `preprint.tex:2565`: 5.38 \times 10^{18}
+- `appendix_mathematical_constants.tex:273`: 4
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:87`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:92`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:97`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:173`: 1.8 \times 10^{19}
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:184`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:186`: .
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:188`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:193`: 2
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:198`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:200`: 0.5
+- `cosmological_corrections.tex:18`: 0
+- `cosmological_corrections.tex:24`: .
+- `cosmological_corrections.tex:30`: 0
+- `cosmological_corrections.tex:35`: 5\times 10^{18}
+- `cosmological_corrections.tex:41`: 0
+- `Časová_evoluce_G_eff.tex:19`: 1
+- `Časová_evoluce_G_eff.tex:25`: 0
+- `wilson_coefficients_table.tex:67`: .
+- `wilson_coefficients_table.tex:123`: 0
+- `appendix_microscopic_derivation_rev.tex:255`: 0
+- `appendix_microscopic_derivation_rev.tex:273`: 0
+
+### H_0
+
+- `appendix_units_numerical_audit.tex:131`: 2.27\times10^{-18}
+- `preprint.tex:1651`: 0
+- `preprint.tex:1656`: 0
+- `preprint.tex:1747`: 10
+- `preprint.tex:1885`: 0
+- `preprint.tex:1889`: 2
+- `preprint.tex:1908`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:42`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:47`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:135`: 10
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:253`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:257`: 2
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:276`: 0
+- `cosmological_corrections.tex:56`: 0
+- `appendix_microscopic_derivation_rev.tex:86`: 2.27\times 10^{-18}
+- `appendix_microscopic_derivation_rev.tex:108`: 0
+
+### rho_eff
+
+- `appendix_units_numerical_audit.tex:155`: 2.58\times10^{-39}
+- `appendix_units_numerical_audit.tex:277`: 1.39\times 10^{-29}
+- `appendix_units_numerical_audit.tex:286`: 3\times 10^{35}
+- `appendix_units_numerical_audit.tex:287`: 5\times 10^{22}
+- `preprint.tex:268`: 5
+- `preprint.tex:270`: 1.81 \times 10^{27}
+- `preprint.tex:274`: 2.14 \times 10^{22}
+- `preprint.tex:281`: 1.31 \times 10^{23}
+- `preprint.tex:300`: 8.5
+- `preprint.tex:672`: 0
+- `preprint.tex:676`: 0
+- `preprint.tex:1924`: 2
+- `preprint.tex:1940`: 10
+- `preprint.tex:2013`: 1.39\times 10^{-29}
+- `preprint.tex:2022`: 5.4\times 10^{-19}
+- `preprint.tex:2041`: 3\times 10^{45}
+- `preprint.tex:2043`: 1
+- `preprint.tex:2048`: 1.81 \times 10^{27}
+- `preprint.tex:2054`: 2.14 \times 10^{22}
+- `preprint.tex:2062`: 1.31 \times 10^{23}
+- `preprint.tex:2081`: 8.5
+- `preprint.tex:2134`: 10
+- `preprint.tex:2554`: .
+- `preprint.tex:2578`: 11.
+- `preprint.tex:2590`: 1.39 \times 10^{-29}
+- `preprint.tex:2620`: 1
+- `cosmological_corrections.tex:8`: .
+- `cosmological_corrections.tex:117`: 2
+- `cosmological_corrections.tex:126`: .
+- `cosmological_corrections.tex:137`: 170
+- `cosmological_corrections.tex:141`: 2
+- `cosmological_corrections.tex:148`: 1
+- `cosmological_corrections.tex:154`: 3\times 10^8
+- `cosmological_corrections.tex:164`: 2
+- `cosmological_corrections.tex:171`: .
+- `cosmological_corrections.tex:176`: 10
+- `cosmological_corrections.tex:179`: 1
+- `cosmological_corrections.tex:185`: 0
+- `appendix_lattice_qcd.tex:152`: 5.38 \times 10^{18}
+- `appendix_lattice_qcd.tex:158`: 1.39 \times 10^{-29}
+- `appendix_lattice_qcd.tex:239`: 10
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:20`: 0
+- `QCT_hossenfelder_appendix_A_4_phase_conformal.tex:26`: 0
+- `appendix_kernel_eft_mapping.tex:7`: .
+- `appendix_kernel_eft_mapping.tex:186`: 0
+- `appendix_kernel_eft_mapping.tex:192`: 0
+- `appendix_edm_oneloop.tex:5`: 4.2.
+- `wilson_coefficients_table.tex:101`: 1.39\times 10^{-29}
+- `appendix_microscopic_derivation_rev.tex:53`: 3.36\times 10^8
+- `appendix_microscopic_derivation_rev.tex:59`: 2.58\times 10^{-39}
+- `technical_spec_integration.tex:123`: 2
+- `technical_spec_integration.tex:125`: 2.
+- `technical_spec_integration.tex:131`: 10
+- `technical_spec_integration.tex:167`: .
+- `QCT_hossenfelder_section_2_2_6_overdetermination.tex:62`: 0
+- `QCT_hossenfelder_section_2_2_6_overdetermination.tex:68`: 0
+
+### rho_ent
+
+- `appendix_units_numerical_audit.tex:265`: .
+- `appendix_units_numerical_audit.tex:270`: .
+- `appendix_units_numerical_audit.tex:276`: 24
+- `appendix_units_numerical_audit.tex:278`: 10
+- `appendix_units_numerical_audit.tex:286`: 3\times 10^{35}
+- `appendix_units_numerical_audit.tex:290`: .
+- `preprint.tex:147`: .
+- `preprint.tex:183`: .
+- `preprint.tex:189`: 10
+- `preprint.tex:449`: 2
+- `preprint.tex:735`: 2
+- `preprint.tex:801`: 10
+- `preprint.tex:1215`: 2
+- `preprint.tex:1218`: 6
+- `preprint.tex:1223`: 1
+- `preprint.tex:1224`: 1
+- `preprint.tex:1229`: 0
+- `preprint.tex:1455`: 4
+- `preprint.tex:1464`: 4
+- `preprint.tex:1469`: 4
+- `preprint.tex:2006`: 1.67\times 10^{-64}
+- `preprint.tex:2032`: 10
+- `preprint.tex:2041`: 3\times 10^{45}
+- `preprint.tex:2090`: 10
+- `preprint.tex:2094`: 10
+- `preprint.tex:2099`: 10
+- `preprint.tex:2187`: .
+- `preprint.tex:2193`: .
+- `preprint.tex:2198`: 0.2
+- `preprint.tex:2429`: 2
+- `preprint.tex:2441`: 1
+- `preprint.tex:2470`: .
+- `preprint.tex:2481`: 10
+- `preprint.tex:2487`: 2
+- `preprint.tex:2587`: 12.
+- `preprint.tex:2589`: 10
+- `preprint.tex:2591`: 10
+- `preprint.tex:2620`: 1
+- `appendix_smeft_collider.tex:16`: 2
+- `appendix_oneloop_formalism.tex:5`: .
+- `appendix_oneloop_formalism.tex:29`: 2
+- `benchmark_lambda_14p85.tex:21`: .
+- `appendix_kernel_eft_mapping.tex:9`: 10
+- `appendix_kernel_eft_mapping.tex:27`: .
+- `appendix_kernel_eft_mapping.tex:29`: 4
+- `appendix_kernel_eft_mapping.tex:33`: 4
+- `appendix_edm_oneloop.tex:5`: 4.2.
+- `appendix_edm_oneloop.tex:53`: .
+- `wilson_coefficients_table.tex:74`: 2
+- `wilson_coefficients_table.tex:100`: 10
+- `wilson_coefficients_table.tex:102`: 10
+- `parameter_mapping.tex:46`: 6\times 10^{-9}
+- `parameter_mapping.tex:50`: 3.4\times 10^{-6}
+- `parameter_mapping.tex:73`: 0
+- `parameter_mapping.tex:75`: 2
+- `parameter_mapping.tex:77`: 0
+- `parameter_mapping.tex:81`: 2
+- `parameter_mapping.tex:85`: 2
+- `parameter_mapping.tex:144`: 2
+- `parameter_mapping.tex:149`: 3\times 10^8
+- `parameter_mapping.tex:151`: 6\times 10^{-9}
+- `parameter_mapping.tex:168`: 2
+- `appendix_microscopic_derivation_rev.tex:31`: .
+- `appendix_microscopic_derivation_rev.tex:39`: 24
+- `appendix_microscopic_derivation_rev.tex:66`: 10
+- `appendix_microscopic_derivation_rev.tex:96`: 2
+- `appendix_microscopic_derivation_rev.tex:115`: 2
+- `appendix_microscopic_derivation_rev.tex:138`: 2
+- `appendix_microscopic_derivation_rev.tex:247`: 2
+- `appendix_microscopic_derivation_rev.tex:514`: 2
+- `appendix_microscopic_derivation_rev.tex:515`: 2
+- `appendix_microscopic_derivation_rev.tex:528`: 10
+- `technical_spec_integration.tex:87`: 2
+- `technical_spec_integration.tex:89`: 2
+- `technical_spec_integration.tex:103`: 0
+- `AppJ.tex:347`: 2
+- `AppJ.tex:355`: 1.67\times 10^{-64}
+- `appendix_weinberg_witten.tex:84`: 2
+
+### E_0
+
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:121`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:123`: 0
+- `QCT_hossenfelder_section_3_4_lagrangian_kappa.tex:129`: 0
+- `preprint.tex:1082`: 0
+- `preprint.tex:1084`: 0
+- `preprint.tex:1090`: 0
+- `preprint.tex:1499`: 0
+- `preprint.tex:1612`: 3
+- `preprint.tex:1699`: 0
+- `preprint.tex:1702`: 0
+- `preprint.tex:1805`: 1.8 \times 10^{19}
+- `preprint.tex:1816`: 0
+- `preprint.tex:1952`: 0
+- `preprint.tex:1958`: 0
+- `preprint.tex:1974`: 0
+- `preprint.tex:1977`: 0
+- `preprint.tex:2550`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:87`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:90`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:173`: 1.8 \times 10^{19}
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:184`: 0
+- `cosmological_corrections.tex:18`: 0
+- `cosmological_corrections.tex:30`: 0
+- `cosmological_corrections.tex:33`: 0
+- `cosmological_corrections.tex:41`: 0
+- `Časová_evoluce_G_eff.tex:17`: 0
+- `Časová_evoluce_G_eff.tex:25`: 0
+- `Časová_evoluce_G_eff.tex:43`: 0
+- `Časová_evoluce_G_eff.tex:46`: 0
+- `appendix_microscopic_derivation_rev.tex:255`: 0
+- `appendix_microscopic_derivation_rev.tex:273`: 0
+- `appendix_microscopic_derivation_rev.tex:279`: 4.2\times 10^{18}
+
+### S_tot
+
+- `preprint.tex:113`: 6\times 10^{-2}
+- `preprint.tex:115`: 1.03643 \times 10^{-5}
+- `preprint.tex:263`: 4
+- `preprint.tex:1475`: 58
+- `preprint.tex:2523`: 12
+- `preprint.tex:2524`: 246.18
+- `preprint.tex:2616`: 58
+- `appendix_mathematical_constants.tex:21`: 58
+- `appendix_mathematical_constants.tex:22`: 21
+- `appendix_mathematical_constants.tex:39`: 58
+- `appendix_mathematical_constants.tex:41`: 6
+- `appendix_mathematical_constants.tex:83`: 0
+- `appendix_mathematical_constants.tex:87`: 6
+- `appendix_mathematical_constants.tex:95`: 6
+- `appendix_mathematical_constants.tex:120`: 6
+- `appendix_mathematical_constants.tex:128`: 0.069
+- `appendix_mathematical_constants.tex:141`: 1
+- `appendix_mathematical_constants.tex:158`: 6
+- `appendix_mathematical_constants.tex:161`: 58
+- `appendix_mathematical_constants.tex:165`: .
+- `appendix_mathematical_constants.tex:184`: 6
+- `appendix_mathematical_constants.tex:186`: 21
+- `appendix_mathematical_constants.tex:191`: 21
+- `appendix_mathematical_constants.tex:273`: 4
+- `appendix_mathematical_constants.tex:276`: 6
+- `appendix_mathematical_constants.tex:306`: 58
+- `appendix_mathematical_constants.tex:312`: 6
+- `appendix_mathematical_constants.tex:317`: 10
+- `wilson_coefficients_table.tex:87`: 6
+- `wilson_coefficients_table.tex:121`: 58
+- `np_rg_insert.tex:10`: 58
+
+### alpha_cosmo
+
+- `preprint.tex:1656`: 0
+- `preprint.tex:1659`: 9 \times 10^{11}
+- `preprint.tex:1663`: 1
+- `preprint.tex:1667`: 1
+- `preprint.tex:1669`: 1
+- `preprint.tex:1676`: 1
+- `preprint.tex:1744`: 10
+- `preprint.tex:1747`: 10
+- `preprint.tex:1774`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:47`: 0
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:51`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:55`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:57`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:64`: 1
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:132`: 10
+- `QCT_hossenfelder_section_7_3_geometric_lambda.tex:135`: 10
+
+### alpha_EM
+
+- `preprint.tex:2603`: 12
+- `appendix_golden_ratio.tex:353`: 12
+- `appendix_higgs_vev.tex:24`: 12
+- `appendix_higgs_vev.tex:30`: 1100
+- `appendix_higgs_vev.tex:70`: 1
+- `appendix_higgs_vev.tex:78`: 12
+- `appendix_higgs_vev.tex:255`: 12
+- `appendix_higgs_vev.tex:274`: 12
+- `appendix_higgs_vev.tex:319`: 1
+
+### lambda_micro
+
+- `appendix_mathematical_constants.tex:27`: 0.856
+- `appendix_mathematical_constants.tex:219`: 0.733
+- `appendix_mathematical_constants.tex:221`: 0.856
+- `appendix_mathematical_constants.tex:225`: 2
+- `appendix_mathematical_constants.tex:241`: 5.38 \times 10^{18}
+- `appendix_mathematical_constants.tex:249`: .
+- `appendix_mathematical_constants.tex:253`: 5.30 \times 10^{18}
+- `appendix_mathematical_constants.tex:255`: .
+- `appendix_mathematical_constants.tex:278`: 2
+

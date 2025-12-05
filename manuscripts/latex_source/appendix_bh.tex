@@ -1,0 +1,269 @@
+\section{Phase Coherence Near Black Holes: Resolution of Apparent Paradox}
+\label{app:bh_coherence}
+
+\subsection{Motivation: the stiffness paradox}
+
+Our analysis of phase coherence requirements (Sec.~\ref{sec:epair_decoherence}) revealed an apparent tension: if the coherence length $\xi$ were set by the Schwarzschild radius $r_S$, achieving $\sigma^2_{\rm avg} \sim 1$ would require:
+\begin{equation}
+f^2_{\rm required}(r_S) \sim \frac{\xi}{4\pi^2 V_{\rm proj}} \cdot \frac{1}{c_s}
+\label{eq:f2_rs_scaling}
+\end{equation}
+For stellar-mass and supermassive black holes, this yields:
+\begin{align}
+\text{Sun: } & r_S = 2.95\,\text{km} \quad \Rightarrow \quad f^2 \sim 10^{22}\,\text{m}^{-3}\cdot\text{eV} \\
+\text{M87*: } & r_S = 1.2 \times 10^{13}\,\text{m} \quad \Rightarrow \quad f^2 \sim 10^{32}\,\text{m}^{-3}\cdot\text{eV}
+\end{align}
+These values exceed the standard condensate stiffness ($f^2 \sim 3 \times 10^{15}$) by $7\text{--}17$ orders of magnitude, suggesting unphysically \emph{rigid} condensates near larger black holes—contrary to intuitive expectations that extreme gravitational fields should \emph{disrupt} quantum coherence.
+
+\subsection{Resolution: universal coherence length}
+
+\noindent\textbf{Key insight.} The coherence length $\xi$ is \emph{not} determined by spacetime curvature scales but by \emph{intrinsic} condensate properties:
+\begin{equation}
+\xi \sim \lambda_{\rm screen} = \frac{R_{\rm proj}}{\ln(1/f_{\rm screen})} \approx 1.0\,\text{mm} \quad \text{(universal)}
+\label{eq:xi_universal}
+\end{equation}
+This follows from the screening relation Eq.~\eqref{eq:screening_relation}, which depends on the mass ratio $m_\nu/m_p \approx 10^{-10}$ and local baryon density, \emph{not} on $r_S$.
+
+\subsection{Physical implications}
+
+\subsubsection{Condensate behavior near horizons}
+
+The neutrino condensate exhibits universal coherence $\xi \sim 1\,\text{mm}$ regardless of ambient curvature. Near a black hole horizon:
+\begin{itemize}
+    \item \textbf{Metric effects:} Schwarzschild geometry modifies $g_{\mu\nu}$, affecting geodesic motion and gravitational redshift.
+    \item \textbf{Condensate structure:} Phase stiffness $f^{2}$ remains $\sim 3 \times 10^{15}\,\text{m}^{-3}\cdot\text{eV}$, controlled by local interactions (weak scattering, thermal bath).
+    \item \textbf{Pairing energy:} $E_{\rm pair} = 5.38 \times 10^{18}\,\text{eV}$ is a cosmological quantity (confinement mechanism) independent of local curvature.
+    \item \textbf{Screening:} Gravitational coupling suppressed by $\exp(-r_S/\xi)$ only if $r_S \lesssim \xi$.
+\end{itemize}
+
+\subsection{Resolution with phase decoherence saturation}
+
+Naively, for astrophysical black holes with $r_S \gg \xi \sim 1\,\text{mm}$, the exponential screening would give $G_{\rm eff} \sim \exp(-r_S/\xi) \approx 0$, catastrophically suppressing gravity. However, this is prevented by \emph{phase variance saturation} (see Appendix~\ref{app:kernel_eft}, Eq.~\ref{eq:sigma_squared_saturation}).
+
+\paragraph{Corrected formula for $G_{\rm eff}$.}
+
+The full effective gravity includes both Yukawa screening (sub-mm) and phase decoherence (all scales):
+
+\begin{equation}
+G_{\rm eff}(r) = G_N \times \underbrace{\min\left[e^{-r/\lambda_{\rm screen}}, 1\right]}_{\text{Yukawa (sub-mm)}} \times \underbrace{\exp\left(-\frac{\sigma^2(r)}{2}\right)}_{\text{phase decoherence}}
+\end{equation}
+
+\noindent For $r \gg R_{\rm proj} \approx 2.3\,\text{cm}$ (all astrophysical scales):
+\begin{equation}
+\sigma^2(r) \to \sigma_{\max}^2 \approx 0.2 \quad \Rightarrow \quad G_{\rm eff} \to 0.9\, G_N
+\end{equation}
+
+\paragraph{Black hole observables.}
+
+\textbf{Schwarzschild radius:} Unchanged by QCT (definition).
+
+\textbf{Photon sphere radius:}
+\begin{equation}
+r_{\rm ph}^{\rm QCT} = \frac{3GM}{c^2} \times \frac{1}{G_{\rm eff}/G_N} \approx 1.11 \times r_{\rm ph}^{\rm GR}
+\end{equation}
+
+\textbf{Shadow radius (observer at infinity):}
+\begin{equation}
+r_{\rm shadow}^{\rm QCT} = \sqrt{\frac{27 G_{\rm eff} M}{c^2}} \approx \sqrt{0.9} \times r_{\rm shadow}^{\rm GR} \approx 0.95 \times r_{\rm shadow}^{\rm GR}
+\end{equation}
+
+\textbf{Event Horizon Telescope constraints:} For M87* ($M = 6.5 \times 10^9 M_\odot$, distance $D = 16.8\,\text{Mpc}$):
+\begin{align}
+r_{\rm shadow}^{\rm GR} &= \sqrt{27} \times \frac{GM}{c^2} \approx 2.6 \times r_S \\
+\theta_{\rm shadow}^{\rm GR} &= \frac{r_{\rm shadow}}{D} \approx 42\,\mu\text{as} \\
+\theta_{\rm shadow}^{\rm QCT} &\approx 0.95 \times 42 \approx 40\,\mu\text{as}
+\end{align}
+
+\noindent Current EHT measurement: $\theta_{\rm obs} = 42 \pm 3\,\mu\text{as}$. QCT prediction is within $1\sigma$ uncertainty. Future EHT improvements (higher resolution, more telescopes) will constrain this further.
+
+\paragraph{Quasi-normal modes and gravitational waves.}
+
+For Schwarzschild black holes, fundamental QNM frequency:
+\begin{equation}
+f_{\rm QNM} = \frac{c^3}{2\pi GM} \times \underbrace{0.3737}_{\text{dimensionless}} \times \sqrt{\frac{G_{\rm eff}}{G_N}}
+\end{equation}
+
+\noindent For $G_{\rm eff} = 0.9\, G_N$:
+\begin{equation}
+f_{\rm QNM}^{\rm QCT} \approx 0.95 \times f_{\rm QNM}^{\rm GR}
+\end{equation}
+
+\noindent This $5\%$ shift is potentially measurable with LIGO/Virgo for nearby binary black hole mergers with high SNR. Future detectors (Einstein Telescope, Cosmic Explorer, LISA) will provide stringent tests.
+
+\paragraph{Accretion disk dynamics.}
+
+Innermost stable circular orbit (ISCO):
+\begin{equation}
+r_{\rm ISCO}^{\rm QCT} = \frac{6GM}{c^2} \times \frac{1}{G_{\rm eff}/G_N} \approx 1.11 \times r_{\rm ISCO}^{\rm GR}
+\end{equation}
+
+\noindent This affects:
+\begin{itemize}
+  \item X-ray spectral fits (inner disk temperature $T_{\rm in} \propto r_{\rm ISCO}^{-3/4}$)
+  \item Iron K$\alpha$ line profiles (relativistic broadening)
+  \item Quasi-periodic oscillations (QPOs) in accreting systems
+\end{itemize}
+
+\paragraph{Primordial black holes (PBHs).}
+
+For PBHs with $M \lesssim M_\oplus$, QCT effects are negligible on astrophysical observables but crucial for sub-mm Hawking radiation spectrum modifications (beyond scope of this work).
+
+\subsection{Summary}
+
+The apparent paradox is resolved by phase decoherence saturation:
+\begin{enumerate}
+    \item Coherence length $\xi \sim 1\,\text{mm}$ is \emph{universal}, set by condensate microphysics.
+    \item Phase variance $\sigma^2(r)$ saturates at $\sigma_{\max}^2 \approx 0.2$ for $r \gg R_{\rm proj}$.
+    \item Effective gravity approaches $G_{\rm eff} \approx 0.9\, G_N$ on all astrophysical scales, \emph{not zero}.
+    \item QCT predicts $\sim 5\%$ corrections to black hole observables (shadows, QNMs, ISCO).
+\end{enumerate}
+This is testable via Event Horizon Telescope, LIGO/Virgo ringdown analysis, and X-ray observations of accreting black holes.
+
+\subsection{Connection to Painlevé-Gullstrand Formalism}
+\label{app:bh_painleve_gullstrand}
+
+The resolution of the black hole paradox (Sec.~\ref{app:bh_coherence}) via phase decoherence saturation can be understood more rigorously through the Painlevé-Gullstrand (PG) formulation of analogue gravity~\cite{Hossenfelder2020, Barcelo2005}. This connection establishes QCT within the established framework of acoustic black hole analogues.
+
+\subsubsection{Schwarzschild in Painlevé-Gullstrand Coordinates}
+
+\paragraph{Standard Schwarzschild metric.}
+
+For a static, spherically symmetric black hole in $n+1$ dimensions:
+\begin{equation}
+ds^2 = -\gamma(r)dt^2 + \frac{dr^2}{\gamma(r)} + r^2 d\Omega^2_{n-1}, \quad \gamma(r) = 1 - \frac{2GM}{r},
+\label{eq:schwarzschild_standard}
+\end{equation}
+where $d\Omega^2_{n-1}$ is the metric on a $(n-1)$-dimensional sphere and $M$ is the black hole mass.
+
+\paragraph{Painlevé-Gullstrand transformation.}
+
+Following~\cite{Painleve1921, Gullstrand1922, Hossenfelder2020}, introduce new time coordinate $t'$ such that:
+\begin{equation}
+dt = dt' - \frac{\sqrt{1-\gamma(r)}}{\gamma(r)} dr.
+\end{equation}
+
+The metric becomes:
+\begin{equation}
+ds^2 = -\kappa^2\gamma(r)dt'^2 + 2\kappa\sqrt{1-\gamma(r)} dt'dr + dr^2 + r^2 d\Omega^2_{n-1},
+\label{eq:schwarzschild_PG}
+\end{equation}
+where $\kappa$ is a normalization constant (chosen for convenience, typically $\kappa = 1$).
+
+\paragraph{Acoustic Metric Identification.}
+
+From the non-relativistic acoustic metric (Hossenfelder Eq.~11-12):
+\begin{equation}
+g^{\mu\nu}_{\text{acoustic}} \propto \left(\frac{\rho_0}{c}\right)^{-2/(n-1)} \begin{pmatrix}
+-1/c^2 & -v^j_0/c^2 \\
+-v^i_0/c^2 & \delta^{ij} - v^i_0 v^j_0/c^2
+\end{pmatrix},
+\end{equation}
+
+Comparing with the PG metric (Eq.~\ref{eq:schwarzschild_PG}), one reads off:
+\begin{align}
+c_0 &= \kappa, \\
+\rho_0 &= \kappa \Omega(r)^{n-1}, \\
+v^r_0 &= \kappa\sqrt{1-\gamma(r)}, \\
+v^\theta_0 &= v^\phi_0 = 0 \quad \text{(spherical symmetry)}.
+\end{align}
+
+where $\Omega(r)$ is a conformal factor to be determined by the fluid equations.
+
+\subsubsection{QCT Modification}
+
+\paragraph{Environment-dependent gravity.}
+
+In QCT, the gravitational constant depends on environment:
+\begin{equation}
+G \to G_{\text{eff}}(r) = G_N \times \min\left[e^{-r/\lambda_{\text{screen}}(r)}, 1\right] \times \exp\left(-\frac{\sigma^2(r)}{2}\right).
+\end{equation}
+
+This modifies the blackening function:
+\begin{equation}
+\gamma_{\text{QCT}}(r) = 1 - \frac{2G_{\text{eff}}(r) M}{r}.
+\label{eq:gamma_QCT}
+\end{equation}
+
+\paragraph{Neutrino density at horizon.}
+
+The neutrino condensate accumulates in the gravitational well:
+\begin{equation}
+n_\nu(r) = n_{\nu,0} \cdot K(r), \quad K(r) = 1 + \alpha\frac{\Phi(r)}{c^2} = 1 - \alpha\frac{GM}{r c^2},
+\end{equation}
+with $\alpha \approx -9 \times 10^{11}$.
+
+For a stellar-mass black hole ($M = M_\odot$, $r_S = 2.95$ km):
+\begin{align}
+K(r_S) &= 1 + 9 \times 10^{11} \times \frac{1.48 \times 10^3}{9 \times 10^{16}} \approx 1.5 \times 10^{28}, \\
+\xi(r_S) &= \frac{\xi_0}{\sqrt{K(r_S)}} \sim \frac{1 \text{ mm}}{1.2 \times 10^{14}} \sim 8 \times 10^{-18} \text{ m} \quad \text{(extreme decoherence)}.
+\end{align}
+
+\paragraph{QCT conformal factor.}
+
+The QCT conformal factor (from Sec.~\ref{sec:screening_conformal}):
+\begin{equation}
+\Omega_{\text{QCT}}(r) = \sqrt{f_{\text{screen}} \cdot K(r)} = \sqrt{\frac{m_\nu}{m_p}} \cdot \sqrt{1 + \alpha\frac{\Phi(r)}{c^2}}.
+\end{equation}
+
+\paragraph{Comparison: Hossenfelder vs. QCT.}
+
+For Schwarzschild, Hossenfelder derives (their Eq.~33):
+\begin{equation}
+\Omega_{\text{Hossenfelder}}(r) = \frac{1}{r}\left[1-\gamma(r)\right]^{1/(n-1)}, \quad (n=3).
+\end{equation}
+
+\textbf{Key difference:}
+\begin{itemize}
+\item \textbf{Hossenfelder:} $\Omega(r) \to \infty$ at $r = r_S$ (horizon). This is acceptable for classical fluid analogue, where $\rho_0 = \kappa \Omega^{n-1} \to \infty$ simply means infinite fluid density at horizon.
+
+\item \textbf{QCT:} $\Omega_{\text{QCT}}(r_S)$ remains finite due to phase decoherence saturation. The neutrino density $n_\nu(r_S) \sim 10^{28} n_{\nu,0}$ is large but not divergent. Coherence length $\xi(r_S) \sim 10^{-18}$ m is extremely short, but the saturation mechanism prevents $G_{\text{eff}} \to 0$.
+\end{itemize}
+
+\subsubsection{Physical Consequences}
+
+\paragraph{Modified horizon structure.}
+
+The QCT horizon radius is modified:
+\begin{equation}
+r_{S,\text{QCT}} : \quad \gamma_{\text{QCT}}(r_{S,\text{QCT}}) = 0 \quad \Rightarrow \quad r_{S,\text{QCT}} = 2G_{\text{eff}}(r_{S,\text{QCT}}) M.
+\end{equation}
+
+For astrophysical scales where $G_{\text{eff}} \approx 0.9 G_N$ (saturation regime):
+\begin{equation}
+r_{S,\text{QCT}} \approx 0.9 \times r_{S,\text{GR}}.
+\end{equation}
+
+\paragraph{Photon sphere and shadow.}
+
+From Appendix~\ref{app:bh_coherence}, observable quantities:
+\begin{align}
+r_{\text{ph}}^{\text{QCT}} &\approx 1.11 \times r_{\text{ph}}^{\text{GR}}, \\
+r_{\text{shadow}}^{\text{QCT}} &\approx 0.95 \times r_{\text{shadow}}^{\text{GR}}.
+\end{align}
+
+The Painlevé-Gullstrand formalism shows these arise from modifications to $\gamma(r)$ (Eq.~\ref{eq:gamma_QCT}), which in turn modify fluid velocity:
+\begin{equation}
+v^r_0 = \kappa\sqrt{1-\gamma_{\text{QCT}}(r)} \approx \kappa\sqrt{\frac{2G_{\text{eff}}(r) M}{r}}.
+\end{equation}
+
+\subsubsection{Summary}
+
+The Painlevé-Gullstrand formulation establishes the rigorous connection:
+
+\begin{equation}
+\boxed{
+\begin{aligned}
+&\textbf{Hossenfelder (classical):} \quad \Omega(r) = \frac{1}{r}[1-\gamma(r)]^{1/(n-1)} \quad \text{(from continuity eqn.)} \\
+&\textbf{QCT (quantum):} \quad \Omega_{\text{QCT}}(r) = \sqrt{f_{\text{screen}} K(r)} \quad \text{(from condensate coherence)}
+\end{aligned}
+}
+\end{equation}
+
+Both satisfy the fluid equations, but QCT's quantum origin:
+\begin{itemize}
+\item Predicts saturation: $\Omega_{\text{QCT}}$ finite at $r = r_S$ (no divergence)
+\item Environment-dependent: $K(r) = 1 + \alpha\Phi(r)/c^2$ (testable via ISS vs. Earth)
+\item Astrophysical predictions: $r_{\text{shadow}}^{\text{QCT}} \approx 0.95 \times r_{\text{shadow}}^{\text{GR}}$ (EHT constraint)
+\end{itemize}
+
+This completes the analogue gravity foundation for QCT black hole physics, resolving the apparent paradox via the interplay of conformal rescaling and phase decoherence saturation.
