@@ -1,6 +1,7 @@
 # Quantum Compression Theory (QCT): Computational Framework
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Status](https://img.shields.io/badge/Status-Active_Research-success) ![Revision](https://img.shields.io/badge/Revision-13-blue) ![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)
+[![License Code](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE CODE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 ## Overview
@@ -156,7 +157,7 @@ Each simulation script:
 
 ---
 
-## 📄 Citation
+## 📜 Citation
 
 If you use this code or reference the theory, please cite:
 
@@ -169,6 +170,9 @@ If you use this code or reference the theory, please cite:
   note={Submitted, under review}
 }
 ```
+
+Or when referencing the Quantum Compression Theory framework, become oficial publish in PTEP, please cite the archived preprint:
+> Plhák, B., Novák, M. (2025). *Quantum Compression Theory (QCT)*. Zenodo. https://doi.org/10.5281/zenodo.17081478
 
 ---
 
@@ -183,9 +187,9 @@ If you use this code or reference the theory, please cite:
 
 ---
 
-## 📜 License
-
-MIT License - See [LICENSE](LICENSE) file
+## 📄 License
+This theoretical framework and documentation are made available under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+Source code is provided under the MIT License (see `LICENSE-CODE`).
 
 ---
 
