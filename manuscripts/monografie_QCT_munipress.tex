@@ -1,0 +1,456 @@
+% ============================================================================
+% Monografie: Teorie kvantové komprese (QCT)
+% Připraveno pro: Nakladatelství Masarykovy univerzity (Munipress)
+% Format: Camera-ready PDF
+% Autoři: Boleslav Plhák, Marek Novák
+% Rok: 2025
+% ============================================================================
+
+\documentclass[12pt,a4paper,twoside,openright]{book}
+
+% ============================================================================
+% KÓDOVÁNÍ A JAZYK
+% ============================================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[czech,english]{babel}  % hlavní jazyk je czech
+\usepackage{csquotes}  % České uvozovky
+
+% ============================================================================
+% FONTY
+% ============================================================================
+\usepackage{times}  % Times New Roman (podle požadavků Munipress)
+\usepackage{mathptmx}  % Times pro matematiku
+
+% ============================================================================
+% ROZMĚRY STRÁNKY A OKRAJE
+% ============================================================================
+% Pro camera-ready PDF - profesionální knihové okraje
+\usepackage[
+    a4paper,
+    inner=3cm,      % vnitřní okraj (hřbet) - širší pro vazbu
+    outer=2.5cm,    % vnější okraj
+    top=3cm,        % horní okraj
+    bottom=3cm,     % dolní okraj
+    headheight=15pt,
+    headsep=1cm
+]{geometry}
+
+% ============================================================================
+% MATEMATICKÉ BALÍČKY
+% ============================================================================
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{physics}  % pro fyzikální notaci
+\usepackage{siunitx}  % pro jednotky SI
+
+% Nastavení siunitx pro češtinu
+\sisetup{
+    locale = DE,  % německý styl (čárka jako oddělovač desetinných míst)
+    output-decimal-marker = {,},
+    inter-unit-product = \ensuremath{{}\cdot{}},
+    per-mode = symbol
+}
+
+% ============================================================================
+% GRAFIKA A TABULKY
+% ============================================================================
+\usepackage{graphicx}
+\usepackage{booktabs}  % profesionální tabulky
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{longtable}  % tabulky přes více stránek
+\usepackage{xcolor}
+
+% Cesta k obrázkům
+\graphicspath{{../results/figures/}{./figures/}}
+
+% ============================================================================
+% ODKAZY A REFERENCE
+% ============================================================================
+\usepackage[
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=blue,
+    bookmarks=true,
+    bookmarksnumbered=true,
+    unicode=true
+]{hyperref}
+
+\usepackage[nameinlink]{cleveref}  % inteligentní křížové odkazy
+
+% České názvy pro cleveref
+\crefname{chapter}{kapitola}{kapitoly}
+\Crefname{chapter}{Kapitola}{Kapitoly}
+\crefname{section}{sekce}{sekce}
+\Crefname{section}{Sekce}{Sekce}
+\crefname{equation}{rovnice}{rovnice}
+\Crefname{equation}{Rovnice}{Rovnice}
+\crefname{figure}{obrázek}{obrázky}
+\Crefname{figure}{Obrázek}{Obrázky}
+\crefname{table}{tabulka}{tabulky}
+\Crefname{table}{Tabulka}{Tabulky}
+
+% ============================================================================
+% BIBLIOGRAFIE (ČSN ISO 690)
+% ============================================================================
+\usepackage[
+    backend=biber,
+    style=iso-authoryear,  % styl dle ČSN ISO 690
+    sortlocale=cs_CZ,
+    autolang=other,
+    bibencoding=UTF8
+]{biblatex}
+
+\addbibresource{references.bib}  % hlavní soubor s literaturou
+
+% ============================================================================
+% ZÁHLAVÍ A ZÁPATÍ
+% ============================================================================
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\leftmark}   % levé stránky: název kapitoly
+\fancyhead[RO]{\rightmark}  % pravé stránky: název sekce
+\fancyfoot[C]{\thepage}     % číslo stránky ve středu zápatí
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Styl pro kapitoly (bez záhlaví)
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+% ============================================================================
+% ŘÁDKOVÁNÍ
+% ============================================================================
+\usepackage{setspace}
+\onehalfspacing  % řádkování 1.5 (lze změnit na \singlespacing pro finální verzi)
+
+% ============================================================================
+% POZNÁMKY POD ČAROU
+% ============================================================================
+\usepackage[bottom]{footmisc}  % poznámky vždy na spodku stránky
+
+% ============================================================================
+% REJSTŘÍKY
+% ============================================================================
+\usepackage{makeidx}
+\makeindex
+
+% ============================================================================
+% DALŠÍ UŽITEČNÉ BALÍČKY
+% ============================================================================
+\usepackage{enumitem}  % lepší seznamy
+\usepackage{caption}   % lepší popisky obrázků a tabulek
+\usepackage{subcaption}  % podobrázky
+
+% Nastavení popisků
+\captionsetup{
+    font=small,
+    labelfont=bf,
+    format=hang,
+    justification=justified,
+    singlelinecheck=false
+}
+
+% ============================================================================
+% VLASTNÍ PŘÍKAZY A DEFINICE
+% ============================================================================
+
+% Fyzikální konstanty
+\newcommand{\hbar}{\ensuremath{\hslash}}
+\newcommand{\Geff}{\ensuremath{G_{\mathrm{eff}}}}
+\newcommand{\Epair}{\ensuremath{E_{\mathrm{pair}}}}
+\newcommand{\LambdaQCT}{\ensuremath{\Lambda_{\mathrm{QCT}}}}
+\newcommand{\Rproj}{\ensuremath{R_{\mathrm{proj}}}}
+\newcommand{\fscreen}{\ensuremath{f_{\mathrm{screen}}}}
+
+% Pole a operátory
+\newcommand{\Psi}{\ensuremath{\Psi}}
+\newcommand{\psinn}{\ensuremath{\Psi_{\nu\nu}}}
+
+% Prostředí pro definice, věty, atd.
+\theoremstyle{definition}
+\newtheorem{definition}{Definice}[chapter]
+\newtheorem{theorem}{Věta}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\newtheorem{corollary}{Důsledek}[chapter]
+
+\theoremstyle{remark}
+\newtheorem{remark}{Poznámka}[chapter]
+\newtheorem{example}{Příklad}[chapter]
+
+% ============================================================================
+% METADATA
+% ============================================================================
+\title{
+    {\Huge\bfseries Teorie kvantové komprese}\\[0.5cm]
+    {\Large Mikroskopické odvození emergentní gravitace\\
+    z neutrinového kondenzátu}
+}
+
+\author{
+    Boleslav Plhák\\
+    {\small ORCID: 0009-0003-7469-5212}\\[0.3cm]
+    Marek Novák\\
+    {\small ORCID: 0009-0008-2525-0109}\\[0.5cm]
+    {\small\itshape Nezávislí badatelé, Znojmo, Česká republika}
+}
+
+\date{2025}
+
+% ============================================================================
+% ZAČÁTEK DOKUMENTU
+% ============================================================================
+\begin{document}
+
+% ----------------------------------------------------------------------------
+% PŘEDNÍ STRANA (frontmatter) - římské číslování
+% ----------------------------------------------------------------------------
+\frontmatter
+
+% Titulní strana
+\maketitle
+
+% Autorská práva a informace o publikaci
+\thispagestyle{empty}
+\vspace*{\fill}
+\noindent
+\textbf{Teorie kvantové komprese: Mikroskopické odvození emergentní gravitace z~neutrinového kondenzátu}
+
+\vspace{0.5cm}
+\noindent
+Autoři: Boleslav Plhák, Marek Novák\\
+Recenzenti: [doplní nakladatelství]
+
+\vspace{0.5cm}
+\noindent
+\textcopyright{} 2025 Boleslav Plhák\\
+Tato teoretická práce je dostupná pod licencí\\
+Creative Commons Attribution 4.0 International License.
+
+\vspace{0.5cm}
+\noindent
+Zdrojový kód a výpočetní skripty jsou dostupné pod licencí MIT.
+
+\vspace{0.5cm}
+\noindent
+DOI: \href{https://doi.org/10.5281/zenodo.17081478}{10.5281/zenodo.17081478}\\
+GitHub: \url{https://github.com/Ibgboolys/QCT_13}
+
+\vspace{0.5cm}
+\noindent
+Vydalo: Nakladatelství Masarykovy univerzity\\
+Rybkova 19, 602\,00 Brno\\
+\url{www.press.muni.cz}
+
+\vspace{0.3cm}
+\noindent
+1. vydání, 2025\\
+ISBN: [doplní nakladatelství]
+
+\vspace{0.5cm}
+\noindent
+Sazba: [camera-ready od autorů]
+
+\clearpage
+
+% Obsah
+\tableofcontents
+\clearpage
+
+% Předmluva
+\chapter*{Předmluva}
+\addcontentsline{toc}{chapter}{Předmluva}
+
+[BUDE DOPLNĚNO - Předmluva obsahující:]
+\begin{itemize}
+    \item Motivaci k výzkumu teorie kvantové komprese
+    \item Kontext současné teoretické fyziky a problém kvantové gravitace
+    \item Stručný přehled struktury knihy
+    \item Poděkování spolupracovníkům, recenzentům a institucím
+\end{itemize}
+
+\clearpage
+
+% ----------------------------------------------------------------------------
+% HLAVNÍ TEXT (mainmatter) - arabské číslování
+% ----------------------------------------------------------------------------
+\mainmatter
+
+% ============================================================================
+% ÚVOD
+% ============================================================================
+\chapter{Úvod}
+\label{chap:uvod}
+
+[BUDE DOPLNĚNO - Úvodní kapitola obsahující:]
+
+\section{Problém emergentní gravitace}
+\label{sec:problem-emergentni-gravitace}
+
+[Text o současném stavu poznání v kvantové gravitaci, motivace pro emergentní přístupy]
+
+\section{Cíle monografie}
+\label{sec:cile}
+
+Tato monografie představuje kompletní výklad \textbf{Teorie kvantové komprese} (Quantum Compression Theory, QCT), která navrhuje, že gravitace a elektromagnetismus vznikají jako kolektivní jevy z kondenzátu kosmického neutrinového pozadí.
+
+Hlavní cíle práce jsou:
+\begin{enumerate}
+    \item Odvodit Einsteinovy rovnice z mikroskopického popisu zapletených neutrinových párů
+    \item Vysvětlit slabost gravitace pomocí fundamentálního poměru hmotností $\fscreen = m_\nu/m_p \approx 10^{-10}$
+    \item Předložit testovatelné predikce pro experimentální verifikaci
+    \item Poskytnout konzistentní popis kosmologické evoluce parametrů teorie
+\end{enumerate}
+
+\section{Přehled metodologie}
+\label{sec:metodologie}
+
+[Popis metodologického přístupu - efektivní teorie pole, analogová gravitace, kosmologická fyzika]
+
+\section{Struktura knihy}
+\label{sec:struktura}
+
+Monografie je strukturována následovně:
+
+\textbf{\Cref{chap:zaklady}} zavádí základní pojmy teorie kvantové komprese, neutrinový kondenzát jako fundamentální pole a Gross-Pitaevskiiho popis.
+
+\textbf{\Cref{chap:einstein}} odvozuje Einsteinovy rovnice obecné relativity z emergentní prostoročasové geometrie neutrinového kondenzátu.
+
+[pokračování struktury...]
+
+% ============================================================================
+% KAPITOLA 1: Základy teorie kvantové komprese
+% ============================================================================
+\chapter{Základy teorie kvantové komprese}
+\label{chap:zaklady}
+
+[BUDE DOPLNĚNO]
+
+\section{Neutrinový kondenzát jako fundamentální pole}
+\label{sec:neutrino-kondenzat}
+
+\section{Gross-Pitaevskiiho popis}
+\label{sec:gross-pitaevskii}
+
+\section{Základní předpoklady a omezení}
+\label{sec:predpoklady}
+
+% ============================================================================
+% KAPITOLA 2: Odvození Einsteinových rovnic
+% ============================================================================
+\chapter{Odvození Einsteinových rovnic}
+\label{chap:einstein}
+
+[BUDE DOPLNĚNO]
+
+\section{Emergentní prostoročasová geometrie}
+\label{sec:emergentni-geometrie}
+
+\section{Gravitační konstanta a fázová koherence}
+\label{sec:gravitacni-konstanta}
+
+\section{Submilimetrové stínění}
+\label{sec:stineni}
+
+% ============================================================================
+% KAPITOLA 3-9: Další kapitoly
+% ============================================================================
+
+\chapter{Odvození Maxwellových rovnic}
+\label{chap:maxwell}
+[BUDE DOPLNĚNO]
+
+\chapter{Mikroskopické odvození vazebné energie}
+\label{chap:vazebna-energie}
+[BUDE DOPLNĚNO]
+
+\chapter{Efektivní teorie pole}
+\label{chap:eft}
+[BUDE DOPLNĚNO]
+
+\chapter{Kosmologická evoluce parametrů}
+\label{chap:kosmologie}
+[BUDE DOPLNĚNO]
+
+\chapter{Fenomenologie a testovatelné predikce}
+\label{chap:fenomenologie}
+[BUDE DOPLNĚNO]
+
+\chapter{Temná energie z saturace kondenzátu}
+\label{chap:temna-energie}
+[BUDE DOPLNĚNO]
+
+\chapter{Teoretické otázky}
+\label{chap:teoreticke-otazky}
+[BUDE DOPLNĚNO]
+
+% ============================================================================
+% ZÁVĚR
+% ============================================================================
+\chapter{Závěr}
+\label{chap:zaver}
+
+[BUDE DOPLNĚNO - Závěrečná kapitola obsahující:]
+\begin{itemize}
+    \item Shrnutí hlavních výsledků teorie kvantové komprese
+    \item Zhodnocení testovatelných predikcí
+    \item Budoucí výzkumné směry
+    \item Implikace pro fundamentální fyziku
+\end{itemize}
+
+% ----------------------------------------------------------------------------
+% ZADNÍ STRANA (backmatter)
+% ----------------------------------------------------------------------------
+\backmatter
+
+% ============================================================================
+% SUMMARY (anglicky)
+% ============================================================================
+\chapter*{Summary}
+\addcontentsline{toc}{chapter}{Summary}
+
+\textbf{Quantum Compression Theory: Microscopic Derivation of Emergent Gravity from Neutrino Condensate}
+
+[BUDE DOPLNĚNO - Anglický souhrn celé monografie dle požadavků RIV]
+
+% ============================================================================
+% POZNÁMKY (pokud jsou použity v textu)
+% ============================================================================
+% \chapter*{Poznámky}
+% \addcontentsline{toc}{chapter}{Poznámky}
+% [Poznámky pod čarou jsou automaticky na každé stránce]
+
+% ============================================================================
+% SEZNAM LITERATURY
+% ============================================================================
+\printbibliography[title={Seznam použité literatury}]
+\addcontentsline{toc}{chapter}{Seznam použité literatury}
+
+% ============================================================================
+% REJSTŘÍKY
+% ============================================================================
+\printindex
+\addcontentsline{toc}{chapter}{Rejstřík}
+
+% ============================================================================
+% PŘÍLOHY (volitelně)
+% ============================================================================
+\appendix
+
+\chapter{Matematické konstanty v QCT}
+\label{app:mat-konstanty}
+[BUDE DOPLNĚNO]
+
+\chapter{Numerické výpočty}
+\label{app:numericke-vypocty}
+[BUDE DOPLNĚNO]
+
+\end{document}
