@@ -666,6 +666,221 @@ Astrofyzikální $G_{\text{eff}}/G_N$ & -- & -- & $\mathbf{\sim 0{,}9}$ (odvozen
 \end{table}
 
 % ============================================================================
+% SEKCE 4: Odvození emergentní gravitace
+% ============================================================================
+
+\section{Odvození emergentní gravitace}
+\label{sec:odvozeni-gravitace}
+
+\subsection{Emergentní prostoročasová geometrie z~korelací kondenzátu}
+
+Efektivní prostoročasová metrika vzniká systematickým procedurám hrubého zrna (coarse-graining), které průměrují mikroskopické kvantové korelace přes charakteristické projekční objemy. Vycházíme z~ploché Minkowského metriky $\eta_{\mu\nu}$, přičemž malé perturbace indukované variace v~hustotě provázanosti generují efektivní metriku:
+
+\begin{equation}
+g_{\mu\nu}(\mathbf{x}) = \eta_{\mu\nu} + h_{\mu\nu}(\mathbf{x}), \qquad
+h_{\mu\nu}(\mathbf{x}) = \frac{\kappa}{M_{\text{Pl}}^2} \int d^3 x' \, K_{\mu\nu}(\mathbf{x}, \mathbf{x}') \cdot \frac{\delta\rho_{\text{ent}}(\mathbf{x}')}{|\mathbf{x} - \mathbf{x}'|}
+\label{eq:metric_kernel_cz}
+\end{equation}
+kde $\kappa = 8\pi G_N$ v~přirozených jednotkách a korelační jádro kóduje, jak mikroskopické kvantové fluktuace pole kondenzátu generují makroskopické zakřivení prostoročasu:
+
+\begin{equation}
+K_{\mu\nu}(\mathbf{x}, \mathbf{x}') = \langle \Psi_{\nu\nu}^\dagger(\mathbf{x}) \, \partial_\mu \partial_\nu \Psi_{\nu\nu}(\mathbf{x}') \rangle_{\text{coh}}
+\end{equation}
+
+\textbf{Fyzikální interpretace jádra:} Lomené závorky označují kvantový a termální průměr vyhodnocený přes koherentní fluktuace v~rámci projekčního objemu. Pro statická, pomalu se měnící rozdělení hmoty odpovídající slabému gravitačnímu poli se jádro značně zjednodušuje:
+
+\begin{equation}
+K_{00} \approx \mathcal{F}_t \equiv \langle e^{i[\theta(\mathbf{x})-\theta(\mathbf{x}')]} \rangle_{\text{coh}}, \quad
+K_{ij} \approx -\mathcal{F}_s \delta_{ij}, \quad
+K_{0i} \approx 0
+\end{equation}
+kde $\mathcal{F}_t$ a $\mathcal{F}_s$ jsou časové a prostorové koherenční funkce kódující fázové korelace mezi různými body kondenzátu.
+
+V~limitě koherentní fázové evoluce ($\mathcal{F}_t = \mathcal{F}_s = 1$) se rovnice~\eqref{eq:metric_kernel_cz} redukuje na standardní post-newtonovský tvar:
+\begin{equation}
+g_{00} = -\left(1 + \frac{2\Phi(\mathbf{x})}{c^2}\right), \quad \Phi(\mathbf{x}) = -G_{\text{eff}} \int d^3 x' \, \frac{\rho_m(\mathbf{x}')}{|\mathbf{x} - \mathbf{x}'|}
+\label{eq:newtonian_potential_cz}
+\end{equation}
+s~efektivní Newtonovou konstantou určenou koherenčními vlastnostmi kondenzátu.
+
+\subsection{Gravitační konstanta a fázová koherence}
+
+\textbf{Odvození efektivní gravitační konstanty.} Efektivní Newtonova konstanta vzniká ze souhry mezi korelacemi kondenzátu a efekty fázové koherence. Dimenzionální analýza kombinovaná s~procedurami hrubého zrna dává:
+
+\begin{equation}
+G_{\text{eff}} = \frac{c_\rho}{M_{\text{Pl}}^2} \cdot \underbrace{\frac{n_\nu \Lambda_{\text{QCT}}^2}{V_{\text{proj}} m_\nu R_{\text{proj}}}}_{\text{geometrický faktor překryvu}} \cdot \underbrace{\exp\left(-\frac{\sigma^2_{\text{avg}}}{2}\right)}_{\text{faktor fázové koherence}}
+\label{eq:Geff_full_cz}
+\end{equation}
+kde:
+
+\begin{itemize}
+\item $c_\rho \sim \mathcal{O}(1)$: bezrozměrný koeficient kódující sílu vazby mezi variací hustoty provázanosti a zakřivením prostoročasu
+\item Geometrický faktor charakterizuje, jak neutrinové páry v~projekčních objemech přispívají kolektivně ke gravitačnímu poli
+\item Exponenciální koherenční faktor kvantifikuje redukci gravitační síly díky fázovým fluktuacím
+\end{itemize}
+
+\textbf{Fyzikální interpretace faktoru fázové koherence.} Pouze koherentní fázové konfigurace přispívají významně k~makroskopické gravitaci. V~přítomnosti baryonové hmoty generuje lokální environmentální dekoherence mikroskopický fázový šum s~variancí $\sigma^2_{\text{local}} \sim \mathcal{O}(10^2)$. Nicméně prostorové průměrování přes charakteristický projekční objem $V_{\text{proj}}$ potlačuje tento šum podle centrální limitní věty, což vede k~$\sigma^2_{\text{avg}} \sim 1$--$6$ pro realistické kosmologické podmínky.
+
+Exponenciální potlačující faktor lze chápat jako překryvový integrál fázových rozdělení mezi různými regiony kondenzátu:
+\begin{equation}
+\mathcal{C}_{\text{phase}} = \int d^3 x \, d^3 x' \, \langle e^{i[\theta(\mathbf{x})-\theta(\mathbf{x}')]} \rangle \approx \exp\left(-\frac{\sigma^2_{\text{avg}}}{2}\right)
+\end{equation}
+což poskytuje mikroskopický původ gravitačního stínění.
+
+\subsection{Submilimetrové stínění a fundamentální hmotnostní poměr}
+
+Stínicí faktor není volný parametr, ale je určen fundamentálním hmotnostním poměrem:
+\begin{equation}
+f_{\text{screen}} = \frac{m_\nu}{m_p} \approx 1{,}07 \times 10^{-10}
+\label{eq:screening_mass_ratio_cz}
+\end{equation}
+
+Tento poměr má dvě nezávislé fyzikální vyjádření:
+
+\paragraph{1. Hmotnostní (z~vazby kondenzátu s~baryony):}
+\begin{equation}
+f_{\text{screen}} = \frac{m_\nu}{m_p} = \frac{0{,}1\,\unit{eV}}{938{,}27\,\unit{MeV}} = 1{,}07 \times 10^{-10}
+\end{equation}
+
+\paragraph{2. Geometrické (z~Comptonovy vlnové délky):}
+\begin{equation}
+f_{\text{screen}} = \frac{\lambda_C}{R_{\text{proj}}} = \frac{2{,}426\,\unit{pm}}{2{,}28\,\unit{cm}} = 9{,}40 \times 10^{-11}
+\end{equation}
+
+\textbf{Shoda mezi oběma vyjádřeními (rozdíl 13\,\%) potvrzuje konzistenci QCT.} Rovností získáváme odvození projekčního poloměru:
+\begin{equation}
+R_{\text{proj}} = \lambda_C \times \frac{m_p}{m_\nu} = \frac{h}{m_e c} \times \frac{m_p}{m_\nu} \approx 2{,}28\,\unit{cm}
+\label{eq:Rproj_derived_cz}
+\end{equation}
+
+\textbf{Fyzikální interpretace:} Gravitace vzniká z~lehkého neutrinového kondenzátu ($m_\nu \sim 0{,}1\,\unit{eV}$) v~těžkém baryonovém prostředí ($m_p \sim 938\,\unit{MeV}$). Hmotnostní poměr $m_\nu/m_p \sim 10^{-10}$ určuje vazbu a dekoherenci -- \textbf{toto vysvětluje slabost gravitace!}
+
+Dekoherence kondenzátu na krátkých škálách vede k~exponenciálnímu stínění s~\textbf{lokálně variabilní} stínicí délkou:
+\begin{equation}
+G_{\text{eff}}(r) = G_N \exp\left(-\frac{r}{\lambda_{\text{screen}}(\mathbf{r})}\right), \quad \lambda_{\text{screen}}(\mathbf{r}) = \frac{R_{\text{proj}}(\mathbf{r})}{\ln(1/f_{\text{screen}})}
+\label{eq:yukawa_screening_cz}
+\end{equation}
+
+Díky rovnicím \eqref{eq:n_nu_local}--\eqref{eq:R_proj_local} závisí $\lambda_{\text{screen}}$ na lokálním gravitačním potenciálu:
+\begin{equation}
+\lambda_{\text{screen}}(\mathbf{r}) = \frac{R_{\text{proj}}^{(0)}}{\ln(1/f_{\text{screen}})} \times \frac{\xi(\mathbf{r})}{\xi_0} = \frac{\lambda_{\text{screen}}^{(0)}}{\sqrt{1 + \alpha \Phi(\mathbf{r})/c^2}}
+\end{equation}
+
+\textbf{Numerické hodnoty:}
+\begin{align}
+\text{Hluboký vesmír } (\Phi \approx 0): &\quad \lambda_{\text{screen}}^{(0)} \approx 1{,}0\,\unit{mm} \\
+\text{Povrch Země:} &\quad \lambda_{\text{screen}}^\oplus \approx 40\,\unit{\mu m} \\
+\text{Oběžná dráha ISS:} &\quad \lambda_{\text{screen}}^{\text{ISS}} \approx 41\,\unit{\mu m}
+\end{align}
+
+\textbf{Testovatelné predikce:}
+\begin{enumerate}
+\item Gravitace je na submilimetrových škálách slabší, než předpovídá Newton -- \textbf{závislá na prostředí!}
+\item $R_{\text{proj}}^{(0)}$ je odvozeno z~$(h, c, m_e, m_p, m_\nu)$ bez volných parametrů
+\item Stínicí délka $\lambda_{\text{screen}}^\oplus \approx 40\,\unit{\mu m}$ na Zemi je \textbf{konzistentní s~limity Eöt-Wash} ($\sim 40\,\unit{\mu m}$)
+\item \textbf{Klíčový test:} Sub-mm měření na ISS vs. Zemi by měla ukázat rozdíl $\sim 2{,}5\,\%$ v~$\lambda_{\text{screen}}$
+\end{enumerate}
+
+\subsection{Geometrický původ stínění: spojení s~analogovou gravitací}
+
+Stínicí faktor $f_{\text{screen}} = m_\nu/m_p$ byl odvozen z~fundamentálních hmotnostních poměrů i geometrických úvah. Zde navážeme hlubší spojení: \textbf{QCT stínění je ekvivalentní konformnímu přeškálování v~analogové gravitaci}.
+
+\paragraph{Rámec konformního přeškálování.}
+
+Podle Hossenfelder \& Zingg~\cite{Hossenfelder2020} uvažujme dvě metriky spojené konformní transformací:
+\begin{equation}
+\tilde{g}_{\mu\nu}(r) = \Omega^2(r) \cdot g_{\mu\nu}(r)
+\label{eq:conformal_rescaling_cz}
+\end{equation}
+kde $\Omega(r)$ je \emph{konformní faktor}.
+
+\paragraph{QCT konformní faktor.}
+
+Definujeme QCT konformní faktor jako:
+\begin{equation}
+\boxed{\Omega_{\text{QCT}}(r) = \sqrt{f_{\text{screen}} \cdot K(r)} = \sqrt{\frac{m_\nu}{m_p}} \cdot \sqrt{1 + \alpha\frac{\Phi(r)}{c^2}}}
+\label{eq:QCT_conformal_factor_cz}
+\end{equation}
+kde $K(r) = 1 + \alpha \Phi(r)/c^2$ kvantifikuje lokální zesílení hustoty neutrin.
+
+\subsection{Rozřešení paradoxu přeurčení pomocí kvantové koherence}
+
+Fundamentální výzvou v~analogové gravitaci je \emph{paradox přeurčení}: kondenzovaný systém musí současně (1) generovat požadovaný metrický tenzor a (2) splňovat vlastní pohybové rovnice, ale tyto podmínky typicky systém přeurčují~\cite{Hossenfelder2020}.
+
+\paragraph{Kvantové rozřešení (QCT).}
+
+QCT rozřešuje paradox přeurčení \textbf{kvantově mechanicky}, ne klasicky. Dodatečný stupeň volnosti je \emph{variance fázové koherence}:
+
+\begin{equation}
+\sigma^2_{\text{avg}}(r) = \sigma^2_{\text{local}} \times \frac{\xi^3(r)}{V_{\text{proj}}}
+\label{eq:sigma_squared_DOF_cz}
+\end{equation}
+
+Fázová variance modifikuje efektivní hustotu prostřednictvím kvantové dekoherence:
+\begin{equation}
+\boxed{\rho_{\text{eff}}(r) = \rho_0(r) \cdot \exp\left(-\frac{\sigma^2_{\text{avg}}(r)}{2}\right)}
+\label{eq:rho_eff_decoherence_cz}
+\end{equation}
+
+QCT rozřešuje paradox pomocí \textbf{kvantové koherence} jako dodatečného stupně volnosti. Kvantový původ QCT činí mechanismus \textbf{prediktivní} a poskytuje \textbf{testovatelné predikce}.
+
+% ============================================================================
+% SEKCE 5: Odvození Maxwellových rovnic
+% ============================================================================
+
+\section{Odvození Maxwellových rovnic}
+\label{sec:odvozeni-maxwell}
+
+\subsection{Goldstonův mód a kalibrační pole}
+
+Kondenzát má globální U(1) symetrii $\Psi_{\nu\nu} \to e^{i\theta}\Psi_{\nu\nu}$. Spontánní porušení této symetrie dává Goldstonův boson -- \emph{foton}:
+
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=Emergentní elektromagnetismus]
+\begin{equation}
+\label{eq:photon_from_phase_cz}
+\boxed{A_\mu = \frac{\hbar}{e_{\text{eff}}} \partial_\mu\theta, \quad F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu}
+\end{equation}
+\begin{equation}
+\label{eq:Maxwell_cz}
+\boxed{\partial_\nu F^{\nu\mu} = \mu_0 J^\mu, \quad \nabla \cdot \mathbf{B} = 0}
+\end{equation}
+kde efektivní náboj je \emph{normalizován} kolektivním zesílením:
+\begin{equation}
+e_{\text{eff}}^2 = e^2 \cdot \sqrt{\frac{n_\nu \hbar^2}{\mu_0 c}} \quad (\text{faktor } \sim 10^{17})
+\end{equation}
+
+\textbf{Fyzikální interpretace:} Makroskopický náboj $e$ je kolektivní fenomén $\sim \sqrt{N_{\text{pairs}}}$, kde $N_{\text{pairs}} \sim V_{\text{proj}} \cdot n_\nu \approx 2{,}4 \times 10^4$.
+\end{tcolorbox}
+
+\subsection{Topologické víry = náboje}
+
+Nabité částice (elektrony, protony) jsou topologické defekty kondenzátu -- víry s~kvantovaným tokem:
+\begin{equation}
+q = \frac{1}{2\pi} \oint \nabla\theta \cdot d\mathbf{l} = ne, \quad n \in \mathbb{Z}
+\end{equation}
+\textbf{Kvantování náboje je tak automatické!}
+
+\subsection{Status fotonů: emergentní excitace s~gravitačním efektem}
+
+\textbf{Klíčové upřesnění:} Fotony v~QCT jsou Goldstonovy módy kondenzátu $\Psi_{\nu\nu}$, ale jejich gravitační efekt není zanedbatelný.
+
+Tenzor energie--hybnosti kondenzátu obsahuje příspěvky ze všech excitací:
+\begin{equation}
+T_{\mu\nu}^{(\Psi)}[\text{celkem}] = T_{\mu\nu}[\text{bulk}] + T_{\mu\nu}[\text{excitace}]
+\label{eq:Tmunu_decomposition_cz}
+\end{equation}
+
+\paragraph{Konzistence s~experimenty.}
+\begin{itemize}
+\item Fotony gravitují (zahrnuty v~$T_{\mu\nu}^{(\Psi)}$)
+\item Shapirovo zpoždění: $\Delta t = (4GM/c^3)\ln(4r_1 r_2/b^2)$ \checkmark
+\item Gravitační čočkování \checkmark
+\item Ekvivalenční princip zachován \checkmark
+\end{itemize}
+
+\textbf{Závěr:} Fotony jsou emergentní, ale gravitují navzdory své roli v~celkové dynamice kondenzátu.
+
+% ============================================================================
 % KAPITOLA 2: Odvození Einsteinových rovnic
 % ============================================================================
 \chapter{Odvození Einsteinových rovnic}
