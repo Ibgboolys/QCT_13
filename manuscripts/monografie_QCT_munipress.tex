@@ -1770,7 +1770,267 @@ Shoda v~rámci 4\,\% mezi Lagrangeovskou predikcí a kalibrovanou hodnotou valid
 
 \chapter{Efektivní teorie pole}
 \label{chap:eft}
-[BUDE DOPLNĚNO]
+
+QCT je formulována jako \textbf{efektivní teorie pole} (EFT) platná do energetické škály $\Lambda_{\text{QCT}} \sim 107\,\unit{TeV}$. V~této kapitole prezentujeme kompletní lagrangián, Wilsonovy koeficienty a spojení s~akustickou metrikou z~analogové gravitace.
+
+% ============================================================================
+% SEKCE 1: Základní lagrangián a EFT báze
+% ============================================================================
+
+\section{Základní lagrangián a EFT báze}
+\label{sec:eft-lagrangian}
+
+\subsection{Celkový lagrangián}
+
+Úplný QCT lagrangián má strukturu:
+
+\begin{equation}
+\boxed{\mathcal{L}_{\text{QCT}} = \mathcal{L}_{\text{SM}} + \mathcal{L}_\Psi + \mathcal{L}_{\text{EFT}} + \mathcal{L}_{\text{topologický}}}
+\label{eq:total_lagrangian}
+\end{equation}
+
+kde jednotlivé komponenty jsou:
+
+\paragraph{1. Standardní model:}
+\begin{equation}
+\mathcal{L}_{\text{SM}} = \mathcal{L}_{\text{gauge}} + \mathcal{L}_{\text{fermiony}} + \mathcal{L}_{\text{Higgs}} + \mathcal{L}_{\text{Yukawa}}
+\end{equation}
+
+\paragraph{2. Kondenzát neutrin:}
+\begin{equation}
+\mathcal{L}_\Psi = \partial_\mu\Psi^* \partial^\mu\Psi - V(|\Psi|), \quad V(|\Psi|) = \frac{\lambda}{4}(|\Psi|^2)^2
+\label{eq:L_Psi_eft}
+\end{equation}
+
+kde $\lambda \sim 10^{-2}$ je bezrozměrná kvartická self-interakce.
+
+\paragraph{3. EFT operátory:}
+\begin{equation}
+\mathcal{L}_{\text{EFT}} = \sum_i \frac{c_i}{\Lambda_{\text{QCT}}^{\Delta_i-4}} \mathcal{O}_i
+\label{eq:L_EFT}
+\end{equation}
+
+kde $\Lambda_{\text{QCT}} = 107\,\unit{TeV}$ je cutoff škála (z~muon $g-2$), $\Delta_i$ je hmotnostní dimenze operátoru $\mathcal{O}_i$ a $c_i$ jsou Wilsonovy koeficienty.
+
+\paragraph{4. Topologické členy:}
+\begin{equation}
+\mathcal{L}_{\text{topologický}} = \frac{\theta}{32\pi^2} F_{\mu\nu} \tilde{F}^{\mu\nu} + \ldots
+\end{equation}
+
+\subsection{Vybrané EFT operátory}
+
+\paragraph{Dimenze 6 operátory:}
+
+\begin{align}
+\mathcal{O}_{\rho\Psi} &= \rho_{\text{ent}} \, |\Psi|^2 &&\Rightarrow && \frac{c_\rho}{\Lambda_{\text{QCT}}^2} \rho_{\text{ent}} |\Psi|^2 \label{eq:O_rho_Psi} \\
+\mathcal{O}_R &= R_{\mu\nu} \, \partial^\mu\Psi \, \partial^\nu\Psi^* &&\Rightarrow && \frac{c_R}{M_{\text{Pl}}^2} R_{\mu\nu} \partial^\mu\Psi \partial^\nu\Psi^* \label{eq:O_R} \\
+\mathcal{O}_{\mu\text{-dip}} &= \bar{L}_\mu H \, \sigma^{\mu\nu} e_R F_{\mu\nu} &&\Rightarrow && \frac{C_{\text{QCT}}}{\Lambda_{\text{QCT}}^2} \left(\frac{\rho_{\text{ent}}}{\rho_{\text{crit}}}\right) \mathcal{O}_{\mu\text{-dip}} \label{eq:O_muon}
+\end{align}
+
+\paragraph{Fyzikální význam:}
+
+\begin{itemize}
+\item \textbf{$\mathcal{O}_{\rho\Psi}$:} Vazba mezi entanglement hustotou $\rho_{\text{ent}}$ a kondenzátem -- původ gravitace
+\item \textbf{$\mathcal{O}_R$:} Vazba kondenzátu na Ricciho tenzor -- zpětná vazba geometrie
+\item \textbf{$\mathcal{O}_{\mu\text{-dip}}$:} Muon dipólový moment modulovaný $\rho_{\text{ent}}$ -- vysvětlení $(g-2)_\mu$ anomálie
+\end{itemize}
+
+\subsection{Modulace gauge kinetiky}
+
+Kalibrační kinetika je modulována entanglement hustotou:
+
+\begin{equation}
+\mathcal{L} \supset -\frac{1}{4} \mathcal{Z}_A(\rho_{\text{ent}}, H) F_{\mu\nu} F^{\mu\nu}
+\label{eq:gauge_modulation}
+\end{equation}
+
+kde:
+
+\begin{equation}
+\mathcal{Z}_A = 1 + \xi_A \frac{\delta\rho_{\text{ent}}}{\rho_{\text{crit}}} + \xi_H \frac{H^\dagger H}{\Lambda_{\text{QCT}}^2} + \cdots
+\end{equation}
+
+To dává efektivní fine-structure konstantu:
+
+\begin{equation}
+\alpha_{\text{eff}} \simeq \frac{\alpha_0}{\mathcal{Z}_A}
+\end{equation}
+
+\textbf{Fyzikální důsledek:} Běžící $\alpha$ je modulována kosmologickou evolucí $\rho_{\text{ent}}(z)$.
+
+% ============================================================================
+% SEKCE 2: Dynamika entanglement pole
+% ============================================================================
+
+\section{Dynamika entanglement pole $\varphi$ a Bianchiho konzervace}
+\label{sec:entanglement-field}
+
+\subsection{Motivace: zajištění Bianchiho identity}
+
+Pro zajištění konzistence s~Bianchiho identitou $\nabla_\mu G^{\mu\nu} = 0$ (a tedy $\nabla_\mu T^{\mu\nu}_{\text{tot}} = 0$) zavádíme explicitní skalární pole $\varphi$ (``entanglement skalár''), které parametrizuje pomalou dynamiku $\rho_{\text{ent}}$ a modulaci gauge kinetiky.
+
+\subsection{Lagrangián entanglement pole}
+
+\begin{equation}
+\mathcal{L}_\varphi = -\frac{1}{2} \partial_\mu\varphi \partial^\mu\varphi - V(\varphi) - \frac{1}{4} f(\varphi) F_{\mu\nu} F^{\mu\nu} + \mathcal{L}_{\text{int}}(\varphi, \Psi, \nu)
+\label{eq:L_varphi}
+\end{equation}
+
+kde:
+\begin{itemize}
+\item $f(\varphi)$ je hladká funkce: $f(\varphi) = 1 + \beta_1 (\varphi-\varphi_0)/M_* + \beta_2 (\varphi-\varphi_0)^2/M_*^2 + \cdots$
+\item $\alpha_{\text{EM}} \simeq \alpha_0/f(\varphi)$ -- modulace fine-structure konstanty
+\item $V(\varphi)$ je potenciál -- zajišťuje kosmologickou evoluci
+\end{itemize}
+
+\subsection{Pohybové rovnice}
+
+Euler-Lagrangeovy rovnice dávají:
+
+\begin{align}
+\partial_\mu\big(f(\varphi) F^{\mu\nu}\big) &= J^\nu \label{eq:Maxwell_modified} \\
+\square\varphi - V'(\varphi) - \frac{1}{4} f'(\varphi) F_{\mu\nu} F^{\mu\nu} &= \mathcal{S}(\varphi, \Psi, \nu) \label{eq:phi_EOM}
+\end{align}
+
+\paragraph{Konzervace energie-hybnosti.}
+
+Z~těchto rovnic plyne výměna energie mezi $\varphi$ a EM sektorem, takže \emph{součet} $T^{\mu\nu}_{\text{EM}} + T^{\mu\nu}_\varphi$ je konzervován:
+
+\begin{equation}
+\boxed{\nabla_\mu\left(T^{\mu\nu}_{\text{EM}} + T^{\mu\nu}_\varphi\right) = 0}
+\label{eq:energy_conservation}
+\end{equation}
+
+\subsection{Fifth-force a laboratorní limity}
+
+Pro konzistenci s~testy vyžadujeme, aby $\varphi$ bylo:
+\begin{itemize}
+\item \textbf{Dostatečně těžké} (krátký dosah): $m_\varphi \gtrsim \text{eV}$
+\item \textbf{Nebo slabě vázáno}: $\beta_{1,2} \ll 1$ v~nízkých energiích
+\end{itemize}
+
+Toto zabraňuje porušení přesných testů:
+\begin{itemize}
+\item Inverzní kvadratický zákon gravitace (Eöt-Wash)
+\item Atomová spektroskopie (Oklo, atomové hodiny)
+\end{itemize}
+
+V~kosmologii je $V(\varphi)$ mělký, takže $\varphi$ je v~minimu a reziduální běh $\alpha_{\text{EM}}$ dnes je zanedbatelný: $\dot{\alpha}_{\text{EM}}/\alpha_{\text{EM}} \approx 0$ (konzistentní s~Oklo a atomovými hodinami).
+
+% ============================================================================
+% SEKCE 3: Akustická metrika - interpretace
+% ============================================================================
+
+\section{Akustická metrika -- interpretace}
+\label{sec:acoustic-metric-interpretation}
+
+\subsection{Spojení s~analogovou gravitací}
+
+QCT lagrangián $\mathcal{L}_\Psi$ (Rovnice~\ref{eq:L_Psi_eft}) je identický se standardním lagrangiánem kondenzátu používaným v~teorii analogové gravitace~\cite{Hossenfelder2020, Barcelo2005}. To vytváří rigorózní spojení:
+
+\begin{center}
+\textbf{QCT gravitace = akustická gravitace z~fononových perturbací neutrinového kondenzátu}
+\end{center}
+
+\subsection{Odvození akustické metriky}
+
+\paragraph{Obecný formalismus.}
+
+Podle Hossenfelder \& Zingg~\cite{Hossenfelder2020} pro kondenzát $\Psi = |\Psi| e^{i\theta}$ s~lagrangiánem~\eqref{eq:L_Psi_eft}, rovnice pohybu pro malé perturbace $\delta\Psi$ kolem pozadí $\Psi_0$ má formu vlnové rovnice v~zakřiveném prostoročase s~\textbf{akustickou metrikou}:
+
+\begin{equation}
+g^{\mu\nu}_{\text{acoustic}} \propto \left(\frac{\rho_0}{c_s}\right)^{-2/(n-1)} \begin{pmatrix}
+-1/c_s^2 & -v^j_0/c_s^2 \\
+-v^i_0/c_s^2 & \delta^{ij} - v^i_0 v^j_0/c_s^2
+\end{pmatrix}
+\label{eq:acoustic_metric_general_cz}
+\end{equation}
+
+kde $n=3$ a $c_s = \sqrt{\partial P/\partial\rho}$ je rychlost zvuku.
+
+\paragraph{QCT parametry.}
+
+Pro $V(|\Psi|) = \lambda|\Psi|^4/4$:
+
+\begin{align}
+P &= 0 \quad \text{(nepřítomnost tlaku v~kondenzátu)} \\
+c_s^2 &= \frac{\lambda n_\nu}{m^2_{\text{eff}}}
+\end{align}
+
+\subsection{Konformní přeškálování z~modulace hustoty}
+
+Pro statickou konfiguraci ($\vec{v}_0 = 0$) v~gravitačním poli:
+
+\begin{equation}
+n_\nu(r) = n_{\nu,0} \times K(r), \quad K(r) = 1 + \alpha\frac{\Phi(r)}{c^2}
+\end{equation}
+
+Dosazením do~\eqref{eq:acoustic_metric_general_cz}:
+
+\begin{equation}
+g^{\mu\nu}_{\text{acoustic}}(r) = \frac{1}{K(r)} \left(\frac{n_{\nu,0}}{c_s}\right)^{-1} \eta^{\mu\nu}
+\end{equation}
+
+Definujeme konformní faktor:
+
+\begin{equation}
+\boxed{\Omega^{-2}_{\text{QCT}}(r) \equiv \frac{1}{K(r)}}
+\label{eq:conformal_factor_eft}
+\end{equation}
+
+Dostáváme:
+
+\begin{equation}
+\boxed{g^{\mu\nu}_{\text{acoustic}}(r) = \Omega^{-2}_{\text{QCT}}(r) \times g^{\mu\nu}_{\text{flat}}}
+\label{eq:conformal_metric_eft}
+\end{equation}
+
+Toto je přesně konformní přeškálování zavedené v~Kapitolách~\ref{chap:zaklady} a~\ref{chap:einstein}!
+
+\subsection{Efektivní gravitační konstanta}
+
+Z~konformní transformace plyne efektivní gravitační konstanta:
+
+\begin{equation}
+\boxed{G_{\text{eff}}(r) = \Omega^{-2}_{\text{QCT}}(r) \cdot G_N = K(r) \cdot G_N}
+\label{eq:G_eff_conformal}
+\end{equation}
+
+Pro Zemi s~$K_\oplus \approx 625$:
+
+\begin{equation}
+G_{\text{eff}}^\oplus = 625 \cdot G_N
+\end{equation}
+
+Ale toto je vykompenzováno screeningovým faktorem $f_{\text{screen}} = m_\nu/m_p \approx 10^{-10}$, takže výsledná síla je:
+
+\begin{equation}
+F_{\text{grav}} \sim f_{\text{screen}} \cdot K_\oplus \cdot G_N \sim 10^{-10} \times 625 \times G_N \sim 10^{-7} G_N
+\end{equation}
+
+% ============================================================================
+% SHRNUTÍ KAPITOLY
+% ============================================================================
+
+\section*{Shrnutí kapitoly}
+
+V~této kapitole jsme prezentovali formální rámec QCT jako efektivní teorie pole:
+
+\begin{enumerate}
+\item \textbf{Celkový lagrangián:} $\mathcal{L}_{\text{QCT}} = \mathcal{L}_{\text{SM}} + \mathcal{L}_\Psi + \mathcal{L}_{\text{EFT}} + \mathcal{L}_{\text{topologický}}$
+\item \textbf{EFT operátory:} Dimenze 6 operátory s~cutoffem $\Lambda_{\text{QCT}} = 107\,\unit{TeV}$
+\item \textbf{Entanglement skalár $\varphi$:} Zajišťuje Bianchiho konzervaci a moduluje $\alpha_{\text{EM}}$
+\item \textbf{Akustická metrika:} Rigorózní spojení s~analogovou gravitací -- QCT = akustická gravitace
+\item \textbf{Konformní faktor:} $\Omega_{\text{QCT}}^{-2} = K(r)$ vzniká z~modulace hustoty neutrin
+\end{enumerate}
+
+Klíčové výsledky:
+\begin{itemize}
+\item QCT je prediktivní EFT (ne fenomenologie)
+\item Cutoff $\Lambda_{\text{QCT}} = 107\,\unit{TeV}$ z~muon $g-2$
+\item Konformní přeškálování je fyzikální -- modulace $n_\nu(r)$
+\item Konzistence s~fifth-force limity (Eöt-Wash, Oklo)
+\end{itemize}
 
 \chapter{Kosmologická evoluce parametrů}
 \label{chap:kosmologie}
