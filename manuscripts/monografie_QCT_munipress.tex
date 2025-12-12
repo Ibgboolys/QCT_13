@@ -963,16 +963,280 @@ T_{\mu\nu}^{(\Psi)}[\text{celkem}] = T_{\mu\nu}[\text{bulk}] + T_{\mu\nu}[\text{
 \chapter{Odvození Einsteinových rovnic}
 \label{chap:einstein}
 
-[BUDE DOPLNĚNO]
+V~této kapitole prezentujeme formální odvození Einsteinových rovnic z~dynamiky neutrinového kondenzátu. Na rozdíl od fenomenologického přístupu v~Kapitole~\ref{chap:zaklady} zde postupujeme systematicky přes korelační kernel a akustickou metriku.
+
+% ============================================================================
+% SEKCE 1: Emergentní prostoročasová geometrie z korelací
+% ============================================================================
 
 \section{Emergentní prostoročasová geometrie}
 \label{sec:emergentni-geometrie}
 
-\section{Gravitační konstanta a fázová koherence}
-\label{sec:gravitacni-konstanta}
+\subsection{Od kondenzátu ke geometrii}
 
-\section{Submilimetrové stínění}
-\label{sec:stineni}
+Efektivní prostoročasová metrika vzniká systematickým procedurám hrubého zrna (\textit{coarse-graining}), které průměrují mikroskopické kvantové korelace přes charakteristické projekční objemy. Vycházíme z~ploché Minkowského metriky $\eta_{\mu\nu}$, přičemž malé perturbace indukované variace v~hustotě provázanosti generují efektivní metriku:
+
+\begin{equation}
+g_{\mu\nu}(\mathbf{x}) = \eta_{\mu\nu} + h_{\mu\nu}(\mathbf{x}), \qquad
+h_{\mu\nu}(\mathbf{x}) = \frac{\kappa}{M_{\text{Pl}}^2} \int d^3 x' \, K_{\mu\nu}(\mathbf{x}, \mathbf{x}') \cdot \frac{\delta\rho_{\text{ent}}(\mathbf{x}')}{|\mathbf{x} - \mathbf{x}'|}
+\label{eq:metric_kernel_einstein}
+\end{equation}
+
+kde $\kappa = 8\pi G_N$ v~přirozených jednotkách a korelační \textbf{kernel} $K_{\mu\nu}$ kóduje, jak mikroskopické kvantové fluktuace pole kondenzátu generují makroskopické zakřivení prostoročasu.
+
+\subsection{Korelační kernel}
+
+Kernel je definován jako kvantový a termální průměr přes koherentní fluktuace:
+
+\begin{equation}
+K_{\mu\nu}(\mathbf{x}, \mathbf{x}') = \langle \Psi_{\nu\nu}^\dagger(\mathbf{x}) \, \partial_\mu \partial_\nu \Psi_{\nu\nu}(\mathbf{x}') \rangle_{\text{coh}}
+\label{eq:kernel_definition}
+\end{equation}
+
+\textbf{Fyzikální interpretace:} Lomené závorky označují kvantový a termální průměr vyhodnocený přes koherentní fluktuace v~rámci projekčního objemu $V_{\text{proj}} \approx 72{,}3\,\unit{cm^3}$.
+
+\paragraph{Zjednodušení pro slabé pole.}
+
+Pro statická, pomalu se měnící rozdělení hmoty odpovídající slabému gravitačnímu poli se kernel značně zjednodušuje:
+
+\begin{align}
+K_{00} &\approx \mathcal{F}_t \equiv \langle e^{i[\theta(\mathbf{x})-\theta(\mathbf{x}')]} \rangle_{\text{coh}}, \\
+K_{ij} &\approx -\mathcal{F}_s \delta_{ij}, \\
+K_{0i} &\approx 0
+\end{align}
+
+kde $\mathcal{F}_t$ a $\mathcal{F}_s$ jsou časové a prostorové koherenční funkce kódující fázové korelace mezi různými body kondenzátu.
+
+\subsection{Newtonovská limita}
+
+V~limitě koherentní fázové evoluce ($\mathcal{F}_t = \mathcal{F}_s = 1$) se rovnice~\eqref{eq:metric_kernel_einstein} redukuje na standardní post-newtonovský tvar:
+
+\begin{equation}
+\boxed{g_{00} = -\left(1 + \frac{2\Phi(\mathbf{x})}{c^2}\right), \quad \Phi(\mathbf{x}) = -G_{\text{eff}} \int d^3 x' \, \frac{\rho_m(\mathbf{x}')}{|\mathbf{x} - \mathbf{x}'|}}
+\label{eq:newtonian_limit_einstein}
+\end{equation}
+
+s~efektivní Newtonovou konstantou určenou koherenčními vlastnostmi kondenzátu.
+
+% ============================================================================
+% SEKCE 2: Akustická metrika z GP lagrangiánu
+% ============================================================================
+
+\section{Akustická metrika z~Gross-Pitaevského lagrangiánu}
+\label{sec:akusticka-metrika}
+
+\subsection{GP lagrangián pro kondenzát}
+
+Vycházíme z~Gross-Pitaevského lagrangiánu pro neutrinový kondenzát:
+
+\begin{equation}
+\mathcal{L}_\Psi = \partial_\mu\Psi^* \partial^\mu\Psi - V(|\Psi|), \quad V(|\Psi|) = \frac{\lambda}{4}(|\Psi|^2)^2
+\label{eq:GP_lagrangian_einstein}
+\end{equation}
+
+Rozložíme $\Psi = |\Psi| e^{i\theta}$ a dostaneme:
+
+\begin{equation}
+\mathcal{L}_\Psi = (\partial_\mu|\Psi|)^2 + |\Psi|^2 (\partial_\mu\theta)^2 - \frac{\lambda}{4}|\Psi|^4
+\end{equation}
+
+\subsection{Odvození akustické metriky}
+
+Pro homogenní kondenzát s~$|\Psi|^2 \approx n_\nu$ (konstantní v~komovním systému) lze linearizovat perturbace fáze $\theta$ kolem základního stavu. Pohybová rovnice pro fázové fluktuace má tvar:
+
+\begin{equation}
+\partial_\mu \left(|\Psi|^2 \partial^\mu \theta\right) = 0
+\end{equation}
+
+Tato rovnice má formu \textbf{d'Alembertovy rovnice} v~zakřiveném prostoročase:
+
+\begin{equation}
+\frac{1}{\sqrt{-g}} \partial_\mu \left(\sqrt{-g} \, g^{\mu\nu} \partial_\nu \theta\right) = 0
+\end{equation}
+
+s~\textbf{akustickou metrikou}:
+
+\begin{equation}
+\boxed{g_{\mu\nu}^{\text{acoustic}} = \frac{n_\nu(\mathbf{r})}{n_{\nu,0}} \, \eta_{\mu\nu}}
+\label{eq:acoustic_metric}
+\end{equation}
+
+\subsection{Spojení s~konformní transformací}
+
+Akustická metrika je \textbf{konformně přeškálovaná} Minkowského metrika:
+
+\begin{equation}
+g_{\mu\nu}^{\text{acoustic}} = \Omega^2(\mathbf{r}) \, \eta_{\mu\nu}, \quad \text{kde } \Omega(\mathbf{r}) = \sqrt{\frac{n_\nu(\mathbf{r})}{n_{\nu,0}}} = \sqrt{K(\mathbf{r})}
+\end{equation}
+
+Zde jsme použili $K(\mathbf{r}) = n_\nu(\mathbf{r})/n_{\nu,0} = 1 + \alpha \Phi(\mathbf{r})/c^2$ z~Kapitoly~\ref{chap:zaklady}.
+
+\paragraph{QCT konformní faktor.}
+
+Kombinací s~screeningovým faktorem $f_{\text{screen}} = m_\nu/m_p$ dostáváme plný QCT konformní faktor:
+
+\begin{equation}
+\boxed{\Omega_{\text{QCT}}(\mathbf{r}) = \sqrt{f_{\text{screen}} \cdot K(\mathbf{r})} = \sqrt{\frac{m_\nu}{m_p}} \cdot \sqrt{1 + \alpha\frac{\Phi(\mathbf{r})}{c^2}}}
+\label{eq:QCT_conformal_factor_einstein}
+\end{equation}
+
+% ============================================================================
+% SEKCE 3: Řešení paradoxu přeurčení
+% ============================================================================
+
+\section{Řešení paradoxu přeurčení pomocí kvantové koherence}
+\label{sec:overdetermination}
+
+\subsection{Problém: klasický paradox přeurčení}
+
+Fundamentální výzvou v~analogové gravitaci je \emph{paradox přeurčení}~\cite{Hossenfelder2020}: kondenzovaný systém musí současně:
+\begin{enumerate}
+\item Generovat požadovaný metrický tenzor $g_{\mu\nu}$
+\item Splňovat vlastní pohybové rovnice (kontinuita + Euler)
+\end{enumerate}
+
+Pro nerelativistickou, barotropickou tekutinu (základ QCT kondenzátu) máme:
+
+\textbf{Omezení (3 rovnice):}
+\begin{align}
+\text{Kontinuita:} \quad & \partial_t \rho_0 + \nabla \cdot (\rho_0 \vec{v}_0) = 0 \\
+\text{Euler:} \quad & \rho_0\left[\partial_t \vec{v}_0 + (\vec{v}_0 \cdot \nabla)\vec{v}_0\right] = \vec{F} \\
+\text{Metrika:} \quad & g_{\mu\nu} = f(\rho_0, \vec{v}_0, c)
+\end{align}
+
+\textbf{Klasické proměnné (2 pole):}
+\begin{equation}
+\rho_0(t,\vec{x}), \quad \vec{v}_0(t,\vec{x})
+\end{equation}
+
+\textbf{Výsledek:} Systém je \textbf{přeurčen} (3 rovnice, 2 neznámé). Pro obecné metriky neexistuje řešení!
+
+\subsection{QCT rozřešení: kvantový dodatečný stupeň volnosti}
+
+QCT rozřešuje paradox přeurčení \textbf{kvantově mechanicky}, ne klasicky. Dodatečný stupeň volnosti je \emph{variance fázové koherence}:
+
+\begin{equation}
+\boxed{\sigma^2_{\text{avg}}(\mathbf{r}) = \sigma^2_{\text{local}} \times \frac{\xi^3(\mathbf{r})}{V_{\text{proj}}}}
+\label{eq:sigma_squared_DOF}
+\end{equation}
+
+Fázová variance modifikuje efektivní hustotu prostřednictvím kvantové dekoherence:
+
+\begin{equation}
+\boxed{\rho_{\text{eff}}(\mathbf{r}) = \rho_0(\mathbf{r}) \cdot \exp\left(-\frac{\sigma^2_{\text{avg}}(\mathbf{r})}{2}\right)}
+\label{eq:rho_eff_decoherence_einstein}
+\end{equation}
+
+\paragraph{Klíčový rozdíl oproti klasické analogové gravitaci:}
+
+\begin{itemize}
+\item \textbf{Klasická analogová gravitace (Hossenfelder):} Konformní faktor $\Omega(r)$ je zaveden \emph{ad hoc} pro splnění rovnic tekutiny -- klasická reparametrizace.
+
+\item \textbf{Kvantová analogová gravitace (QCT):} Konformní faktor $\Omega_{\text{QCT}}(r)$ vzniká \emph{dynamicky} z~environmentálně závislé délky koherence neutrinového kondenzátu:
+\begin{equation}
+\xi(\mathbf{r}) = \frac{\xi_0}{\sqrt{K(\mathbf{r})}} \quad \Rightarrow \quad R_{\text{proj}}(\mathbf{r}) = \frac{R_{\text{proj}}^{(0)}}{\sqrt{K(\mathbf{r})}}
+\end{equation}
+\end{itemize}
+
+\textbf{Závěr:} QCT rozřešuje paradox pomocí \textbf{kvantové koherence} jako dodatečného stupně volnosti. Kvantový původ QCT činí mechanismus \textbf{prediktivní} a poskytuje \textbf{testovatelné predikce} (viz Kapitola~\ref{chap:fenomenologie}).
+
+% ============================================================================
+% SEKCE 4: Spojení s Einsteinovými rovnicemi
+% ============================================================================
+
+\section{Spojení s~Einsteinovými rovnicemi}
+\label{sec:einstein-equations}
+
+\subsection{Efektivní tenzor energie-hybnosti}
+
+Z~akustické metriky~\eqref{eq:acoustic_metric} a GP lagrangiánu~\eqref{eq:GP_lagrangian_einstein} lze odvodit efektivní tenzor energie-hybnosti kondenzátu:
+
+\begin{equation}
+T_{\mu\nu}^{\text{eff}} = \partial_\mu\Psi^* \partial_\nu\Psi + \partial_\nu\Psi^* \partial_\mu\Psi - g_{\mu\nu} \mathcal{L}_\Psi
+\end{equation}
+
+Pro homogenní kondenzát s~malými perturbacemi dává v~Newtonovské limitě:
+
+\begin{equation}
+T_{00}^{\text{eff}} \approx \rho_{\text{eff}}^{(\text{pairs})} = E_{\text{pair}} \times n_{\text{pairs}}
+\end{equation}
+
+kde $E_{\text{pair}} = 5{,}38 \times 10^{18}\,\unit{eV}$ je vazebná energie páru (viz Kapitola~\ref{chap:vazebna-energie}).
+
+\subsection{Modifikované Einsteinovy rovnice}
+
+Standardní Einsteinovy rovnice:
+
+\begin{equation}
+G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G_N}{c^4} T_{\mu\nu}
+\end{equation}
+
+V~QCT jsou modifikovány zahrnutím efektivního příspěvku kondenzátu:
+
+\begin{equation}
+\boxed{G_{\mu\nu} = \frac{8\pi G_{\text{eff}}(\mathbf{r})}{c^4} \left[T_{\mu\nu}^{\text{matter}} + T_{\mu\nu}^{\text{eff}}\right]}
+\label{eq:modified_einstein}
+\end{equation}
+
+kde:
+\begin{itemize}
+\item $G_{\text{eff}}(\mathbf{r}) = \Omega_{\text{QCT}}^{-2}(\mathbf{r}) \cdot G_N$ je lokálně proměnná gravitační konstanta
+\item $T_{\mu\nu}^{\text{matter}}$ je tenzor baryonové hmoty
+\item $T_{\mu\nu}^{\text{eff}}$ je příspěvek kondenzátu (typicky $\ll T_{\mu\nu}^{\text{matter}}$)
+\end{itemize}
+
+\subsection{Submilimetrový režim: Yukawovské stínění}
+
+Pro vzdálenosti $r \lesssim \lambda_{\text{screen}}(\mathbf{r})$ dominuje exponenciální stínění:
+
+\begin{equation}
+G_{\text{eff}}(r) \approx G_N \exp\left(-\frac{r}{\lambda_{\text{screen}}(\mathbf{r})}\right)
+\end{equation}
+
+kde screeningová délka závisí na lokálním gravitačním potenciálu:
+
+\begin{equation}
+\lambda_{\text{screen}}(\mathbf{r}) = \frac{R_{\text{proj}}^{(0)}}{\ln(1/f_{\text{screen}})} \times \frac{1}{\sqrt{K(\mathbf{r})}}
+\end{equation}
+
+\paragraph{Numerické hodnoty} (z~Kapitoly~\ref{chap:zaklady}):
+\begin{itemize}
+\item Hluboký vesmír: $\lambda_{\text{screen}}^{(0)} \approx 1{,}0\,\unit{mm}$
+\item Povrch Země: $\lambda_{\text{screen}}^\oplus \approx 40\,\unit{\mu m}$ (konzistentní s~Eöt-Wash!)
+\item ISS (400 km): $\lambda_{\text{screen}}^{\text{ISS}} \approx 41\,\unit{\mu m}$
+\end{itemize}
+
+\subsection{Astrophysický režim: modifikace G}
+
+Pro vzdálenosti $r \gg \lambda_{\text{screen}}$ (astrophysická škála) stínění mizí a zbývá globální modifikace:
+
+\begin{equation}
+G_{\text{eff}}^{\text{astro}} \approx 0{,}9 \, G_N
+\end{equation}
+
+Tento $\sim 10\,\%$ rozdíl vysvětluje některé astrophysické anomálie (viz Kapitola~\ref{chap:fenomenologie}).
+
+% ============================================================================
+% SHRNUTÍ KAPITOLY
+% ============================================================================
+
+\section*{Shrnutí kapitoly}
+
+V~této kapitole jsme formálně odvozili emergentní gravitaci z~dynamiky neutrinového kondenzátu:
+
+\begin{enumerate}
+\item \textbf{Korelační kernel} $K_{\mu\nu}$ spojuje mikroskopické fluktuace kondenzátu s~makroskopickým zakřivením prostoročasu
+\item \textbf{Akustická metrika} z~GP lagrangiánu poskytuje fyzikální interpretaci jako konformní přeškálování
+\item \textbf{Paradox přeurčení} je rozřešen kvantovou koherencí jako dodatečným stupněm volnosti
+\item \textbf{Modifikované Einsteinovy rovnice} zahrnují lokálně proměnné $G_{\text{eff}}(\mathbf{r})$ a příspěvek kondenzátu
+\end{enumerate}
+
+Klíčové výsledky:
+\begin{itemize}
+\item QCT screening je ekvivalentní \textbf{geometrickému principu} (konformní transformace)
+\item Kvantový původ činí teorii \textbf{prediktivní} (ne jen fenomenologickou)
+\item Submilimetrové stínění $\lambda_{\text{screen}}^\oplus \approx 40\,\unit{\mu m}$ je konzistentní s~experimenty
+\end{itemize}
 
 % ============================================================================
 % KAPITOLA 3-9: Další kapitoly
