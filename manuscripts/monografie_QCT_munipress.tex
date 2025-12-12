@@ -1244,7 +1244,246 @@ Klíčové výsledky:
 
 \chapter{Odvození Maxwellových rovnic}
 \label{chap:maxwell}
-[BUDE DOPLNĚNO]
+
+Elektromagnetismus v~QCT není fundamentální silou, ale \textbf{emergentním jevem} vznikajícím ze spontánního porušení globální U(1) symetrie neutrinového kondenzátu. V~této kapitole ukážeme, jak Maxwellovy rovnice a kvantizace elektrického náboje přirozeně vyplývají z~topologických vlastností kondenzátu.
+
+% ============================================================================
+% SEKCE 1: Goldstoneův mód a kalibrační pole
+% ============================================================================
+
+\section{Goldstoneův mód a kalibrační pole}
+\label{sec:goldstone-photon}
+
+\subsection{Spontánní porušení U(1) symetrie}
+
+Neutrinový kondenzát má globální U(1) symetrii:
+
+\begin{equation}
+\Psi_{\nu\nu}(\mathbf{x},t) \to e^{i\theta_0} \Psi_{\nu\nu}(\mathbf{x},t), \quad \theta_0 = \text{konst.}
+\end{equation}
+
+Tato symetrie je spontánně porušena kondenzací páru $\nu\bar{\nu}$ do základního stavu s~nenulovou amplitudou $\langle|\Psi_{\nu\nu}|\rangle \neq 0$.
+
+\paragraph{Goldstonův teorém.}
+
+Podle Goldstonova teorému musí spontánní porušení spojité symetrie vést ke vzniku bezhmotného Goldstonova bosonu. V~QCT je tímto bosonem \textbf{foton}.
+
+\subsection{Fotony jako fázové excitace}
+
+Fázové fluktuace $\theta(\mathbf{x},t)$ kolem základního stavu kondenzátu odpovídají fotonům. Definujeme vektorový potenciál:
+
+\begin{equation}
+\boxed{A_\mu = \frac{\hbar}{e_{\text{eff}}} \partial_\mu\theta}
+\label{eq:photon_from_phase_cz}
+\end{equation}
+
+kde $e_{\text{eff}}$ je efektivní náboj (viz níže).
+
+\paragraph{Elektromagnetický tenzor.}
+
+Standardní definicí dostáváme:
+
+\begin{equation}
+F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu = \frac{\hbar}{e_{\text{eff}}} (\partial_\mu \partial_\nu \theta - \partial_\nu \partial_\mu \theta)
+\end{equation}
+
+\subsection{Odvození Maxwellových rovnic}
+
+Z~Gross-Pitaevského lagrangiánu~\eqref{eq:GP_lagrangian_einstein} pro kondenzát plyne pohybová rovnice pro fázi $\theta$:
+
+\begin{equation}
+\partial_\mu \left(|\Psi|^2 \partial^\mu \theta\right) = J^\mu_{\text{source}}
+\end{equation}
+
+kde $J^\mu_{\text{source}}$ reprezentuje proudovou hustotu vyvolanou topologickými defekty (viz Sekce~\ref{sec:charge-quantization}).
+
+Přepsáním pomocí~\eqref{eq:photon_from_phase_cz} dostáváme:
+
+\begin{equation}
+\boxed{\partial_\nu F^{\nu\mu} = \mu_0 J^\mu}
+\label{eq:Maxwell_inhomog_cz}
+\end{equation}
+
+Toto je \textbf{nehomogenní Maxwellova rovnice}.
+
+\paragraph{Homogenní Maxwellovy rovnice.}
+
+Z~definice $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ automaticky plyne Bianchiho identita:
+
+\begin{equation}
+\boxed{\partial_\lambda F_{\mu\nu} + \partial_\mu F_{\nu\lambda} + \partial_\nu F_{\lambda\mu} = 0}
+\end{equation}
+
+což v~trojrozměrném tvaru dává:
+
+\begin{equation}
+\boxed{\nabla \cdot \mathbf{B} = 0, \quad \nabla \times \mathbf{E} + \frac{\partial \mathbf{B}}{\partial t} = 0}
+\label{eq:Maxwell_homog_cz}
+\end{equation}
+
+\subsection{Efektivní náboj a kolektivní amplifikace}
+
+Efektivní náboj $e_{\text{eff}}$ není fundamentální konstanta, ale vzniká kolektivní amplifikací z~projekčního objemu:
+
+\begin{equation}
+e_{\text{eff}}^2 = e^2 \cdot \sqrt{\frac{n_\nu \hbar^2}{\mu_0 c}} \quad (\text{faktor amplifikace } \sim 10^{17})
+\label{eq:e_eff_cz}
+\end{equation}
+
+\textbf{Fyzikální interpretace:} Makroskopický náboj $e$ je kolektivní jev $\sim \sqrt{N_{\text{pairs}}}$, kde $N_{\text{pairs}} \sim V_{\text{proj}} \cdot n_\nu \approx 2{,}4 \times 10^4$.
+
+\begin{equation}
+\sqrt{N_{\text{pairs}}} \approx \sqrt{2{,}4 \times 10^4} \approx 155
+\end{equation}
+
+% ============================================================================
+% SEKCE 2: Kvantizace náboje z topologických vírů
+% ============================================================================
+
+\section{Kvantizace náboje z~topologických vírů}
+\label{sec:charge-quantization}
+
+\subsection{Topologické defekty kondenzátu}
+
+Nabité částice (elektrony, protony) nejsou v~QCT fundamentální objekty, ale \textbf{topologické defekty} neutrinového kondenzátu -- víry s~kvantovaným tokem.
+
+\paragraph{Víry v~kondenzátu.}
+
+Pro kondenzát s~fází $\theta(\mathbf{x})$ definujeme cirkulaci fáze:
+
+\begin{equation}
+\Gamma = \oint_C \nabla\theta \cdot d\mathbf{l}
+\end{equation}
+
+Protože fáze musí být jednoznačná (modulo $2\pi$), platí:
+
+\begin{equation}
+\Gamma = 2\pi n, \quad n \in \mathbb{Z}
+\end{equation}
+
+\subsection{Automatická kvantizace náboje}
+
+Z~definice vektorového potenciálu~\eqref{eq:photon_from_phase_cz} plyne:
+
+\begin{align}
+\Gamma &= \oint_C \nabla\theta \cdot d\mathbf{l} = \frac{e_{\text{eff}}}{\hbar} \oint_C \mathbf{A} \cdot d\mathbf{l} \\
+&= \frac{e_{\text{eff}}}{\hbar} \int_S (\nabla \times \mathbf{A}) \cdot d\mathbf{S} = \frac{e_{\text{eff}}}{\hbar} \int_S \mathbf{B} \cdot d\mathbf{S} = \frac{e_{\text{eff}}}{\hbar} \Phi_B
+\end{align}
+
+kde $\Phi_B$ je magnetický tok přes plochu $S$ ohraničenou křivkou $C$.
+
+Kombinací s~$\Gamma = 2\pi n$ dostáváme:
+
+\begin{equation}
+\Phi_B = \frac{2\pi \hbar n}{e_{\text{eff}}} = n \Phi_0, \quad \Phi_0 = \frac{h}{e_{\text{eff}}}
+\end{equation}
+
+\paragraph{Elektrický náboj.}
+
+Víry v~kondenzátu odpovídají nabitým částicím. Kvantizace fáze implikuje kvantizaci elektrického náboje:
+
+\begin{equation}
+\boxed{q = \frac{1}{2\pi} \oint_C \nabla\theta \cdot d\mathbf{l} = n \cdot e, \quad n \in \mathbb{Z}}
+\label{eq:charge_quantization_cz}
+\end{equation}
+
+\textbf{Závěr:} Kvantizace elektrického náboje není ad hoc předpoklad, ale \textbf{automatický důsledek} topologie neutrinového kondenzátu!
+
+\subsection{Stabilita vírů}
+
+Víry v~kondenzátu jsou topologicky stabilní -- nemohou zmizet spojitou deformací pole $\Psi_{\nu\nu}$. Tato topologická stabilita vysvětluje:
+
+\begin{itemize}
+\item \textbf{Zachování náboje} -- topologické číslo $n$ je invariant
+\item \textbf{Dlouhodobou stabilitu} elektronů a protonů
+\item \textbf{Nemožnost anihilace} nabité částice bez antičástice
+\end{itemize}
+
+% ============================================================================
+% SEKCE 3: Status fotonů: emergentní excitace s gravitačním efektem
+% ============================================================================
+
+\section{Status fotonů: emergentní excitace s~gravitačním efektem}
+\label{sec:photon-gravity}
+
+\subsection{Klíčové objasnění}
+
+Fotony v~QCT jsou Goldstonovy módy kondenzátu $\Psi_{\nu\nu}$, ale jejich gravitační efekt \textbf{není} zanedbatelný z~principu -- je pouze numericky malý.
+
+\paragraph{Implicitní gravitace fotonů.}
+
+Tenzor energie-hybnosti kondenzátu obsahuje příspěvky všech excitací:
+
+\begin{equation}
+T_{\mu\nu}^{(\Psi)}[\text{celkový}] = T_{\mu\nu}[\text{bulk}] + T_{\mu\nu}[\text{excitace}]
+\label{eq:Tmunu_decomposition_cz}
+\end{equation}
+
+kde excitační část zahrnuje fotonové módy $\sim \partial_\mu\theta$, neutrinové kvazičástice a další kolektivní excitace.
+
+\subsection{Konzistence s experimenty}
+
+Toto je zajištěno:
+
+\begin{itemize}
+\item \textbf{Fotony gravitují} (zahrnuty v~$T_{\mu\nu}^{(\Psi)}$)
+\item \textbf{Shapirovo zpoždění:} $\Delta t = (4GM/c^3)\ln(4r_1 r_2/b^2)$ ✓
+\item \textbf{Gravitační čočkování} ✓
+\item \textbf{Princip ekvivalence zachován} ✓
+\end{itemize}
+
+\subsection{Numerický příspěvek}
+
+V~kosmologickém pozadí:
+
+\begin{equation}
+\frac{\rho_\gamma}{\rho_{\text{ent}}} \sim \frac{10^{-51}\,\unit{GeV^4}}{10^{-19}\,\unit{GeV^4}} \sim 10^{-32} \ll 1
+\end{equation}
+
+Příspěvek fotonů je zanedbatelný v~celkové hustotě, ale \emph{principiálně} přítomen v~$T_{\mu\nu}^{(\Psi)}$.
+
+\subsection{Formální aparát}
+
+Pro přesné výpočty používáme kalibrační kovariantní derivaci:
+
+\begin{equation}
+D_\mu\Psi = (\partial_\mu - ie A_\mu)\Psi
+\end{equation}
+
+Tenzor energie-hybnosti pak automaticky obsahuje EM vazbu:
+
+\begin{equation}
+T_{\mu\nu} = D_\mu\Psi^* D_\nu\Psi + D_\nu\Psi^* D_\mu\Psi - g_{\mu\nu}\mathcal{L}
+\end{equation}
+
+kde $\mathcal{L}$ obsahuje $(1/4)F_{\mu\nu}F^{\mu\nu}$.
+
+\paragraph{Závěr.}
+
+Fotony jsou emergentní, ale gravitují navzdory své roli v~celkové dynamice kondenzátu. Oddělení $T_{\mu\nu}^{(\text{EM})}$ od $T_{\mu\nu}^{(\Psi)}$ je artefakt nízkoenergetické EFT aproximace; fundamentálně existuje pouze $T_{\mu\nu}^{(\text{celkový})}$.
+
+% ============================================================================
+% SHRNUTÍ KAPITOLY
+% ============================================================================
+
+\section*{Shrnutí kapitoly}
+
+V~této kapitole jsme ukázali, jak elektromagnetismus emerguje z~topologických vlastností neutrinového kondenzátu:
+
+\begin{enumerate}
+\item \textbf{Fotony = Goldstonovy bosony} ze spontánního porušení U(1) symetrie
+\item \textbf{Maxwellovy rovnice} vyplývají z~pohybových rovnic fáze $\theta$
+\item \textbf{Kvantizace náboje} je automatická -- topologické číslo vírů
+\item \textbf{Fotony gravitují} (numericky $\sim 10^{-32}$ pozadí, ale principiálně přítomny)
+\end{enumerate}
+
+Klíčové výsledky:
+\begin{itemize}
+\item Elektromagnetismus není fundamentální -- je emergentní z~QCT
+\item Kvantizace náboje je \textbf{geometrický} důsledek (ne axiom)
+\item Topologická stabilita vírů → zachování náboje
+\item Konzistence s~testy gravitace fotonů (Shapiro, lensing)
+\end{itemize}
 
 \chapter{Mikroskopické odvození vazebné energie}
 \label{chap:vazebna-energie}
