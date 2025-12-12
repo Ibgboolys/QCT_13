@@ -766,19 +766,64 @@ Díky rovnicím \eqref{eq:n_nu_local}--\eqref{eq:R_proj_local} závisí $\lambda
 \lambda_{\text{screen}}(\mathbf{r}) = \frac{R_{\text{proj}}^{(0)}}{\ln(1/f_{\text{screen}})} \times \frac{\xi(\mathbf{r})}{\xi_0} = \frac{\lambda_{\text{screen}}^{(0)}}{\sqrt{1 + \alpha \Phi(\mathbf{r})/c^2}}
 \end{equation}
 
-\textbf{Numerické hodnoty:}
-\begin{align}
-\text{Hluboký vesmír } (\Phi \approx 0): &\quad \lambda_{\text{screen}}^{(0)} \approx 1{,}0\,\unit{mm} \\
-\text{Povrch Země:} &\quad \lambda_{\text{screen}}^\oplus \approx 40\,\unit{\mu m} \\
-\text{Oběžná dráha ISS:} &\quad \lambda_{\text{screen}}^{\text{ISS}} \approx 41\,\unit{\mu m}
-\end{align}
+\textbf{Numerické hodnoty pro různá gravitační prostředí:}
+
+\begin{table}[H]
+\centering
+\small
+\caption{Závislost stínicí délky na gravitačním prostředí}
+\label{tab:screening_environment}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Prostředí} & \textbf{$\Phi$ [m$^2$/s$^2$]} & \textbf{$K(r)$} & \textbf{$\lambda_{\text{screen}}$} \\
+\midrule
+Hluboký vesmír & $\approx 0$ & $1$ & $1{,}0\,\unit{mm}$ (max. koherence) \\
+ISS (400 km výška) & $-5{,}9 \times 10^7$ & $590$ & $41\,\unit{\mu m}$ \\
+Povrch Země & $-6{,}25 \times 10^7$ & $625$ & $40\,\unit{\mu m}$ \\
+Kompaktní objekty$^*$ & $\ll -10^{13}$ & $\gg 10^{20}$ & $\ll 1\,\unit{nm}$ (extrémní dekoherence) \\
+\bottomrule
+\end{tabular}
+\vspace{2mm}
+\small
+$^*$ Neutronové hvězdy, černé díry
+\end{table}
+
+\paragraph{Odvození numerických hodnot.}
+
+Pro Zemi s~$\Phi_\oplus = -GM_\oplus/R_\oplus \approx -6{,}25 \times 10^7\,\unit{m^2/s^2}$ a $\alpha \approx -9 \times 10^{11}$:
+\begin{equation}
+K_\oplus = 1 + \alpha \frac{\Phi_\oplus}{c^2} = 1 + (-9 \times 10^{11}) \times \frac{-6{,}25 \times 10^7}{9 \times 10^{16}} \approx 625
+\end{equation}
+
+Pro ISS na výšce 400 km, kde $\Phi_{\text{ISS}} \approx -5{,}9 \times 10^7\,\unit{m^2/s^2}$:
+\begin{equation}
+K_{\text{ISS}} = 1 + \alpha \frac{\Phi_{\text{ISS}}}{c^2} \approx 590
+\end{equation}
+
+Stínicí délky se škálují jako:
+\begin{equation}
+\lambda_{\text{screen}}^\oplus = \frac{\lambda_{\text{screen}}^{(0)}}{\sqrt{K_\oplus}} = \frac{1{,}0\,\unit{mm}}{\sqrt{625}} = 40\,\unit{\mu m}
+\end{equation}
+\begin{equation}
+\lambda_{\text{screen}}^{\text{ISS}} = \frac{\lambda_{\text{screen}}^{(0)}}{\sqrt{K_{\text{ISS}}}} = \frac{1{,}0\,\unit{mm}}{\sqrt{590}} \approx 41{,}2\,\unit{\mu m}
+\end{equation}
 
 \textbf{Testovatelné predikce:}
 \begin{enumerate}
 \item Gravitace je na submilimetrových škálách slabší, než předpovídá Newton -- \textbf{závislá na prostředí!}
+
 \item $R_{\text{proj}}^{(0)}$ je odvozeno z~$(h, c, m_e, m_p, m_\nu)$ bez volných parametrů
+
 \item Stínicí délka $\lambda_{\text{screen}}^\oplus \approx 40\,\unit{\mu m}$ na Zemi je \textbf{konzistentní s~limity Eöt-Wash} ($\sim 40\,\unit{\mu m}$)
-\item \textbf{Klíčový test:} Sub-mm měření na ISS vs. Zemi by měla ukázat rozdíl $\sim 2{,}5\,\%$ v~$\lambda_{\text{screen}}$
+
+\item \textbf{Klíčový experimentální test:} Poměr stínicích délek mezi různými gravitačními prostředími je:
+\begin{equation}
+\frac{\lambda_{\text{screen}}^{\text{ISS}}}{\lambda_{\text{screen}}^\oplus} = \sqrt{\frac{K_\oplus}{K_{\text{ISS}}}} = \sqrt{\frac{625}{590}} \approx 1{,}029
+\end{equation}
+Sub-mm experimenty na ISS vs. Zemi by měly ukázat \textbf{2,9\,\% nárůst} v~$\lambda_{\text{screen}}$ -- přímý test závislosti konformního faktoru na prostředí.
+
+\item \textbf{Fyzikální interpretace:} Stínění je \emph{silnější} (kratší $\lambda_{\text{screen}}$) v~hustších gravitačních prostředích, jak se očekává pro kondenzát reagující na vnější potenciály. To řeší zdánlivý paradox: dekoherence roste s~$|\Phi|$.
 \end{enumerate}
 
 \subsection{Geometrický původ stínění: spojení s~analogovou gravitací}
