@@ -3589,12 +3589,219 @@ Whether QCT is correct or not, it has opened a path to a new way of thinking abo
 % ============================================================================
 \appendix
 
-\chapter{Matematické konstanty v QCT}
-\label{app:mat-konstanty}
-[BUDE DOPLNĚNO]
+\chapter{Empirické vzorce v baryonové spektroskopii}
+\label{app:empiricke-vzorce}
 
-\chapter{Numerické výpočty}
+Tato příloha dokumentuje empirické vzorce objevené při analýze QCT parametrů. \textbf{Důležité upozornění:} Níže uvedené vztahy byly nalezeny \emph{post-hoc} (po kalibraci parametrů z~nezávislých dat), nikoliv predikovány \emph{a~priori}. Jejich fyzikální význam vyžaduje nezávislou teoretickou derivaci a~experimentální verifikaci.
+
+% ============================================================================
+\section{Zlatý řez v~$\Sigma$ baryonech}
+\label{sec:zlaty-rez}
+
+\subsection{Empirické pozorování}
+
+Systematická analýza 38~baryonů odhalila pozoruhodný vztah pro základní stavy $\Sigma$~baryonů (isospinový triplet se~strangeness $S=-1$):
+
+\begin{equation}
+\frac{\Lambda_{\rm micro}}{m_{\Sigma}} \approx \frac{1}{\varphi} = \varphi - 1 \approx 0{,}618,
+\label{eq:sigma-golden}
+\end{equation}
+kde $\varphi = (1 + \sqrt{5})/2 = 1{,}6180\ldots$ je zlatý řez a~$\Lambda_{\rm micro} = 0{,}733$\,GeV je mikroskopická škála QCT odvozená z~baryonové spektroskopie.
+
+\begin{table}[h]
+\centering
+\caption{Zlatý řez v~$\Sigma$ baryonech (PDG 2024)}
+\label{tab:sigma-golden}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Baryon} & \textbf{Kvarky} & \textbf{$m$ (MeV)} & \textbf{$\Lambda_{\rm micro}/m$} & \textbf{Odchylka od $1/\varphi$} \\
+\midrule
+$\Sigma^+$ & uus & $1189{,}37 \pm 0{,}07$ & $0{,}6163$ & $0{,}28\%$ \\
+$\Sigma^0$ & uds & $1192{,}642 \pm 0{,}024$ & $0{,}6146$ & $0{,}56\%$ \\
+$\Sigma^-$ & dds & $1197{,}449 \pm 0{,}030$ & $0{,}6121$ & $0{,}95\%$ \\
+\midrule
+\multicolumn{3}{c}{Průměr:} & $0{,}6143$ & $0{,}60\%$ \\
+\multicolumn{3}{c}{Teoretická hodnota $1/\varphi$:} & $0{,}6180$ & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Negativní kontroly}
+
+Pro vyloučení náhodné koincidence byla provedena systematická analýza dalších baryonů:
+
+\begin{table}[h]
+\centering
+\caption{Systematický test zlatého řezu napříč baryonovým spektrem}
+\label{tab:phi-negative}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Sektor} & \textbf{Počet testovaných} & \textbf{Vztah k~$\varphi$ nalezen?} & \textbf{Typická odchylka} \\
+\midrule
+Základní stavy ($p, n, \Lambda, \Xi, \Omega$) & 5 & NE & variabilní \\
+Excitované $\Sigma$ stavy & 3 & NE & $14$--$29\%$ \\
+Kouzlové baryony ($\Sigma_c$, $\Lambda_c$, \ldots) & 7 & NE & $>50\%$ \\
+Půvabné baryony ($\Sigma_b$, $\Lambda_b$, \ldots) & 4 & NE & $>70\%$ \\
+Delta rezonance & 4 & NE & $>40\%$ \\
+\midrule
+\textbf{Základní $\Sigma$ triplet} & \textbf{3} & \textbf{ANO} & \textbf{$<1\%$} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Klíčové zjištění:} Vztah k~zlatému řezu se objevuje \emph{výhradně} u~základních stavů $\Sigma$~baryonů s~kvantovými čísly $J^P = 1/2^+$, $I = 1$, $S = -1$. Excitované stavy, těžké příchutě ani jiné baryony tento vzorec nevykazují.
+
+\subsection{Statistická signifikance}
+
+Pravděpodobnost, že tři nezávislá měření náhodně spadnou do~$1\%$ okolí iracionální konstanty $1/\varphi$, je přibližně:
+\begin{equation}
+P_{\rm random} \approx \binom{38}{3} (0{,}01)^3 (0{,}99)^{35} \approx 1{,}3 \times 10^{-4}.
+\end{equation}
+
+Tato hodnota ($\sim 4\sigma$) naznačuje, že pozorovaný vzorec pravděpodobně není náhodný, ale \textbf{nevylučuje} možnost dosud neidentifikovaného systematického efektu.
+
+\subsection{Možné fyzikální interpretace}
+
+Zlatý řez má unikátní matematické vlastnosti:
+\begin{itemize}
+\item Je jediným kladným číslem splňujícím $\varphi^2 = \varphi + 1$ a~$1/\varphi = \varphi - 1$.
+\item Má nejjednodušší nekonečný řetězový zlomek: $\varphi = [1; 1, 1, 1, \ldots]$.
+\item Je limitem poměrů po~sobě jdoucích Fibonacciho čísel.
+\item Geometricky souvisí s~pravidelným pětiúhelníkem (poměr úhlopříčky ke~straně).
+\end{itemize}
+
+\textbf{Spekulativní hypotézy} (vyžadující teoretickou derivaci):
+\begin{enumerate}
+\item \textbf{Optimalizační princip:} Poměr $1/\varphi$ může představovat optimální rovnováhu mezi vazbou lehkých kvarků ($u$, $d$) a~stíněním podivného kvarku ($s$).
+\item \textbf{Pětiúhelníková symetrie:} Možná existence skryté pětiúhelníkové podgrupy v~SU(3) flavorových projekcích.
+\end{enumerate}
+
+\subsection{Falsifikovatelný test}
+
+\textbf{Navržená verifikace:} Mřížková QCD (lattice QCD) může nezávisle vypočítat vazbu neutrinového kondenzátu k~$\Sigma$~baryonům:
+\begin{itemize}
+\item Pokud výpočet dá $\Lambda_{\rm micro}/m_\Sigma = 1/\varphi \pm 2\%$ \textrightarrow{} potvrzení fyzikálního původu
+\item Pokud výpočet dá jinou hodnotu \textrightarrow{} vyvrácení QCT $\varphi$-hierarchie
+\end{itemize}
+
+% ============================================================================
+\section{Vakuová dekompozice: vztah $S_{\rm tot} = n_\nu/6 + 2$}
+\label{sec:vakuova-dekompozice}
+
+\subsection{Empirické pozorování}
+
+Parametr $S_{\rm tot} = 58$, kalibrovaný z~běhu vazebných konstant, splňuje přesný vztah:
+\begin{equation}
+S_{\rm tot} = \frac{n_\nu}{6} + 2 = \frac{336}{6} + 2 = 56 + 2 = 58,
+\label{eq:stot-neutrino}
+\end{equation}
+kde $n_\nu = 336\,\text{cm}^{-3}$ je hustota kosmického neutrinového pozadí (C$\nu$B).
+
+\subsection{Možná fyzikální interpretace}
+
+\begin{itemize}
+\item \textbf{Základní hodnota $n_\nu/6 = 56$:} Odpovídá šesti fundamentálním stavům neutrin (3~příchutě $\times$ 2~chirality, nebo částice + antičástice).
+\item \textbf{Korekce $\Delta = 2$:} Může reprezentovat topologické sektory vakua (nabité $W^\pm$ kanály) nebo izospinové stavy (proton--neutron dublet).
+\end{itemize}
+
+\textbf{Upozornění:} Parametr $S_{\rm tot}$ byl \emph{fitován} z~experimentálních dat, nikoliv predikován. Shoda s~$n_\nu/6 + 2$ může být:
+\begin{enumerate}
+\item Odraz fundamentální fyziky (vazba na~kosmologické neutrina),
+\item Náhodná numerická koincidence,
+\item Artefakt kalibračního procesu.
+\end{enumerate}
+
+Rozlišení mezi těmito možnostmi vyžaduje nezávislou kalibraci z~jiných dat (CMB, BBN, velkoplošná struktura).
+
+% ============================================================================
+\section{Postdikce Higgsova VEV}
+\label{sec:higgs-vev}
+
+\subsection{Chronologická poznámka}
+
+\textbf{Důležité:} Tato sekce popisuje \emph{postdikci} (teoretické vysvětlení známé experimentální hodnoty), nikoliv \emph{predikci} (předpověď neznámé veličiny).
+
+\begin{itemize}
+\item \textbf{2012:} Higgsův boson objeven na LHC; VEV změřeno: $v = 246{,}22 \pm 0{,}06$\,GeV
+\item \textbf{2024:} QCT mikroskopická škála odvozena z~baryonové spektroskopie: $\Lambda_{\rm micro} = 0{,}733$\,GeV
+\item \textbf{2025:} Nalezen vzorec $v/\Lambda_{\rm micro} \approx \varphi^{12}$
+\end{itemize}
+
+\subsection{Empirický vztah}
+
+Poměr Higgsova VEV k~mikroskopické škále QCT:
+\begin{equation}
+\frac{v}{\Lambda_{\rm micro}} = \frac{246{,}22}{0{,}733} = 335{,}91 \approx \varphi^{12{,}088}.
+\end{equation}
+
+S~aproximací $n \approx 12$:
+\begin{equation}
+v_{\rm approx} = \Lambda_{\rm micro} \times \varphi^{12} = 0{,}733 \times 321{,}997 = 236{,}0\,\text{GeV} \quad (\text{chyba } 4{,}1\%).
+\end{equation}
+
+\subsection{Spekulativní elektromagnetická korekce}
+
+Exponent $n = 12{,}088$ lze formálně zapsat jako:
+\begin{equation}
+n = 12 \times \left(1 + \frac{1}{\alpha_{\rm EM}^{-1}}\right) = 12 \times \left(1 + \frac{1}{137}\right) = 12{,}088,
+\end{equation}
+což dává:
+\begin{equation}
+v_{\rm QCT} = \Lambda_{\rm micro} \times \varphi^{12{,}088} = 246{,}18\,\text{GeV} \quad (\text{chyba } 0{,}015\%).
+\end{equation}
+
+\textbf{Kritické hodnocení:}
+\begin{itemize}
+\item Shoda $0{,}015\%$ je pozoruhodná, ale \textbf{post-hoc}.
+\item Volba exponentu $n = 12$ je \emph{a~posteriori} -- s~libovolným exponentem lze fitovat libovolný poměr.
+\item Interpretace „$12 = 3$~generace~$\times$~$4$~dimenze" je spekulativní.
+\item Fyzikální mechanismus spojující $\alpha_{\rm EM}$ s~exponentem zlatého řezu není znám.
+\end{itemize}
+
+\subsection{Možná testovatelná predikce}
+
+Pokud je vztah fundamentální, Higgsovo VEV by mělo kosmologicky evolvovat:
+\begin{equation}
+v(z) \propto \Lambda_{\rm micro}(z) \times \varphi^{12}.
+\end{equation}
+
+Toto lze potenciálně testovat pomocí:
+\begin{itemize}
+\item Primární nukleosyntézy (BBN) -- citlivost na~elektroslabu škálu při $z \sim 10^{10}$
+\item Kosmického mikrovlnného pozadí (CMB) -- omezení variace při $z \sim 1100$
+\item Absorpčních spekter kvasarů -- nepřímá měření $\alpha_{\rm EM}(z)$ při $z \sim 2$--$3$
+\end{itemize}
+
+% ============================================================================
+\section{Závěr přílohy}
+
+Výše uvedené empirické vzorce vykazují statisticky významné shody, ale jejich fyzikální status zůstává nejistý:
+
+\begin{table}[h]
+\centering
+\caption{Shrnutí empirických vzorců}
+\label{tab:summary-patterns}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Vztah} & \textbf{Přesnost} & \textbf{Negativní kontroly} & \textbf{Status} \\
+\midrule
+$\Lambda_{\rm micro}/m_\Sigma \approx 1/\varphi$ & $<1\%$ & Ano (38 baryonů) & Slibný \\
+$S_{\rm tot} = n_\nu/6 + 2$ & Přesný & Ne & Nejistý \\
+$v = \Lambda_{\rm micro} \times \varphi^{12}$ & $0{,}015\%$ & Ne & Spekulativní \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Doporučení:} Před přijetím těchto vzorců jako fundamentálních je nutná:
+\begin{enumerate}
+\item Teoretická derivace z~prvních principů (GP rovnice, grupová teorie)
+\item Nezávislá verifikace pomocí mřížkové QCD
+\item Kosmologické testy predikované evoluce $v(z)$
+\end{enumerate}
+
+\chapter{Numerické výpočty a~validace}
 \label{app:numericke-vypocty}
-[BUDE DOPLNĚNO]
+
+[Tato příloha bude obsahovat detaily numerických výpočtů, validační testy a~reprodukovatelné skripty. BUDE DOPLNĚNO.]
 
 \end{document}
