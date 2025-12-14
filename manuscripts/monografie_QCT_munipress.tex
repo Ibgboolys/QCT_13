@@ -704,6 +704,51 @@ Astrofyzikální $G_{\text{eff}}/G_N$ & -- & -- & $\mathbf{\sim 0{,}9}$ (odvozen
 \section{Odvození emergentní gravitace}
 \label{sec:odvozeni-gravitace}
 
+\subsection{Spinorová struktura neutrin a dimenzionalita prostoru}
+\label{subsec:spinor-struktura}
+
+Než přejdeme k~technickému odvození emergentní metriky, je třeba položit fundamentální otázku: \emph{Proč je časoprostor čtyřdimenzionální?}
+
+V~QCT má odpověď přímou souvislost se strukturou Diracova spinoru. Neutrina jako relativistické fermiony jsou popsány čtyřkomponentním Diracovým spinorem $\psi_\nu$, který nese následující kvantová čísla:
+\begin{itemize}
+\item \textbf{Chiralita:} 2 stavy (levá $\psi_L$, pravá $\psi_R$)
+\item \textbf{Spin:} 2 projekce ($\uparrow$, $\downarrow$)
+\end{itemize}
+
+Celkem tedy $2 \times 2 = 4$ komponenty. Tato algebraická struktura se v~QCT interpretuje geometricky:
+\begin{equation}
+\underbrace{\psi_L^{\uparrow}, \psi_L^{\downarrow}}_{\text{směr času}} \oplus \underbrace{\psi_R^{\uparrow}, \psi_R^{\downarrow}}_{\text{prostorové rotace}} \quad \longleftrightarrow \quad (t, r, \theta, \phi)
+\end{equation}
+
+\textbf{Fyzikální interpretace:}
+\begin{itemize}
+\item Dvě chirality kódují směr kauzální evoluce ($\pm t$)
+\item Dvě spinové projekce kódují rotační stupně volnosti (úhlové souřadnice)
+\item Celková 4-rozměrnost prostoru vychází z~fundamentální spinorové struktury neutrin
+\end{itemize}
+
+Tato interpretace není pouze numerologická. Reprezentace Lorentzovy grupy $\text{SL}(2,\mathbb{C})$ (dvojnásobné pokrytí $\text{SO}(3,1)$) přirozeně operuje na čtyřkomponentních spinorech. QCT postuluje, že \emph{prostoročas emerguje z~této algebraické struktury}, nikoli naopak.
+
+\subsection{Pauliho princip a geometrická rigidita}
+
+Druhou klíčovou vlastností neutrin jako fermionů je \textbf{Pauliho vylučovací princip}: dva identické fermiony nemohou obsadit stejný kvantový stav.
+
+V~kontextu neutrinového kondenzátu to má zásadní důsledky pro geometrii prostoru:
+\begin{itemize}
+\item Na škálách menších než koherenční délka $\xi$ vzniká efektivní \textbf{tlak degenerace}
+\item Tento tlak zabraňuje neomezené koncentraci neutrin -- a tím i gravitačního pole
+\item Singularity ($r \to 0$) jsou \emph{automaticky vyloučeny}, protože by vyžadovaly nekonečnou hustotu identických stavů
+\end{itemize}
+
+Matematicky lze tuto regularizaci zapsat jako efektivní minimální délku:
+\begin{equation}
+\Delta x_{\min} \sim \xi_{\text{coh}} = \frac{\hbar}{\sqrt{2 m_\nu |\mu|}} \sim 1\,\text{mm} \quad \text{(kosmický základ)}
+\end{equation}
+
+\textbf{Srovnání s~jinými přístupy:} Zatímco loop quantum gravity zavádí minimální délku ad hoc (Planckova délka $\ell_{\text{Pl}} \sim 10^{-35}$~m), v~QCT vzniká přirozená regularizace na makroskopické škále $\sim 1$~mm z~fundamentální fermionové statistiky.
+
+Tato „tvrdost" prostoru, daná Pauliho principem, je mikroskopickým původem geometrické rigidity metriky.
+
 \subsection{Emergentní prostoročasová geometrie z~korelací kondenzátu}
 
 Efektivní prostoročasová metrika vzniká systematickým procedurám hrubého zrna (coarse-graining), které průměrují mikroskopické kvantové korelace přes charakteristické projekční objemy. Vycházíme z~ploché Minkowského metriky $\eta_{\mu\nu}$, přičemž malé perturbace indukované variace v~hustotě provázanosti generují efektivní metriku:
@@ -2600,6 +2645,27 @@ Diskrepance je $\sim 10^{55}$ řádů -- nejhorší predikce v~dějinách fyziky
 
 \textbf{QCT návrh:} Temná energie nepochází z~vakuových fluktuací, ale ze \emph{zbývající vazebné energie} neutrinového kondenzátu po saturaci při $z \sim 10^6$. Malá pozorovaná hodnota vzniká z~\emph{trojitého supresorního mechanismu}, redukující $10^{55}$ fine-tuning na určení $\mathcal{O}(1)$.
 
+\subsection{Proč samotný Fermiho tlak nestačí}
+
+Naivní přístup by mohl navrhovat, že degenerovaný neutrinový plyn (jako u~bílých trpaslíků nebo neutronových hvězd) generuje dostatečný tlak pro temnou energii. Výpočet Fermiho tlaku pro kosmické neutrinové pozadí (C$\nu$B) však ukazuje, že tento mechanismus selhává:
+\begin{equation}
+P_F = \frac{(3\pi^2)^{2/3}}{5} \frac{\hbar^2 n_\nu^{5/3}}{m_\nu}
+\end{equation}
+
+Dosazením $n_\nu = 336\,\unit{cm^{-3}} = 3{,}36 \times 10^{8}\,\unit{m^{-3}}$ a~$m_\nu \approx 0{,}1\,\unit{eV}$:
+\begin{equation}
+P_F \approx 10^{-17}\,\unit{Pa}
+\end{equation}
+
+Porovnání s~pozorovanou temnou energií:
+\begin{equation}
+\rho_\Lambda c^2 \approx 6 \times 10^{-10}\,\unit{Pa}
+\end{equation}
+
+\textbf{Fermiho tlak je o~7 řádů nižší} než požadovaná hodnota pro temnou energii. Tato diskrepance není marginální -- je devastující pro jakýkoli model založený na prostém degenerovaném plynu.
+
+\textbf{Důsledek pro QCT:} Tento výpočet demonstruje \emph{nutnost} párovacího mechanismu. Samotná fermionová statistika neposkytuje dostatečnou energii. Teprve vazebná energie $E_{\mathrm{pair}} \sim 10^{18}$~eV amplifikuje efektivní příspěvek o~faktor $\sim 10^{10}$, čímž se dostáváme do správného řádu po aplikaci trojitého supresorního mechanismu.
+
 % ============================================================================
 \section{Fyzikální mechanismus: saturační přechod}
 
@@ -2957,6 +3023,40 @@ Konzervace & Ano & Ano (s~$K(t)$ výhradou) & \checkmark \\
 \end{table}
 
 \textbf{Závěr:} QCT obchází W-W \textbf{porušením předpokladu lokality}. Tenzor napětí je nelokální na škálách $\xi \sim 1$~mm $\gg \ell_{\mathrm{Pl}}$.
+
+\subsection{Topologická ochrana kondenzátu}
+
+Kromě makroskopické nelokality poskytuje dodatečnou ochranu \textbf{topologická struktura spinorového pole}.
+
+\paragraph{Dvojnásobné pokrytí a rotace o~$4\pi$.}
+
+Spinory tvoří reprezentaci grupy $\text{SU}(2)$, která je dvojnásobným pokrytím rotační grupy $\text{SO}(3)$:
+\begin{equation}
+\text{SU}(2) \xrightarrow{2:1} \text{SO}(3)
+\end{equation}
+
+Tato matematická struktura má fyzikální důsledky: zatímco vektor se vrátí do původního stavu po rotaci o~$2\pi$, spinor vyžaduje rotaci o~$4\pi$:
+\begin{equation}
+\psi(\phi + 2\pi) = -\psi(\phi), \quad \psi(\phi + 4\pi) = +\psi(\phi)
+\end{equation}
+
+\paragraph{Důsledky pro stabilitu kondenzátu.}
+
+Tato topologická vlastnost zabraňuje kontinuálnímu rozpadu neutrinového kondenzátu na jednoduché excitace:
+\begin{itemize}
+\item Párový stav $\nu\bar{\nu}$ nese celkový spin 0 nebo 1
+\item Rozpad na jednotlivé spinory vyžaduje topologickou přestavbu
+\item Podobně jako v~HeIII-B (supratekutá fáze hélia-3), je topologický náboj páru chráněn
+\end{itemize}
+
+Matematicky:
+\begin{equation}
+\pi_1(\text{SU}(2)) = 0, \quad \pi_1(\text{SO}(3)) = \mathbb{Z}_2
+\end{equation}
+
+Netriviální fundamentální grupa $\text{SO}(3)$ umožňuje existenci neuzavřených smyček v~konfiguračním prostoru, které jsou topologicky stabilní.
+
+\textbf{Fyzikální interpretace:} Kondenzát není stabilizován pouze energeticky (jako supravodič), ale též \emph{topologicky}. Toto poskytuje dodatečnou robustnost emergentní gravitace vůči kvantovým fluktuacím.
 
 % ============================================================================
 \section{Holografická interpretace}
