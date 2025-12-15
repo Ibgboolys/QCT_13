@@ -518,17 +518,35 @@ $$V_{\text{Higgs}} = n_\nu \times V(\Lambda_{\text{micro}})$$
 **Z odvození:**
 $$f_{\text{total}} = \frac{1}{F_{\text{proj}} \times \varphi^{17} \times \sqrt{E_{\text{pair}}/m_\nu}}$$
 
-$$= 5.2 \times 10^{-17}$$
+**Numerický výpočet:**
+```
+F_proj = 2.43 × 10⁴
+φ^17 = 3571
+√(E_pair/m_ν) = √(5.38×10¹⁸/0.1) = 7.33 × 10⁹
 
-**QCT claim:**
+f_total = 1 / (2.43×10⁴ × 3571 × 7.33×10⁹)
+        = 1 / (6.36 × 10¹⁷)
+        = 1.57 × 10⁻¹⁸
+```
+
+**QCT triple suppression:**
 $$f_{\text{total}} = f_c \times f_{\text{avg}} \times f_{\text{freeze}}$$
 
-$$\sim 10^{-10} \times 0.8 \times f_{\text{freeze}}$$
+**Cases:**
 
-**Implikace:**
-$$f_{\text{freeze}} \sim 6.5 \times 10^{-7}$$
+**A) f_avg = 1.0 (monograph baseline):**
+$$f_{\text{freeze}} = \frac{1.57 \times 10^{-18}}{1.07 \times 10^{-10}} = 1.47 \times 10^{-8}$$
 
-**Ne** exp(-10⁸) jak je uvedeno v některých dokumentech!
+**B) f_avg = 0.8 (with averaging):**
+$$f_{\text{freeze}} = \frac{1.57 \times 10^{-18}}{8.56 \times 10^{-11}} = 1.83 \times 10^{-8}$$
+
+**Srovnání s monografií:**
+- Monograph (kapitola 9): f_freeze ~ 1.5 × 10⁻⁸
+- Geometric (f_avg=1.0): f_freeze = 1.47 × 10⁻⁸
+- **PERFECT AGREEMENT!** ✓
+
+**Poznámka:** Některé dokumenty používají notaci "exp(-10⁸)" nebo "suppression factor 10⁸".
+Toto znamená **faktor ~10⁸**, tedy f_freeze ~ 1/10⁸ ≈ 10⁻⁸, **NE** exp(-10⁸) ≈ 10⁻⁴³!
 
 ---
 
@@ -545,7 +563,7 @@ $$f_{\text{freeze}} \sim 6.5 \times 10^{-7}$$
 2. **Exponent 29 = S_tot/2:**
    - Polovina celkové akce QCT
    - Dekompozice: 29 = 12.088 + 16.912 ≈ 12 + 17
-   - 17 = počet SM částic
+   - 17 ≈ počet SM částic (intriguing observation, requires theoretical mechanism)
 
 3. **Inverzní α korekce:**
    - Energie: φ^(12(1+1/137))
