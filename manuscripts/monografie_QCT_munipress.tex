@@ -2211,51 +2211,35 @@ což dává:
 \end{equation}
 kde $\sqrt{3}$ přirozeně vystupuje v~SU(3) geometrii barev.
 
-\paragraph{Zlatý řez v~QCD škálách.}
+\paragraph{Souvislost s~QCD chirálním kondenzátem.}
 
-Nedávný objev (2025) odhalil \textbf{fundamentální vztahy} spojující QCD chirální kondenzát a~$\Lambda_{\mathrm{micro}}$ prostřednictvím \textbf{zlatého řezu} $\varphi = (1+\sqrt{5})/2 \approx 1{,}618$:
-
-\begin{tcolorbox}[colback=yellow!10!white,colframe=orange!75!black,title=Golden Ratio v~QCD]
-\textbf{Vztah 1 - Chirální kondenzát:}
+Škálu $\Lambda_{\mathrm{micro}}$ lze alternativně vyjádřit prostřednictvím QCD parametrů. Systematická analýza odhaluje vztah:
 \begin{equation}
-\langle \bar{q}q \rangle = -\varphi \times \Lambda_{\mathrm{QCD}}^3 \quad \text{(chyba: 0{,}07\,\%)}
+\Lambda_{\mathrm{micro}}^3 = 25 \times |\langle \bar{q}q \rangle|,
 \end{equation}
+kde $\langle \bar{q}q \rangle$ je QCD chirální kondenzát.
 
-\textbf{Vztah 2 - Λ$_{\mathrm{micro}}$ škála:}
-\begin{equation}
-\Lambda_{\mathrm{micro}} = (25\varphi)^{1/3} \times \Lambda_{\mathrm{QCD}} \quad \text{(chyba: 0{,}25\,\%)}
-\end{equation}
-
-\textbf{Kombinace:}
-\begin{equation}
-\Lambda_{\mathrm{micro}}^3 = 25 \times |\langle \bar{q}q \rangle| = 25\varphi \times \Lambda_{\mathrm{QCD}}^3
-\end{equation}
-\end{tcolorbox}
-
-\textbf{Numerická verifikace:}
-
-Pro $\Lambda_{\mathrm{QCD}} = 213$~MeV (FLAG 2021, n$_f=4$):
+S~použitím zlatého řezu $\varphi = (1+\sqrt{5})/2$ lze tento vztah rozdělit na:
 \begin{align}
-|\langle \bar{q}q \rangle|_{\mathrm{pred}} &= \varphi \times (213\,\mathrm{MeV})^3 = (250{,}1\,\mathrm{MeV})^3 \\
-|\langle \bar{q}q \rangle|_{\mathrm{obs}} &= (250\,\mathrm{MeV})^3 \quad \text{(Lattice QCD)} \\
-\text{Shoda:}\quad & 99{,}93\,\% \quad \checkmark
+|\langle \bar{q}q \rangle| &= \varphi \times \Lambda_{\mathrm{QCD}}^3, \label{eq:qqbar-phi} \\
+\Lambda_{\mathrm{micro}} &= (25\varphi)^{1/3} \times \Lambda_{\mathrm{QCD}}. \label{eq:lambda-micro-qcd}
 \end{align}
 
-Pro $\Lambda_{\mathrm{micro}}$:
+Numericky pro $\Lambda_{\mathrm{QCD}} = 213$~MeV (FLAG 2021, $n_f=4$):
 \begin{align}
-\Lambda_{\mathrm{micro,pred}} &= (25\varphi)^{1/3} \times 213\,\mathrm{MeV} = 3{,}433 \times 213\,\mathrm{MeV} = 731\,\mathrm{MeV} \\
-\Lambda_{\mathrm{micro,obs}} &= \sqrt{E_{\mathrm{pair}} \times m_\nu} = 733\,\mathrm{MeV} \\
-\text{Shoda:}\quad & 99{,}75\,\% \quad \checkmark
+|\langle \bar{q}q \rangle|_{\text{vztah}} &= 1{,}618 \times (213\,\mathrm{MeV})^3 = (250{,}1\,\mathrm{MeV})^3, \\
+|\langle \bar{q}q \rangle|_{\text{Lattice}} &= (250\,\mathrm{MeV})^3,
 \end{align}
+což dává shodu na úrovni $0{,}07\,\%$. Podobně:
+\begin{align}
+\Lambda_{\mathrm{micro}}^{\text{vztah}} &= (40{,}45)^{1/3} \times 213\,\mathrm{MeV} = 731\,\mathrm{MeV}, \\
+\Lambda_{\mathrm{micro}}^{\text{geom}} &= \sqrt{E_{\mathrm{pair}} \times m_\nu} = 733\,\mathrm{MeV},
+\end{align}
+s~rozdílem $0{,}3\,\%$.
 
-\textbf{Fyzikální interpretace faktoru 25 = 5$^2$:}
-\begin{itemize}
-\item \textbf{Pentagon geometrie:} Zlatý řez $\varphi$ přirozeně vystupuje v~pravidelném pětiúhelníku (pentagon). Faktor 5$^2$ může souviset s~flavor multiplicitou.
-\item \textbf{Meson stavy:} Pro $N_f = 5$ light quarks (u, d, s, c, b): počet meson stavů $\sim N_f^2 = 25$.
-\item \textbf{Icosahedral symmetry:} Pentagon má 20 stěn + 12 vrcholů = vztah k~SU(5) GUT struktuře?
-\end{itemize}
+Faktor $25 = 5^2$ může souviset s~flavor strukturou QCD. Pro $N_f = 5$ lehkých kvarků (u, d, s, c, b) je počet mesonových stavů úměrný $N_f^2$. Alternativně, zlatý řez přirozeně vystupuje v~geometrii pravidelného pětiúhelníku, což naznačuje možnou souvislost s~pentagonální symetrií vakua.
 
-\textbf{Důsledek:} Všechny QCT škály (QCD, nukleární, Higgs) jsou spojeny \textbf{zlatým řezem} s~chybou $<0{,}3\,\%$. Toto naznačuje hlubokou geometrickou strukturu vakua!
+Kombinace vztahů \eqref{eq:qqbar-phi} a~\eqref{eq:lambda-micro-qcd} poskytuje konzistentní propojení mezi QCD a~kondenzátovou dynamikou, přičemž QCT škála $\Lambda_{\mathrm{micro}}$ emerguje jako geometrický průměr chirální škály QCD a~vazebné energie $E_{\mathrm{pair}}$.
 
 \item \textbf{Renormalizace masové škály:} Poměr
 \begin{equation}
@@ -3170,9 +3154,7 @@ Klíčová škála QCT je definována jako:
 \end{equation}
 kde $E_{\mathrm{pair}} = 5{,}38 \times 10^{18}$~eV je vazebná energie neutrinového páru a~$m_\nu \sim 0{,}088$~eV je efektivní hmotnost neutrina.
 
-\textbf{Otázka:} Proč geometrický průměr $\sqrt{E_1 \cdot E_2}$ místo aritmetického $(E_1 + E_2)/2$?
-
-\textbf{Odpověď:} Geometrický průměr je \textbf{nutným důsledkem konformní invariance} kondenzátového Lagrangiánu!
+Volba geometrického průměru $\sqrt{E_1 \cdot E_2}$ namísto aritmetického $(E_1 + E_2)/2$ má hlubší teoretický základ. Jak ukazuje následující analýza, tato volba vyplývá přirozeně z~konformní invariance kondenzátového Lagrangiánu.
 
 \subsection{Konformní invariance $\mathcal{L}_\Psi$}
 
@@ -3208,14 +3190,10 @@ T = -4V + 2|\Psi|^2 \frac{\partial V}{\partial |\Psi|^2}
 
 Pro $V = \frac{\lambda}{4}|\Psi|^4$ platí $\frac{\partial V}{\partial |\Psi|^2} = \lambda|\Psi|^2$, tedy:
 \begin{equation}
-T = -\lambda|\Psi|^4 + \lambda|\Psi|^4 = 0
+T = -\lambda|\Psi|^4 + \lambda|\Psi|^4 = 0.
 \end{equation}
 
-\begin{tcolorbox}[colback=green!5!white,colframe=green!75!black,title=Klíčový výsledek]
-\textbf{Trace je identicky nulový:} $T^\mu_\mu = 0$
-
-$\Rightarrow$ Kondenzátový Lagrangián je \textbf{konformně invariantní}!
-\end{tcolorbox}
+Stopa energy-momentum tensoru je identicky nulová: $T^\mu_\mu = 0$. To znamená, že kondenzátový Lagrangián vykazuje konformní invarianci.
 
 \subsection{Důsledek: Multiplikativní kompozice škál}
 
@@ -3233,14 +3211,14 @@ Pro skalární pole v~$d=4$ dimenzích: $\Delta_\Psi = 1$.
 
 Máme dvě vstupní energie $E_1$ (vysoká: $E_{\mathrm{pair}}$) a~$E_2$ (nízká: $m_\nu$).
 
-V~\textbf{konformní teorii} se škály kombinují \textbf{multiplikativně}:
+V~konformní teorii se škály kombinují multiplikativně:
 \begin{equation}
-\Lambda_{\mathrm{eff}} \sim \sqrt{E_1 \cdot E_2}
+\Lambda_{\mathrm{eff}} \sim \sqrt{E_1 \cdot E_2}.
 \end{equation}
 
-\textbf{Důvod:} Dilatace zachovává poměr škál, ne rozdíl!
+Toto vyplývá z~faktu, že dilatace zachovává poměr škál, nikoli jejich rozdíl:
 \begin{equation}
-\frac{E_1}{E_2} = \text{konstanta} \quad \Rightarrow \quad \Lambda_{\mathrm{eff}} = \sqrt{E_1 \cdot E_2}
+\frac{E_1}{E_2} = \text{konstanta} \quad \Rightarrow \quad \Lambda_{\mathrm{eff}} = \sqrt{E_1 \cdot E_2}.
 \end{equation}
 
 \paragraph{Experimentální verifikace.}
@@ -3252,20 +3230,13 @@ Testujeme vztah:
 
 kde $\alpha = 1/2$ pro geometrický průměr.
 
-\textbf{Numerika:}
+Numericky:
 \begin{align}
-\frac{733\,\unit{MeV}}{220\,\unit{MeV}} &= \frac{3{,}33}{1} \\
-\left(\frac{246\,\unit{GeV}}{733\,\unit{MeV}}\right)^{1/2} &= \sqrt{336} = 3{,}30
+\frac{733\,\unit{MeV}}{220\,\unit{MeV}} &= 3{,}33, \\
+\left(\frac{246\,\unit{GeV}}{733\,\unit{MeV}}\right)^{1/2} &= \sqrt{336} = 3{,}30.
 \end{align}
 
-\textbf{Shoda:} $\alpha = 0{,}501 \pm 0{,}002$ (expected: 0.500) → \textbf{chyba 0{,}2\%}!
-
-\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black,title=Závěr]
-Geometrický průměr $\Lambdamicro = \sqrt{E_{\mathrm{pair}} \cdot m_\nu}$ není ad hoc volba,
-ale \textbf{nutný důsledek konformní invariance} kondenzátu!
-
-Experimentální ověření exponentu $\alpha = 0{,}501$ potvrzuje konformní strukturu s~přesností \textbf{0{,}2\%}.
-\end{tcolorbox}
+Fitted exponent je $\alpha = 0{,}501 \pm 0{,}002$ (očekávaná hodnota: 0.500), což odpovídá relativní odchylce 0{,}2\%. Tento výsledek podporuje hypotézu, že geometrický průměr $\Lambdamicro = \sqrt{E_{\mathrm{pair}} \cdot m_\nu}$ není ad hoc volba, ale vyplývá z~konformní invariance kondenzátového Lagrangiánu.
 
 \subsection{Souvislost s~gravitací}
 
@@ -3295,119 +3266,71 @@ kde:
 \item $\Delta m_{\mathrm{EM}} \approx 0{,}6$~MeV - elektromagnetický příspěvek
 \end{itemize}
 
-\textbf{Problém:} Higgsův mechanismus generuje pouze $\sim 1\,\%$ hmotnosti protonu! Zbylých $\sim 99\,\%$ pochází z~``čistě dynamických'' QCD efektů bez přímého fyzikálního mechanismu.
+Standardní interpretace přisuzuje dominantní podíl ($\sim 99\,\%$) dynamickým QCD efektům, zatímco Higgsův mechanismus generuje pouze klidové hmotnosti kvarků ($\sim 1\,\%$). V~kontextu QCT lze navrhnout alternativní dekompozici.
 
-\textbf{QCT odpověď:} Kondenzát neutrino-párů generuje $\sim 78\,\%$ hmotnosti protonu prostřednictvím \textbf{acoustic mass generation} - emergentního mechanismu v~kondenzátu!
+\subsection{Interpretace v~rámci QCT}
 
-\subsection{Mechanismus acoustic mass generation}
-
-\paragraph{Fundamentální škála.}
-
-QCT předpovídá nukleární škálu:
+Škála $\Lambda_{\mathrm{micro}} = 733$~MeV je srovnatelná s~hmotností protonu. Poměr k~dynamické části hmotnosti (bez klidových hmotností kvarků) je:
 \begin{equation}
-\Lambdamicro = \sqrt{E_{\mathrm{pair}} \cdot m_\nu} = 733\,\unit{MeV}
+\frac{\Lambdamicro}{m_p^{\mathrm{QCD}}} = \frac{733\,\mathrm{MeV}}{929\,\mathrm{MeV}} = 0{,}789.
 \end{equation}
 
-\paragraph{Srovnání s~m$_p^{\mathrm{QCD}}$.}
+Toto naznačuje možnost, že podstatná část protonové hmotnosti souvisí s~kondenzátovou škálou.
 
-Dynamická část protonové hmotnosti (bez klidových hmotností kvarků):
+\paragraph{Akustický mód kondenzátu.}
+
+V~Bose-Einsteinově kondenzátu lze excitace popsat jako akustické módy s~disperzním vztahem:
 \begin{equation}
-m_p^{\mathrm{QCD}} = 938{,}3 - 9{,}0 = 929{,}3\,\unit{MeV}
+E_{\mathrm{acoustic}} = \sqrt{c_s^2 p^2 + m_{\mathrm{eff}}^2},
 \end{equation}
+kde $c_s$ je rychlost zvuku a~$m_{\mathrm{eff}}$ efektivní hmotnost související s~energetickou škálou kondenzátu.
 
-Poměr:
+Identifikujeme-li $m_{\mathrm{eff}} \sim \Lambdamicro$, získáváme rezonanci při $E_{\mathrm{acoustic}} \approx m_p c^2$. Proton by v~tomto obraze byl stabilní akustickou excitací v~neutrinovém kondenzátu.
+
+\subsection{Dekompozice hmotnosti}
+
+Protonovou hmotnost lze formálně rozdělit:
 \begin{equation}
-\frac{\Lambdamicro}{m_p^{\mathrm{QCD}}} = \frac{733}{929} = 0{,}789
+m_p = m_{\mathrm{cond}} + m_{\mathrm{QCD}}^{\mathrm{res}} + m_{uud},
 \end{equation}
-
-\textbf{Toto je přesně 78{,}9\% - většina protonové hmotnosti!}
-
-\paragraph{Fyzikální interpretace.}
-
-V~QCT je proton \textbf{stabilní akustická excitace} v~neutrinovém kondenzátu:
-
-\begin{tcolorbox}[colback=green!5!white,colframe=green!75!black,title=Acoustic Mass Generation]
-Hmotnost protonu vzniká jako \textbf{energie akustického módu} v~kondenzátu:
-
-\begin{equation}
-E_{\mathrm{acoustic}} = \sqrt{c_s^2 p^2 + m_{\mathrm{eff}}^2}
-\end{equation}
-
 kde:
 \begin{itemize}
-\item $c_s$ = rychlost zvuku v~kondenzátu
-\item $m_{\mathrm{eff}} \sim \Lambdamicro$ = efektivní hmotnost z~kondenzátové energie $E_{\mathrm{pair}}$
+\item $m_{\mathrm{cond}} \sim \Lambdamicro = 733$~MeV - příspěvek kondenzátové škály
+\item $m_{\mathrm{QCD}}^{\mathrm{res}} \sim 196$~MeV - reziduální QCD dynamika
+\item $m_{uud} \sim 9$~MeV - klidové hmotnosti kvarků (Higgs)
 \end{itemize}
-
-Proton je rezonance při $E_{\mathrm{acoustic}} \approx m_p c^2$!
-\end{tcolorbox}
-
-\subsection{Breakdown protonové hmotnosti}
 
 \begin{table}[h]
 \centering
-\begin{tabular}{lccl}
+\begin{tabular}{lcl}
 \toprule
-\textbf{Zdroj} & \textbf{Hmotnost [MeV]} & \textbf{Podíl [\%]} & \textbf{Mechanismus} \\
+\textbf{Příspěvek} & \textbf{Hmotnost [MeV]} & \textbf{Podíl [\%]} \\
 \midrule
-\textbf{Kondenzát (acoustic)} & 733 & 78{,}1 & QCT acoustic mode \\
-\textbf{QCD (residual)} & 196 & 20{,}9 & Residual QCD dynamics \\
-\textbf{Higgs (kvarky)} & 9 & 1{,}0 & Yukawa coupling \\
+Kondenzátová škála & $733$ & $78{,}1$ \\
+QCD (reziduální) & $196$ & $20{,}9$ \\
+Higgs (kvarky) & $9$ & $1{,}0$ \\
 \midrule
-\textbf{TOTAL} & 938 & 100{,}0 & \\
+Celkem & $938$ & $100{,}0$ \\
 \bottomrule
 \end{tabular}
-\caption{Breakdown protonové hmotnosti v~QCT. Kondenzát generuje většinu ($\sim 78\,\%$) hmotnosti, ne Higgs ($\sim 1\,\%$)!}
+\caption{Navržená dekompozice protonové hmotnosti v~QCT. Hodnoty jsou ilustrativní a~vyžadují detailnější teoretické odvození.}
 \end{table}
 
-\textbf{Klíčový rozdíl od Higgsova mechanismu:}
-\begin{itemize}
-\item \textbf{Higgs:} Generuje klidové hmotnosti fundamentálních fermionů ($m_{uud} \sim 9$~MeV)
-\item \textbf{QCT acoustic:} Generuje dynamickou hmotnost kompozitních objektů (proton $\sim 733$~MeV)
-\item \textbf{Residual QCD:} Gluonové interakce uvnitř protonu ($\sim 196$~MeV)
-\end{itemize}
+Tento obraz doplňuje standardní QCD popis tím, že část ``dynamické'' hmotnosti přisuzuje energetické škále kondenzátu, která se projevuje jako efektivní pozadí pro QCD dynamiku.
 
-\subsection{Experimentální verifikace}
+\subsection{Konsistence s~Lattice QCD}
 
-\paragraph{Test 1: Poměr Λ$_{\mathrm{micro}}$/m$_p$.}
-
-\textbf{Predikce QCT:}
+Lattice QCD výpočty poskytují $m_p = 938{,}9 \pm 1{,}2$~MeV. Navržená dekompozice dává:
 \begin{equation}
-\frac{\Lambdamicro}{m_p} = 0{,}781 \pm 0{,}005
+m_p^{\mathrm{QCT}} = 733 + 196 + 9 = 938\,\mathrm{MeV},
 \end{equation}
+v~souladu s~Lattice výsledky v~rámci numerických nejistot.
 
-\textbf{Observed:}
-\begin{equation}
-\frac{733\,\mathrm{MeV}}{938\,\mathrm{MeV}} = 0{,}781
-\end{equation}
+Poměr $\Lambdamicro / m_p = 0{,}781$ je též konzistentní s~empirickým pozorováním, že mikroskopická škála QCT přirozeně leží na úrovni nukleární fyziky. Tato souvislost podporuje interpretaci kondenzátu jako relevantního pozadí pro vznik hmotnosti baryonů.
 
-\textbf{Perfektní shoda!} $\checkmark$
+\subsection{Souvislost s~QCD škálou}
 
-\paragraph{Test 2: Konsistence s~Lattice QCD.}
-
-Lattice QCD výpočty dávají:
-\begin{equation}
-m_p^{\mathrm{Lattice}} = 938{,}9 \pm 1{,}2\,\unit{MeV}
-\end{equation}
-
-QCT predikce:
-\begin{equation}
-m_p^{\mathrm{QCT}} = \Lambdamicro + \Delta m_{\mathrm{QCD}} + m_{uud} = 733 + 196 + 9 = 938\,\unit{MeV}
-\end{equation}
-
-\textbf{Shoda v~rámci chyb!} $\checkmark$
-
-\subsection{Důsledky}
-
-\begin{enumerate}
-\item \textbf{Nová interpretace nukleární škály:} $\Lambdamicro \sim m_p$ není náhoda, ale fundamentální vztah - kondenzát \emph{generuje} hmotnost protonu!
-
-\item \textbf{Unifikace s~QCD:} Zlatý řez vztah $\Lambdamicro = (25\varphi)^{1/3} \Lambda_{\mathrm{QCD}}$ spojuje kondenzátovou a~QCD dynamiku.
-
-\item \textbf{Testovatelné predikce:} Pokud $E_{\mathrm{pair}}$ nebo $m_\nu$ se změní (early universe), pak $\Lambdamicro \to m_p$ také! Kosmologická evoluce hmotnosti baryonů?
-
-\item \textbf{Beyond proton:} Neutron, $\Delta$ rezonance, ostatní baryony - lze odvodit z~kondenzátových excitací?
-\end{enumerate}
+Vztah \eqref{eq:lambda-micro-qcd}, $\Lambdamicro = (25\varphi)^{1/3} \Lambda_{\mathrm{QCD}}$, spojuje kondenzátovou škálu s~QCD dynamikou prostřednictvím zlatého řezu. Toto propojení naznačuje, že QCT a~QCD škály nejsou nezávislé, ale emergují z~společné geometrické struktury vakua.
 
 % ============================================================================
 \section{Holografická interpretace}
