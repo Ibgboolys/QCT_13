@@ -1,5 +1,10 @@
 # QCT: Compact Mathematical Formalism (AI-optimized)
 
+Author and right holder:
+Boleslav Plhák [ORCID: 0009-0003-7469-5212]
+Researcher, Znojmo, Czech republic
+Kelob.31415@gmail.com
+
 ## I. FUNDAMENTAL POSTULATE
 Spacetime=macroscopic condensate of cosmic neutrino background (C𝜈B) pairs. Metric g_μν emerges from acoustic metric of condensate Ψ_{νν}.
 
@@ -296,6 +301,5 @@ Observed: Ω_b ≈ 5% (with corrections)
 4. Connection to string theory/quantum gravity
 5. Neutrino mass generation mechanism within QCT
 
-**END COMPACT FORMALISM**
-**Character count (no spaces): ~8950**
-**Status: Complete mathematical specification for AI reconstruction**
+--------
+Copyright (c) 2025 Boleslav Plhák 
