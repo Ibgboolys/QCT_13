@@ -1,0 +1,721 @@
+{
+  "metadata": {
+    "title": "QCT Neutrino Condensate — Complete Equation Database",
+    "version": "1.0.0",
+    "generated": "2025-12-17",
+    "author": "QCT Research Team",
+    "description": "Comprehensive database of equations defining the neutrino condensate formalism in Quantum Coherence Theory",
+    "total_equations": 49,
+    "sections": [
+      "2.1 Condensate definition",
+      "2.2 Entanglement density",
+      "3.1 Effective field theory",
+      "3.2 Madelung transform",
+      "3.3 Sound speed",
+      "4.1 Acoustic metric",
+      "4.2 Geodesics",
+      "4.3 Newtonian limit",
+      "4.4 Wave equation",
+      "5.1 Effective weak interaction",
+      "5.2 Gap equation",
+      "5.3 Pair binding energy",
+      "5.4 Higgs connection",
+      "5.5 Fundamental scale",
+      "6.1 Phase–gauge correspondence",
+      "6.2 Effective current",
+      "6.3 Topological charge",
+      "6.4 Spin as circulation",
+      "6.5 Proton as defect",
+      "6.6 Spin distribution",
+      "7.1 Emergent FLRW limit",
+      "7.2 Dark matter interpretation",
+      "7.3 Dark energy",
+      "7.4 Gravity weakness",
+      "7.5 Gravitational waves",
+      "7.6 Observable predictions",
+      "Axioms",
+      "Validation",
+      "Calibration",
+      "Meta"
+    ]
+  },
+
+  "equations": {
+    "eq_psi_def": {
+      "latex": "\\Psi_{\\nu\\nu}(x) = \\langle \\nu(x) \\nu(x) \\rangle",
+      "equation_number": "1.1",
+      "section": "2.1 Condensate definition",
+      "derivation_steps": [
+        "Začni kvantovým polem neutrin ν(x) ve standardním modelu.",
+        "Uvažuj efektivní párovou korelační funkci v nízkoenergetickém limitu.",
+        "Definuj makroskopickou koherentní amplitudu jako střední hodnotu páru."
+      ],
+      "phys_interp": "Pole Ψ_{νν} popisuje neutrinový kondenzát, který v QCT nahrazuje pojem prázdného vakua. Není to pole v prostoru, ale kolektivní stav definující samotnou strukturu prostoru.",
+      "dependencies": [],
+      "source": "QCT monograph, Sec. 2"
+    },
+
+    "eq_entanglement_identity": {
+      "latex": "\\rho_{\\rm ent} = |\\langle \\Psi_{\\nu\\nu} \\rangle|^{2}",
+      "equation_number": "1.2",
+      "section": "2.2 Entanglement density",
+      "derivation_steps": [
+        "Uvažuj kondenzát jako makroskopicky koherentní kvantový stav.",
+        "Definuj hustotu entanglementu jako modul čtverce koherentní amplitudy.",
+        "Identifikuj tuto hustotu s fyzikální strukturou prostoru."
+      ],
+      "phys_interp": "Hustota entanglementu není látka v prostoru, ale míra lokální koherence, která definuje metrické a dynamické vlastnosti prostoru samotného.",
+      "dependencies": ["eq_psi_def"],
+      "source": "QCT monograph, Sec. 2"
+    },
+
+    "eq_gp_lagrangian": {
+      "latex": "\\mathcal{L} = i\\hbar \\Psi^{*}\\partial_{t}\\Psi - \\frac{\\hbar^{2}}{2m_{\\rm eff}}|\\nabla\\Psi|^{2} - V(|\\Psi|^{2})",
+      "equation_number": "2.1",
+      "section": "3.1 Effective field theory",
+      "derivation_steps": [
+        "Začni efektivní teorií nízkoenergetických excitací kondenzátu.",
+        "Zachovej pouze nejnižší derivace kompatibilní s unitaritou.",
+        "Zaveď efektivní hmotnost m_eff pro kolektivní excitace."
+      ],
+      "phys_interp": "Gross–Pitaevskii-like lagrangián popisuje dynamiku fázové koherence neutrinového kondenzátu na makroskopické úrovni.",
+      "dependencies": ["eq_entanglement_identity"],
+      "units": "energy density",
+      "source": "QCT monograph, Sec. 3"
+    },
+
+    "eq_gp_eom": {
+      "latex": "i\\hbar \\partial_{t}\\Psi = \\left(-\\frac{\\hbar^{2}}{2m_{\\rm eff}}\\nabla^{2} + \\frac{\\partial V}{\\partial |\\Psi|^{2}}\\right)\\Psi",
+      "equation_number": "2.2",
+      "section": "3.1 GP equation",
+      "derivation_steps": [
+        "Proveď Euler–Lagrangeovu variaci lagrangiánu eq_gp_lagrangian.",
+        "Variuj podle Ψ* a zachovej reálný potenciál V(|Ψ|²)."
+      ],
+      "phys_interp": "Pohybová rovnice kondenzátu určuje, jak se fáze a amplituda koherence vyvíjejí v čase a prostoru.",
+      "dependencies": ["eq_gp_lagrangian"],
+      "source": "QCT monograph, Sec. 3"
+    },
+
+    "eq_madelung_transform": {
+      "latex": "\\Psi = \\sqrt{\\rho}\\,e^{i\\theta}",
+      "equation_number": "3.1",
+      "section": "3.2 Madelung transform",
+      "derivation_steps": [
+        "Parametrizuj komplexní pole pomocí amplitudy a fáze.",
+        "Odděl hustotní a fázové stupně volnosti."
+      ],
+      "phys_interp": "Madelungova transformace umožňuje interpretovat kondenzát jako kvantovou tekutinu s hustotou a rychlostním polem.",
+      "dependencies": ["eq_gp_eom"],
+      "source": "QCT monograph, Sec. 3"
+    },
+
+    "eq_continuity": {
+      "latex": "\\partial_{t}\\rho + \\nabla\\cdot(\\rho\\mathbf{v}) = 0",
+      "equation_number": "3.2",
+      "section": "3.2 Continuity",
+      "derivation_steps": [
+        "Dosadit Madelungovu transformaci do GP rovnice.",
+        "Vzít imaginární část rovnice.",
+        "Identifikovat proud jako ρv."
+      ],
+      "phys_interp": "Zákon zachování koherence kondenzátu; fluktuace hustoty se šíří jako kolektivní módy.",
+      "dependencies": ["eq_madelung_transform"],
+      "source": "QCT monograph, Sec. 3"
+    },
+
+    "eq_velocity_field": {
+      "latex": "\\mathbf{v} = \\frac{\\hbar}{m_{\\rm eff}}\\nabla\\theta",
+      "equation_number": "3.3",
+      "section": "3.2 Velocity field",
+      "derivation_steps": [
+        "Identifikuj gradient fáze jako generátor proudění.",
+        "Normalizuj pomocí efektivní hmotnosti excitací."
+      ],
+      "phys_interp": "Rychlostní pole kondenzátu je čistě potenciální; víry odpovídají topologickým defektům.",
+      "dependencies": ["eq_madelung_transform"],
+      "units": "velocity",
+      "source": "QCT monograph, Sec. 3"
+    },
+
+    "eq_quantum_pressure": {
+      "latex": "Q = -\\frac{\\hbar^{2}}{2m_{\\rm eff}}\\frac{\\nabla^{2}\\sqrt{\\rho}}{\\sqrt{\\rho}}",
+      "equation_number": "3.4",
+      "section": "3.2 Quantum pressure",
+      "derivation_steps": [
+        "Vzít reálnou část GP rovnice po Madelungově transformaci.",
+        "Identifikovat neklasický korekční člen."
+      ],
+      "phys_interp": "Kvantový tlak stabilizuje kondenzát a definuje koherenční délku; klíčový pro strukturu topologických defektů.",
+      "dependencies": ["eq_madelung_transform"],
+      "units": "energy",
+      "source": "QCT monograph, Sec. 3"
+    },
+
+    "eq_sound_speed": {
+      "latex": "c_{s}^{2} = \\frac{\\rho}{m_{\\rm eff}}\\frac{\\partial^{2}V}{\\partial \\rho^{2}}",
+      "equation_number": "3.5",
+      "section": "3.3 Sound speed",
+      "derivation_steps": [
+        "Linearizuj rovnice kontinuity a pohybu kolem homogenního pozadí ρ₀.",
+        "Identifikuj vztah mezi tlakem a hustotou z potenciálu V(ρ).",
+        "Koeficient u k² v disperzní relaci určuje rychlost zvuku."
+      ],
+      "phys_interp": "Rychlost zvuku určuje, jak rychle se šíří fluktuace koherence; je klíčovým parametrem akustické geometrie.",
+      "dependencies": ["eq_continuity", "eq_quantum_pressure", "eq_gp_lagrangian"],
+      "units": "velocity^2",
+      "source": "QCT monograph, Sec. 3"
+    },
+
+    "eq_acoustic_metric": {
+      "latex": "ds^{2} = \\frac{\\rho}{c_{s}}\\left[-(c_{s}^{2}-v^{2})dt^{2}-2\\mathbf{v}\\cdot d\\mathbf{x}\\,dt + d\\mathbf{x}^{2}\\right]",
+      "equation_number": "4.1",
+      "section": "4.1 Acoustic metric",
+      "derivation_steps": [
+        "Zvaž lineární fázové fluktuace na pozadí tekoucího kondenzátu.",
+        "Přepiš jejich vlnovou rovnici do kovariantní formy.",
+        "Identifikuj efektivní metrický tenzor g_{μν}^{acoustic}."
+      ],
+      "phys_interp": "Excitace kondenzátu se šíří, jako by žily v zakřiveném časoprostoru; geometrie je emergentní vlastností koherence.",
+      "dependencies": ["eq_sound_speed", "eq_velocity_field"],
+      "units": "metric",
+      "source": "QCT monograph, Sec. 4"
+    },
+
+    "eq_qct_conformal": {
+      "latex": "g_{\\mu\\nu}^{\\rm acoustic} = \\Omega^{2}(x)\\,\\eta_{\\mu\\nu}",
+      "equation_number": "4.2",
+      "section": "4.1 Conformal limit",
+      "derivation_steps": [
+        "Uvažuj limit pomalých proudění |v| ≪ c_s.",
+        "Faktorizuj celkový prefaktor akustické metriky.",
+        "Identifikuj konformní faktor Ω² ∝ ρ / c_s."
+      ],
+      "phys_interp": "Lokální hustota entanglementu určuje konformní faktor metriky, čímž přímo váže strukturu vakua na geometrii prostoru.",
+      "dependencies": ["eq_acoustic_metric", "eq_entanglement_identity"],
+      "source": "QCT monograph, Sec. 4"
+    },
+
+    "eq_geodesic_motion": {
+      "latex": "\\frac{d^{2}x^{\\mu}}{d\\tau^{2}} + \\Gamma^{\\mu}_{\\alpha\\beta}\\frac{dx^{\\alpha}}{d\\tau}\\frac{dx^{\\beta}}{d\\tau} = 0",
+      "equation_number": "4.3",
+      "section": "4.2 Geodesics",
+      "derivation_steps": [
+        "Aplikuj princip nejmenší akce na částice pohybující se v akustické metrice.",
+        "Odvoď Christoffelovy symboly z g_{μν}^{acoustic}."
+      ],
+      "phys_interp": "Částice sledují geodetiky emergentní geometrie; gravitace není síla, ale geometrický efekt koherence.",
+      "dependencies": ["eq_acoustic_metric"],
+      "source": "QCT monograph, Sec. 4"
+    },
+
+    "eq_newtonian_limit": {
+      "latex": "\\nabla^{2}\\Phi = 4\\pi G_{\\rm eff}\\,\\delta\\rho",
+      "equation_number": "4.4",
+      "section": "4.3 Newtonian limit",
+      "derivation_steps": [
+        "Uvažuj slabé pole: g_{tt} ≈ -(1+2Φ).",
+        "Linearizuj konformní metriku kolem homogenního pozadí.",
+        "Identifikuj Poissonovu rovnici pro potenciál Φ."
+      ],
+      "phys_interp": "Newtonovská gravitace se objevuje jako limit malé deformace koherence kondenzátu.",
+      "dependencies": ["eq_qct_conformal", "eq_entanglement_identity"],
+      "units": "potential",
+      "source": "QCT monograph, Sec. 4"
+    },
+
+    "eq_geff_definition": {
+      "latex": "G_{\\rm eff} \\sim \\frac{c_{s}^{2}}{\\rho_{\\rm ent}}",
+      "equation_number": "4.5",
+      "section": "4.3 Effective Newton constant",
+      "derivation_steps": [
+        "Porovnej koeficient Poissonovy rovnice s klasickou Newtonovou konstantou.",
+        "Vyjádři G_eff pomocí parametrů kondenzátu."
+      ],
+      "phys_interp": "Slabost gravitace je důsledkem vysoké koherence neutrinového kondenzátu, nikoli fundamentální malé konstanty.",
+      "dependencies": ["eq_newtonian_limit", "eq_sound_speed", "eq_entanglement_identity"],
+      "units": "m^3 kg^-1 s^-2",
+      "source": "QCT monograph, Sec. 4"
+    },
+
+    "eq_acoustic_wave": {
+      "latex": "\\Box_{g_{\\rm acoustic}}\\,\\varphi = 0",
+      "equation_number": "4.6",
+      "section": "4.4 Wave equation",
+      "derivation_steps": [
+        "Linearizuj rovnice pohybu pro malé fázové fluktuace.",
+        "Vyjádři je pomocí kovariantního d'Alembertova operátoru v akustické metrice."
+      ],
+      "phys_interp": "Fonony jsou bezhmotné excitace pohybující se po světelných kuželech emergentní geometrie.",
+      "dependencies": ["eq_acoustic_metric"],
+      "source": "QCT monograph, Sec. 4"
+    },
+
+    "eq_weak_contact": {
+      "latex": "\\mathcal{L}_{\\rm eff} = -G_{F}(\\bar{\\nu}\\gamma^{\\mu}P_{L}\\nu)(\\bar{\\nu}\\gamma_{\\mu}P_{L}\\nu)",
+      "equation_number": "5.1",
+      "section": "5.1 Effective weak interaction",
+      "derivation_steps": [
+        "Začni elektroslabou teorií se zprostředkováním bosonem Z.",
+        "V nízkoenergetickém limitu integruj Z-boson.",
+        "Získej čtyřfermionový kontaktní člen s vazbou G_F."
+      ],
+      "phys_interp": "Slabá interakce generuje efektivní krátkodosahovou vazbu mezi neutrinovými páry, která umožňuje kolektivní korelace.",
+      "dependencies": [],
+      "units": "GeV^{-2}",
+      "source": "QCT monograph, Sec. 5"
+    },
+
+    "eq_density_of_states": {
+      "latex": "N(E_{F}) \\simeq \\frac{n_{\\nu}}{E_{F}}",
+      "equation_number": "5.2",
+      "section": "5.1 Density of states",
+      "derivation_steps": [
+        "Uvažuj ultrarelativistická neutrina při elektroslabých teplotách.",
+        "Hustota stavů je úměrná celkové hustotě dělené charakteristickou energií."
+      ],
+      "phys_interp": "Hustota stavů určuje kolektivní odezvu neutrinového plynu na slabou interakci.",
+      "dependencies": [],
+      "units": "energy^{-2}",
+      "source": "QCT monograph, Sec. 5"
+    },
+
+    "eq_bcs_coupling": {
+      "latex": "\\lambda = |G_{F}|\\,N(E_{F})",
+      "equation_number": "5.3",
+      "section": "5.1 BCS parameter",
+      "derivation_steps": [
+        "Definuj bezrozměrnou párovací konstantu jako součin vazby a hustoty stavů.",
+        "Zahrň flavor multiplicitu a plasma korekce v efektivní λ."
+      ],
+      "phys_interp": "Efektivní vazba určuje, zda systém vstoupí do koherentního párového režimu.",
+      "dependencies": ["eq_weak_contact", "eq_density_of_states"],
+      "source": "QCT monograph, Sec. 5"
+    },
+
+    "eq_bcs_gap": {
+      "latex": "\\Delta \\sim 2\\,\\omega_{c}\\,\\exp\\!\\left(-\\frac{1}{\\lambda}\\right)",
+      "equation_number": "5.4",
+      "section": "5.2 Gap equation",
+      "derivation_steps": [
+        "Vyřeš BCS gap rovnici v kontaktovém přiblížení.",
+        "Použij cutoff ω_c odpovídající elektroslabé škále.",
+        "Exponenciální citlivost na λ určuje velikost gapu."
+      ],
+      "phys_interp": "Energetická mezera určuje stabilitu neutrinového kondenzátu a jeho makroskopickou tuhost.",
+      "dependencies": ["eq_bcs_coupling"],
+      "units": "energy",
+      "source": "QCT monograph, Sec. 5"
+    },
+
+    "eq_epair_definition": {
+      "latex": "E_{\\rm pair} \\equiv f_{\\rm map}\\,\\Delta",
+      "equation_number": "5.5",
+      "section": "5.3 Pair binding energy",
+      "derivation_steps": [
+        "Mapuj mikroskopický gap na efektivní vazebnou energii páru.",
+        "Zahrň kolektivní a geometrické faktory do f_map."
+      ],
+      "phys_interp": "E_pair je fundamentální energetická škála QCT, která řídí stabilitu koherence a potlačení kvantových fluktuací.",
+      "dependencies": ["eq_bcs_gap"],
+      "units": "energy",
+      "source": "QCT monograph, Sec. 5"
+    },
+
+    "eq_higgs_mapping": {
+      "latex": "E_{\\rm pair} \\sim \\frac{y_{\\nu} v_{\\rm EW}^{2}}{m_{\\nu}}",
+      "equation_number": "5.6",
+      "section": "5.4 Higgs connection",
+      "derivation_steps": [
+        "Uvažuj vznik neutrinových hmot přes Yukawovu vazbu k Higgsovu poli.",
+        "Eliminuj Higgsovo pole v nízkoenergetickém efektivním popisu.",
+        "Vyjádři vazebnou energii přes v_EW, y_ν a m_ν."
+      ],
+      "phys_interp": "Koherence vakua vzniká při elektroslabém přechodu; gravitační škála je sekundární emergentní jev.",
+      "dependencies": ["eq_epair_definition"],
+      "units": "energy",
+      "source": "QCT monograph, Sec. 5"
+    },
+
+    "eq_qct_scale": {
+      "latex": "\\Lambda_{\\rm QCT} \\sim E_{\\rm pair}",
+      "equation_number": "5.7",
+      "section": "5.5 Fundamental scale",
+      "derivation_steps": [
+        "Identifikuj nejvyšší koherentní energetickou škálu teorie.",
+        "Odděl ji od Planckovy škály."
+      ],
+      "phys_interp": "QCT má vlastní přirozenou cutoff škálu, nesouvisející s Planckovou energií.",
+      "dependencies": ["eq_epair_definition"],
+      "units": "energy",
+      "source": "QCT monograph, Sec. 5"
+    },
+
+    "eq_phase_gauge_map": {
+      "latex": "\\partial_{\\mu}\\theta \\;\\rightarrow\\; \\partial_{\\mu}\\theta - A_{\\mu}",
+      "equation_number": "6.1",
+      "section": "6.1 Phase–gauge correspondence",
+      "derivation_steps": [
+        "Uvažuj globální U(1) symetrii fázového stupně kondenzátu.",
+        "Požaduj lokální invarianci vůči fázové transformaci.",
+        "Zaveď kompenzační pole A_μ jako geometrickou proměnnou."
+      ],
+      "phys_interp": "Elektromagnetické pole se objevuje jako geometrická manifestace lokálních fázových posunů kondenzátu.",
+      "dependencies": ["eq_madelung_transform"],
+      "source": "QCT monograph, Sec. 6"
+    },
+
+    "eq_maxwell_from_phase": {
+      "latex": "\\partial_{\\mu}\\left( |\\Psi|^{2}(\\partial^{\\mu}\\theta - A^{\\mu}) \\right)=0",
+      "equation_number": "6.2",
+      "section": "6.1 Emergent Maxwell equations",
+      "derivation_steps": [
+        "Variuj efektivní akci podle A_μ.",
+        "Získej rovnici zachování efektivního proudu.",
+        "Identifikuj F_{\\mu\\nu}=\\partial_{\\mu}A_{\\nu}-\\partial_{\\nu}A_{\\mu}."
+      ],
+      "phys_interp": "Maxwellovy rovnice nejsou fundamentální, ale emergují z dynamiky fáze koherentního vakua.",
+      "dependencies": ["eq_phase_gauge_map", "eq_gp_lagrangian"],
+      "source": "QCT monograph, Sec. 6"
+    },
+
+    "eq_effective_current": {
+      "latex": "J^{\\mu}_{\\rm eff} = |\\Psi|^{2}(\\partial^{\\mu}\\theta - A^{\\mu})",
+      "equation_number": "6.3",
+      "section": "6.2 Effective current",
+      "derivation_steps": [
+        "Definuj proud jako kanonicky sdruženou veličinu k A_μ.",
+        "Využij koherentní hustotu jako váhu proudu."
+      ],
+      "phys_interp": "Elektrický proud je kolektivní tok fázové koherence; náboj je topologický invariant.",
+      "dependencies": ["eq_maxwell_from_phase"],
+      "units": "current density",
+      "source": "QCT monograph, Sec. 6"
+    },
+
+    "eq_topological_charge": {
+      "latex": "Q = \\frac{1}{2\\pi}\\oint \\nabla\\theta \\cdot d\\mathbf{l}",
+      "equation_number": "6.4",
+      "section": "6.3 Topological charge",
+      "derivation_steps": [
+        "Uvažuj vírové konfigurace fáze.",
+        "Integruj gradient fáze kolem uzavřené křivky."
+      ],
+      "phys_interp": "Elektrický náboj odpovídá vinutí fáze; je kvantován topologicky, nikoli dynamicky.",
+      "dependencies": ["eq_madelung_transform"],
+      "units": "dimensionless",
+      "source": "QCT monograph, Sec. 6"
+    },
+
+    "eq_spin_from_vorticity": {
+      "latex": "\\mathbf{S} \\sim \\int d^{3}x\\; \\mathbf{r} \\times (\\rho\\,\\mathbf{v})",
+      "equation_number": "6.5",
+      "section": "6.4 Spin as circulation",
+      "derivation_steps": [
+        "Identifikuj orbitální moment hybnosti proudu kondenzátu.",
+        "Přiřaď spin jako vnitřní cirkulaci kolem topologického jádra."
+      ],
+      "phys_interp": "Část spinu částic není lokalizována v jádru, ale v cirkulaci kondenzátu v jeho okolí.",
+      "dependencies": ["eq_velocity_field", "eq_entanglement_identity"],
+      "units": "angular momentum",
+      "source": "QCT monograph, Sec. 6"
+    },
+
+    "eq_proton_topology": {
+      "latex": "\\Psi(r) \\sim \\Psi_{0}\\,f(r/\\xi)\\,e^{in\\phi}",
+      "equation_number": "6.6",
+      "section": "6.5 Proton as defect",
+      "derivation_steps": [
+        "Modeluj proton jako stabilní topologický defekt kondenzátu.",
+        "Profil f(r/ξ) interpoluje mezi vnitřkem a vnějškem defektu.",
+        "Číslo n určuje topologický náboj."
+      ],
+      "phys_interp": "Proton není izolovaný objekt v prázdnu, ale strukturovaný defekt v koherentním vakuu.",
+      "dependencies": ["eq_topological_charge", "eq_quantum_pressure"],
+      "source": "QCT monograph, Sec. 6"
+    },
+
+    "eq_spin_radius_distribution": {
+      "latex": "\\langle r^{2} \\rangle_{S} \\sim \\int r^{2}\\,|\\nabla\\theta|^{2}\\,d^{3}x",
+      "equation_number": "6.7",
+      "section": "6.6 Spin distribution",
+      "derivation_steps": [
+        "Vyhodnoť prostorové rozložení gradientů fáze.",
+        "Získej charakteristickou velikost oblasti nesoucí spin."
+      ],
+      "phys_interp": "Spin je prostorově rozprostřený v oblasti řádu koherenční délky, což vysvětluje spinovou krizi.",
+      "dependencies": ["eq_spin_from_vorticity"],
+      "units": "length^2",
+      "source": "QCT monograph, Sec. 6"
+    },
+
+    "eq_flrw_emergent_metric": {
+      "latex": "ds^{2} = -c^{2}dt^{2} + a^{2}(t)\\,\\Omega^{2}(t)\\,d\\mathbf{x}^{2}",
+      "equation_number": "7.1",
+      "section": "7.1 Emergent FLRW limit",
+      "derivation_steps": [
+        "Zprůměruj lokální akustickou metriku přes kosmologické měřítko.",
+        "Identifikuj časovou závislost koherence kondenzátu.",
+        "Zaveď efektivní konformní faktor Ω(t)."
+      ],
+      "phys_interp": "Kosmologická expanze je makroskopický projev evoluce koherence vakua, nikoli expanze prázdného prostoru.",
+      "dependencies": ["eq_acoustic_metric", "eq_entanglement_identity"],
+      "source": "QCT monograph, Sec. 7"
+    },
+
+    "eq_hubble_from_coherence": {
+      "latex": "H(t) = \\frac{1}{2}\\,\\frac{d}{dt}\\ln\\Omega^{-2}(t)",
+      "equation_number": "7.2",
+      "section": "7.1 Hubble parameter",
+      "derivation_steps": [
+        "Porovnej FLRW metriku s emergentní metrikou QCT.",
+        "Identifikuj Hubbleův parametr s časovou změnou Ω."
+      ],
+      "phys_interp": "Hubbleova konstanta měří rychlost ztráty globální koherence vakua.",
+      "dependencies": ["eq_flrw_emergent_metric"],
+      "units": "1/time",
+      "source": "QCT monograph, Sec. 7"
+    },
+
+    "eq_dark_matter_as_coherence_shell": {
+      "latex": "\\rho_{\\rm DM}(r) \\sim |\\nabla\\rho_{\\rm ent}(r)|",
+      "equation_number": "7.3",
+      "section": "7.2 Dark matter interpretation",
+      "derivation_steps": [
+        "Vyhodnoť gradient entanglementové hustoty kolem baryonů.",
+        "Identifikuj efektivní gravitační příspěvek bez částicové DM."
+      ],
+      "phys_interp": "Temná hmota je statická struktura koherence vakua obalující baryonickou hmotu.",
+      "dependencies": ["eq_entanglement_identity"],
+      "units": "energy density",
+      "source": "QCT monograph, Sec. 7"
+    },
+
+    "eq_tully_fisher_qct": {
+      "latex": "v^{4} \\sim G_{\\rm eff}\\,M_{\\rm bar}\\,a_{\\rm QCT}",
+      "equation_number": "7.4",
+      "section": "7.2 Galactic scaling",
+      "derivation_steps": [
+        "Použij stacionární řešení koherenční skořápky.",
+        "Odvoď rotační rychlosti z profilu Ω(r)."
+      ],
+      "phys_interp": "Tully–Fisherův vztah plyne přirozeně z vakuu, nikoli z dodatečných částic.",
+      "dependencies": ["eq_dark_matter_as_coherence_shell"],
+      "source": "QCT monograph, Sec. 7"
+    },
+
+    "eq_dark_energy_pressure": {
+      "latex": "p_{\\Lambda} = -\\rho_{\\rm ent} c^{2}",
+      "equation_number": "7.5",
+      "section": "7.3 Dark energy",
+      "derivation_steps": [
+        "Vyhodnoť stavovou rovnici homogenního kondenzátu.",
+        "Zachovej Lorentzovu invarianci vakua."
+      ],
+      "phys_interp": "Temná energie je tlak globálně koherentního neutrinového kondenzátu.",
+      "dependencies": ["eq_entanglement_identity"],
+      "units": "pressure",
+      "source": "QCT monograph, Sec. 7"
+    },
+
+    "eq_gravitational_screening": {
+      "latex": "f_{\\rm screen} \\simeq \\frac{m_{\\nu}}{m_{p}}",
+      "equation_number": "7.6",
+      "section": "7.4 Gravity weakness",
+      "derivation_steps": [
+        "Porovnej vazebné energie baryon–kondenzát a neutrino–kondenzát.",
+        "Získej efektivní zeslabení gravitační vazby."
+      ],
+      "phys_interp": "Slabost gravitace je důsledkem neutrinového screeningu, nikoli fundamentální malé konstanty.",
+      "dependencies": [],
+      "units": "dimensionless",
+      "source": "QCT monograph, Sec. 7"
+    },
+
+    "eq_gw_dispersion_qct": {
+      "latex": "\\omega^{2} = c^{2}k^{2} + \\alpha\\,k^{4}/\\Lambda_{\\rm QCT}^{2}",
+      "equation_number": "7.7",
+      "section": "7.5 Gravitational waves",
+      "derivation_steps": [
+        "Lineární perturbace emergentní metriky.",
+        "Rozvoj efektivní akce do vyšších derivací."
+      ],
+      "phys_interp": "Gravitační vlny se v QCT šíří v médiu a vykazují slabou disperzi.",
+      "dependencies": ["eq_acoustic_metric", "eq_qct_scale"],
+      "units": "frequency^2",
+      "source": "QCT monograph, Sec. 7"
+    },
+
+    "eq_gw_damping": {
+      "latex": "h(t) \\sim e^{-\\gamma_{\\rm gw} t}",
+      "equation_number": "7.8",
+      "section": "7.5 GW damping",
+      "derivation_steps": [
+        "Zahrň disipaci kondenzátu do vlnové rovnice.",
+        "Identifikuj útlumový koeficient."
+      ],
+      "phys_interp": "Amplituda gravitačních vln může mírně klesat vlivem interakce s vakuu.",
+      "dependencies": ["eq_gw_dispersion_qct"],
+      "units": "dimensionless",
+      "source": "QCT monograph, Sec. 7"
+    },
+
+    "eq_experimental_signature_map": {
+      "latex": "\\{v_{2},\\; \\Lambda/p,\\; r_{p},\\; H_{0},\\; \\Delta h_{\\rm gw}\\}",
+      "equation_number": "7.9",
+      "section": "7.6 Observable predictions",
+      "derivation_steps": [
+        "Namapuj teoretické veličiny na měřitelné observably.",
+        "Odděl QCT signatury od standardních modelů."
+      ],
+      "phys_interp": "QCT dává jednotnou sadu testovatelných předpovědí napříč měřítky.",
+      "dependencies": [
+        "eq_hubble_from_coherence",
+        "eq_tully_fisher_qct",
+        "eq_gravitational_screening",
+        "eq_gw_damping"
+      ],
+      "units": "mixed",
+      "source": "QCT monograph, Sec. 7"
+    },
+
+    "ax_qct_1_coherent_vacuum": {
+      "latex": "\\Psi_{\\nu\\nu} \\neq 0",
+      "equation_number": "A.1",
+      "section": "Axioms",
+      "derivation_steps": [
+        "Postuluj nenulový makroskopický řádový parametr neutrinového kondenzátu."
+      ],
+      "phys_interp": "Vakuum je koherentní médium, nikoli prázdnota.",
+      "dependencies": [],
+      "source": "QCT axioms"
+    },
+
+    "ax_qct_2_geometry_from_coherence": {
+      "latex": "g_{\\mu\\nu} = g_{\\mu\\nu}(\\rho_{\\rm ent},\\theta)",
+      "equation_number": "A.2",
+      "section": "Axioms",
+      "derivation_steps": [
+        "Ztotožni strukturu metriky s konfigurací koherence."
+      ],
+      "phys_interp": "Geometrie je odvozená veličina.",
+      "dependencies": ["ax_qct_1_coherent_vacuum"],
+      "source": "QCT axioms"
+    },
+
+    "ax_qct_3_particles_as_defects": {
+      "latex": "\\text{particles} \\leftrightarrow \\text{topological defects}",
+      "equation_number": "A.3",
+      "section": "Axioms",
+      "derivation_steps": [
+        "Identifikuj stabilní excitace s topologií pole."
+      ],
+      "phys_interp": "Částice nejsou bodové entity, ale defekty vakua.",
+      "dependencies": ["ax_qct_1_coherent_vacuum"],
+      "source": "QCT axioms"
+    },
+
+    "val_dim_acoustic_metric": {
+      "latex": "[g_{\\mu\\nu}] = 1",
+      "equation_number": "V.1",
+      "section": "Validation",
+      "derivation_steps": [
+        "Zkontroluj bezrozměrnost metrického tenzoru.",
+        "Ověř konzistenci s akustickou metrikou."
+      ],
+      "phys_interp": "Metrika má správné rozměry v každém sektoru.",
+      "dependencies": ["eq_acoustic_metric"],
+      "units": "dimensionless",
+      "source": "Internal validation"
+    },
+
+    "val_dim_pair_energy": {
+      "latex": "[E_{\\rm pair}] = \\text{energy}",
+      "equation_number": "V.2",
+      "section": "Validation",
+      "derivation_steps": [
+        "Zkontroluj vazebnou energii z Higgsovy vazby."
+      ],
+      "phys_interp": "Energetická škála QCT je konzistentní.",
+      "dependencies": ["eq_epair_definition"],
+      "units": "energy",
+      "source": "Internal validation"
+    },
+
+    "cal_lambda_qct_numeric": {
+      "latex": "\\Lambda_{\\rm QCT} \\approx 10^{7}\\,\\text{TeV}",
+      "equation_number": "C.1",
+      "section": "Calibration",
+      "derivation_steps": [
+        "Použij m_ν a v_EW.",
+        "Porovnej s kosmologickými a GW omezeními."
+      ],
+      "phys_interp": "Jediná nová škála QCT leží hluboko nad LHC, ale pod Planckovou škálou.",
+      "dependencies": ["eq_epair_definition"],
+      "units": "energy",
+      "source": "QCT monograph"
+    },
+
+    "cal_screening_numeric": {
+      "latex": "f_{\\rm screen} \\approx 10^{-10}",
+      "equation_number": "C.2",
+      "section": "Calibration",
+      "derivation_steps": [
+        "Použij m_ν \\sim 0.1 eV, m_p \\sim 1 GeV."
+      ],
+      "phys_interp": "Číselně vysvětluje slabost gravitace.",
+      "dependencies": ["eq_gravitational_screening"],
+      "units": "dimensionless",
+      "source": "QCT monograph"
+    },
+
+    "meta_validity_domain": {
+      "latex": "k \\ll \\Lambda_{\\rm QCT}",
+      "equation_number": "M.1",
+      "section": "Meta",
+      "derivation_steps": [
+        "Omez efektivní popis na nízkoenergetický limit."
+      ],
+      "phys_interp": "QCT je EFT vakua, ne UV-kompletní teorie.",
+      "dependencies": ["cal_lambda_qct_numeric"],
+      "source": "Methodology"
+    },
+
+    "meta_experimental_program": {
+      "latex": "\\{\\text{LHC},\\;\\text{CMB},\\;\\text{LLR},\\;\\text{GW},\\;\\mu p\\}",
+      "equation_number": "M.2",
+      "section": "Meta",
+      "derivation_steps": [
+        "Identifikuj nezávislé testy napříč měřítky."
+      ],
+      "phys_interp": "QCT je falsifikovatelná v několika existujících experimentech.",
+      "dependencies": ["eq_experimental_signature_map"],
+      "source": "Methodology"
+    },
+
+    "export_latex_map": {
+      "latex": "\\text{node_index} \\rightarrow \\LaTeX",
+      "equation_number": "X.1",
+      "section": "Export",
+      "derivation_steps": [
+        "Seřaď uzly topo-sortem.",
+        "Vygeneruj sekce dle section."
+      ],
+      "phys_interp": "Automatická generace článků a monografie.",
+      "dependencies": [],
+      "source": "Tooling"
+    },
+
+    "export_graph_map": {
+      "latex": "\\text{node_index} \\rightarrow \\text{Neo4j / RDF}",
+      "equation_number": "X.2",
+      "section": "Export",
+      "derivation_steps": [
+        "Uzly jako vertices, dependencies jako edges."
+      ],
+      "phys_interp": "Strojově analyzovatelná teorie.",
+      "dependencies": [],
+      "source": "Tooling"
+    }
+  }
+}
