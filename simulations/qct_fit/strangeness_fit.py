@@ -4,6 +4,22 @@ Strangeness Enhancement Fit Module (R.1, R.2)
 
 Fits the conformal factor Ω(dN/dη) to ALICE Λ/p ratio data.
 
+🆕 CRITICAL UPDATE (2025):
+   ALICE confirmed that light nuclei form via LATE-STAGE COALESCENCE, not
+   thermal production. This changes the interpretation but not the fit formula
+   for Λ/p ratio (which measures single baryons, not nuclei).
+
+   Current model (valid for calibration):
+       Y(m) ∝ exp(-Ω(dN/dη) · m / T_fo)
+
+   This is still correct for Λ and p individually, which don't undergo
+   coalescence (they are fundamental baryons).
+
+   ⚠️  TODO (Future):
+       For nuclei (d, ³He, ⁴He), must use coalescence model:
+           Y_A = B_A · (Y_p)^A · f_coal(ξ)
+       where B_A ~ ξ³ and ξ is coherence length from condensate.
+
 Theory:
     Y(m) ∝ exp(-Ω(dN/dη) · m / T_fo)
 
@@ -15,6 +31,10 @@ Parametrization:
 Fitované parametry:
     - α ∈ (0, 1): síla zředění koherence
     - x₀ > 0: charakteristická škála přechodu pp → pA
+
+Reference:
+    - Thermal model (calibration): ALICE, Nature Physics 13, 535 (2017)
+    - Coalescence discovery: ALICE, Nature 2025 (in press)
 """
 
 import numpy as np
