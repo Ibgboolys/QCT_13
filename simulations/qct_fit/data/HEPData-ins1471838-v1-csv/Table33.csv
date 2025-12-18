@@ -1,0 +1,21 @@
+#: table_doi: 10.17182/hepdata.77284.v1/t33
+#: name: Table 33
+#: description: $\Omega^{-}+\bar{\Omega}^{+}$ transverse momentum spectrum: V0M Class V+VI (pp at $\sqrt{s}=7$ TeV).
+#: data_file: data33.yaml
+#: data_license:   
+#: keyword reactions: P P --> OMEGA- X, P P --> OMEGABAR+ X
+#: keyword observables: D2N/DPT/DYRAP
+#: keyword phrases: 
+#: keyword energies: 7000.0
+#: Multiplicity,,,V0M Class V+VI
+#: RE,,,P P --> $\Omega^{-}+\bar{\Omega}^{+}$ + X
+#: SQRT(S) [GEV],,,7000.0
+#: YRAP(CM),,,-0.5 0.5
+$p_{T}$ (GeV/c),$p_{T}$ (GeV/c) LOW,$p_{T}$ (GeV/c) HIGH,$\frac{1}{N_{ev}}\frac{d^2N}{dy dp_{T}}$ (GeV/c)$^{-1}$,stat +,stat -,"sys,total +","sys,total -","sys,uncorr +","sys,uncorr -"
+1.25,0.9,1.6,0.001446,9.8e-05,-9.8e-05,0.0001163,-0.0001163,4.553e-05,-4.553e-05
+1.9,1.6,2.2,0.0009142,5.035e-05,-5.035e-05,7.078e-05,-7.078e-05,2.369e-05,-2.369e-05
+2.4,2.2,2.6,0.0005132,4.104e-05,-4.104e-05,4.589e-05,-4.589e-05,1.354e-05,-1.354e-05
+2.8,2.6,3.0,0.0003315,2.971e-05,-2.971e-05,3.018e-05,-3.018e-05,9.687e-06,-9.687e-06
+3.4,3.0,3.8,0.0001595,1.427e-05,-1.427e-05,2.095e-05,-2.095e-05,6.009e-06,-6.009e-06
+4.65,3.8,5.5,2.636e-05,4.012e-06,-4.012e-06,3.202e-06,-3.202e-06,9.45e-07,-9.45e-07
+

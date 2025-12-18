@@ -1,0 +1,25 @@
+#: table_doi: 10.17182/hepdata.77284.v1/t50
+#: name: Table 50
+#: description: $(\Xi^{-}+\bar{\Xi}^{+})/(\pi^{+}+\pi^{-})$ double-ratio vs multiplicity for pp collisions at $\sqrt{s}=7$ TeV.
+#: data_file: data50.yaml
+#: data_license:   
+#: keyword reactions: P P --> PI+ X, P P --> PI- X, P P --> XI- X, P P --> XIBAR+ X
+#: keyword observables: RATIO/RATIO
+#: keyword phrases: 
+#: keyword energies: 7000.0
+#: RATIO,,,$(\Xi^{-}+\bar{\Xi}^{+})/(\pi^{+}+\pi^{-})$ DOUBLE-RATIO
+#: RE,,,P P --> $(\pi^{+}+\pi^{-})$ + X,,,,
+#: SQRT(S) [GEV],,,7000.0
+#: YRAP(CM),,,-0.5 0.5
+$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$,$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$ LOW,$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$ HIGH,$(h/\pi) / (h/\pi)^{pp}_{INEL>0}$,stat +,stat -,"sys,uncorr +","sys,uncorr -"
+21.29,20.65,21.93,1.298,0.02159,-0.02159,0.04577,-0.04577
+16.51,16.01,17.01,1.233,0.01279,-0.01279,0.0439,-0.0439
+13.46,13.06,13.86,1.244,0.0131,-0.0131,0.04987,-0.04987
+11.51,11.16,11.86,1.179,0.01316,-0.01316,0.05137,-0.05137
+10.08,9.78,10.38,1.126,0.01378,-0.01378,0.05827,-0.05827
+8.45,8.2,8.7,1.091,0.01161,-0.01161,0.05886,-0.05886
+6.72,6.51,6.93,1.013,0.01197,-0.01197,0.06235,-0.06235
+5.4,5.23,5.57,0.9484,0.01422,-0.01422,0.06873,-0.06873
+3.9,3.76,4.04,0.8211,0.01191,-0.01191,0.07593,-0.07593
+2.26,2.14,2.38,0.5825,0.01198,-0.01198,0.07689,-0.07689
+

@@ -1,0 +1,19 @@
+#: table_doi: 10.17182/hepdata.77284.v1/t45
+#: name: Table 45
+#: description: $\Omega^{-}+\bar{\Omega}^{+}$ integrated yields, pp at $\sqrt{s}=7$ TeV (V0M Multiplicity Classes).
+#: data_file: data45.yaml
+#: data_license:   
+#: keyword reactions: P P --> OMEGA- X, P P --> OMEGABAR+ X
+#: keyword observables: DN/DYRAP
+#: keyword phrases: 
+#: keyword energies: 7000.0
+#: RE,,,P P --> $\Omega^{-}+\bar{\Omega}^{+}$ + X
+#: SQRT(S) [GEV],,,7000.0
+#: YRAP(CM),,,-0.5 0.5
+$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$,$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$ LOW,$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$ HIGH,$dN/dy$,stat +,stat -,"sys,total +","sys,total -","sys,uncorr +","sys,uncorr -"
+17.47,16.95,17.99,0.008274,0.000264,-0.000264,0.0007787,-0.0007787,0.0002527,-0.0002527
+12.48,12.11,12.85,0.005082,0.0001951,-0.0001951,0.0005235,-0.0005235,0.0002797,-0.0002797
+8.99,8.72,9.26,0.002976,9.51e-05,-9.51e-05,0.0002974,-0.0002974,0.0001476,-0.0001476
+6.06,5.87,6.25,0.001863,0.0001179,-0.0001179,0.0002373,-0.0002373,0.0001756,-0.0001756
+2.89,2.75,3.03,0.0005767,6.029e-05,-6.029e-05,0.000105,-0.000105,8.178e-05,-8.178e-05
+

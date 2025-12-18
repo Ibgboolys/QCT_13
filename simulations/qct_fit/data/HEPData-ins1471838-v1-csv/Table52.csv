@@ -1,0 +1,24 @@
+#: table_doi: 10.17182/hepdata.77284.v1/t52
+#: name: Table 52
+#: description: Event multiplicity classes, their corresponding fraction of the INEL>0 cross-section and their corresponding average charged particle density at midrapidity ($|\eta|<0.5$). The value of in the inclusive (INEL>0) class is 5.96 $\pm$ 0.23. The uncertainties are the quadratic sum of statistical and systematic contributions.
+#: data_file: data52.yaml
+#: data_license:   
+#: keyword reactions: P P --> CHARGED X
+#: keyword observables: D2N/DPT/DYRAP
+#: keyword phrases: 
+#: keyword energies: 7000.0
+#: RE,,,P P --> CHARGED X
+#: SQRT(S) [GEV],,,7000.0
+#: ETARAP(CM),,,-0.5 0.5
+Class name,$\sigma/\sigma_{\rm INEL>0}$ (%),$\sigma/\sigma_{\rm INEL>0}$ (%) LOW,$\sigma/\sigma_{\rm INEL>0}$ (%) HIGH,$\langle {\rm d}N_{\rm ch}/{\rm d}\eta \rangle$,stat +,stat -
+Class I,0.475,0.0,0.95,21.3,0.6,-0.6
+Class II,2.825,0.95,4.7,16.5,0.5,-0.5
+Class III,7.1,4.7,9.5,13.5,0.4,-0.4
+Class IV,11.75,9.5,14.0,11.5,0.3,-0.3
+Class V,16.5,14.0,19.0,10.1,0.3,-0.3
+Class VI,23.5,19.0,28.0,8.45,0.25,-0.25
+Class VII,33.0,28.0,38.0,6.72,0.21,-0.21
+Class VIII,43.0,38.0,48.0,5.4,0.17,-0.17
+Class IX,58.0,48.0,68.0,3.9,0.14,-0.14
+Class X,84.0,68.0,100.0,2.26,0.12,-0.12
+
