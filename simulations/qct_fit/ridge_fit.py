@@ -98,7 +98,12 @@ def fit_gamma_to_v2(
     # Load data
     if data_file is not None:
         try:
-            x, y, dy = np.loadtxt(data_file, unpack=True)
+            import pandas as pd
+            df = pd.read_csv(data_file, comment='#')
+            x = df.iloc[:, 0].values
+            y = df.iloc[:, 1].values
+            dy = df.iloc[:, 2].values if df.shape[1] > 2 else 0.01 * y
+            print(f"✓ Loaded real data from {data_file}: {len(x)} points")
         except Exception as e:
             print(f"Warning: Could not load {data_file}: {e}")
             print("Using mock data for demonstration.")
