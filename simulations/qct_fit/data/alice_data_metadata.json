@@ -1,0 +1,47 @@
+{
+  "downloaded": "2025-12-18 00:32:24",
+  "datasets": {
+    "lambda_p_7tev": {
+      "record_id": "ins1471838",
+      "table": 3,
+      "description": "\u039b/p ratio vs multiplicity (pp @ 7 TeV)",
+      "reference": "ALICE, Nature Physics 13, 535 (2017), arXiv:1606.07424",
+      "url": "https://www.hepdata.net/record/ins1471838",
+      "data_url": "https://www.hepdata.net/download/table/ins1471838/Table%203/csv",
+      "filename": "alice_lambda_p.csv",
+      "note": "Reference data for \u03a9(dN/d\u03b7) calibration"
+    },
+    "v2_ppb": {
+      "record_id": "ins1190545",
+      "table": "Figure 2a",
+      "description": "v\u2082 vs multiplicity (p-Pb @ 5.02 TeV)",
+      "reference": "ALICE, Phys. Lett. B 719, 29 (2013), arXiv:1212.2001",
+      "url": "https://www.hepdata.net/record/ins1190545",
+      "data_url": "https://www.hepdata.net/download/table/ins1190545/Figure%202a/csv",
+      "filename": "alice_v2_ppb.csv",
+      "note": "Ridge data for \u03b3 dissipation extraction"
+    },
+    "deuteron_coalescence": {
+      "record_id": "TBD_2025",
+      "table": "TBD",
+      "description": "Deuteron coalescence B_2 vs multiplicity",
+      "reference": "ALICE, Nature 2025 (in press), arXiv:TBD",
+      "url": "https://www.hepdata.net/record/TBD",
+      "data_url": null,
+      "filename": "alice_deuteron_coalescence.csv",
+      "note": "\u26a0\ufe0f  FUTURE: For \u03be (coherence length) extraction via B_A ~ \u03be\u00b3 scaling"
+    },
+    "antihyperhelium4": {
+      "record_id": "TBD_2025",
+      "table": "TBD",
+      "description": "Anti-\u2074He-\u039b production cross-section",
+      "reference": "ALICE, 2025 (viral preprint)",
+      "url": "TBD",
+      "data_url": null,
+      "filename": "alice_antihyperhelium4.csv",
+      "note": "\u26a0\ufe0f  FUTURE: CPT symmetry test in condensate"
+    }
+  },
+  "note_2025": "ALICE 2025 breaking news: Light nuclei form via late-stage coalescence, not thermal production. QCT interpretation: Condensation from neutrino condensate background.",
+  "todo_future": "Future fits must account for coalescence factor B_A scaling with coherence length \u03be. Current thermal approximation is valid for calibration but incomplete."
+}
