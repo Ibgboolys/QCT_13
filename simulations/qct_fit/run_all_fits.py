@@ -55,7 +55,7 @@ def run_qct_fit_workflow(
 
     lambda_p_file = None
     if use_real_data:
-        lambda_p_file = f"{data_dir}/alice_lambda_p.csv"
+        lambda_p_file = f"{data_dir}/REAL_DATA_lambda_p.csv"
         if not os.path.exists(lambda_p_file):
             print(f"Warning: {lambda_p_file} not found. Using mock data.")
             lambda_p_file = None
@@ -84,7 +84,7 @@ def run_qct_fit_workflow(
 
     v2_file = None
     if use_real_data:
-        v2_file = f"{data_dir}/alice_v2_pp.csv"
+        v2_file = f"{data_dir}/REAL_DATA_v2_pp.csv"
         if not os.path.exists(v2_file):
             print(f"Warning: {v2_file} not found. Using mock data.")
             v2_file = None

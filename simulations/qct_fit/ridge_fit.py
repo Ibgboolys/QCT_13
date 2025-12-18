@@ -105,15 +105,15 @@ def fit_gamma_to_v2(
             dy = df.iloc[:, 2].values if df.shape[1] > 2 else 0.01 * y
             print(f"✓ Loaded real data from {data_file}: {len(x)} points")
         except Exception as e:
-            print(f"Warning: Could not load {data_file}: {e}")
-            print("Using mock data for demonstration.")
-            x, y, dy = _generate_mock_v2_data()
+            print(f"❌ CRITICAL ERROR: Could not load {data_file}: {e}")
+            print("❌ NO MOCK DATA FALLBACK - FIT ABORTED")
+            return {}
     elif x_data is not None and y_data is not None:
         x, y = x_data, y_data
         dy = y_err if y_err is not None else 0.01 * np.ones_like(y)
     else:
-        print("No data provided. Using mock data for demonstration.")
-        x, y, dy = _generate_mock_v2_data()
+        print("❌ CRITICAL ERROR: No data provided and no mock data allowed!")
+        return {}
 
     # Perform fit
     print("\n" + "="*60)

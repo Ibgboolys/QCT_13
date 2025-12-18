@@ -1,0 +1,12 @@
+{
+  "gamma_ridge": 0.6998542213953954,
+  "gamma_ridge_err": 771289.6236570968,
+  "gamma_gw_upper": 0.02,
+  "gamma_qcd_typical": 0.3,
+  "gamma_qcd_lower": 0.15,
+  "consistent": false,
+  "tension_sigma": 8.814512739998275e-07,
+  "status": "FAIL",
+  "conclusion": "QCT_DISFAVORED",
+  "interpretation": "\u03b3_ridge consistent with QCD hydrodynamics. QCT vacuum hypothesis disfavored unless additional effects suppress \u03b3_GW independently."
+}
