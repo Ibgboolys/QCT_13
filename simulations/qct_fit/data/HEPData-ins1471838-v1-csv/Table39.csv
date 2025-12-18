@@ -1,0 +1,20 @@
+#: table_doi: 10.17182/hepdata.77284.v1/t39
+#: name: Table 39
+#: description: $(\Omega^{-}+\bar{\Omega}^{+})/(\pi^{+}+\pi^{-})$ ratio for pp collisions at $\sqrt{s}=7$ TeV as a function of the average charged particle multiplicity density at midrapidity.
+#: data_file: data39.yaml
+#: data_license:   
+#: keyword reactions: P P --> PI+ X, P P --> PI- X, P P --> OMEGA- X, P P --> OMEGABAR+ X
+#: keyword observables: RATIO
+#: keyword phrases: 
+#: keyword energies: 7000.0
+#: RATIO,,,$(\Omega^{-}+\bar{\Omega}^{+})/(\pi^{+}+\pi^{-})$
+#: RE,,,P P --> $(\pi^{+}+\pi^{-})$ + X,,,,,,
+#: SQRT(S) [GEV],,,7000.0
+#: YRAP(CM),,,-0.5 0.5
+$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$,$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$ LOW,$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$ HIGH,Ratios of yields to $(\pi^{+}+\pi^{-})$,stat +,stat -,"sys,total +","sys,total -","sys,uncorr +","sys,uncorr -"
+17.47,16.95,17.99,0.0004976,1.588e-05,-1.588e-05,5.209e-05,-5.209e-05,1.832e-05,-1.832e-05
+12.48,12.11,12.85,0.0004221,1.62e-05,-1.62e-05,4.728e-05,-4.728e-05,2.474e-05,-2.474e-05
+8.99,8.72,9.26,0.0003376,1.079e-05,-1.079e-05,3.676e-05,-3.676e-05,1.813e-05,-1.813e-05
+6.06,5.87,6.25,0.0003093,1.958e-05,-1.958e-05,4.157e-05,-4.157e-05,2.985e-05,-2.985e-05
+2.89,2.75,3.03,0.0001912,1.998e-05,-1.998e-05,3.658e-05,-3.658e-05,2.739e-05,-2.739e-05
+

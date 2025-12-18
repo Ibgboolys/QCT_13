@@ -1,0 +1,25 @@
+#: table_doi: 10.17182/hepdata.77284.v1/t49
+#: name: Table 49
+#: description: $(\Lambda+\bar{\Lambda})/(\pi^{+}+\pi^{-})$ double-ratio vs multiplicity for pp collisions at $\sqrt{s}=7$ TeV.
+#: data_file: data49.yaml
+#: data_license:   
+#: keyword reactions: P P --> PI+ X, P P --> PI- X, P P --> LAMBDA X, P P --> LAMBDABAR X
+#: keyword observables: RATIO/RATIO
+#: keyword phrases: 
+#: keyword energies: 7000.0
+#: RATIO,,,$(\Lambda+\bar{\Lambda})/(\pi^{+}+\pi^{-})$ DOUBLE-RATIO
+#: RE,,,P P --> $(\pi^{+}+\pi^{-})$ + X,,,,
+#: SQRT(S) [GEV],,,7000.0
+#: YRAP(CM),,,-0.5 0.5
+$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$,$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$ LOW,$\langle dN_{ch}/d\eta \rangle_{|\eta|<0.5}$ HIGH,$(h/\pi) / (h/\pi)^{pp}_{INEL>0}$,stat +,stat -,"sys,uncorr +","sys,uncorr -"
+21.29,20.65,21.93,1.132,0.004282,-0.004282,0.0462,-0.0462
+16.51,16.01,17.01,1.124,0.002782,-0.002782,0.0416,-0.0416
+13.46,13.06,13.86,1.109,0.002627,-0.002627,0.0448,-0.0448
+11.51,11.16,11.86,1.094,0.002816,-0.002816,0.04911,-0.04911
+10.08,9.78,10.38,1.084,0.002849,-0.002849,0.0465,-0.0465
+8.45,8.2,8.7,1.062,0.002549,-0.002549,0.04878,-0.04878
+6.72,6.51,6.93,1.042,0.002524,-0.002524,0.05186,-0.05186
+5.4,5.23,5.57,1.003,0.003056,-0.003056,0.04026,-0.04026
+3.9,3.76,4.04,0.9258,0.002548,-0.002548,0.05584,-0.05584
+2.26,2.14,2.38,0.7058,0.002459,-0.002459,0.07586,-0.07586
+
