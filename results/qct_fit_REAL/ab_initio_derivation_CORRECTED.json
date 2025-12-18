@@ -1,0 +1,50 @@
+{
+  "source": "LaTeX manuscript (NOT .json files!)",
+  "fundamental_parameters": {
+    "m_nu_eV": 0.1,
+    "m_p_GeV": 0.938,
+    "E_pair_eV": 5.38e+18,
+    "T_freeze_MeV": 160.0,
+    "v_EW_GeV": 246
+  },
+  "derived_successfully": {
+    "Lambda_QCT_TeV": 106.55744929379644,
+    "Lambda_baryon_TeV": 71.03829952919763,
+    "Lambda_micro_GeV": 0.73348483283569,
+    "f_screen": 1.0660980810234543e-10,
+    "xi_coherence_m": 2.6898988386334874e-16
+  },
+  "semi_derived": {
+    "alpha_attempts": {
+      "T_over_Delta": 0.21813675325968473,
+      "screening_factor": 6.053150006401626e-05,
+      "SU3_geometry": 0.21132486540518725,
+      "acoustic_metric": 0.0007922486936341744
+    },
+    "gamma_attempts": {
+      "eta_over_s": 0.01735877127564797,
+      "decoherence": 6.211784887746491e-25,
+      "coupling": 3.3366099177855095e-13,
+      "screening_length": 2.3939938686909335e-13
+    },
+    "best_values": {
+      "alpha": 0.21813675325968473,
+      "gamma": 0.01735877127564797
+    },
+    "expected_values": {
+      "alpha": 0.25,
+      "gamma": 0.01
+    },
+    "agreement": {
+      "alpha_diff_percent": 12.745298696126106,
+      "gamma_factor": 1.735877127564797
+    }
+  },
+  "phenomenological": [
+    "Functional form \u03a9(x) = 1 - \u03b1x/(x+x\u2080)",
+    "Scale parameter x\u2080 ~ 10-30",
+    "Functional form v\u2082 ~ ln(1+x)",
+    "Amplitude A"
+  ],
+  "conclusion": "\u03b1 and \u03b3 have theoretical derivations from QCT framework, but require empirical inputs (e.g., \u03b7/s of neutrino condensate)"
+}
