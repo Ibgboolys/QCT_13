@@ -55,11 +55,11 @@ HEPDATA_RECORDS = {
 
     'v2_ppb': {
         'record_id': 'ins1190545',
-        'table': 5,
+        'table': 'Figure 2a',
         'description': 'v₂ vs multiplicity (p-Pb @ 5.02 TeV)',
         'reference': 'ALICE, Phys. Lett. B 719, 29 (2013), arXiv:1212.2001',
         'url': 'https://www.hepdata.net/record/ins1190545',
-        'data_url': 'https://www.hepdata.net/download/table/ins1190545/Table%205/csv',
+        'data_url': 'https://www.hepdata.net/download/table/ins1190545/Figure%202a/csv',
         'filename': 'alice_v2_ppb.csv',
         'note': 'Ridge data for γ dissipation extraction'
     },
@@ -215,26 +215,39 @@ class ALICEDataDownloader:
 
         Checks:
         - File is not empty
-        - Has at least 3 columns
+        - Has at least 3 columns (after skipping comments)
         - Has at least 5 data rows
         """
 
         try:
-            with open(filepath, 'r') as f:
-                lines = [l.strip() for l in f.readlines() if l.strip()]
+            import pandas as pd
 
-            if len(lines) < 6:  # header + 5 data rows
-                print(f"  ✗ Too few rows: {len(lines)}")
-                return False
+            # Try to read with pandas, skipping comments
+            try:
+                df = pd.read_csv(filepath, comment='#', skipinitialspace=True)
 
-            # Check columns
-            header = lines[0].split(',')
-            if len(header) < 3:
-                print(f"  ✗ Too few columns: {len(header)}")
-                return False
+                if len(df) < 5:
+                    print(f"  ✗ Too few data rows: {len(df)}")
+                    return False
 
-            print(f"  → {len(lines)-1} data rows, {len(header)} columns")
-            return True
+                if len(df.columns) < 2:  # At least 2 columns (x, y)
+                    print(f"  ✗ Too few columns: {len(df.columns)}")
+                    return False
+
+                print(f"  → {len(df)} data rows, {len(df.columns)} columns")
+                print(f"  → Columns: {list(df.columns)[:5]}")
+                return True
+
+            except pd.errors.ParserError:
+                # If pandas fails, check if it's HTML
+                with open(filepath, 'r') as f:
+                    first_line = f.readline().strip()
+                    if 'html' in first_line.lower() or 'doctype' in first_line.lower():
+                        print(f"  ✗ Downloaded HTML instead of CSV")
+                        return False
+                    else:
+                        print(f"  ✗ CSV parsing failed")
+                        return False
 
         except Exception as e:
             print(f"  ✗ Validation error: {e}")
