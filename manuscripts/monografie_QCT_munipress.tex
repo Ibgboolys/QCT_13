@@ -665,21 +665,28 @@ Po dosazení hodnot ($E_{\text{pair}} = 5{,}38 \times 10^{18}\,\unit{eV}$, $m_\n
 \alpha_{\text{micro}} \sim -\frac{5{,}38 \times 10^{19}}{2{,}4 \times 10^4} \approx -2 \times 10^{15}
 \end{equation}
 
-\textbf{Diskrepance a fyzikální interpretace:}
+\textbf{Diskrepance a současný status:}
 
 Mikroskopický odhad a fenomenologická kalibrace se liší faktorem $\sim 10^4$:
 \begin{equation}
 \frac{\alpha_{\text{micro}}}{\alpha_{\text{phenom}}} \approx \frac{-2 \times 10^{15}}{-9 \times 10^{11}} \approx 2{,}2 \times 10^3
 \end{equation}
 
-Tento rozdíl není chybou, ale odráží:
+\textbf{Možná fyzikální vysvětlení (zatím kvalitativní):}
 \begin{enumerate}
-\item \textbf{Efektivní renormalizaci} v~baryonovém prostředí -- ``holá'' vazba $\alpha_{\text{micro}}$ je modifikována interakcí kondenzátu s~hmotou
-\item \textbf{Časovou evoluci} od elektroslabyého freeze-outu -- kosmologická akumulace mění efektivní coupling
-\item \textbf{Limitace poruchové teorie} -- vztah je kvalitativní, přesné odvození vyžaduje GP rovnici s~gravitační vazbou
+\item \textbf{Renormalizace škálou} $\Lambda_{\text{baryon}}/\Lambda_{\text{micro}} \approx 9{,}7 \times 10^4$ (příloha~\ref{app:microscopic}, krok~6) -- poměr škál je blízký pozorovanému faktoru, ale \emph{přímé spojení s~poměrem $\alpha$ není zatím odvozeno}
+\item \textbf{Časová evoluce} od elektroslabyého freeze-outu -- kosmologická akumulace může měnit efektivní coupling, ale \emph{kvantitativní výpočet $\alpha(z)$ chybí}
+\item \textbf{Nelineární efekty} GP rovnice -- v~režimu silné vazby ($g|\Psi|^2 \gg m_\nu \Phi$) selhává poruchová teorie, \emph{vyžaduje neperturbativní metody}
 \end{enumerate}
 
-\textbf{Pro praktické výpočty} používáme kalibrovanou hodnotu $\alpha \approx -9 \times 10^{11}$, která je přímo svázána s~experimentálně měřitelnými veličinami.
+\textbf{Transparentní přiznání:} Tyto mechanismy jsou fyzikálně plausibilní, ale \textbf{nejsou kvantitativně odvozeny} v~této práci. Kvantitativní odvození faktoru $2{,}2 \times 10^3$ je \textbf{otevřený teoretický problém} vyžadující:
+\begin{itemize}
+\item Explicitní výpočet RG beta-funkce pro neutrino-baryonovou vazbu
+\item Kosmologickou evoluci $\alpha(z)$ od freeze-outu do současnosti
+\item Neperturbativní řešení GP rovnice (například mřížkové simulace)
+\end{itemize}
+
+\textbf{Pro praktické výpočty} v~této monografii používáme parametr $\alpha$ jako \textbf{fenomenologickou konstantu} kalibrovanou k~experimentům Eöt-Wash: $\alpha_{\text{phenom}} \approx -9 \times 10^{11}$. Mikroskopický vztah $\alpha_{\text{micro}} \sim -E_{\text{pair}}/(m_\nu n_\nu V_{\text{proj}})$ slouží k~\emph{kvalitativnímu pochopení} řádu velikosti, nikoliv k~přesné predikci.
 
 Toto soustředění ovlivňuje healing length kondenzátu (standardní relace z~teorie Grossa--Pitaevského):
 \begin{equation}
