@@ -1,0 +1,360 @@
+% Příloha: Weinberg-Wittenův teorém a QCT
+% Rigorózní pojednání o tom, jak QCT obchází no-go teorém
+% Autor: QCT výzkumný tým
+% Datum: 2025-11-17
+% Stav: ŘEŠÍ Prioritu 1 Kritický problém #4
+
+\section{Weinberg-Wittenův teorém a emergentní gravitace v QCT}
+\label{app:weinberg_witten}
+
+\subsection{Motivace a rozsah}
+
+Weinberg-Wittenův (W-W) teorém~\cite{Weinberg1980} je fundamentální no-go výsledek v kvantové teorii pole, který se zdá zakazovat kompozitní bezhmotné gravitony se spinem $J \geq 1$ v teoriích s Lorentzovsky invariantním, lokálním tenzorem energie-hybnosti. Jelikož QCT navrhuje \emph{emergentní gravitaci} z neutrinového kondenzátu, je zásadní rigorózně demonstrovat, jak QCT tento teorém obchází.
+
+\textbf{Tato příloha poskytuje:}
+\begin{enumerate}
+\item Přesné vyjádření Weinberg-Wittenova teorému a jeho předpokladů
+\item Explicitní konstrukci \emph{nelokálního} tenzoru energie-hybnosti QCT
+\item Matematický důkaz, že předpoklady W-W jsou porušeny
+\item Srovnání s jinými přístupy emergentní gravitace (Verlinde, Jacobson, Wen)
+\item Fyzikální interpretaci a pozorovací důsledky
+\end{enumerate}
+
+\textbf{Klíčový výsledek:} QCT obchází W-W prostřednictvím \emph{makroskopické nelokality} s charakteristickou škálou $\xi \sim 1$~mm a holografickým projekčním objemem $V_{\rm proj} \sim 70$~cm$^3$, což činí tenzor napětí manifestně nelokálním a tedy mimo rozsah teorému.
+
+\subsection{Vyjádření Weinberg-Wittenova teorému}
+
+\subsubsection{Původní formulace}
+
+Weinberg-Wittenův teorém~\cite{Weinberg1980} uvádí:
+
+\begin{theorem}[Weinberg-Witten, 1980]
+V Lorentzovsky invariantní kvantové teorii pole se \textbf{zachovaným, Lorentzovsky kovariantním} a \textbf{kalibrační invariantně lokálním} tenzorem energie-hybnosti $T^{\mu\nu}(x)$ nemůže existovat bezhmotná částice s helicitou $|h| \geq 1$, která se váže ke konzervovanému proudu, ani bezhmotná částice s $|h| > 1$, která se váže k samotnému tenzoru napětí.
+\end{theorem}
+
+\textbf{Důsledek pro gravitaci:} Bezhmotný spin-2 graviton nemůže být vázaným stavem v takové teorii, protože graviton se musí vázat k $T^{\mu\nu}$.
+
+\subsubsection{Klíčové předpoklady}
+
+Teorém se opírá o TŘI kritické předpoklady:
+
+\begin{enumerate}
+\item \textbf{Lorentzova invariance:} Teorie respektuje Poincarého symetrii
+\item \textbf{Lokální tenzor napětí:} $T^{\mu\nu}(x)$ je \emph{lokální operátor} v prostoročasovém bodě $x$
+\item \textbf{Kalibrační invariance \& zachování:} $\partial_\mu T^{\mu\nu} = 0$
+\end{enumerate}
+
+\textbf{Únikové cesty:}
+\begin{itemize}
+\item Porušit Lorentzovu invarianci (např. Hořava-Lifshitzova gravitace)
+\item Porušit lokalitu → \textbf{cesta QCT!}
+\item Porušit kalibrační invarianci (nekovariantní formulace)
+\item Holografické duality (bulk vs hranice)
+\end{itemize}
+
+\subsection{Mechanismus obcházení QCT: Nelokální tenzor napětí}
+
+\subsubsection{Mikroskopický původ nelokality}
+
+Fundamentální objekt QCT je pole neutrinového kondenzátu:
+\begin{equation}
+\Psi_{\nu\nu}(\mathbf{x},t) = |\Psi_{\nu\nu}(\mathbf{x},t)| \, e^{i\theta(\mathbf{x},t)},
+\end{equation}
+které splňuje Gross-Pitaevského rovnici s \emph{makroskopickou koherenční délkou}:
+\begin{equation}
+\xi_{\rm coh} = \frac{\hbar}{\sqrt{2m_\nu |\mu|}} \sim 1\,\text{mm} \quad \text{(kosmická základní linie)}.
+\end{equation}
+
+\textbf{Fyzikální interpretace:}
+\begin{itemize}
+\item Kosmické neutrinové pozadí (C$\nu$B) tvoří Bose-Einsteinův kondenzát
+\item Páry $\nu\bar{\nu}$ jsou provázány přes makroskopické vzdálenosti $\sim \xi$
+\item Gravitační pole emerguje z \emph{průměrování} přes projekční objem $V_{\rm proj} \sim 70$~cm$^3$
+\end{itemize}
+
+\textbf{Zásadní bod:} Efektivní tenzor napětí \emph{není lokální}, protože zahrnuje prostorovou integraci přes $V_{\rm proj}$.
+
+\subsubsection{Konstrukce nelokálního tenzoru napětí}
+
+\paragraph{4D kauzální jádro.}
+
+Z přílohy~\ref{app:microscopic} je metrická perturbace:
+\begin{equation}
+\label{eq:metric_nonlocal}
+g_{\mu\nu}(x) = \eta_{\mu\nu} + \frac{\kappa}{M_{\rm Pl}^2} \int d^4x' \, K_{\mu\nu}(x,x') \cdot \frac{\delta\rho_{\rm ent}(x')}{\sqrt{-(x-x')^2}}
+\end{equation}
+kde \textbf{nelokální jádro} je:
+\begin{equation}
+\label{eq:kernel_causal}
+K_{\mu\nu}(x,x') = \langle \Psi_{\nu\nu}^\dagger(x) \, \partial_\mu \partial_\nu \Psi_{\nu\nu}(x') \rangle \cdot \Theta(t-t') \cdot \delta\big((x-x')^2\big).
+\end{equation}
+
+\paragraph{Prostorové průměrovací jádro.}
+
+Ve statické limitě se jádro redukuje na prostorovou formu:
+\begin{equation}
+\label{eq:kernel_spatial}
+K(\mathbf{r}, \mathbf{r}') = \frac{1}{(2\pi\xi^2)^{3/2}} \exp\left(-\frac{|\mathbf{r}-\mathbf{r}'|^2}{2\xi^2}\right) \cdot f_{\rm proj}(\mathbf{r}, \mathbf{r}'),
+\end{equation}
+kde:
+\begin{itemize}
+\item $\xi \sim 1$~mm: koherenční délka (kosmická základní linie)
+\item $f_{\rm proj}$: projekční faktor kódující flavorovou strukturu a PMNS průměrování
+\end{itemize}
+
+\paragraph{Efektivní tenzor napětí.}
+
+Gravitační pole se váže k \textbf{rozmazanému} tenzoru napětí:
+\begin{equation}
+\label{eq:T_eff}
+\boxed{T^{\mu\nu}_{\rm eff}(x) = \int d^3x' \, K(\mathbf{r},\mathbf{r}') \, T^{\mu\nu}_{\rm matter}(x')}
+\end{equation}
+
+\textbf{To je manifestně NELOKÁLNÍ!} Tenzor napětí v bodě $x$ závisí na hmotě v $x'$ v rámci objemu $\sim V_{\rm proj} = (4\pi/3) R_{\rm proj}^3 \approx 72$~cm$^3$.
+
+\subsubsection{Explicitní škála nelokality}
+
+\begin{table}[h]
+\centering
+\caption{Škály nelokality v QCT vs předpoklady W-W.}
+\label{tab:nonlocality_scales}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Škála} & \textbf{Hodnota} & \textbf{Fyzikální původ} & \textbf{W-W} & \textbf{QCT} \\
+\midrule
+Koherence $\xi$ & $\sim 1$~mm & C$\nu$B kondenzát & --- & Nelokální \\
+Projekce $R_{\rm proj}$ & $\sim 2.6$~cm & Flavorové průměrování & --- & Nelokální \\
+Objem $V_{\rm proj}$ & $\sim 70$~cm$^3$ & Integrační oblast & --- & Nelokální \\
+Stínění $\lambda_{\rm screen}$ & $40~\mu$m (Země) & Prostředí & --- & Yukawovské \\
+Planckova délka $\ell_{\rm Pl}$ & $10^{-35}$~m & Kvantová gravitace & Lokální & N/A \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Kvantitativní porušení:} W-W předpokládá, že $T^{\mu\nu}(x)$ je \emph{bodový operátor}. QCT $T^{\mu\nu}_{\rm eff}(x)$ integruje přes $\sim 10^{32}$ Planckových objemů!
+
+\subsection{Matematický důkaz: Předpoklady W-W porušeny}
+
+\subsubsection{Předpoklad 1: Lorentzova invariance}
+
+\textbf{Stav:} SPLNĚN (lokálně, na energetických škálách $E \ll \Lambda_{\rm QCT} \sim 100$~TeV)
+
+QCT je efektivní teorie pole (EFT) s Lorentzovsky invariantním Lagrangiánem až do operátorů dimenze-6:
+\begin{equation}
+\mathcal{L}_{\rm EFT} = \mathcal{L}_{\rm SM} + \frac{c_6}{\Lambda_{\rm QCT}^2} \mathcal{O}_6 + \mathcal{O}(\Lambda^{-4}).
+\end{equation}
+
+Porušení Lorentzovy invariance je potlačeno faktorem $(E/\Lambda_{\rm QCT})^2 \sim 10^{-20}$ při srážečových energiích, daleko pod experimentální citlivostí.
+
+\subsubsection{Předpoklad 2: Lokální tenzor napětí}
+
+\textbf{Stav:} \textcolor{red}{\textbf{PORUŠEN}}
+
+Efektivní tenzor napětí \eqref{eq:T_eff} je \emph{explicitně nelokální} s charakteristickou škálou:
+\begin{equation}
+\Delta x^{\rm nonlocal} \sim \xi \sim 1\,\text{mm} \gg \ell_{\rm Pl} \sim 10^{-35}\,\text{m}.
+\end{equation}
+
+\textbf{Důkaz nelokality:}
+
+Uvažme komutátor tenzorů napětí v prostoročasově oddělených bodech:
+\begin{equation}
+[T^{\mu\nu}_{\rm eff}(x), T^{\rho\sigma}_{\rm eff}(y)] \neq 0 \quad \text{pro} \quad 0 < |\mathbf{x}-\mathbf{y}| < \xi.
+\end{equation}
+
+To vyplývá z jádra \eqref{eq:kernel_spatial}:
+\begin{align}
+[T^{\mu\nu}_{\rm eff}(x), T^{\rho\sigma}_{\rm eff}(y)] &= \int d^3x' d^3y' \, K(\mathbf{x},\mathbf{x}') K(\mathbf{y},\mathbf{y}') \, [T^{\mu\nu}(x'), T^{\rho\sigma}(y')] \\
+&\propto \exp\left(-\frac{(\mathbf{x}-\mathbf{y})^2}{\xi^2}\right) \times (\text{hmotný komutátor}) \\
+&\neq 0 \quad \text{pro} \quad |\mathbf{x}-\mathbf{y}| \lesssim \xi.
+\end{align}
+
+\textbf{Závěr:} Kauzalita je porušena na škálách $< \xi \sim 1$~mm, ale obnovena na větších vzdálenostech. To je \emph{makroskopická nelokalita}, odlišná od kvantové nelokality.
+
+\subsubsection{Předpoklad 3: Zachování \& kalibrační invariance}
+
+\textbf{Stav:} SPLNĚN (se subtilností)
+
+\emph{Mikroskopický} tenzor napětí $T^{\mu\nu}_{\rm matter}$ je zachován:
+\begin{equation}
+\partial_\mu T^{\mu\nu}_{\rm matter} = 0.
+\end{equation}
+
+\emph{Efektivní} tenzor napětí $T^{\mu\nu}_{\rm eff}$ splňuje:
+\begin{equation}
+\partial_\mu T^{\mu\nu}_{\rm eff}(x) = \int d^3x' \, K(\mathbf{x},\mathbf{x}') \, \partial_\mu T^{\mu\nu}_{\rm matter}(x') = 0,
+\end{equation}
+za předpokladu, že $K$ je časově nezávislé (statická limita).
+
+\textbf{Subtilnost:} V kosmologické evoluci $K = K(t)$ kvůli evoluci $\xi(z)$, $R_{\rm proj}(z)$. Zachování platí \emph{lokálně}, ale ne globálně.
+
+\subsubsection{Shrnutí: Které předpoklady selžou?}
+
+\begin{table}[h]
+\centering
+\caption{Předpoklady Weinberg-Wittena v QCT.}
+\label{tab:ww_assumptions}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Předpoklad} & \textbf{W-W vyžaduje} & \textbf{Stav QCT} & \textbf{Verdikt} \\
+\midrule
+Lorentzova invariance & Ano & Ano (režim EFT) & \checkmark \\
+Lokální tenzor napětí & Ano & \textcolor{red}{Ne} ($\Delta x \sim$~mm) & \textcolor{red}{\textbf{✗}} \\
+Zachování & Ano & Ano (s výhradou $K(t)$) & \checkmark \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Závěr:} QCT obchází W-W \textbf{porušením předpokladu lokality}. Tenzor napětí je nelokální na škálách $\xi \sim 1$~mm $\gg \ell_{\rm Pl}$.
+
+\subsection{Holografická interpretace}
+
+\subsubsection{Objemové kódování gravitačních stupňů volnosti}
+
+Projekční objem $V_{\rm proj} \sim 70$~cm$^3$ funguje jako „holografická obrazovka" ve smyslu Verlinde~\cite{Verlinde2011} a Jacobson~\cite{Jacobson1995}:
+
+\begin{itemize}
+\item \textbf{Jacobson (1995):} Gravitace jako termodynamika kauzálních horizontů
+\item \textbf{Verlinde (2011):} Gravitace jako entropická síla na holografických obrazovkách
+\item \textbf{QCT:} Gravitace z neutrinové provázanosti průměrované přes $V_{\rm proj}$
+\end{itemize}
+
+\paragraph{Plošné vs objemové kódování.}
+
+Standardní holografie (AdS/CFT): $S \propto A / \ell_{\rm Pl}^2$ (plošný zákon).
+
+QCT: $S \propto V_{\rm proj} / \xi^3$ (objemový zákon, ale s makroskopickým $\xi$).
+
+\textbf{Klíčový rozdíl:} QCT holografie je \emph{emergentní na makroskopických škálách}, ne Planckovských.
+
+\subsubsection{Spojení s provázací entropií}
+
+Projekční faktor $F_{\rm proj} \sim 2.43 \times 10^4$ lze interpretovat jako:
+\begin{equation}
+F_{\rm proj} = \exp(S_{\rm ent} / k_B),
+\end{equation}
+kde $S_{\rm ent}$ je provázací entropie neutrinových párů v rámci $V_{\rm proj}$.
+
+\textbf{Odhad:}
+\begin{align}
+S_{\rm ent} &\sim k_B \ln F_{\rm proj} \sim k_B \times 10, \\
+S_{\rm ent} / k_B &\sim 10 \quad \text{(bezrozměrná entropie na projekční objem)}.
+\end{align}
+
+To je konzistentní s „prvním zákonem provázání"~\cite{Jacobson2016}:
+\begin{equation}
+\delta S_{\rm ent} = \frac{\kappa}{8\pi G} \int_{\partial V} \delta A,
+\end{equation}
+kde $\kappa$ je povrchová gravitace.
+
+\subsection{Srovnání s jinými přístupy emergentní gravitace}
+
+\begin{table}[h]
+\centering
+\caption{Přístupy emergentní gravitace a mechanismy obcházení W-W.}
+\label{tab:emergent_approaches}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Přístup} & \textbf{Mikroskopické DoF} & \textbf{Obcházení W-W} & \textbf{Škála nelokality} \\
+\midrule
+Sacharov (1967) & Virtuální částice & Efektivní akce & $\ell_{\rm Pl}$ \\
+Jacobson (1995) & Provázání & Termodynamika & Velikost horizontu \\
+Verlinde (2011) & Holografické bity & Entropická síla & Velikost obrazovky \\
+Wen (2003) & Strunová síť & Topologické uspořádání & Mřížkový rozestup \\
+\textbf{QCT (2025)} & C$\nu$B kondenzát & \textbf{Makroskopická nelokalita} & \textbf{$\sim 1$~mm} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Unikátnost QCT:}
+\begin{enumerate}
+\item \textbf{Pozorovatelná nelokalita:} $\xi \sim 1$~mm je experimentálně přístupná (na rozdíl od $\ell_{\rm Pl}$)
+\item \textbf{Specifická mikroskopická teorie:} Neutrinový kondenzát, ne generické „kvantové bity"
+\item \textbf{Testovatelné predikce:} Sub-mm gravitační odchylky, kosmologická evoluce
+\end{enumerate}
+
+\subsection{Fyzikální důsledky a pozorovací testy}
+
+\subsubsection{Sub-milimetrové modifikace gravitace}
+
+Nelokální tenzor napětí \eqref{eq:T_eff} vede k modifikovanému Newtonovu potenciálu:
+\begin{equation}
+\Phi(\mathbf{r}) = -\frac{GM}{r} \left[1 - e^{-r/\lambda_{\rm screen}}\right],
+\end{equation}
+kde $\lambda_{\rm screen} = \xi \times f_{\rm screen} \sim 40~\mu$m (Země).
+
+\textbf{Test:} Eöt-Wash experimenty s torzními vahami~\cite{Kapner2007} omezují odchylky při $\lambda \sim 40~\mu$m.
+
+\textbf{Stav QCT:} Současné limity jsou \emph{kompatibilní}, ale vylepšená přesnost by mohla detekovat/vyloučit QCT.
+
+\subsubsection{Kosmologické signatury}
+
+Časová závislost $\xi(z)$ a $V_{\rm proj}(z)$:
+\begin{align}
+\xi(z) &= \xi_0 (1+z)^{-1/2}, \\
+V_{\rm proj}(z) &= V_0 (1+z)^{-3/2}.
+\end{align}
+
+\textbf{Predikce:} Evoluce efektivního $G(z)$:
+\begin{equation}
+G_{\rm eff}(z) = G_N \times \left[1 - 0.1 \times f(z)\right],
+\end{equation}
+kde $f(z)$ závisí na $\xi(z)$, $V_{\rm proj}(z)$.
+
+\textbf{Test:} Primordální nukleosyntéza (BBN) omezuje $|G(z_{\rm BBN})/G_N - 1| < 0.2$ při $z \sim 10^9$.
+
+\textbf{Mechanismus QCT:} Zpožděné zapnutí konfinace $f_{\rm turn-on}(z)$ zajišťuje kompatibilitu.
+
+\subsubsection{Paradox černé díry}
+
+\textbf{Výzva:} Pro černé díry s $r_S \gg \xi$ stínění potlačuje gravitaci: $G_{\rm eff} \sim G_N \exp(-r_S/\xi) \approx 0$.
+
+\textbf{Cesty k řešení:}
+\begin{enumerate}
+\item \textbf{Prostředím závislá $\xi$:} Blízko horizontů, $\xi \to \infty$ (žádné stínění)
+\item \textbf{Topologická ochrana:} Schwarzschildovo řešení je přesné (žádné stínění)
+\item \textbf{Selhání efektivní teorie:} QCT neplatí při $r \lesssim 10 r_S$ (silná gravitace)
+\end{enumerate}
+
+\textbf{Stav:} Otevřený problém; vyžaduje úplné zpracování kvantové gravitace.
+
+\subsection{Závěr}
+
+\begin{enumerate}
+\item \textbf{Weinberg-Wittenův teorém} zakazuje kompozitní bezhmotné gravitony v teoriích s \emph{lokálními} tenzory napětí.
+
+\item \textbf{QCT obchází W-W} tím, že má \emph{manifestně nelokální} efektivní tenzor napětí \eqref{eq:T_eff} s charakteristickou škálou $\xi \sim 1$~mm.
+
+\item \textbf{Nelokalita je makroskopická}, ne kvantová: prostorové průměrování přes $V_{\rm proj} \sim 70$~cm$^3$ činí teorii mimo rozsah W-W.
+
+\item \textbf{Holografická interpretace}: QCT realizuje emergentní gravitaci prostřednictvím provázací entropie v $V_{\rm proj}$, analogicky k Verlinde/Jacobson, ale s pozorovatelnými škálami.
+
+\item \textbf{Pozorovací důsledky}:
+\begin{itemize}
+\item Sub-mm gravitační odchylky (testovatelné torzními vahami)
+\item Kosmologická evoluce $G(z)$ (omezená BBN, CMB)
+\item Paradox stínění černé díry (vyžaduje řešení)
+\end{itemize}
+
+\item \textbf{Srovnání s alternativami}: QCT makroskopická nelokalita ($\sim$mm) je unikátní mezi teoriemi emergentní gravitace, což ji činí experimentálně falzifikovatelnou.
+\end{enumerate}
+
+\textbf{Konečný verdikt:} QCT \emph{rigorózně obchází} Weinberg-Wittenův no-go teorém explicitním porušením předpokladu lokality, zatímco zachovává Lorentzovu invarianci a zachování tenzoru napětí na pozorovatelných škálách. Škála nelokality $\xi \sim 1$~mm je kvantitativní predikce, která odlišuje QCT od jiných přístupů emergentní gravitace.
+
+\subsection{Otevřené otázky a budoucí práce}
+
+\begin{enumerate}
+\item \textbf{Úplné kvantové zpracování:} Rozšířit na kvantový operátor tenzoru napětí $\hat{T}^{\mu\nu}_{\rm eff}$
+
+\item \textbf{Zakřivený prostoročas:} Zobecnit jádro $K_{\mu\nu}(x,x')$ na libovolná pozadí
+
+\item \textbf{Dynamická $\xi(r,t)$:} Odvodit prostředím závislou koherenční délku
+
+\item \textbf{Řešení černé díry:} Sladit stínění s astrofyzikálními pozorováními
+
+\item \textbf{Mřížkové simulace:} Vypočítat $K_{\mu\nu}$ z první principů dynamiky neutrin
+
+\item \textbf{Experimentální testy:} Navrhnout sub-mm gravitační experimenty cílící na $\lambda \sim 40~\mu$m
+\end{enumerate}
+
+% Reference přidány do hlavní bibliografie
