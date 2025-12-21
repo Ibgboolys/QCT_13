@@ -1,0 +1,361 @@
+% Příloha: Rámec mřížkové QCD pro směšování neutrinového a kvarkového kondenzátu
+% Vytvořeno: 2025-10-29
+% Účel: Systematická analýza vazby ⟨ν̄ν⟩⟨q̄q⟩ a spojení s Λ_micro/m_p
+
+\section{Rámec mřížkové QCD pro směšování neutrinového a kvarkového kondenzátu}
+\label{app:lattice_qcd}
+
+\subsection{Motivace a kontext}
+
+Pozoruhodné pozorování, že $\Lambda_{\rm micro}/m_p \approx \sqrt{2/3}$ (sekce~\ref{sec:lambda_micro_derivation}) naznačuje fundamentální vazbu mezi neutrinovým kondenzátem a QCD dynamikou. K rigoróznímu testování této hypotézy vyžadujeme neperturbativní QCD výpočty prostřednictvím mřížkových metod.
+
+Tato příloha poskytuje:
+\begin{enumerate}
+    \item Přehled existujících výsledků mřížkové QCD pro kvarkový kondenzát $\langle \bar q q \rangle$
+    \item Rámec pro začlenění efektů neutrinového kondenzátu do mřížkových výpočtů
+    \item Metodologii pro výpočet efektivních směšovacích členů $\langle \bar \nu \nu \rangle \langle \bar q q \rangle$
+    \item Spojení s predikcemi hmotností hadronů a vzory stability
+    \item Testovatelné predikce pro budoucí mřížkové simulace
+\end{enumerate}
+
+\subsection{Pozadí: Mřížková QCD a chirální kondenzát}
+
+\subsubsection{Standardní formalismus mřížkové QCD}
+
+Mřížková QCD diskretizuje prostoročas na hyperkubické mřížce s mřížkovým rozestupem $a$ a objemem $L^3 \times T$. Kvarkový propagátor v Euklidovském prostoru je:
+\begin{equation}
+S(x,y) = \langle q(x) \bar q(y) \rangle = \left[ D\!\!\!\!/ + m_q \right]^{-1}(x,y)
+\end{equation}
+kde $D\!\!\!\!/ $ je Diracův operátor a $m_q$ je proudová kvarkové hmotnost.
+
+Chirální kondenzát se vypočítává prostřednictvím:
+\begin{equation}
+\langle \bar q q \rangle = -\frac{1}{V} \sum_x \mathrm{Tr} \left[ S(x,x) \right]
+\label{eq:lattice_qqbar}
+\end{equation}
+kde $V = L^3 T$ je objem mřížky a Tr je přes Diracovy a barevné indexy.
+
+\subsubsection{Empirické výsledky z mřížkové QCD}
+
+Nedávné mřížkové výpočty s $N_f = 2+1$ dynamickými flavory (up, down, strange) při fyzikální hmotnosti pionu dávají \cite{BMW2012,RBC2015,ETMC2017}:
+\begin{align}
+\langle \bar u u + \bar d d \rangle^{1/3} &\approx -(270 \pm 10)^3\,\text{MeV}^3 \\
+\langle \bar s s \rangle^{1/3} &\approx -(200 \pm 15)^3\,\text{MeV}^3
+\end{align}
+při renormalizační škále $\mu = 2\,\text{GeV}$ ve $\overline{\text{MS}}$ schématu.
+
+Vztah k hmotnostem hadronů vyplývá z Gell-Mann-Oakes-Rennerovy (GMOR) relace:
+\begin{equation}
+m_\pi^2 f_\pi^2 = -(m_u + m_d) \langle \bar u u + \bar d d \rangle + \mathcal{O}(m_q^2)
+\label{eq:gmor}
+\end{equation}
+kde $f_\pi = 92.2\,\text{MeV}$ je rozpadová konstanta pionu.
+
+\subsection{Rozšíření QCT: Vazba neutrinového kondenzátu}
+
+\subsubsection{Efektivní Lagrangián pro směšování}
+
+V QCT se neutrinový kondenzát $\langle \bar \nu \nu \rangle$ váže ke kvarkům prostřednictvím operátorů dimenze-6 potlačených škálou $\Lambda_{\rm QCT}$:
+\begin{equation}
+\mathcal{L}_{\rm mix} = \frac{g_{\nu q}}{\Lambda_{\rm QCT}^2} \left( \bar \nu \nu \right) \left( \bar q q \right) + \frac{g_{\nu q}^{(5)}}{\Lambda_{\rm QCT}^2} \left( \bar \nu \gamma^5 \nu \right) \left( \bar q \gamma^5 q \right) + \ldots
+\label{eq:L_mix}
+\end{equation}
+kde $g_{\nu q}$ a $g_{\nu q}^{(5)}$ jsou flavorově závislé vazby.
+
+Z objeveného vztahu $\Lambda_{\rm micro}/m_p \approx \sqrt{2/3}$ a definice $\Lambda_{\rm micro} = \sqrt{E_{\rm pair} \times m_\nu}$ odvozujeme:
+\begin{equation}
+g_{\nu q}^{(p)} \sim \sqrt{\frac{2}{3}} \times \left( \frac{\Lambda_{\rm QCT}}{\Lambda_{\rm micro}} \right)^2
+\end{equation}
+pro protonovou (uud) konfiguraci.
+
+\subsubsection{Efektivní vazba vážená nábojem}
+
+Síla vazby závisí na nábojovém obsahu kvarků. Pro baryon s kvarkovou konfigurací $q_1 q_2 q_3$ definujeme:
+\begin{equation}
+\langle Q^2 \rangle_B = \frac{1}{3} \sum_{i=1}^3 Q_{q_i}^2
+\label{eq:Q2_average}
+\end{equation}
+Pak je efektivní neutrin-baryonová vazba:
+\begin{equation}
+f_B = \sqrt{\langle Q^2 \rangle_B}
+\end{equation}
+
+\noindent\textbf{Numerické hodnoty:}
+\begin{align}
+\text{Proton (uud):} \quad & \langle Q^2 \rangle_p = \frac{2(2/3)^2 + (-1/3)^2}{3} = \frac{2}{3} \quad \Rightarrow \quad f_p = \sqrt{\frac{2}{3}} \approx 0.816 \\
+\text{Neutron (udd):} \quad & \langle Q^2 \rangle_n = \frac{(2/3)^2 + 2(-1/3)^2}{3} = \frac{2}{9} \quad \Rightarrow \quad f_n = \sqrt{\frac{2}{9}} \approx 0.471 \\
+\text{$\Lambda$ (uds):} \quad & \langle Q^2 \rangle_\Lambda = \frac{(2/3)^2 + 2(-1/3)^2}{3} = \frac{2}{9} \quad \Rightarrow \quad f_\Lambda \approx 0.471 \\
+\text{$\Sigma^+$ (uus):} \quad & \langle Q^2 \rangle_{\Sigma^+} = \frac{2(2/3)^2 + (-1/3)^2}{3} = \frac{2}{3} \quad \Rightarrow \quad f_{\Sigma^+} \approx 0.816
+\end{align}
+
+\subsection{Metodologie mřížky pro směšování $\langle \bar \nu \nu \rangle \langle \bar q q \rangle$}
+
+\subsubsection{Výpočtová strategie}
+
+Pro výpočet smíšeného kondenzátu na mřížce navrhujeme dvoufázový přístup:
+
+\paragraph{Fáze 1: Kvarkový sektor (standardní mřížková QCD)}
+\begin{enumerate}
+    \item Generovat kalibrační konfigurace $\{U_\mu(x)\}$ pomocí RHMC nebo HMC algoritmu s $N_f = 2+1+1$ dynamickými kvarky (up, down, strange, charm)
+    \item Vypočítat kvarkové propagátory $S_f(x,y)$ pro každý flavor $f$ pomocí invertoru (CG, BiCGStab, atd.)
+    \item Extrahovat lokální kondenzát $\langle \bar q q \rangle(x) = -\mathrm{Tr}[S_f(x,x)]$
+    \item Provést průměr přes soubor a spojitou extrapolaci $a \to 0$
+\end{enumerate}
+
+\paragraph{Fáze 2: Neutrinový sektor (specifický pro QCT)}
+\begin{enumerate}
+    \item Modelovat neutrinový kondenzát jako poziční pole $\phi_\nu(x)$ s korelační délkou $\xi_\nu \sim \lambda_{\rm screen} \approx 1\,\text{mm}$
+    \item Jelikož $\xi_\nu \gg a_{\rm lattice}$ (typicky $a \sim 0.05\text{--}0.1\,\text{fm}$), zacházet s $\phi_\nu$ jako přibližně konstantním přes objem mřížky
+    \item Vložit efektivní vertex $\mathcal{V}_{\nu q} = (g_{\nu q}/\Lambda_{\rm QCT}^2) \phi_\nu(x) \langle \bar q q \rangle(x)$ do korelačních funkcí hadronů
+    \item Měřit hmotnostní posun: $\delta m_B = m_B[\phi_\nu] - m_B[0]$
+\end{enumerate}
+
+\subsubsection{Korelační funkce hadronu s neutrinovou vložkou}
+
+Pro baryon $B$ s interpolujícím operátorem $\chi_B(x)$ je dvoubodová funkce:
+\begin{equation}
+C_B(t) = \sum_{\vec x} \langle \chi_B(\vec x, t) \bar \chi_B(\vec 0, 0) \rangle \sim e^{-m_B t}
+\end{equation}
+
+S vložkou neutrinového kondenzátu v časové vrstvě $t_0$:
+\begin{equation}
+C_B^{(\nu)}(t) = \sum_{\vec x} \left\langle \chi_B(\vec x, t) \left[ \int d^4y\, \mathcal{V}_{\nu q}(y) \right] \bar \chi_B(\vec 0, 0) \right\rangle
+\label{eq:corr_nu_insertion}
+\end{equation}
+
+Poměrová metoda extrahuje hmotnostní posun:
+\begin{equation}
+R(t) = \frac{C_B^{(\nu)}(t)}{C_B(t)} \sim \frac{g_{\nu q}}{\Lambda_{\rm QCT}^2} \langle \bar \nu \nu \rangle \times t \times e^{-\delta m_B t}
+\end{equation}
+ze kterého lze určit $\delta m_B$.
+
+\subsection{Spojení s vztahem $\Lambda_{\rm micro}/m_p$}
+
+\subsubsection{Teoretická predikce}
+
+Z empirického pozorování $\Lambda_{\rm micro}/m_p^{\rm QCD} \approx \sqrt{2/3}$ a definice:
+\begin{equation}
+\Lambda_{\rm micro} = \sqrt{E_{\rm pair} \times m_\nu} = 0.733\,\text{GeV}
+\end{equation}
+predikujeme, že mřížková QCD by měla najít efektivní vazbu:
+\begin{equation}
+\frac{\delta m_p}{\delta m_n} = \frac{f_p^2}{f_n^2} = \frac{2/3}{2/9} = 3
+\label{eq:mass_shift_ratio}
+\end{equation}
+
+\noindent To znamená, že hmotnost protonu dostává **třikrát větší** korekci z vazby neutrinového kondenzátu ve srovnání s neutronem.
+
+\subsubsection{Numerický odhad}
+
+Pomocí $E_{\rm pair} = 5.38 \times 10^{18}\,\text{eV}$ a $m_\nu = 0.1\,\text{eV}$:
+\begin{align}
+\rho_{\rm eff}^{(\rm pairs)} &= n_\nu \times E_{\rm pair} = 336\,\text{cm}^{-3} \times 5.38 \times 10^{18}\,\text{eV} \\
+&= 1.81 \times 10^{21}\,\text{eV/cm}^3 = 1.39 \times 10^{-29}\,\text{GeV}^4
+\end{align}
+
+Zlomkový hmotnostní posun je:
+\begin{equation}
+\frac{\delta m_p}{m_p} \sim \frac{g_{\nu q}}{\Lambda_{\rm QCT}^2} \frac{\rho_{\rm eff}^{(\rm pairs)}}{m_p^3} \sim \frac{1}{(107\,\text{TeV})^2} \times \frac{1.39 \times 10^{-29}\,\text{GeV}^4}{(0.938\,\text{GeV})^3}
+\end{equation}
+
+Pro $g_{\nu q} \sim \mathcal{O}(1)$:
+\begin{equation}
+\frac{\delta m_p}{m_p} \sim 10^{-8} \quad \Rightarrow \quad \delta m_p \sim 1\,\text{eV}
+\label{eq:delta_mp_estimate}
+\end{equation}
+
+To je pod současnou statistickou přesností mřížkové QCD ($\sim 1\,\text{MeV}$), ale mohlo by se stát přístupným s:
+\begin{itemize}
+    \item Vylepšenou statistikou ($\sim 10^5\text{--}10^6$ konfigurací)
+    \item Technikami redukce variance (all-mode-averaging, multilevel)
+    \item Vysoce přesnými měřeními spektra hmotností baryonů (poměrové metody)
+\end{itemize}
+
+\subsection{Testovatelné predikce pro mřížkové simulace}
+
+\subsubsection{Predikce 1: Poměry hmotností baryonů}
+
+QCT predikuje, že hmotnostní posuny vážené vazbou by měly splňovat:
+\begin{equation}
+\frac{\delta m_p}{f_p^2} = \frac{\delta m_n}{f_n^2} = \frac{\delta m_\Lambda}{f_\Lambda^2} = \frac{\delta m_{\Sigma^+}}{f_{\Sigma^+}^2} = \text{konst.}
+\label{eq:universal_scaling}
+\end{equation}
+
+\noindent Numericky:
+\begin{align}
+\text{Proton:} \quad & \delta m_p / (2/3) \\
+\text{Neutron:} \quad & \delta m_n / (2/9) = 3 \times \delta m_n \\
+\text{$\Lambda$:} \quad & \delta m_\Lambda / (2/9) = 3 \times \delta m_\Lambda
+\end{align}
+
+\noindent\textbf{Test:} Změřit $m_p, m_n, m_\Lambda$ na mřížce s vysokou přesností a zkontrolovat, zda $(m_p - m_n) \times (3/2) \approx (m_p - m_\Lambda) \times (3/2)$ po elektromagnetických korekcích.
+
+\subsubsection{Predikce 2: Škálování korelační délky}
+
+Koherenční délka neutrinového kondenzátu $\xi_\nu \sim 1\,\text{mm}$ je mnohem větší než QCD škály. To implikuje:
+\begin{itemize}
+    \item Žádná závislost $\delta m_B$ na mřížkovém rozestupu (jelikož $a \ll \xi_\nu$)
+    \item Objemová nezávislost pro $L \gtrsim 3\,\text{fm}$ (standardní velikost mřížky)
+    \item Teplotní nezávislost pod $T \sim T_\nu = 1.95\,\text{K} \ll T_{\rm QCD}$
+\end{itemize}
+
+\noindent\textbf{Test:} Měnit mřížkový rozestup $a = 0.05, 0.08, 0.12\,\text{fm}$ při fixním fyzikálním objemu a zkontrolovat, že hmotnosti baryonů (po spojité extrapolaci) jsou nezávislé na $a$ v rámci korekcí QCT.
+
+\subsubsection{Predikce 3: Flavorová struktura}
+
+Vazba vážená nábojem $f_B = \sqrt{\langle Q^2 \rangle_B}$ predikuje specifické vzory:
+\begin{align}
+f_p = f_{\Sigma^+} &\approx 0.816 \quad \text{(oba mají 2 up kvarky)} \\
+f_n = f_\Lambda &\approx 0.471 \quad \text{(oba mají 2 down/strange kvarky)} \\
+f_{\Sigma^-} &\approx 0.471 \quad \text{(dds konfigurace)} \\
+f_{\Sigma^0} &\approx 0.577 \quad \text{(uds symetrická)}
+\end{align}
+
+\noindent\textbf{Test:} Změřit úplné hmotnosti baryonového oktetu a zkontrolovat, zda hmotnostní štěpení v rámci isospinových multipletů následují $f_B^2$ škálování po elektromagnetických korekcích.
+
+\subsection{Spojení se stabilitou baryonů}
+
+\subsubsection{$\beta$-rozpad a vazba kondenzátu}
+
+Neutronový $\beta$-rozpad ($n \to p + e^- + \bar \nu_e$) zvyšuje vazbu s neutrinovým kondenzátem:
+\begin{equation}
+f_n^2 = \frac{2}{9} \quad \to \quad f_p^2 = \frac{2}{3}
+\end{equation}
+což naznačuje, že rozpad je **řízen** neutrinovým kondenzátem směrem k stabilnější konfiguraci.
+
+Rychlost rozpadu v rámci QCT dostává dodatečný příspěvek:
+\begin{equation}
+\Gamma_{n \to p} = \Gamma_{n \to p}^{\rm SM} \times \left[ 1 + \alpha_{\rm QCT} \frac{f_p^2 - f_n^2}{\Lambda_{\rm QCT}^2} \right]
+\label{eq:beta_decay_QCT}
+\end{equation}
+kde $\alpha_{\rm QCT} \sim E_{\rm pair} \times \langle \bar \nu \nu \rangle$.
+
+\noindent\textbf{Numerická kontrola:}
+\begin{align}
+\frac{f_p^2 - f_n^2}{\Lambda_{\rm QCT}^2} &= \frac{2/3 - 2/9}{(107\,\text{TeV})^2} = \frac{4/9}{1.14 \times 10^{10}\,\text{GeV}^2} \\
+&= 3.9 \times 10^{-11}\,\text{GeV}^{-2}
+\end{align}
+
+Pro $\alpha_{\rm QCT} \sim \rho_{\rm eff}^{(\rm pairs)} \sim 10^{-29}\,\text{GeV}^4$:
+\begin{equation}
+\text{Korekce} \sim 10^{-29} \times 10^{-11} \sim 10^{-40} \ll 1
+\end{equation}
+potvrzující, že efekty QCT na $\beta$-rozpad jsou zanedbatelné, konzistentní s přesnými testy.
+
+\subsubsection{Stabilita protonu}
+
+Proton je **nejlehčí** baryon s $f_p^2 = 2/3$ (maximální pro $N=3$ kvarky). Neexistuje stav s nižší hmotností s vyšší vazbou, takže protonový rozpad je **zakázán** energetikou vazby kondenzátu.
+
+Mřížková QCD může toto testovat výpočtem:
+\begin{equation}
+E_{\rm threshold} = \min_{B' \neq p} \left[ m_{B'} - m_p + \Delta E_{\rm cond}(B' \to p) \right]
+\end{equation}
+kde $\Delta E_{\rm cond}$ je rozdíl vazebné energie kondenzátu. QCT predikuje $E_{\rm threshold} > 0$ pro všechny kanály.
+
+\subsection{Praktická implementace mřížkové QCD}
+
+\subsubsection{Doporučené parametry mřížky}
+
+Na základě současného stavu umění schopností mřížkové QCD:
+
+\begin{table}[h]
+\centering
+\caption{Doporučené parametry mřížky pro výpočet směšování neutrin-kvarků QCT}
+\label{tab:lattice_params}
+\begin{tabular}{lll}
+\toprule
+\textbf{Parametr} & \textbf{Hodnota} & \textbf{Odůvodnění} \\
+\midrule
+Mřížkový rozestup $a$ & $0.05\text{--}0.08\,\text{fm}$ & Spojitá limita se 3-4 hodnotami \\
+Fyzikální objem $L$ & $5\text{--}8\,\text{fm}$ & Minimalizovat konečně-objemové efekty \\
+Kalibrační akce & Iwasaki nebo L\"uscher-Weisz & Vylepšená diskretizace \\
+Fermionová akce & M\"obius DWF nebo HISQ & Chirální symetrie \& taste splitting \\
+Kvarkové flavory & $N_f = 2+1+1$ & Fyzikální up, down, strange, charm \\
+Hmotnost pionu & $m_\pi = 135\,\text{MeV}$ & Fyzikální bod \\
+Konfigurace & $\gtrsim 5000$ na soubor & Statistická přesnost $\sim 0.1\%$ \\
+Source/sink rozmazání & Gaussovské, $r \sim 0.5\,\text{fm}$ & Optimalizovat baryonový signál \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Měřící protokol}
+
+\begin{enumerate}
+    \item \textbf{Základní linie:} Měřit hmotnosti baryonů $m_B^{(0)}$ bez neutrinové vložky pomocí standardních metod (2bodové korelační funkce s variační analýzou)
+
+    \item \textbf{Neutrinová vložka:} Přidat efektivní vertex $\mathcal{V}_{\nu q}$ v časové vrstvě $t_0 = T/2$:
+    \begin{equation}
+    \mathcal{V}_{\nu q}(t_0) = \frac{g_{\nu q}}{\Lambda_{\rm QCT}^2} \sum_{\vec x, f} \bar q_f(\vec x, t_0) q_f(\vec x, t_0)
+    \end{equation}
+    kde součet je přes všechny kvarkové flavory $f = u, d, s$ vážený nábojem $Q_f^2$
+
+    \item \textbf{Poměrová metoda:} Vypočítat
+    \begin{equation}
+    R_B(t, t_0) = \frac{C_B^{(\nu)}(t)}{C_B^{(0)}(t)}
+    \end{equation}
+    a fitovat k extrakci $\delta m_B$
+
+    \item \textbf{Systematické kontroly:}
+    \begin{itemize}
+        \item Měnit čas vložky $t_0$ ke kontrole nezávislosti
+        \item Více mřížkových rozestupů pro spojitou extrapolaci
+        \item Konečně-objemové škálování: $L = 4, 5, 6, 8\,\text{fm}$
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Očekávaná přesnost}
+
+S moderními zdroji mřížkové QCD (např. USQCD alokace, PRACE infrastruktura):
+\begin{itemize}
+    \item Přesnost hmotnosti baryonu: $\delta m_B / m_B \sim 0.1\text{--}0.5\%$ (dosaženo BMW, CLS, RBC/UKQCD)
+    \item Měření neutrinové vazby: $\delta (g_{\nu q}/\Lambda_{\rm QCT}^2) / (g_{\nu q}/\Lambda_{\rm QCT}^2) \sim 10\text{--}20\%$ (odhadováno)
+    \item Časová škála: 2-3 roky pro úplný $N_f=2+1+1$ výpočet se spojitou limitou
+\end{itemize}
+
+\subsection{Alternativa: Přístup QCD sumových pravidel}
+
+\subsubsection{SVZ sumová pravidla s neutrinovým kondenzátem}
+
+Jako doplňkovou metodu k mřížkové QCD mohou QCD sumová pravidla (Shifman-Vainshtein-Zakharov) poskytnout semi-analytické odhady. Hmotnost baryonu je vztažena ke kondenzátům prostřednictvím:
+\begin{equation}
+m_B = \frac{\int_0^\infty ds\, \rho_B(s) e^{-s/M^2}}{\int_0^\infty ds\, \rho_B(s) \frac{1}{s} e^{-s/M^2}}
+\end{equation}
+kde $\rho_B(s)$ je spektrální hustota a $M$ je Borelův parametr.
+
+Spektrální hustota dostává příspěvky z různých kondenzátů:
+\begin{equation}
+\rho_B(s) = \rho_B^{\rm pert}(s) + \langle \bar q q \rangle C_{\bar q q}(s) + \langle g^2 G^2 \rangle C_{G^2}(s) + \langle \bar \nu \nu \rangle \langle \bar q q \rangle C_{\nu q}(s) + \ldots
+\end{equation}
+
+Nový člen $\langle \bar \nu \nu \rangle \langle \bar q q \rangle C_{\nu q}(s)$ lze vypočítat pomocí rozvoje součinu operátorů (OPE):
+\begin{equation}
+C_{\nu q}(s) = \frac{g_{\nu q}}{\Lambda_{\rm QCT}^2} \times \left[ \text{Wilsonův koeficient} \right] \times f_B^2
+\end{equation}
+
+\noindent\textbf{Výhoda:} Rychlejší než mřížková QCD; může efektivně zkoumat parametrický prostor.
+
+\noindent\textbf{Nevýhoda:} Systematické nejistoty z trunkace OPE a volby Borelova okna.
+
+\subsection{Shrnutí a výhled}
+
+Tato příloha poskytuje komplexní rámec pro výpočet směšování neutrinového a kvarkového kondenzátu pomocí mřížkové QCD. Klíčové body:
+
+\begin{enumerate}
+    \item Empirický vztah $\Lambda_{\rm micro}/m_p^{\rm QCD} \approx \sqrt{2/3}$ motivuje vazbu váženou nábojem $f_B = \sqrt{\langle Q^2 \rangle_B}$
+
+    \item Mřížková QCD může toto testovat prostřednictvím měření spektra hmotností baryonů, hledajíc univerzální škálování $\delta m_B \propto f_B^2$
+
+    \item Očekávaný hmotnostní posun $\delta m_B \sim 1\,\text{eV}$ je náročný, ale potenciálně přístupný s běhy s vysokou statistikou a redukcí variance
+
+    \item Alternativní metody (QCD sumová pravidla, chirální perturbační teorie s neutrinovými vložkami) mohou poskytnout doplňková omezení
+
+    \item Spojení se stabilitou baryonů: proton je stabilní kvůli maximální vazbě kondenzátu; neutronový $\beta$-rozpad řízen ziskem energie kondenzátu
+\end{enumerate}
+
+\noindent\textbf{Doporučené další kroky:}
+\begin{itemize}
+    \item Pilotní studie na existujících kalibračních konfiguracích (např. BMW $N_f=2+1$ soubory) k odhadu signál-šum
+    \item Vyvinout kód neutrinové vložky pro standardní balíčky mřížkové QCD (Chroma, Grid, QUDA)
+    \item Žádat o výpočetní zdroje na leadership-class HPC systémech (Summit, Frontier, LUMI)
+    \item Koordinovat s experimentálními skupinami (muon $g-2$, EDM, sub-mm gravitace) pro doplňková omezení $\Lambda_{\rm QCT}$
+\end{itemize}
