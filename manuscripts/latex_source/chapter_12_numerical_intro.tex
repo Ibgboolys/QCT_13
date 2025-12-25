@@ -1,0 +1,76 @@
+% ============================================================================
+% Úvodní odstavec kapitoly 12: Numerické výpočty a validace
+% ============================================================================
+
+\chapter{Numerické výpočty a~validace}
+\label{chap:numerical}
+
+\epigraph{\textit{„Teorie bez experimentální predikce je filosofie. Predikce bez numerické verifikace je spekulace. Teprve spojení obojího dává fyziku."}}{--- Metodologie moderní teoretické fyziky}
+
+% ============================================================================
+% ÚVODNÍ ODDÍL
+% ============================================================================
+
+\section*{Úvod}
+
+Předchozí kapitoly představily teoretický základ Teorie kvantové komprese --- od mikroskopického odvození vazebné energie neutrinových párů (Kapitola 5) přes emergenci Einsteinových rovnic (Kapitola 3) až po identifikaci temné energie jako saturace kondenzátu (Kapitola 9). Všechny tyto výsledky však zůstávají pouze matematickými konstrukcemi, dokud nejsou konfrontovány s~\textbf{numerickou realitou} a~\textbf{experimentálními daty}.
+
+Tato kapitola slouží třem účelům:
+
+\paragraph{1. Numerická verifikace teoretických odvození.}
+
+Analytické výpočty v~Kapitolách 3--9 používají linearizované aproximace, perturbativní expanze a~mean-field přístupy. Aby byla teorie důvěryhodná, musíme ověřit, že tyto aproximace nevedou k~dramatickým chybám v~režimech, kde jsou naše předpoklady na hranici platnosti.
+
+\textbf{Příklad:} V~Kapitole 7 jsme odvodili hierarchické potlačení $(m_p/E_{\mathrm{cond}})^2 \approx 10^{-33}$ za předpokladu, že kondenzát je dostatečně "tuhý" oproti baryonům. Ale co se stane při extrémních hustotách ($\rho > 20$~g/cm$^3$), kde předpoklad slabé poruchy může selhat? Pouze plně nelineární simulace Gross-Pitaevskii rovnice mohou odpovědět.
+
+\paragraph{2. Generování falsifikovatelných predikcí.}
+
+Fyzikální teorie musí předpovídat \emph{něco nového} --- jev, který standardní model nebo Obecná relativita nepředpovídají. V~QCT jsme identifikovali několik takových jevů:
+\begin{itemize}
+\item Hustotní škálování gravitačního stínění: $\alpha(\rho) \propto \rho^\xi$ s~$\xi = 1$ (exaktně)
+\item Vakuová fokusace u~hustých jader: zesílení $G_{\mathrm{eff}}$ o~${\sim}\,6\%$ pro Osmium
+\item Geometrické stínění u~rozsáhlých objektů: pokles $G_{\mathrm{eff}}$ o~${\sim}\,3\%$ pro Měsíc
+\end{itemize}
+
+\textbf{Cíl této kapitoly:} Ukázat, že tyto predikce plynou přímo z~numerického řešení GPE, nikoliv z~ad-hoc fittování parametrů.
+
+\paragraph{3. Kalibrace EFT parametrů na data.}
+
+Efektivní teorie pole obsahuje konstanty, které nelze odvodit ab initio --- např. kvartická vazba $\lambda$, kosmologická fázová variance $\sigma^2_{\mathrm{cosmo}}$, nebo neutrino-gravitační coupling $\alpha_{\nu G}$. Tyto parametry musí být kalibrované na pozorování.
+
+\textbf{Metodika:}
+\begin{enumerate}
+\item \textbf{Primární kalibrace:} $\lambda$ z~muon $g$-2 anomálie (Fermilab 2021), $\sigma^2_{\max}$ z~rotačních křivek galaxií (SPARC databáze)
+\item \textbf{Konzistenční testy:} Ověření, že stejné hodnoty reprodukují BBN omezení, CMB fázový posun, Eöt-Wash limity
+\item \textbf{Numerická validace:} Simulace na mřížce s~kalibrovanými parametry (tato kapitola)
+\end{enumerate}
+
+\section*{Struktura kapitoly}
+
+\textbf{Sekce \ref{sec:codata_calibration}:} Kalibrace QCT parametrů na CODATA 2018 hodnoty fundamentálních konstant ($G_N$, $\alpha_{\mathrm{EM}}$, $m_e$, $m_p$). Ukazujeme, že QCT přirozeně reprodukuje pozorované hodnoty bez nadměrného tuningu.
+
+\textbf{Sekce \ref{sec:lattice_simulation}:} \textbf{Numerická verifikace na mřížce} --- jádro této kapitoly. Řešíme nelineární Gross-Pitaevskii rovnici pro různé materiály (voda, hliník, olovo, osmium) a~geometrie (bodové zdroje vs. rozsáhlé objekty). Hlavní výsledek: QCT sedí na Newton v~lineárním režimu, ale předpovídá měřitelné odchylky ${\sim}\,6\%$ pro extrémní hustoty.
+
+\textbf{Sekce \ref{sec:consistency_checks}:} Konzistenční testy napříč škálami --- od sub-milimetrové gravitace (Eöt-Wash) přes planetární systémy (BBN) až po kosmologii (CMB, BAO). Klíčová otázka: Může jediná teorie s~${\sim}\,4$ volnými parametry vysvětlit všechny tyto jevy?
+
+\section*{Hlavní výsledky kapitoly (předběžné shrnutí)}
+
+\begin{tcolorbox}[colback=yellow!10!white,colframe=orange!75!black,title=Key Findings]
+\begin{itemize}
+\item \textbf{Lineární režim:} QCT reprodukuje Newtonovu gravitaci s~přesností $< 0{,}5\%$ pro běžné materiály (voda, hliník).
+
+\item \textbf{Vakuová fokusace:} Osmium ($\rho = 22{,}6$~g/cm$^3$) vykazuje zesílení $G_{\mathrm{eff}}$ o~$+6{,}84\%$ oproti Newtonu --- testovatelné torzními vahami.
+
+\item \textbf{Hustotní škálování:} Poměr $\alpha_{\mathrm{Pb}}/\alpha_{\mathrm{Al}} = 4{,}09 \pm 0{,}12$ (simulace) vs. $4{,}20$ (teorie s~$\xi=1$) --- shoda na $2{,}6\%$.
+
+\item \textbf{Geometrické stínění:} Měsíc ($R = 2{,}5 \times R_{\mathrm{sample}}$) vykazuje pokles $G_{\mathrm{eff}}$ o~$-3{,}3\%$ --- možné vysvětlení Apollo anomálií.
+
+\item \textbf{Fázový diagram:} Identifikace tří režimů (Newtonovský, přechodový, saturační) v~závislosti na tuhosti vakua.
+\end{itemize}
+\end{tcolorbox}
+
+\textbf{Závěr úvodu:} Numerická verifikace transformuje QCT z~teoretické konstrukce na falsifikovatelnou fyzikální teorii připravenou pro konfrontaci s~experimenty dekády 2020--2030 (Eöt-Wash, LLR, pulsar timing, kosmologická pozorování).
+
+% ============================================================================
+% KONEC ÚVODU - následují sekce kapitoly
+% ============================================================================
