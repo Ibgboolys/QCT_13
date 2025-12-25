@@ -65,8 +65,56 @@ kde:
 \begin{align}
 \alpha_0 &= -9 \times 10^{11} \quad \text{(referenční hodnota pro Zemi)} \\
 \rho_0 &= 5513\,\unit{kg/m^3} \quad \text{(průměrná hustota Země)} \\
-\xi &\approx 1{,}0 \quad \text{(škálovací exponent)}
+\xi &= 1 \quad \text{(škálovací exponent -- \textbf{teoreticky fixní})}
 \end{align}
+
+\subsection{Teoretické odvození $\xi = 1$ (exaktně)}
+
+\textbf{Fyzikální argument z~IR limity kondenzátu:}
+
+V~limitě nízkých energií (IR limit), kde je vlnová délka fononů $\lambda \gg$ inter-částicová vzdálenost $d$, se kondenzát chová jako \emph{nestlačitelná kapalina}. V~tomto režimu je tlaková odezva striktně lineární funkcí hustoty poruchy, což fixuje exponent $\xi = 1$ exaktně, nikoliv jen jako aproximaci.
+
+\textbf{Matematické odvození z~GP rovnice:}
+
+Pro kondenzát s~kontaktní interakcí (delta potenciál):
+\begin{equation}
+V_{\mathrm{int}} = g \delta^{(3)}(\mathbf{r} - \mathbf{r}')
+\end{equation}
+
+Chemický potenciál je:
+\begin{equation}
+\mu = g n_\nu
+\end{equation}
+
+Porucha hustoty $\delta n$ způsobí změnu chemického potenciálu:
+\begin{equation}
+\delta \mu = g \, \delta n
+\end{equation}
+
+Pro baryonové pozadí s~hustotou $\rho_{\mathrm{baryon}}$:
+\begin{equation}
+\delta n \propto \kappa \rho_{\mathrm{baryon}}
+\end{equation}
+
+tedy:
+\begin{equation}
+\delta \mu \propto \rho_{\mathrm{baryon}}^1
+\end{equation}
+
+Z~čehož plyne:
+\begin{equation}
+\boxed{\xi = 1 \quad \text{(exaktně, bez aproximace)}}
+\end{equation}
+
+\textbf{Fyzikální interpretace:}
+\begin{itemize}
+\item $\xi = 1$: Lineární odezva kondenzátu (nestlačitelná kapalina, kontaktní interakce)
+\item $\xi \neq 1$: Signalizovalo by nelokalitu nebo "paměť" kondenzátu (exotická fyzika)
+\end{itemize}
+
+\textbf{Experimentální test:}
+
+Pokud experiment naměří $\xi \neq 1$, znamená to, že kondenzát je stlačitelný nebo má dlouhodosažné korelace. To by byla \emph{nová fyzika}, ale pro základní teorii QCT stojíme pevně na $\xi = 1$.
 
 \section{Kalibrace z~Eöt-Wash}
 
