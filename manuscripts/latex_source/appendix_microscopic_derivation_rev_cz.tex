@@ -321,44 +321,52 @@ To představuje časovou škálu narůstání kondenzátu:
 z_{\rm start} \ll z_{\rm dec} \quad \text{(kondenzát vzniká po odpojení)}
 \end{equation}
 
-\subsubsection{Časová závislost $E_{\rm pair}$}
+\subsubsection{Časová závislost $E_{\rm pair}$ -- Historický model (DEPRECATED)}
 
-Párovací energie vyvíjí kosmologicky jako:
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=⚠️ Zastaralé paradigma]
+Následující model představuje \textbf{původní fenomenologický přístup} (2020--2024), který byl nahrazen paradigmatem primordiálního zamrznutí.
+
+\textbf{Aktuální paradigma (2025):} $E_{\mathrm{cond}} = 2 \times 10^{16}$ GeV je fixní konstanta od GUT epochy (viz sekce~7.3 v~hlavním textu).
+
+Tato sekce je zachována pro dokumentaci vývoje teorie.
+\end{tcolorbox}
+
+Párovací energie v~\emph{původním modelu} vyvíjela kosmologicky jako:
 \begin{equation}
-E_{\rm pair}(z) = E_0 + \kappa_{\rm conf} \cdot f_{\rm turn-on}(z, z_{\rm start}) \cdot \ln(1+z)
+E_{\rm pair}(z) = E_0 + \kappa_{\rm conf} \cdot f_{\rm turn-on}(z, z_{\rm start}) \cdot \ln(1+z) \quad \text{(DEPRECATED)}
 \label{eq:Epair_evolution}
 \end{equation}
 
-kde funkce zapnutí je:
+kde funkce zapnutí byla:
 \begin{equation}
-f_{\rm turn-on}(z, z_{\rm start}) = \frac{1}{1 + \exp\left(-k \ln\left(\frac{1+z}{1+z_{\rm start}}\right)\right)}
+f_{\rm turn-on}(z, z_{\rm start}) = \frac{1}{1 + \exp\left(-k \ln\left(\frac{1+z}{1+z_{\rm start}}\right)\right)} \quad \text{(DEPRECATED)}
 \label{eq:turnon_function}
 \end{equation}
 
-s parametrem strmosti $k \sim 2$. Tato sigmoidní funkce zajišťuje hladký přechod:
+s parametrem strmosti $k \sim 2$. Tato sigmoidní funkce zajišťovala hladký přechod:
 \begin{align}
 f(z \ll z_{\rm start}) &\approx 0 \quad \text{(žádný kondenzát před odpojením)} \\
 f(z \sim z_{\rm start}) &\approx 0.5 \quad \text{(přechodová oblast)} \\
 f(z \gg z_{\rm start}) &\approx 1 \quad \text{(plné uzavření)}
 \end{align}
 
-\paragraph{Počáteční párovací energie $E_0$.}
+\paragraph{Počáteční párovací energie $E_0$ (historický model).}
 
-V~okamžiku odpojení je minimální energie pro neutrinové párování nastavena škálou klidové hmotnosti:
+V~\emph{původním modelu}, v~okamžiku odpojení byla minimální energie pro neutrinové párování nastavena škálou klidové hmotnosti:
 \begin{equation}
-E_0 = m_\nu c^2 \approx 0.1 \, {\rm eV}
+E_0 = m_\nu c^2 \approx 0.1 \, {\rm eV} \quad \text{(DEPRECATED)}
 \label{eq:E0_natural}
 \end{equation}
 
-To \emph{není} libovolné — je to přirozená energetická škála pro nerelativistické neutrinové páry.
+\paragraph{Konstanta uzavření $\kappa_{\rm conf}$ (historický model).}
 
-\paragraph{Konstanta uzavření $\kappa_{\rm conf}$.}
-
-Rychlost růstu párovací energie je určena silou uzavření. Ze současné fenomenologie QCT (fitování na $E_{\rm pair}(z=0) \sim 10^{19}$ eV):
+V~\emph{původním modelu}, rychlost růstu párovací energie byla určena silou uzavření. Ze fenomenologie QCT (fitování na $E_{\rm pair}(z=0) \sim 10^{19}$ eV):
 \begin{equation}
-\kappa_{\rm conf} \approx 4.8 \times 10^{17} \, {\rm eV} = 0.48 \, {\rm EeV}
+\kappa_{\rm conf} \approx 4.8 \times 10^{17} \, {\rm eV} = 0.48 \, {\rm EeV} \quad \text{(DEPRECATED)}
 \label{eq:kappa_conf_value}
 \end{equation}
+
+\textbf{V~aktuálním paradigmatu} tyto parametry nejsou potřeba, protože $E_{\mathrm{cond}}$ je fixní konstanta.
 
 \subsubsection{Vývoj $G_{\rm eff}$: Opravený vzorec}
 \label{subsubsec:geff_evolution_corrected}

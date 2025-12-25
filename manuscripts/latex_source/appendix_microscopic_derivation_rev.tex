@@ -321,44 +321,52 @@ This represents a condensate build-up timescale of:
 z_{\rm start} \ll z_{\rm dec} \quad \text{(condensate forms after decoupling)}
 \end{equation}
 
-\subsubsection{Time Dependence of $E_{\rm pair}$}
+\subsubsection{Time Dependence of $E_{\rm pair}$ -- Historical Model (DEPRECATED)}
 
-The pairing energy evolves cosmologically as:
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=⚠️ Deprecated Paradigm]
+The following model represents the \textbf{original phenomenological approach} (2020--2024), which has been superseded by the primordial freezeout paradigm.
+
+\textbf{Current paradigm (2025):} $E_{\mathrm{cond}} = 2 \times 10^{16}$ GeV is a fixed constant from the GUT epoch (see Section~7.3 in main text).
+
+This section is preserved for documentation of theoretical development.
+\end{tcolorbox}
+
+The pairing energy in the \emph{original model} evolved cosmologically as:
 \begin{equation}
-E_{\rm pair}(z) = E_0 + \kappa_{\rm conf} \cdot f_{\rm turn-on}(z, z_{\rm start}) \cdot \ln(1+z)
+E_{\rm pair}(z) = E_0 + \kappa_{\rm conf} \cdot f_{\rm turn-on}(z, z_{\rm start}) \cdot \ln(1+z) \quad \text{(DEPRECATED)}
 \label{eq:Epair_evolution}
 \end{equation}
 
-where the turn-on function is:
+where the turn-on function was:
 \begin{equation}
-f_{\rm turn-on}(z, z_{\rm start}) = \frac{1}{1 + \exp\left(-k \ln\left(\frac{1+z}{1+z_{\rm start}}\right)\right)}
+f_{\rm turn-on}(z, z_{\rm start}) = \frac{1}{1 + \exp\left(-k \ln\left(\frac{1+z}{1+z_{\rm start}}\right)\right)} \quad \text{(DEPRECATED)}
 \label{eq:turnon_function}
 \end{equation}
 
-with steepness parameter $k \sim 2$. This sigmoid function ensures smooth transition:
+with steepness parameter $k \sim 2$. This sigmoid function ensured smooth transition:
 \begin{align}
 f(z \ll z_{\rm start}) &\approx 0 \quad \text{(no condensate before decoupling)} \\
 f(z \sim z_{\rm start}) &\approx 0.5 \quad \text{(transition region)} \\
 f(z \gg z_{\rm start}) &\approx 1 \quad \text{(full confinement)}
 \end{align}
 
-\paragraph{Initial Pairing Energy $E_0$.}
+\paragraph{Initial Pairing Energy $E_0$ (historical model).}
 
-At the moment of decoupling, the minimal energy for neutrino pairing is set by the rest mass scale:
+In the \emph{original model}, at the moment of decoupling, the minimal energy for neutrino pairing was set by the rest mass scale:
 \begin{equation}
-E_0 = m_\nu c^2 \approx 0.1 \, {\rm eV}
+E_0 = m_\nu c^2 \approx 0.1 \, {\rm eV} \quad \text{(DEPRECATED)}
 \label{eq:E0_natural}
 \end{equation}
 
-This is \emph{not} arbitrary—it is the natural energy scale for non-relativistic neutrino pairs.
+\paragraph{Confinement Constant $\kappa_{\rm conf}$ (historical model).}
 
-\paragraph{Confinement Constant $\kappa_{\rm conf}$.}
-
-The growth rate of pairing energy is determined by the confinement strength. From current QCT phenomenology (fitting to $E_{\rm pair}(z=0) \sim 10^{19}$ eV):
+In the \emph{original model}, the growth rate of pairing energy was determined by the confinement strength. From QCT phenomenology (fitting to $E_{\rm pair}(z=0) \sim 10^{19}$ eV):
 \begin{equation}
-\kappa_{\rm conf} \approx 4.8 \times 10^{17} \, {\rm eV} = 0.48 \, {\rm EeV}
+\kappa_{\rm conf} \approx 4.8 \times 10^{17} \, {\rm eV} = 0.48 \, {\rm EeV} \quad \text{(DEPRECATED)}
 \label{eq:kappa_conf_value}
 \end{equation}
+
+\textbf{In the current paradigm} these parameters are not needed, as $E_{\mathrm{cond}}$ is a fixed constant.
 
 \subsubsection{Evolution of $G_{\rm eff}$: Corrected Formula}
 \label{subsubsec:geff_evolution_corrected}

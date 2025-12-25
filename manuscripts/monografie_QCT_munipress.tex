@@ -2280,20 +2280,42 @@ Klíčové výsledky:
 \chapter{Kosmologická evoluce parametrů}
 \label{chap:kosmologie}
 
-\epigraph{\textit{„Vazebná energie neutrinových párů roste logaritmicky s~kosmologickou expanzí -- analogicky k~napětí v~QCD strunu."}}{--- Kosmologický konfinement}
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=⚠️ Poznámka k~revizi paradigmatu (2025)]
+\textbf{Historický kontext vs. aktuální teorie:}
+
+Následující sekce 7.1--7.2 prezentují \emph{původní odvození} (2020--2024) založené na evolučním modelu vazebné energie. Tento přístup vedl k~objevení klíčových mechanismů, ale obsahuje fenomenologické parametry.
+
+\textbf{AKTUÁLNÍ PARADIGMA (2025)} je popsáno v~sekci~\ref{sec:primordial-freezeout}:
+\begin{itemize}
+\item Vazebná energie kondenzátu je \textbf{fixní}: $E_{\mathrm{cond}} = 2 \times 10^{16}$~GeV (zamrzlá při GUT epoše)
+\item Efektivní gravitace vzniká hierarchickým potlačením: $G_{\mathrm{eff}} \sim G_N \times (m_p/E_{\mathrm{cond}})^2$
+\item Faktor $10^{16}$ je poměr fundamentálních škál (GUT/QCD), nikoli běžící parametr
+\end{itemize}
+
+Sekce 7.1--7.2 jsou zachovány pro dokumentaci vývoje teorie a~fyzikální motivaci.
+\end{tcolorbox}
 
 % ============================================================================
-\section{Časová evoluce vazebné energie $E_{\mathrm{pair}}(t)$}
+\section{Časová evoluce vazebné energie -- Původní odvození (historické)}
+\label{sec:epair-evolution-historical}
 
 \subsection{Neutrinové uvěznění}
 
 Páry $\nu\bar\nu$ byly vytvořeny v~raném vesmíru (při $T\sim 1$~MeV, $t\sim 1$~s) a~od té doby byly „nataženy" kosmologickou expanzí. Analogicky k~napětí struny v~QCD, vazebná energie roste logaritmicky:
 
 \begin{equation}\label{eq:E_pair_evolution_cosmo}
-\boxed{E_{\mathrm{pair}}(t) = E_0 + \kappa_{\mathrm{conf}}\,\ln\!\left(\frac{a(t)}{a_0}\right) = E_0 + \kappa_{\mathrm{conf}}\,\ln(1+z)}
+E_{\mathrm{pair}}(t) = E_0 + \kappa_{\mathrm{conf}}\,\ln\!\left(\frac{a(t)}{a_0}\right) = E_0 + \kappa_{\mathrm{conf}}\,\ln(1+z)
 \end{equation}
 
 kde $\kappa_{\mathrm{conf}}$ je konfinemntní konstanta (dimenze: energie).
+
+\begin{tcolorbox}[colback=orange!5!white,colframe=orange!75!black,title=⚠️ Zastaralé paradigma]
+\textbf{Rovnice~\eqref{eq:E_pair_evolution_cosmo} představuje původní fenomenologický model} (2020--2024), který předpokládal, že vazebná energie evolvuje logaritmicky s~redshiftem.
+
+\textbf{Tento model byl nahrazen} (2025) paradigmatem primordiálního zamrznutí (sekce~\ref{sec:primordial-freezeout}), kde $E_{\mathrm{cond}} = 2 \times 10^{16}$~GeV je fixní konstanta od GUT epochy.
+
+Tato sekce je zachována pro historický kontext a~dokumentaci fyzikální motivace.
+\end{tcolorbox}
 
 \paragraph{Kalibrace z dnešní hodnoty.}
 
@@ -2306,11 +2328,13 @@ tedy
 \kappa_{\mathrm{conf}} \approx \frac{10^{20}\,m_\nu}{20{,}7}\approx 4{,}83\times 10^{17}\,\unit{eV}\approx 0{,}48\,\unit{EeV}.
 \end{equation}
 
-\textbf{Poznámka k~formaci kondenzátu:} Rovnice~\eqref{eq:E_pair_evolution_cosmo} představuje zjednodušenou formu platnou po formaci kondenzátu. Úplná evoluce zahrnuje zapínací funkci zohledňující postupné narůstání kondenzátu po neutrinovém decoupling:
+\textbf{Poznámka k~formaci kondenzátu (historické):} Rovnice~\eqref{eq:E_pair_evolution_cosmo} představovala zjednodušenou formu platnou po formaci kondenzátu. Úplná evoluce v~původním modelu zahrnovala zapínací funkci zohledňující postupné narůstání kondenzátu po neutrinovém decoupling:
 \begin{equation}
-E_{\mathrm{pair}}(z) = E_0 + \kappa_{\mathrm{conf}} \cdot f_{\mathrm{turn-on}}(z, z_{\mathrm{start}}) \cdot \ln(1+z)
+E_{\mathrm{pair}}(z) = E_0 + \kappa_{\mathrm{conf}} \cdot f_{\mathrm{turn-on}}(z, z_{\mathrm{start}}) \cdot \ln(1+z) \quad \text{(DEPRECATED)}
 \end{equation}
-kde $z_{\mathrm{start}} \sim 10^{7}$--$10^8$ je fyzikálně odvozeno z~epochy neutrinového decoupling ($z_{\mathrm{dec}} \sim 4 \times 10^9$).
+kde $z_{\mathrm{start}} \sim 10^{7}$--$10^8$ bylo fyzikálně odvozeno z~epochy neutrinového decoupling ($z_{\mathrm{dec}} \sim 4 \times 10^9$).
+
+\textbf{V~aktuálním paradigmatu} (2025) sigmoid funkce není potřeba, protože $E_{\mathrm{cond}}$ je konstanta.
 
 \textbf{Fyzikální interpretace:} Konfinementní napětí $\kappa\sim 0{,}5$~EeV je rozumné pro kosmologický mechanismus. Pro srovnání: QCD napětí struny $\sigma_{\mathrm{QCD}}\sim 1$~GeV/fm $\approx 0{,}2$~GeV$^{2}$.
 
@@ -2358,35 +2382,14 @@ což dává:
 \end{equation}
 kde $\sqrt{3}$ přirozeně vystupuje v~SU(3) geometrii barev.
 
+% REMOVED (2025-12-25): Numerology - Golden ratio in QCD chiral condensate
+% This section contained golden ratio φ = (1+√5)/2 relationships which
+% were identified as numerological patterns rather than fundamental physics.
+% See KONZISTENCE_AUDIT_QCT.md for details.
+
 \paragraph{Souvislost s~QCD chirálním kondenzátem.}
 
-Škálu $\Lambda_{\mathrm{micro}}$ lze alternativně vyjádřit prostřednictvím QCD parametrů. Systematická analýza odhaluje vztah:
-\begin{equation}
-\Lambda_{\mathrm{micro}}^3 = 25 \times |\langle \bar{q}q \rangle|,
-\end{equation}
-kde $\langle \bar{q}q \rangle$ je QCD chirální kondenzát.
-
-S~použitím zlatého řezu $\varphi = (1+\sqrt{5})/2$ lze tento vztah rozdělit na:
-\begin{align}
-|\langle \bar{q}q \rangle| &= \varphi \times \Lambda_{\mathrm{QCD}}^3, \label{eq:qqbar-phi} \\
-\Lambda_{\mathrm{micro}} &= (25\varphi)^{1/3} \times \Lambda_{\mathrm{QCD}}. \label{eq:lambda-micro-qcd}
-\end{align}
-
-Numericky pro $\Lambda_{\mathrm{QCD}} = 213$~MeV (FLAG 2021~\cite{FLAG2021}, $n_f=4$):
-\begin{align}
-|\langle \bar{q}q \rangle|_{\text{vztah}} &= 1{,}618 \times (213\,\mathrm{MeV})^3 = (250{,}1\,\mathrm{MeV})^3, \\
-|\langle \bar{q}q \rangle|_{\text{Lattice}} &= (250\,\mathrm{MeV})^3,
-\end{align}
-což dává shodu na úrovni $0{,}07\,\%$. Podobně:
-\begin{align}
-\Lambda_{\mathrm{micro}}^{\text{vztah}} &= (40{,}45)^{1/3} \times 213\,\mathrm{MeV} = 731\,\mathrm{MeV}, \\
-\Lambda_{\mathrm{micro}}^{\text{geom}} &= \sqrt{E_{\mathrm{pair}} \times m_\nu} = 733\,\mathrm{MeV},
-\end{align}
-s~rozdílem $0{,}3\,\%$.
-
-Faktor $25 = 5^2$ může souviset s~flavor strukturou QCD. Pro $N_f = 5$ lehkých kvarků (u, d, s, c, b) je počet mesonových stavů úměrný $N_f^2$. Alternativně, zlatý řez přirozeně vystupuje v~geometrii pravidelného pětiúhelníku, což naznačuje možnou souvislost s~pentagonální symetrií vakua.
-
-Kombinace vztahů \eqref{eq:qqbar-phi} a~\eqref{eq:lambda-micro-qcd} poskytuje konzistentní propojení mezi QCD a~kondenzátovou dynamikou, přičemž QCT škála $\Lambda_{\mathrm{micro}}$ emerguje jako geometrický průměr chirální škály QCD a~vazebné energie $E_{\mathrm{pair}}$.
+Škálu $\Lambda_{\mathrm{micro}}$ lze alternativně vyjádřit prostřednictvím QCD parametrů prostřednictvím standardních vztahů mezi chirálním kondenzátem a~QCD škálou (viz lattice QCD výsledky FLAG 2021~\cite{FLAG2021}).
 
 \item \textbf{Renormalizace masové škály:} Poměr
 \begin{equation}
@@ -2397,11 +2400,13 @@ Kondenzát interaguje s~baryonovým prostředím, což zvyšuje mikroskopickou �
 \item \textbf{Faktor 3/2 tří flavor:} QCT zahrnuje všechny tři generace neutrin. Efektivní vazba je průměr přes flavory, což dává faktor $3\times (1/2)=3/2$.
 \end{enumerate}
 
-\textbf{Kosmologická evoluce:} Cutoff běží s~redshiftem:
+\textbf{Kosmologická evoluce (historické paradigma):} V~původním modelu cutoff běžel s~redshiftem:
 \begin{equation}
-\Lambda_{\mathrm{QCT}}(z) = \frac{3}{2}\sqrt{[E_0+\kappa_{\mathrm{conf}}\ln(1+z)]\,m_p}.
+\Lambda_{\mathrm{QCT}}(z) = \frac{3}{2}\sqrt{[E_0+\kappa_{\mathrm{conf}}\ln(1+z)]\,m_p} \quad \text{(DEPRECATED)}
 \end{equation}
 Dnes (z=0): $\Lambda=116{,}9$~TeV. Při rekombinaci (z$\sim$1100): $\Lambda\approx 84$~TeV. Při BBN (z$\sim 10^{9}$): $\Lambda\approx 116{,}9$~TeV.
+
+\textbf{V~aktuálním paradigmatu} (2025) $\Lambda_{\mathrm{QCT}} = 116{,}9$~TeV je fixní škála odvozená z~protonové hmotnosti (see-saw mechanismus), nikoli běžící parametr.
 
 \subsection{Geometrický původ běžícího cutoffu}
 
@@ -2487,6 +2492,7 @@ z_{\mathrm{start}} \sim \frac{z_{\mathrm{dec}}}{10^{1-2}} \sim 10^7 - 10^8
 Toto je \textbf{predikce ze standardní kosmologie}, nikoli fittovaný parametr.
 
 \paragraph{Primordiální zamrznutí a~hierarchie škál.}
+\label{sec:primordial-freezeout}
 
 \textbf{Klíčová změna paradigmatu (2025):} Párovací energie \emph{není} běžící parametr. Kondenzát zamrzl při fázovém přechodu Velkého sjednocení (GUT) na energii:
 \begin{equation}
@@ -4490,65 +4496,24 @@ $v = \Lambda_{\rm micro} \times \varphi^{12}$ & $0{,}015\%$ & Ne & Spekulativní
 \item Kosmologické testy predikované evoluce $v(z)$
 \end{enumerate}
 
-\chapter{Numerické výpočty a~validace}
-\label{app:numericke-vypocty}
+\chapter{Numerická verifikace QCT na mřížce}
+\label{chap:numerical-verification}
 
-Tato příloha dokumentuje numerické výpočty použité v~monografii. Všechny skripty jsou dostupné v~repozitáři\footnote{\texttt{https://github.com/QCT-Project/simulations}}.
+% ============================================================================
+% CHAPTER 12 - NUMERICAL VERIFICATION ON LATTICE
+% Integrated: 2025-12-25 (Primordial Freezeout Revision)
+% Previous chapter "Numerické výpočty a validace" with golden ratio hierarchy
+% has been replaced with rigorous lattice simulations.
+% ============================================================================
 
-\section{Hierarchie výpočtů}
+\input{latex_source/chapter_12_numerical_intro}
 
-Numerický framework QCT je organizován do hierarchických úrovní:
+\section{Numerická verifikace na mřížce}
+\label{sec:numerical-verification}
 
-\begin{enumerate}
-\item \textbf{Level 0 (Axiomy):} Matematické konstanty $\pi$, $\varphi$, $e$
-\item \textbf{Level 1 (Měřeno):} $\alpha_{\rm EM}^{-1} = 137{,}036$, $\Lambda_{\rm QCD} = 0{,}332$~GeV, $n_\nu = 336$~cm$^{-3}$
-\item \textbf{Level 2 (Odvozeno):} $\Lambda_{\rm micro} = 0{,}733$~GeV, $S_{\rm tot} = 58$
-\item \textbf{Level 3 (Hierarchie):} $v = \Lambda_{\rm micro} \times \varphi^{12{,}088} = 246{,}18$~GeV
-\item \textbf{Level 4 (Spektrum):} Hmotnosti částic, vazebné energie
-\item \textbf{Level 5 (Predikce):} Testovatelné experimentální důsledky
-\end{enumerate}
+\input{latex_source/section_numerical_verification}
 
-\section{Klíčové numerické parametry}
-
-\begin{table}[h]
-\centering
-\caption{Numerické hodnoty klíčových QCT parametrů}
-\begin{tabular}{lcc}
-\toprule
-\textbf{Parametr} & \textbf{Hodnota} & \textbf{Zdroj} \\
-\midrule
-$\Lambda_{\rm micro}$ & $0{,}733$~GeV & GP rovnice \\
-$E_{\rm pair}$ & $5{,}38 \times 10^{18}$~eV & Kalibrace na $G_N$ \\
-$R_{\rm proj}$ & $2{,}28$~cm & $\lambda_C \times m_p/m_\nu$ \\
-$\lambda_{\rm screen}^{(0)}$ & $1{,}0$~mm & Koherenční délka \\
-$\Lambda_{\rm QCT}$ & $116{,}9$~TeV & Muon $g-2$ \\
-$\alpha$ & $-9 \times 10^{11}$ & Fit na stínění \\
-$\sigma^2_{\rm max}$ & $0{,}2$ & Fázová saturace \\
-$f_{\rm screen}$ & $1{,}07 \times 10^{-10}$ & $m_\nu/m_p$ \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\section{Validační testy}
-
-Numerická konzistence byla ověřena pomocí:
-\begin{itemize}
-\item \textbf{Monte Carlo analýza:} Baryonová frakce $\Omega_b$ s~$10^6$ vzorky
-\item \textbf{Galaktické rotační křivky:} NGC~1560, NGC~6503, UGC~128, NGC~2903
-\item \textbf{BBN omezení:} $|G_{\rm eff}(z_{\rm BBN})/G_N - 1| < 0{,}2$
-\item \textbf{Kosmologická evoluce:} $E_{\rm pair}(z)$ s~saturačním mechanismem
-\end{itemize}
-
-\section{Reprodukovatelnost}
-
-Klíčové simulační skripty:
-\begin{itemize}
-\item \texttt{qct\_complete\_framework.py} -- Hlavní výpočetní framework
-\item \texttt{rotation\_curves\_v4.py} -- Galaktické rotační křivky
-\item \texttt{epair\_saturation\_complete.py} -- Saturační mechanismus $E_{\rm pair}$
-\item \texttt{dark\_energy\_saturation.py} -- Temná energie z~trojitého mechanismu
-\item \texttt{verify\_reconstruction\_FINAL.py} -- Validační testy
-\end{itemize}
+\input{latex_source/section_12_4_phenomenology}
 
 % ============================================================================
 % DETAILNÍ APPENDIXY - Importovány z latex_source

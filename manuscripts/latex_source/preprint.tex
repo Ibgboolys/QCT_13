@@ -2032,22 +2032,31 @@ After decoupling, the neutrino condensate forms gradually over a timescale $\sim
 z_{\rm start} \sim \frac{z_{\rm dec}}{10^{1-2}} \sim 10^7 - 10^8
 \end{equation}
 
-This is a \textbf{prediction from standard cosmology}, not a fitted parameter. For the complete derivation including the sigmoid turn-on function and physical justification, see Appendix~\ref{subsubsec:neutrino_decoupling}.
+This is a \textbf{prediction from standard cosmology}, not a fitted parameter.
 
-\paragraph{Evolution of Pairing Energy and $G_{\rm eff}$.}
+\paragraph{Primordial Freezeout and Hierarchy of Scales.}
 
-The pairing energy evolves as:
+\textbf{Key paradigm shift (2025):} The pairing energy is \emph{not} a running parameter. The condensate froze at the Grand Unification (GUT) phase transition at energy:
 \begin{equation}
-E_{\rm pair}(z) = E_0 + \kappa_{\rm conf} \cdot f_{\rm turn-on}(z, z_{\rm start}) \cdot \ln(1+z)
-\end{equation}
-where $f_{\rm turn-on}$ is the sigmoid function (Eq.~\ref{eq:turnon_function} in Appendix~\ref{subsec:cosmological_evolution}).
-
-The effective gravitational coupling evolves proportionally to the pairing energy:
-\begin{equation}
-\frac{G_{\rm eff}(z)}{G_{\rm eff}(0)} = \frac{E_{\rm pair}(z)}{E_{\rm pair}(0)}
+E_{\mathrm{cond}} = (2.0 \pm 0.5) \times 10^{16}\,\text{GeV} \quad \text{(fixed from GUT epoch)}
 \end{equation}
 
-\textbf{Note:} Earlier drafts incorrectly included a factor $(\\tau_{\rm Hubble}(z))^3$, leading to unphysical results. The corrected derivation is given in Appendix~\ref{subsubsec:geff_evolution_corrected}.
+Effective gravitational coupling arises via hierarchical suppression:
+\begin{equation}
+G_{\mathrm{eff}} \sim G_N \times \left(\frac{m_p}{E_{\mathrm{cond}}}\right)^2 \times f_{\mathrm{screen}}(\rho) \times \mathcal{N}
+\end{equation}
+where:
+\begin{itemize}
+\item $(m_p/E_{\mathrm{cond}})^2 \approx 2.2 \times 10^{-33}$ --- hierarchical suppression (ratio of scales)
+\item $f_{\mathrm{screen}}(\rho) = (m_\nu/m_p) \times (\rho/\rho_0)^\xi$ --- density screening ($\xi = 1$ exactly)
+\item $\mathcal{N} \sim 10^{26}$ --- normalization (condensate $\to$ EFT matching)
+\end{itemize}
+
+\textbf{Consequence:} The factor $10^{16}$ is not an error or fine-tuning, but a \emph{natural ratio of fundamental scales} (GUT vs. QCD).
+
+\begin{tcolorbox}[colback=orange!5!white,colframe=orange!75!black,title=⚠️ Historical Note]
+\textbf{Earlier paradigm (2020--2024):} Initial versions assumed pairing energy evolved as $E_{\rm pair}(z) = E_0 + \kappa_{\rm conf} \cdot \ln(1+z)$ with sigmoid turn-on function. This phenomenological model has been superseded by the primordial freezeout mechanism. See Appendix~\ref{subsubsec:neutrino_decoupling} for historical development.
+\end{tcolorbox}
 
 \paragraph{BBN Consistency.}
 
